@@ -1,5 +1,7 @@
 # kb-feed
 
+This is the feed generator for [Bryan's Knowledge Base](https://kb.singee.site/).
+
 To install dependencies:
 
 ```bash
@@ -9,7 +11,7 @@ bun install
 To run:
 
 ```bash
-bun run index.ts
+bun run gen.ts
 ```
 
-This project was created using `bun init` in bun v1.0.30. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+After running, the generated feed will be placed under `dist/feed.xml`.
