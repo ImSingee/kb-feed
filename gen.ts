@@ -26,6 +26,12 @@ async function transformFeed(originalFeed: string) {
         const title = $('title', $entry).text();
         console.log(`=== entry ${i + 1}: [${id}] ${title}`);
 
+        if (inIgnoreList(id)) {
+            console.log('Skip entry in ignore list')
+            $entry.remove()
+            return
+        }
+
         const $summary = $('summary', $entry);
 
         const summaryType = $summary.attr('type');
@@ -62,6 +68,18 @@ function getId(entryId: string) {
     }
 
     return id;
+}
+
+const ignoreList = new Set([
+    '458754', // OVERVIEW
+    '458759', // 关于本站
+    '458783', // 最近创建 & 最近更新
+    '458804', // 全部标签
+    '1573096', // 会员权益细节说明
+    '1671478', // 个人知识库
+])
+function inIgnoreList(id: string) {
+    return ignoreList.has(id)
 }
 
 async function main() {
