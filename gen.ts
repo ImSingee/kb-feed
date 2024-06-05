@@ -22,8 +22,9 @@ async function transformFeed(originalFeed: string) {
     $('entry').each((i, entry) => {
         const $entry = $(entry);
 
+        const id = getId($('id', $entry).text())
         const title = $('title', $entry).text();
-        console.log('=== entry', i + 1, title);
+        console.log(`=== entry ${i + 1}: [${id}] ${title}`);
 
         const $summary = $('summary', $entry);
 
@@ -45,6 +46,22 @@ async function transformFeed(originalFeed: string) {
     })
 
     return $.xml();
+}
+
+function getId(entryId: string) {
+    // tag:singee.atlassian.net,2009:page-3113041-2
+
+    const parts = /.*:page-(\d+)-\d+/.exec(entryId)
+    if (!parts) {
+        throw new Error(`Cannot extract id from entryId ${entryId}`)
+    }
+
+    const id = parts[1]
+    if (id !== parseInt(id).toString()) {
+        throw new Error(`Cannot extract id from entryId ${entryId}`)
+    }
+
+    return id;
 }
 
 async function main() {
