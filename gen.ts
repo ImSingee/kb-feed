@@ -35,8 +35,9 @@ async function transformFeed(originalFeed: string) {
         const summaryContent = cheerio.load($summary.text()).root().text();
 
         const summaryWords = summaryContent.trim().split(/\s+/);
-        if (summaryWords.length < 10) {
-            console.log('Skip entry with less than 10 words')
+        console.log('summaryWordsCount: ', summaryWords.length)
+        if (summaryWords.length <= 10) {
+            console.log('Skip entry with no more than 10 words')
             console.log('summary: ', summaryWords.join(' '))
 
             $entry.remove()
@@ -49,7 +50,7 @@ async function transformFeed(originalFeed: string) {
 async function main() {
     const originalFeed = await getOriginalFeed()
     const newFeed = await transformFeed(originalFeed)
-    await Bun.write('./feed.xml', newFeed);
+    await Bun.write('./dist/feed.xml', newFeed);
     console.log('Generated feed.xml')
 }
 
