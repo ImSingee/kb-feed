@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>Bryan &#x7684;&#x77e5;&#x8bc6;&#x5e93;</title>
+  <link rel="alternate" href="https://singee.atlassian.net/wiki"/>
+  
+  <id>https://singee.atlassian.net/wiki</id>
+  
+  <entry>
+    <title>&#x56de;&#x5230;&#x4ee3;&#x7801;&#xff1a;&#x4e0d;&#x7528; SwiftUI &#x7684; iOS &#x5de5;&#x7a0b;</title>
+    <link rel="alternate" href="https://singee.atlassian.net/wiki/spaces/MAIN/pages/249659396/SwiftUI+iOS"/>
+    <author>
+      <name>Bryan</name>
+    </author>
+    <id>tag:singee.atlassian.net,2009:page-249659396-2</id>
+    <updated>2025-08-14T16:54:28Z</updated>
+    <published>2025-08-14T16:54:28Z</published>
+    <summary type="html">&lt;div class=&quot;feed&quot;&gt;    &lt;p&gt;
+                        Live doc
+                    &lt;b&gt;edited&lt;/b&gt; by
+                &lt;a  &gt;Bryan&lt;/a&gt;
+             - &quot;Autosaved&quot;
+        &lt;/p&gt;
+        &lt;div style=&quot;border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 10px;&quot;&gt;
+        &lt;p&gt;&#x8fd9;&#x672c;&#x4e66;&#x7684;&#x7279;&#x8272;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&#x4f7f;&#x7528;&#x76ee;&#x524d;&#x7684;&#x6700;&#x65b0;&#x6280;&#x672f;&#x6808; &#x2014;&#x2014; &#x4f46;&#x4e0d;&#x7528; Swift UI&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Swift 6&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;iOS 26&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Swift Package Manager&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&#x867d;&#x7136;&#x4e0d;&#x7528; Swift UI&#xff0c;&#x4f46;&#x4e5f;&#x4e0d;&#x7528; Storyboard &#x2014;&#x2014; &#x4e00;&#x5207;&#x56de;&#x5f52;&#x4ee3;&#x7801;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&#x4e0d;&#x7528;&#x96be;&#x4ee5;&#x7248;&#x672c;&#x63a7;&#x5236;&#x7684; xcodeproj&#xff08;&#x4f7f;&#x7528; Tuist&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p /&gt;&lt;p&gt;&#x8fd9;&#x4e2a;&#x77e5;&#x8bc6;&#x5e93;&#x5b58;&#x50a8;&#x8be5;&#x4e66;&#x7c4d;&#x7684;&#x90e8;&#x5206;&#x8349;&#x7a3f;&#xff0c;&#x8be5;&#x4e66;&#x7c4d;&#x5b8c;&#x6210;&#x4ee5;&#x540e;&#x4f1a;&#x4ee5;&#x514d;&#x8d39;&#x5728;&#x7ebf;&#x9605;&#x8bfb;&#x3001;&#x4ed8;&#x8d39;&#x4e0b;&#x8f7d;&#x7535;&#x5b50;&#x4e66;&#x7684;&#x65b9;&#x5f0f;&#x5171;&#x4eab;&lt;/p&gt;
+    &lt;/div&gt;
+        &lt;div style=&quot;padding: 10px 0;&quot;&gt;
+       &lt;a href=&quot;https://singee.atlassian.net/wiki/spaces/MAIN/pages/249659396/SwiftUI+iOS&quot;&gt;email.notification.view.online&lt;/a&gt;
+              &amp;middot;
+       &lt;a href=&quot;https://singee.atlassian.net/wiki/pages/diffpagesbyversion.action?pageId=249659396&amp;revisedVersion=2&amp;originalVersion=1&quot;&gt;View Changes Online&lt;/a&gt;       
+                  &lt;/div&gt;
+&lt;/div&gt;</summary>
+    <dc:creator>Bryan</dc:creator>
+    <dc:date>2025-08-14T16:54:28Z</dc:date>
+  </entry>
+  
+  <entry>
+    <title>Auto Layout</title>
+    <link rel="alternate" href="https://singee.atlassian.net/wiki/spaces/MAIN/pages/249561142/Auto+Layout"/>
+    <author>
+      <name>Bryan</name>
+    </author>
+    <id>tag:singee.atlassian.net,2009:page-249561142-1</id>
+    <updated>2025-08-14T16:47:00Z</updated>
+    <published>2025-08-14T16:47:00Z</published>
+    <summary type="html">&lt;div class=&quot;feed&quot;&gt;    &lt;p&gt;
+                        Live doc
+                    &lt;b&gt;added&lt;/b&gt; by
+                &lt;a  &gt;Bryan&lt;/a&gt;
+            &lt;/p&gt;
+        &lt;div style=&quot;border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 10px;&quot;&gt;
+        &lt;p&gt;&#x4ece;&#x624b;&#x5199; NSLayoutConstraint &#x8fc7;&#x6e21;&#x5230; NSLayoutAnchor &#x518d;&#x5230; UIStackView &#x6700;&#x540e;&#x4ecb;&#x7ecd;&#x793e;&#x533a;&#x65b9;&#x6848; SnapKit&lt;/p&gt;&lt;p /&gt;&lt;p /&gt;&lt;p /&gt;
+    &lt;/div&gt;
+        &lt;div style=&quot;padding: 10px 0;&quot;&gt;
+       &lt;a href=&quot;https://singee.atlassian.net/wiki/spaces/MAIN/pages/249561142/Auto+Layout&quot;&gt;email.notification.view.online&lt;/a&gt;
+                  &lt;/div&gt;
+&lt;/div&gt;</summary>
+    <dc:creator>Bryan</dc:creator>
+    <dc:date>2025-08-14T16:47:00Z</dc:date>
+  </entry>
+  <entry>
+    <title>&#x9644;&#x5f55;/&#x52a0;&#x9910;&#xff1a;&#x8fd8;&#x662f;&#x5f97;&#x8981; SwiftUI</title>
+    <link rel="alternate" href="https://singee.atlassian.net/wiki/spaces/MAIN/pages/249757740/SwiftUI"/>
+    <author>
+      <name>Bryan</name>
+    </author>
+    <id>tag:singee.atlassian.net,2009:page-249757740-1</id>
+    <updated>2025-08-14T16:45:36Z</updated>
+    <published>2025-08-14T16:45:36Z</published>
+    <summary type="html">&lt;div class=&quot;feed&quot;&gt;    &lt;p&gt;
+                        Live doc
+                    &lt;b&gt;added&lt;/b&gt; by
+                &lt;a  &gt;Bryan&lt;/a&gt;
+            &lt;/p&gt;
+        &lt;div style=&quot;border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 10px;&quot;&gt;
+        &lt;p&gt;&#x56e0;&#x4e3a;&#x76ee;&#x524d;&#x82f9;&#x679c;&#x8d8a;&#x6765;&#x8d8a;&#x591a;&#x7684;&#x65b0;&#x529f;&#x80fd;&#x5df2;&#x7ecf;&#x5f00;&#x59cb;&#x4ec5;&#x63d0;&#x4f9b; SwiftUI &#x4e86;&#xff0c;&#x6240;&#x4ee5;&#x4ecb;&#x7ecd; UIKit + SwiftUI &#x7684;&#x65b9;&#x6848;&lt;/p&gt;&lt;p /&gt;
+    &lt;/div&gt;
+        &lt;div style=&quot;padding: 10px 0;&quot;&gt;
+       &lt;a href=&quot;https://singee.atlassian.net/wiki/spaces/MAIN/pages/249757740/SwiftUI&quot;&gt;email.notification.view.online&lt;/a&gt;
+                  &lt;/div&gt;
+&lt;/div&gt;</summary>
+    <dc:creator>Bryan</dc:creator>
+    <dc:date>2025-08-14T16:45:36Z</dc:date>
+  </entry>
+  
+  
+  
+  
+  <entry>
+    <title>Week 32 @ 2025 &#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217; + &#x5355;&#x8c03;&#x6808;&#x3011;</title>
+    <link rel="alternate" href="https://singee.atlassian.net/wiki/spaces/MAIN/pages/243138699/Week+32+2025"/>
+    <author>
+      <name>Bryan</name>
+    </author>
+    <id>tag:singee.atlassian.net,2009:page-243138699-1</id>
+    <updated>2025-08-10T15:36:04Z</updated>
+    <published>2025-08-10T15:36:04Z</published>
+    <summary type="html">&lt;div class=&quot;feed&quot;&gt;    &lt;p&gt;
+                        Live doc
+                    &lt;b&gt;added&lt;/b&gt; by
+                &lt;a  &gt;Bryan&lt;/a&gt;
+            &lt;/p&gt;
+        &lt;div style=&quot;border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 10px;&quot;&gt;
+        &lt;style type=&apos;text/css&apos;&gt;/*&lt;![CDATA[*/
+div.rbtoc1755304288303 {padding: 0px;}
+div.rbtoc1755304288303 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1755304288303 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]&gt;*/&lt;/style&gt;&lt;div class=&apos;toc-macro rbtoc1755304288303&apos;&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week32@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-&#x5355;&#x8c03;&#x961f;&#x5217;&apos;&gt;&#x5355;&#x8c03;&#x961f;&#x5217;&lt;/a&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week32@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC239.SlidingWindowMaximum&#x6ed1;&#x52a8;&#x7a97;&#x53e3;&#x6700;&#x5927;&#x503c;&apos;&gt;LC 239. Sliding Window Maximum &#x6ed1;&#x52a8;&#x7a97;&#x53e3;&#x6700;&#x5927;&#x503c;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week32@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-&#x5355;&#x8c03;&#x6808;&apos;&gt;&#x5355;&#x8c03;&#x6808;&lt;/a&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week32@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC1019.NextGreaterNodeInLinkedList&#x94fe;&#x8868;&#x4e2d;&#x7684;&#x4e0b;&#x4e00;&#x4e2a;&#x66f4;&#x5927;&#x8282;&#x70b9;&apos;&gt;LC 1019. Next Greater Node In Linked List &#x94fe;&#x8868;&#x4e2d;&#x7684;&#x4e0b;&#x4e00;&#x4e2a;&#x66f4;&#x5927;&#x8282;&#x70b9;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week32@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC1944.NumberofVisiblePeopleinaQueue&#x961f;&#x5217;&#x4e2d;&#x53ef;&#x4ee5;&#x770b;&#x5230;&#x7684;&#x4eba;&#x6570;&apos;&gt;LC 1944. Number of Visible People in a Queue &#x961f;&#x5217;&#x4e2d;&#x53ef;&#x4ee5;&#x770b;&#x5230;&#x7684;&#x4eba;&#x6570;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week32@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC1475.FinalPricesWithaSpecialDiscountinaShop&#x5546;&#x54c1;&#x6298;&#x6263;&#x540e;&#x7684;&#x6700;&#x7ec8;&#x4ef7;&#x683c;&apos;&gt;LC 1475. Final Prices With a Special Discount in a Shop &#x5546;&#x54c1;&#x6298;&#x6263;&#x540e;&#x7684;&#x6700;&#x7ec8;&#x4ef7;&#x683c;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week32@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC901.OnlineStockSpan&#x80a1;&#x7968;&#x4ef7;&#x683c;&#x8de8;&#x5ea6;&apos;&gt;LC 901. Online Stock Span &#x80a1;&#x7968;&#x4ef7;&#x683c;&#x8de8;&#x5ea6;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week32@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC402.RemoveKDigits&#x79fb;&#x6389;K&#x4f4d;&#x6570;&#x5b57;&apos;&gt;LC 402. Remove K Digits &#x79fb;&#x6389; K &#x4f4d;&#x6570;&#x5b57;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week32@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC853.CarFleet&#x8f66;&#x961f;&apos;&gt;LC 853. Car Fleet &#x8f66;&#x961f;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;h2 id=&quot;Week32@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-&#x5355;&#x8c03;&#x961f;&#x5217;&quot;&gt;&#x5355;&#x8c03;&#x961f;&#x5217;&lt;/h2&gt;&lt;h3 id=&quot;Week32@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC239.SlidingWindowMaximum&#x6ed1;&#x52a8;&#x7a97;&#x53e3;&#x6700;&#x5927;&#x503c;&quot;&gt;LC 239. Sliding Window Maximum &#x6ed1;&#x52a8;&#x7a97;&#x53e3;&#x6700;&#x5927;&#x503c;&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://leetcode.com/problems/sliding-window-maximum/description/&quot; data-card-appearance=&quot;inline&quot; class=&quot;external-link&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/sliding-window-maximum/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func maxSlidingWindow(nums []int, k int) []int {
+    q := NewMonotonicQueue()
+
+    result := make([]int, 0, len(nums))
+
+    for i := 0; i &amp;lt; k; i++ {
+        q.Push(nums[i])
+    }
+    result = append(result, q.Max())
+
+    for i := k; i &amp;lt; len(nums); i++ {
+        q.Push(nums[i])
+        q.Pop(nums[i-k])
+
+        result = append(result, q.Max())
+    }
+
+    return result
+}
+
+type MonotonicQueue struct {
+    l *list.List
+}
+
+func NewMonotonicQueue() *MonotonicQueue {
+    return &amp;amp;MonotonicQueue {
+        l: list.New(),
+    }
+}
+
+func (q *MonotonicQueue) Push(x int) {
+    for {
+        back := q.l.Back()
+        if back == nil || back.Value.(int) &amp;gt;= x {
+            break
+        }
+        q.l.Remove(back)
+    }
+
+    q.l.PushBack(x)
+}
+
+func (q *MonotonicQueue) Pop(x int) {
+    front := q.l.Front()
+    if front.Value == x {
+        q.l.Remove(front)
+    }
+}
+
+func (q *MonotonicQueue) Max() int {
+    return q.l.Front().Value.(int)
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h2 id=&quot;Week32@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-&#x5355;&#x8c03;&#x6808;&quot;&gt;&#x5355;&#x8c03;&#x6808;&lt;/h2&gt;&lt;h3 id=&quot;Week32@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC1019.NextGreaterNodeInLinkedList&#x94fe;&#x8868;&#x4e2d;&#x7684;&#x4e0b;&#x4e00;&#x4e2a;&#x66f4;&#x5927;&#x8282;&#x70b9;&quot;&gt;LC 1019. Next Greater Node In Linked List &#x94fe;&#x8868;&#x4e2d;&#x7684;&#x4e0b;&#x4e00;&#x4e2a;&#x66f4;&#x5927;&#x8282;&#x70b9;&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://leetcode.com/problems/next-greater-node-in-linked-list/description/&quot; data-card-appearance=&quot;inline&quot; class=&quot;external-link&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/next-greater-node-in-linked-list/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;/**
+ * Definition for singly-linked list.
+ * type ListNode struct {
+ *     Val int
+ *     Next *ListNode
+ * }
+ */
+func nextLargerNodes(head *ListNode) []int {
+    values := toValues(head)
+    
+    n := len(values)
+    result := make([]int, n)
+    stack := make([]int, 0, n)
+
+    for i := n-1; i &amp;gt;= 0; i-- {
+        for len(stack) &amp;gt; 0 &amp;amp;&amp;amp; stack[len(stack)-1] &amp;lt;= values[i] {
+            stack = stack[:len(stack)-1]
+        }
+
+        if len(stack) &amp;gt; 0 {
+            result[i] = stack[len(stack)-1]
+        }
+        stack = append(stack, values[i])
+    }
+
+    return result
+}
+
+func toValues(head *ListNode) []int {
+    values := make([]int, 0, 1_0000)
+    for head != nil {
+        values = append(values, head.Val)
+        head = head.Next
+    }
+    return values
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 id=&quot;Week32@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC1944.NumberofVisiblePeopleinaQueue&#x961f;&#x5217;&#x4e2d;&#x53ef;&#x4ee5;&#x770b;&#x5230;&#x7684;&#x4eba;&#x6570;&quot;&gt;LC 1944. Number of Visible People in a Queue &#x961f;&#x5217;&#x4e2d;&#x53ef;&#x4ee5;&#x770b;&#x5230;&#x7684;&#x4eba;&#x6570;&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://leetcode.com/problems/number-of-visible-people-in-a-queue/description/&quot; data-card-appearance=&quot;inline&quot; class=&quot;external-link&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/number-of-visible-people-in-a-queue/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func canSeePersonsCount(heights []int) []int {
+    result := make([]int, len(heights))
+
+    stack := make([]int, 0, len(heights))
+
+    for i := len(heights) - 1; i &amp;gt;= 0; i-- {
+        count := 0
+        for len(stack) &amp;gt; 0 &amp;amp;&amp;amp; stack[len(stack)-1] &amp;lt; heights[i] {
+            stack = stack[:len(stack)-1]
+
+            // &#x7edf;&#x8ba1;&#x5230;&#x300c;&#x4e0b;&#x4e00;&#x4e2a;&#x7b49;&#x9ad8;&#x6216;&#x66f4;&#x9ad8;&#x5143;&#x7d20;&#x4e4b;&#x95f4;&#x300d;&#x6709;&#x51e0;&#x4e2a;&#x5143;&#x7d20;&#xff08;&#x5df2;&#x5254;&#x9664;&#x88ab;&#x906e;&#x6321;&#x5143;&#x7d20;&#xff09;
+            count++
+        }
+
+        if len(stack) &amp;gt; 0 {
+            result[i] = count + 1 // &#x4e5f;&#x80fd;&#x770b;&#x5230;&#x300c;&#x4e0b;&#x4e00;&#x4e2a;&#x7b49;&#x9ad8;&#x6216;&#x66f4;&#x9ad8;&#x5143;&#x7d20;&#x300d;
+        } else {
+            result[i] = count
+        }
+       
+        stack = append(stack, heights[i]) 
+    }
+
+    return result
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 id=&quot;Week32@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC1475.FinalPricesWithaSpecialDiscountinaShop&#x5546;&#x54c1;&#x6298;&#x6263;&#x540e;&#x7684;&#x6700;&#x7ec8;&#x4ef7;&#x683c;&quot;&gt;LC 1475. Final Prices With a Special Discount in a Shop &#x5546;&#x54c1;&#x6298;&#x6263;&#x540e;&#x7684;&#x6700;&#x7ec8;&#x4ef7;&#x683c;&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/description/&quot; data-card-appearance=&quot;inline&quot; class=&quot;external-link&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func finalPrices(prices []int) []int {
+    n := len(prices)
+    
+    result := make([]int, n)
+    stack := make([]int, 0, n)
+
+    for i := n-1; i &amp;gt;= 0; i-- {
+        // &#x627e;&#x5230;&#x4e0b;&#x4e00;&#x4e2a;&#x66f4;&#x5c0f;&#x6216;&#x76f8;&#x7b49;&#x5143;&#x7d20;
+        for len(stack) &amp;gt; 0 &amp;amp;&amp;amp; stack[len(stack)-1] &amp;gt; prices[i] {
+            stack = stack[:len(stack)-1]
+        }
+
+        if len(stack) &amp;gt; 0 {
+            result[i] = prices[i] - stack[len(stack)-1]
+        } else {
+            result[i] = prices[i]
+        }
+
+        stack = append(stack, prices[i])
+    }
+
+    return result
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 id=&quot;Week32@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC901.OnlineStockSpan&#x80a1;&#x7968;&#x4ef7;&#x683c;&#x8de8;&#x5ea6;&quot;&gt;LC 901. Online Stock Span &#x80a1;&#x7968;&#x4ef7;&#x683c;&#x8de8;&#x5ea6;&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://leetcode.com/problems/online-stock-span/description/&quot; data-card-appearance=&quot;inline&quot; class=&quot;external-link&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/online-stock-span/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;type StockSpanner struct {
+    stack []Value
+    day int
+}
+
+type Value struct {
+    price int
+    index int
+}
+
+func Constructor() StockSpanner {
+    return StockSpanner{
+        day: -1,
+    }
+}
+
+
+func (this *StockSpanner) Next(price int) int {
+    // &#x5411;&#x524d;&#x627e; &amp;gt; &#x5f53;&#x524d;&#x503c;&#x7684; index === &#x6808;&#x5185;&#x5254;&#x9664; &amp;lt;= &#x5f53;&#x524d;&#x503c;&#x7684;&#x5143;&#x7d20;
+
+    for len(this.stack) &amp;gt; 0 &amp;amp;&amp;amp; this.stack[len(this.stack)-1].price &amp;lt;= price {
+        this.stack = this.stack[:len(this.stack)-1]
+    }
+
+    this.day++
+
+    var result int
+    if len(this.stack) &amp;gt; 0 {
+        lastDayIndex := this.stack[len(this.stack)-1].index
+        result = this.day - lastDayIndex
+    } else {
+        result = this.day + 1
+    }
+
+    this.stack = append(this.stack, Value{price, this.day})
+
+    return result
+}
+
+
+/**
+ * Your StockSpanner object will be instantiated and called as such:
+ * obj := Constructor();
+ * param_1 := obj.Next(price);
+ */&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 id=&quot;Week32@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC402.RemoveKDigits&#x79fb;&#x6389;K&#x4f4d;&#x6570;&#x5b57;&quot;&gt;LC 402. Remove K Digits &#x79fb;&#x6389; K &#x4f4d;&#x6570;&#x5b57;&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://leetcode.com/problems/remove-k-digits/description/&quot; data-card-appearance=&quot;inline&quot; class=&quot;external-link&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/remove-k-digits/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func removeKdigits(num string, k int) string {
+    digits := []byte(num)
+    n := len(digits)
+
+    stack := make([]byte, 0, n)
+
+    for _, digit := range digits {
+        for k &amp;gt; 0 &amp;amp;&amp;amp; len(stack) &amp;gt; 0 &amp;amp;&amp;amp; stack[len(stack)-1] &amp;gt; digit {
+            k--
+            stack = stack[:len(stack)-1]
+        }
+
+        stack = append(stack, digit)
+    }
+
+    for k &amp;gt; 0 &amp;amp;&amp;amp; len(stack) &amp;gt; 0 {
+        k--
+        stack = stack[:len(stack)-1]
+    }
+
+    return toString(stack)
+}
+
+func toString(digits []byte) string {
+    for len(digits) &amp;gt; 0 &amp;amp;&amp;amp; digits[0] == &amp;#39;0&amp;#39; {
+        digits = digits[1:]
+    }
+
+    if len(digits) == 0 {
+        return &amp;quot;0&amp;quot;
+    }
+
+    return string(digits)
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 id=&quot;Week32@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC853.CarFleet&#x8f66;&#x961f;&quot;&gt;LC 853. Car Fleet &#x8f66;&#x961f;&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://leetcode.com/problems/car-fleet/description/&quot; data-card-appearance=&quot;inline&quot; class=&quot;external-link&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/car-fleet/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func carFleet(target int, position []int, speed []int) int {
+    cars := make([][]int, len(position))
+    for i := range cars {
+        cars[i] = []int{position[i], speed[i]}
+    }
+    slices.SortFunc(cars, func(a, b []int) int {
+		return a[0] - b[0]
+	})
+
+    times := make([]float64, len(cars))
+    for i, car := range cars {
+        times[i] = float64(target-car[0]) / float64(car[1])
+    }
+
+    count := 0
+    maxTimes := 0.0
+    for i := len(times) - 1; i &amp;gt;= 0; i-- {
+        if times[i] &amp;gt; maxTimes {
+            count++
+            maxTimes = times[i]
+        }
+    }
+
+    return count
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p /&gt;&lt;p /&gt;
+    &lt;/div&gt;
+        &lt;div style=&quot;padding: 10px 0;&quot;&gt;
+       &lt;a href=&quot;https://singee.atlassian.net/wiki/spaces/MAIN/pages/243138699/Week+32+2025&quot;&gt;email.notification.view.online&lt;/a&gt;
+                  &lt;/div&gt;
+&lt;/div&gt;</summary>
+    <dc:creator>Bryan</dc:creator>
+    <dc:date>2025-08-10T15:36:04Z</dc:date>
+  </entry>
+</feed>
