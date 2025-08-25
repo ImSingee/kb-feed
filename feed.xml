@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>Bryan &#x7684;&#x77e5;&#x8bc6;&#x5e93;</title>
+  <link rel="alternate" href="https://singee.atlassian.net/wiki"/>
+  
+  <id>https://singee.atlassian.net/wiki</id>
+  <entry>
+    <title>Week 34 @ 2025 &#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6700;&#x5927;&#x5b50;&#x6570;&#x7ec4;&#x548c; + &#x62ec;&#x53f7; + &#x4e8c;&#x53c9;&#x6811;&#x3011;</title>
+    <link rel="alternate" href="https://singee.atlassian.net/wiki/spaces/MAIN/pages/269451281/Week+34+2025"/>
+    <author>
+      <name>Bryan</name>
+    </author>
+    <id>tag:singee.atlassian.net,2009:page-269451281-1</id>
+    <updated>2025-08-24T15:27:46Z</updated>
+    <published>2025-08-24T15:27:46Z</published>
+    <summary type="html">&lt;div class=&quot;feed&quot;&gt;    &lt;p&gt;
+                        Live doc
+                    &lt;b&gt;added&lt;/b&gt; by
+                &lt;a  &gt;Bryan&lt;/a&gt;
+            &lt;/p&gt;
+        &lt;div style=&quot;border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 10px;&quot;&gt;
+        &lt;style type=&apos;text/css&apos;&gt;/*&lt;![CDATA[*/
+div.rbtoc1756081973934 {padding: 0px;}
+div.rbtoc1756081973934 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1756081973934 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]&gt;*/&lt;/style&gt;&lt;div class=&apos;toc-macro rbtoc1756081973934&apos;&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week34@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6700;&#x5927;&#x5b50;&#x6570;&#x7ec4;&#x548c;+&#x62ec;&#x53f7;+&#x4e8c;&#x53c9;&#x6811;&#x3011;-&#x6700;&#x5927;&#x5b50;&#x6570;&#x7ec4;&#x548c;&apos;&gt;&#x6700;&#x5927;&#x5b50;&#x6570;&#x7ec4;&#x548c;&lt;/a&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week34@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6700;&#x5927;&#x5b50;&#x6570;&#x7ec4;&#x548c;+&#x62ec;&#x53f7;+&#x4e8c;&#x53c9;&#x6811;&#x3011;-LC53.MaximumSubarray&#x6700;&#x5927;&#x5b50;&#x6570;&#x7ec4;&#x548c;&apos;&gt;LC 53. Maximum Subarray &#x6700;&#x5927;&#x5b50;&#x6570;&#x7ec4;&#x548c;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week34@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6700;&#x5927;&#x5b50;&#x6570;&#x7ec4;&#x548c;+&#x62ec;&#x53f7;+&#x4e8c;&#x53c9;&#x6811;&#x3011;-LC918.MaximumSumCircularSubarray&#x73af;&#x5f62;&#x5b50;&#x6570;&#x7ec4;&#x7684;&#x6700;&#x5927;&#x548c;&apos;&gt;LC 918. Maximum Sum Circular Subarray &#x73af;&#x5f62;&#x5b50;&#x6570;&#x7ec4;&#x7684;&#x6700;&#x5927;&#x548c;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week34@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6700;&#x5927;&#x5b50;&#x6570;&#x7ec4;&#x548c;+&#x62ec;&#x53f7;+&#x4e8c;&#x53c9;&#x6811;&#x3011;-&#x62ec;&#x53f7;&#x7c7b;&#x95ee;&#x9898;&apos;&gt;&#x62ec;&#x53f7;&#x7c7b;&#x95ee;&#x9898;&lt;/a&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week34@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6700;&#x5927;&#x5b50;&#x6570;&#x7ec4;&#x548c;+&#x62ec;&#x53f7;+&#x4e8c;&#x53c9;&#x6811;&#x3011;-LC921.MinimumAddtoMakeParenthesesValid&#x4f7f;&#x62ec;&#x53f7;&#x6709;&#x6548;&#x7684;&#x6700;&#x5c11;&#x6dfb;&#x52a0;&apos;&gt;LC 921. Minimum Add to Make Parentheses Valid &#x4f7f;&#x62ec;&#x53f7;&#x6709;&#x6548;&#x7684;&#x6700;&#x5c11;&#x6dfb;&#x52a0;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week34@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6700;&#x5927;&#x5b50;&#x6570;&#x7ec4;&#x548c;+&#x62ec;&#x53f7;+&#x4e8c;&#x53c9;&#x6811;&#x3011;-LC1541.MinimumInsertionstoBalanceaParenthesesString&#x5e73;&#x8861;&#x62ec;&#x53f7;&#x5b57;&#x7b26;&#x4e32;&#x7684;&#x6700;&#x5c11;&#x63d2;&#x5165;&#x6b21;&#x6570;&apos;&gt;LC 1541. Minimum Insertions to Balance a Parentheses String &#x5e73;&#x8861;&#x62ec;&#x53f7;&#x5b57;&#x7b26;&#x4e32;&#x7684;&#x6700;&#x5c11;&#x63d2;&#x5165;&#x6b21;&#x6570;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week34@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6700;&#x5927;&#x5b50;&#x6570;&#x7ec4;&#x548c;+&#x62ec;&#x53f7;+&#x4e8c;&#x53c9;&#x6811;&#x3011;-LC104.MaximumDepthofBinaryTree&#x4e8c;&#x53c9;&#x6811;&#x7684;&#x6700;&#x5927;&#x6df1;&#x5ea6;&apos;&gt;LC 104. Maximum Depth of Binary Tree &#x4e8c;&#x53c9;&#x6811;&#x7684;&#x6700;&#x5927;&#x6df1;&#x5ea6;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;h2 id=&quot;Week34@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6700;&#x5927;&#x5b50;&#x6570;&#x7ec4;&#x548c;+&#x62ec;&#x53f7;+&#x4e8c;&#x53c9;&#x6811;&#x3011;-&#x6700;&#x5927;&#x5b50;&#x6570;&#x7ec4;&#x548c;&quot;&gt;&#x6700;&#x5927;&#x5b50;&#x6570;&#x7ec4;&#x548c;&lt;/h2&gt;&lt;h3 id=&quot;Week34@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6700;&#x5927;&#x5b50;&#x6570;&#x7ec4;&#x548c;+&#x62ec;&#x53f7;+&#x4e8c;&#x53c9;&#x6811;&#x3011;-LC53.MaximumSubarray&#x6700;&#x5927;&#x5b50;&#x6570;&#x7ec4;&#x548c;&quot;&gt;LC 53. Maximum Subarray &#x6700;&#x5927;&#x5b50;&#x6570;&#x7ec4;&#x548c;&lt;/h3&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/maximum-subarray/&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/maximum-subarray/&lt;/a&gt;  &lt;/p&gt;&lt;p&gt;&lt;strong&gt;&#x52a8;&#x6001;&#x89c4;&#x5212; (Kadane&apos;s algorithm)&lt;/strong&gt;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func maxSubArray(nums []int) int {
+    dp := make([]int, len(nums)) // &#x4ee5; i &#x7ed3;&#x5c3e;&#x7684;&#x6700;&#x5927; sum
+
+    dp[0] = nums[0]
+    for i := 1; i &amp;lt; len(nums); i++ {
+        dp[i] = max(nums[i], dp[i-1] + nums[i])
+    }
+
+    return slices.Max(dp)
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;&#x6ed1;&#x52a8;&#x7a97;&#x53e3;&lt;/strong&gt;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func maxSubArray(nums []int) int {
+    left, right := 0, 0
+
+    maxSum := nums[0]
+    windowSum := 0
+
+    for right &amp;lt; len(nums) {
+        windowSum += nums[right]
+        right++
+
+        maxSum = max(maxSum, windowSum)
+
+        for left &amp;lt; right &amp;amp;&amp;amp; windowSum &amp;lt; 0 {
+            windowSum -= nums[left]
+            left++
+        }
+    }
+
+    return maxSum
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;&#x5206;&#x6cbb;&#xff08;&#x7ebf;&#x6bb5;&#x6811;&#xff09;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;TODO &lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.cn/problems/maximum-subarray/solutions/228009/zui-da-zi-xu-he-by-leetcode-solution/&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.cn/problems/maximum-subarray/solutions/228009/zui-da-zi-xu-he-by-leetcode-solution/&lt;/a&gt; &lt;/p&gt;&lt;h3 id=&quot;Week34@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6700;&#x5927;&#x5b50;&#x6570;&#x7ec4;&#x548c;+&#x62ec;&#x53f7;+&#x4e8c;&#x53c9;&#x6811;&#x3011;-LC918.MaximumSumCircularSubarray&#x73af;&#x5f62;&#x5b50;&#x6570;&#x7ec4;&#x7684;&#x6700;&#x5927;&#x548c;&quot;&gt;LC 918. Maximum Sum Circular Subarray &#x73af;&#x5f62;&#x5b50;&#x6570;&#x7ec4;&#x7684;&#x6700;&#x5927;&#x548c;&lt;/h3&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/maximum-sum-circular-subarray/description/&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/maximum-sum-circular-subarray/description/&lt;/a&gt; &lt;/p&gt;&lt;p&gt;&lt;strong&gt;&#x5206;&#x5f00;&#x8003;&#x8651;&lt;/strong&gt;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func maxSubarraySumCircular(nums []int) int {
+    n := len(nums)
+
+    maxSum := nums[0]
+    
+    pre := nums[0]
+    preSum := nums[0]
+    preSumMax := make([]int, n)
+    preSumMax[0] = preSum
+    for i := 1; i &amp;lt; len(nums); i++ {
+        pre = nums[i] + max(pre, 0)
+        maxSum = max(maxSum, pre)
+
+        preSum += nums[i]
+        preSumMax[i] = max(preSum, preSumMax[i-1])
+    }
+
+    postSum := 0
+    for i := n-1; i &amp;gt; 0; i-- {
+        postSum += nums[i]
+        maxSum = max(maxSum, postSum + max(preSumMax[i-1], 0))
+    }
+
+    return maxSum
+}
+&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;&#x5355;&#x8c03;&#x961f;&#x5217;&lt;/strong&gt;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func maxSubarraySumCircular(nums []int) int {
+    n := len(nums)
+
+    preSum := make([]int, 2*n)
+    preSum[0] = nums[0]
+    for i := 1; i &amp;lt; n; i++ {
+        preSum[i] = preSum[i-1] + nums[i]
+    }
+    for i, num := range nums {
+        preSum[n+i] = preSum[n+i-1] + num
+    }
+
+    maxSum := nums[0]
+    window := NewMonotonicQueue()
+    window.Push(0)
+
+    for i := 0; i &amp;lt; len(preSum); i++ {
+        maxSum = max(maxSum, preSum[i] - window.Min())
+
+        window.Push(preSum[i])
+        if window.Size() &amp;gt; n {
+            window.Pop()
+        }
+    }
+
+    return maxSum
+}
+
+type MonotonicQueue struct {
+    q    []int
+    maxq []int
+    minq []int
+}
+
+func NewMonotonicQueue() *MonotonicQueue {
+    return &amp;amp;MonotonicQueue{
+        q:    []int{},
+        maxq: []int{},
+        minq: []int{},
+    }
+}
+
+func (q *MonotonicQueue) Push(elem int) {
+    q.q = append(q.q, elem)
+
+    // maxq: 5 3 3 1
+    for len(q.maxq) &amp;gt; 0 &amp;amp;&amp;amp; q.maxq[len(q.maxq)-1] &amp;lt; elem {
+        q.maxq = q.maxq[:len(q.maxq)-1]
+    }
+    q.maxq = append(q.maxq, elem)
+
+    // minq: 1 3 3 5
+    for len(q.minq) &amp;gt; 0 &amp;amp;&amp;amp; q.minq[len(q.minq)-1] &amp;gt; elem {
+        q.minq = q.minq[:len(q.minq)-1]
+    }
+    q.minq = append(q.minq, elem)
+}
+
+func (q *MonotonicQueue) Pop() int {
+    elem := q.q[0]
+    q.q = q.q[1:]
+
+    if q.maxq[0] == elem {
+        q.maxq = q.maxq[1:]
+    }
+    if q.minq[0] == elem {
+        q.minq = q.minq[1:]
+    }
+
+    return elem
+}
+
+func (q *MonotonicQueue) Max() int {
+    return q.maxq[0]
+}
+
+func (q *MonotonicQueue) Min() int {
+    return q.minq[0]
+}
+
+func (q *MonotonicQueue) Size() int {
+    return len(q.q)
+}
+
+func (q *MonotonicQueue) IsEmpty() bool {
+    return len(q.q) == 0
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h2 id=&quot;Week34@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6700;&#x5927;&#x5b50;&#x6570;&#x7ec4;&#x548c;+&#x62ec;&#x53f7;+&#x4e8c;&#x53c9;&#x6811;&#x3011;-&#x62ec;&#x53f7;&#x7c7b;&#x95ee;&#x9898;&quot;&gt;&#x62ec;&#x53f7;&#x7c7b;&#x95ee;&#x9898;&lt;/h2&gt;&lt;h3 id=&quot;Week34@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6700;&#x5927;&#x5b50;&#x6570;&#x7ec4;&#x548c;+&#x62ec;&#x53f7;+&#x4e8c;&#x53c9;&#x6811;&#x3011;-LC921.MinimumAddtoMakeParenthesesValid&#x4f7f;&#x62ec;&#x53f7;&#x6709;&#x6548;&#x7684;&#x6700;&#x5c11;&#x6dfb;&#x52a0;&quot;&gt;LC 921. Minimum Add to Make Parentheses Valid &#x4f7f;&#x62ec;&#x53f7;&#x6709;&#x6548;&#x7684;&#x6700;&#x5c11;&#x6dfb;&#x52a0;&lt;/h3&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func minAddToMakeValid(s string) (count int) {
+    lefts := 0
+    for _, b := range s {
+        if b == &amp;#39;(&amp;#39; {
+            lefts++
+        } else {
+            if lefts &amp;gt; 0 {
+                lefts--
+            } else {
+                count++
+            }
+        }
+    }
+    count += lefts
+    return
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 id=&quot;Week34@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6700;&#x5927;&#x5b50;&#x6570;&#x7ec4;&#x548c;+&#x62ec;&#x53f7;+&#x4e8c;&#x53c9;&#x6811;&#x3011;-LC1541.MinimumInsertionstoBalanceaParenthesesString&#x5e73;&#x8861;&#x62ec;&#x53f7;&#x5b57;&#x7b26;&#x4e32;&#x7684;&#x6700;&#x5c11;&#x63d2;&#x5165;&#x6b21;&#x6570;&quot;&gt;LC 1541. Minimum Insertions to Balance a Parentheses String &#x5e73;&#x8861;&#x62ec;&#x53f7;&#x5b57;&#x7b26;&#x4e32;&#x7684;&#x6700;&#x5c11;&#x63d2;&#x5165;&#x6b21;&#x6570;&lt;/h3&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/description/&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func minInsertions(s string) int {
+    lefts := 0
+    count := 0
+
+    i := 0
+    for i &amp;lt; len(s) {
+        if s[i] == &amp;#39;(&amp;#39; {
+            lefts++
+            i++
+        } else {
+            if i+1 &amp;lt; len(s) &amp;amp;&amp;amp; s[i+1] == &amp;#39;)&amp;#39; {
+                // &#x627e;&#x5230; ))
+                if lefts == 0 {
+                    count++
+                } else {
+                    lefts--
+                }
+
+                i += 2
+            } else {
+                // &#x53ea;&#x627e;&#x5230;&#x4e00;&#x4e2a; )
+                if lefts == 0 {
+                    count += 2 // &#x9700;&#x8981;&#x8865;&#x4e00;&#x4e2a; ( &#x548c;&#x4e00;&#x4e2a; )
+                } else {
+                    count++
+                    lefts--
+                }
+
+                i++
+            }
+        }
+    }
+
+    count += lefts * 2 // &#x6bcf;&#x4e00;&#x4e2a; ( &#x9700;&#x8981;&#x8865;&#x4e24;&#x4e2a; ))
+
+    return count
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 id=&quot;Week34@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6700;&#x5927;&#x5b50;&#x6570;&#x7ec4;&#x548c;+&#x62ec;&#x53f7;+&#x4e8c;&#x53c9;&#x6811;&#x3011;-LC104.MaximumDepthofBinaryTree&#x4e8c;&#x53c9;&#x6811;&#x7684;&#x6700;&#x5927;&#x6df1;&#x5ea6;&quot;&gt;LC 104. Maximum Depth of Binary Tree &#x4e8c;&#x53c9;&#x6811;&#x7684;&#x6700;&#x5927;&#x6df1;&#x5ea6;&lt;/h3&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/maximum-depth-of-binary-tree/&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/maximum-depth-of-binary-tree/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;/**
+ * Definition for a binary tree node.
+ * type TreeNode struct {
+ *     Val int
+ *     Left *TreeNode
+ *     Right *TreeNode
+ * }
+ */
+func maxDepth(root *TreeNode) int {
+    if root == nil {
+        return 0
+    }
+
+    return 1 + max(maxDepth(root.Left), maxDepth(root.Right))
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p /&gt;
+    &lt;/div&gt;
+        &lt;div style=&quot;padding: 10px 0;&quot;&gt;
+       &lt;a href=&quot;https://singee.atlassian.net/wiki/spaces/MAIN/pages/269451281/Week+34+2025&quot;&gt;email.notification.view.online&lt;/a&gt;
+                  &lt;/div&gt;
+&lt;/div&gt;</summary>
+    <dc:creator>Bryan</dc:creator>
+    <dc:date>2025-08-24T15:27:46Z</dc:date>
+  </entry>
+  <entry>
+    <title>React UI &#x5e93;</title>
+    <link rel="alternate" href="https://singee.atlassian.net/wiki/spaces/MAIN/pages/259096582/React+UI"/>
+    <author>
+      <name>Bryan</name>
+    </author>
+    <id>tag:singee.atlassian.net,2009:page-259096582-3</id>
+    <updated>2025-08-20T08:34:26Z</updated>
+    <published>2025-08-20T08:34:26Z</published>
+    <summary type="html">&lt;div class=&quot;feed&quot;&gt;    &lt;p&gt;
+                        Live doc
+                    &lt;b&gt;edited&lt;/b&gt; by
+                &lt;a  &gt;Bryan&lt;/a&gt;
+             - &quot;Autosaved&quot;
+        &lt;/p&gt;
+        &lt;div style=&quot;border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 10px;&quot;&gt;
+        &lt;style type=&apos;text/css&apos;&gt;/*&lt;![CDATA[*/
+div.rbtoc1756081973987 {padding: 0px;}
+div.rbtoc1756081973987 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1756081973987 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]&gt;*/&lt;/style&gt;&lt;div class=&apos;toc-macro rbtoc1756081973987&apos;&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#ReactUI&#x5e93;-&#x57fa;&#x7840;/&#x65e0;&#x6837;&#x5f0f;&apos;&gt;&#x57fa;&#x7840; / &#x65e0;&#x6837;&#x5f0f;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#ReactUI&#x5e93;-UI&#x5e93;/&#x7ec4;&#x4ef6;&#x5e93;&apos;&gt;UI &#x5e93; / &#x7ec4;&#x4ef6;&#x5e93;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#ReactUI&#x5e93;-&#x7ec4;&#x4ef6;&#x5e93;&#xff08;shadcn/copy-paste&#x5f62;&#x5f0f;&#xff09;&apos;&gt;&#x7ec4;&#x4ef6;&#x5e93;&#xff08;shadcn / copy-paste &#x5f62;&#x5f0f;&#xff09;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#ReactUI&#x5e93;-&#x7279;&#x5b9a;&#x7528;&#x9014;&#x7ec4;&#x4ef6;&#x5e93;&apos;&gt;&#x7279;&#x5b9a;&#x7528;&#x9014;&#x7ec4;&#x4ef6;&#x5e93;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#ReactUI&#x5e93;-&#x652f;&#x6301;/&#x5de5;&#x5177;&#x5e93;&apos;&gt;&#x652f;&#x6301; / &#x5de5;&#x5177;&#x5e93;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#ReactUI&#x5e93;-&#x8def;&#x7531;&apos;&gt;&#x8def;&#x7531;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;h2 id=&quot;ReactUI&#x5e93;-&#x57fa;&#x7840;/&#x65e0;&#x6837;&#x5f0f;&quot;&gt;&#x57fa;&#x7840; / &#x65e0;&#x6837;&#x5f0f;&lt;/h2&gt;&lt;p&gt;&#x8001;&#x724c; &lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://www.radix-ui.com/primitives&quot; rel=&quot;nofollow&quot;&gt;https://www.radix-ui.com/primitives&lt;/a&gt; &#xff08;&#x4f46;&#x4f3c;&#x4e4e;&#x5f00;&#x53d1;&#x5df2;&#x7ecf;&#x505c;&#x6ede;&#x4e86;&#xff09;&lt;/p&gt;&lt;p&gt;&#x540e;&#x7ee7; &lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://base-ui.com/&quot; rel=&quot;nofollow&quot;&gt;https://base-ui.com/&lt;/a&gt; &lt;/p&gt;&lt;p&gt;&#x53ef;&#x80fd;&#x8fd8;&#x6709;&#x4ef7;&#x503c;&#x7684;&#x51e0;&#x4e2a;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://react-spectrum.adobe.com/react-aria/index.html&quot; rel=&quot;nofollow&quot;&gt;https://react-spectrum.adobe.com/react-aria/index.html&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://headlessui.com/&quot; rel=&quot;nofollow&quot;&gt;https://headlessui.com/&lt;/a&gt; &#xff08;Tailwind &#x505a;&#x7684;&#xff0c;&#x57fa;&#x672c;&#x5df2;&#x5e9f;&#x5f03;&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; href=&quot;https://tailwindcss.com/plus/ui-blocks/documentation/elements&quot; rel=&quot;nofollow&quot;&gt;Tailwind Elements&lt;/a&gt; &#xff08;Tailwind &#x4e3a; Plus &#x505a;&#x7684;&#xff0c;&#x4ed8;&#x8d39;&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://ariakit.org/&quot; rel=&quot;nofollow&quot;&gt;https://ariakit.org/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h2 id=&quot;ReactUI&#x5e93;-UI&#x5e93;/&#x7ec4;&#x4ef6;&#x5e93;&quot;&gt;UI &#x5e93; / &#x7ec4;&#x4ef6;&#x5e93;&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://www.heroui.com/&quot; rel=&quot;nofollow&quot;&gt;https://www.heroui.com/&lt;/a&gt; &#xff08;&#x57fa;&#x4e8e; Tailwind CSS&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://chakra-ui.com/&quot; rel=&quot;nofollow&quot;&gt;https://chakra-ui.com/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://mui.com/&quot; rel=&quot;nofollow&quot;&gt;https://mui.com/&lt;/a&gt; &#xff08;Material Design 2&#xff0c;&#x4f46;&#x662f;&#x53ef;&#x4ee5;&#x81ea;&#x5b9a;&#x4e49;&#x4e3b;&#x9898;&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://mantine.dev/&quot; rel=&quot;nofollow&quot;&gt;https://mantine.dev/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://daisyui.com/&quot; rel=&quot;nofollow&quot;&gt;https://daisyui.com/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://ui.aceternity.com/&quot; rel=&quot;nofollow&quot;&gt;https://ui.aceternity.com/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://magicui.design/&quot; rel=&quot;nofollow&quot;&gt;https://magicui.design/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://primereact.org/&quot; rel=&quot;nofollow&quot;&gt;https://primereact.org/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://blueprintjs.com/&quot; rel=&quot;nofollow&quot;&gt;https://blueprintjs.com/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://www.radix-ui.com/&quot; rel=&quot;nofollow&quot;&gt;https://www.radix-ui.com/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://react-spectrum.adobe.com/react-spectrum/index.html&quot; rel=&quot;nofollow&quot;&gt;https://react-spectrum.adobe.com/react-spectrum/index.html&lt;/a&gt;   &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://gluestack.io/&quot; rel=&quot;nofollow&quot;&gt;https://gluestack.io/&lt;/a&gt; &#xff08;&#x652f;&#x6301; React Native&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://ionicframework.com/&quot; rel=&quot;nofollow&quot;&gt;https://ionicframework.com/&lt;/a&gt; &#xff08;&#x8de8;&#x7aef;&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; href=&quot;https://flowbite.com/&quot; rel=&quot;nofollow&quot;&gt;https://flowbite.com/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://flowbite-react.com/&quot; rel=&quot;nofollow&quot;&gt;https://flowbite-react.com/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&#x7279;&#x5b9a;&#x7528;&#x9014;&#x7684; / &#x8fc7;&#x65f6;&#x7684;&#x7684;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://ant.design/&quot; rel=&quot;nofollow&quot;&gt;https://ant.design/&lt;/a&gt;&#xff08;&#x5df2;&#x652f;&#x6301;&#x81ea;&#x5b9a;&#x4e49;&#x6837;&#x5f0f;&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; href=&quot;https://atlaskit.atlassian.com/&quot; rel=&quot;nofollow&quot;&gt;https://atlaskit.atlassian.com/&lt;/a&gt; &lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://atlassian.design/&quot; rel=&quot;nofollow&quot;&gt;https://atlassian.design/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://react-bootstrap.netlify.app/&quot; rel=&quot;nofollow&quot;&gt;https://react-bootstrap.netlify.app/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://react.semantic-ui.com/&quot; rel=&quot;nofollow&quot;&gt;https://react.semantic-ui.com/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://js.devexpress.com/React/Demos/WidgetsGallery/&quot; rel=&quot;nofollow&quot;&gt;https://js.devexpress.com/React/Demos/WidgetsGallery/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&#x516c;&#x53f8;&#x5f00;&#x6e90;&#x81ea;&#x5df1;&#x98ce;&#x683c;&#x7684; UI &#x5e93;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://react.fluentui.dev/&quot; rel=&quot;nofollow&quot;&gt;https://react.fluentui.dev/&lt;/a&gt; &#xff08;&#x5fae;&#x8f6f;&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://evergreen.segment.com/&quot; rel=&quot;nofollow&quot;&gt;https://evergreen.segment.com/&lt;/a&gt;&#xff08;Segment&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://eui.elastic.co/#/&quot; rel=&quot;nofollow&quot;&gt;https://eui.elastic.co/#/&lt;/a&gt; &#xff08;Elasticsearch&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://vercel.com/geist/introduction&quot; rel=&quot;nofollow&quot;&gt;https://vercel.com/geist/introduction&lt;/a&gt; &#xff08;Vercel&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://supabase.com/ui&quot; rel=&quot;nofollow&quot;&gt;https://supabase.com/ui&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://semi.design/&quot; rel=&quot;nofollow&quot;&gt;https://semi.design/&lt;/a&gt; &#xff08;&#x6296;&#x97f3;&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://carbondesignsystem.com/&quot; rel=&quot;nofollow&quot;&gt;https://carbondesignsystem.com/&lt;/a&gt; &#xff08;IBM&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://orbit.kiwi/&quot; rel=&quot;nofollow&quot;&gt;https://orbit.kiwi/&lt;/a&gt; &#xff08;Kiwi&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&#x7279;&#x6b8a;&#x98ce;&#x683c;&#x7684;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://react95.io/#&quot; rel=&quot;nofollow&quot;&gt;https://react95.io/#&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h2 id=&quot;ReactUI&#x5e93;-&#x7ec4;&#x4ef6;&#x5e93;&#xff08;shadcn/copy-paste&#x5f62;&#x5f0f;&#xff09;&quot;&gt;&#x7ec4;&#x4ef6;&#x5e93;&#xff08;shadcn / copy-paste &#x5f62;&#x5f0f;&#xff09;&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&#x57fa;&#x4e8e; Tailwind CSS&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&#x57fa;&#x4e8e; &lt;a class=&quot;external-link&quot; href=&quot;https://tailwindcss.com/plus/ui-blocks/documentation/elements&quot; rel=&quot;nofollow&quot;&gt;Elements&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://tailwindcss.com/plus&quot; rel=&quot;nofollow&quot;&gt;https://tailwindcss.com/plus&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&#x57fa;&#x4e8e; Base UI&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://www.9ui.dev/&quot; rel=&quot;nofollow&quot;&gt;https://www.9ui.dev/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://basecn.dev/&quot; rel=&quot;nofollow&quot;&gt;https://basecn.dev/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://reui.io/&quot; rel=&quot;nofollow&quot;&gt;https://reui.io/&lt;/a&gt; &#xff08;&#x90e8;&#x5206;&#x7ec4;&#x4ef6;&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&#x57fa;&#x4e8e; Radix UI&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://ui.shadcn.com/&quot; rel=&quot;nofollow&quot;&gt;https://ui.shadcn.com/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://originui.com/&quot; rel=&quot;nofollow&quot;&gt;https://originui.com/&lt;/a&gt; &#xff08;&#x57fa;&#x4e8e; shadcn/ui&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://tremor.so/&quot; rel=&quot;nofollow&quot;&gt;https://tremor.so/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://reui.io/&quot; rel=&quot;nofollow&quot;&gt;https://reui.io/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&#x57fa;&#x4e8e; React Aria&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; href=&quot;https://www.untitledui.com/react/docs/introduction&quot; rel=&quot;nofollow&quot;&gt;Untitled UI&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&#x5229;&#x7528;&#x4e86;&#x591a;&#x79cd;&#x57fa;&#x7840;&#x7ec4;&#x4ef6;&#x63d0;&#x4f9b;&#x5546;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://animate-ui.com/&quot; rel=&quot;nofollow&quot;&gt;https://animate-ui.com/&lt;/a&gt; &#xff08;&#x57fa;&#x4e8e; Radix UI / Base UI / Headless UI&#xff1b;&#x52a0;&#x4e86;&#x52a8;&#x753b;&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&#x57fa;&#x4e8e; Panda CSS&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://ark-ui.com/&quot; rel=&quot;nofollow&quot;&gt;https://ark-ui.com/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://park-ui.com/&quot; rel=&quot;nofollow&quot;&gt;https://park-ui.com/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h2 id=&quot;ReactUI&#x5e93;-&#x7279;&#x5b9a;&#x7528;&#x9014;&#x7ec4;&#x4ef6;&#x5e93;&quot;&gt;&#x7279;&#x5b9a;&#x7528;&#x9014;&#x7ec4;&#x4ef6;&#x5e93;&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://www.searchkit.co/&quot; rel=&quot;nofollow&quot;&gt;https://www.searchkit.co/&lt;/a&gt; &#xff08;&#x641c;&#x7d22;&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://reactbits.dev/&quot; rel=&quot;nofollow&quot;&gt;https://reactbits.dev/&lt;/a&gt; &#xff08;&#x5404;&#x79cd;&#x70ab;&#x9177;&#x52a8;&#x753b;&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h2 id=&quot;ReactUI&#x5e93;-&#x652f;&#x6301;/&#x5de5;&#x5177;&#x5e93;&quot;&gt;&#x652f;&#x6301; / &#x5de5;&#x5177;&#x5e93;&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://ui.shadcn.com/&quot; rel=&quot;nofollow&quot;&gt;https://ui.shadcn.com/&lt;/a&gt; &#xff08;&#x867d;&#x7136;&#x5b83;&#x662f;&#x4e2a;&#x7ec4;&#x4ef6;&#x5e93;&#xff0c;&#x4f46;&#x4e5f;&#x53ef;&#x4ee5;&#x4e0d;&#x4f7f;&#x7528;&#x5b83;&#x7684;&#x7ec4;&#x4ef6;&#x800c;&#x662f;&#x7528;&#x5b83;&#x7684;&#x5de5;&#x5177;&#x5b89;&#x88c5;&#x5176;&#x4ed6;&#x7ec4;&#x4ef6;&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://github.com/lukeed/clsx&quot; rel=&quot;nofollow&quot;&gt;https://github.com/lukeed/clsx&lt;/a&gt;  &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://github.com/dcastil/tailwind-merge&quot; rel=&quot;nofollow&quot;&gt;https://github.com/dcastil/tailwind-merge&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://zagjs.com/&quot; rel=&quot;nofollow&quot;&gt;https://zagjs.com/&lt;/a&gt;  &#x7b80;&#x5316;&#x590d;&#x6742;&#x7684; UI &#x903b;&#x8f91;&#x5b9a;&#x4e49;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;CSS in JS&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://styled-components.com/&quot; rel=&quot;nofollow&quot;&gt;https://styled-components.com/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://emotion.sh/docs/introduction&quot; rel=&quot;nofollow&quot;&gt;https://emotion.sh/docs/introduction&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://panda-css.com/&quot; rel=&quot;nofollow&quot;&gt;https://panda-css.com/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://compiledcssinjs.com/&quot; rel=&quot;nofollow&quot;&gt;https://compiledcssinjs.com/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Hooks&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://react-spectrum.adobe.com/react-aria/hooks.html&quot; rel=&quot;nofollow&quot;&gt;https://react-spectrum.adobe.com/react-aria/hooks.html&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h2 id=&quot;ReactUI&#x5e93;-&#x8def;&#x7531;&quot;&gt;&#x8def;&#x7531;&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://reactrouter.com/&quot; rel=&quot;nofollow&quot;&gt;https://reactrouter.com/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://tanstack.com/router/latest&quot; rel=&quot;nofollow&quot;&gt;https://tanstack.com/router/latest&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p /&gt;
+    &lt;/div&gt;
+        &lt;div style=&quot;padding: 10px 0;&quot;&gt;
+       &lt;a href=&quot;https://singee.atlassian.net/wiki/spaces/MAIN/pages/259096582/React+UI&quot;&gt;email.notification.view.online&lt;/a&gt;
+              &amp;middot;
+       &lt;a href=&quot;https://singee.atlassian.net/wiki/pages/diffpagesbyversion.action?pageId=259096582&amp;revisedVersion=3&amp;originalVersion=2&quot;&gt;View Changes Online&lt;/a&gt;       
+                  &lt;/div&gt;
+&lt;/div&gt;</summary>
+    <dc:creator>Bryan</dc:creator>
+    <dc:date>2025-08-20T08:34:26Z</dc:date>
+  </entry>
+  <entry>
+    <title>AI &#x5de5;&#x5177;&#x914d;&#x7f6e;</title>
+    <link rel="alternate" href="https://singee.atlassian.net/wiki/spaces/MAIN/pages/255852548/AI"/>
+    <author>
+      <name>Bryan</name>
+    </author>
+    <id>tag:singee.atlassian.net,2009:page-255852548-2</id>
+    <updated>2025-08-19T08:13:25Z</updated>
+    <published>2025-08-19T08:13:25Z</published>
+    <summary type="html">&lt;div class=&quot;feed&quot;&gt;    &lt;p&gt;
+                        Live doc
+                    &lt;b&gt;edited&lt;/b&gt; by
+                &lt;a  &gt;Bryan&lt;/a&gt;
+             - &quot;Autosaved&quot;
+        &lt;/p&gt;
+        &lt;div style=&quot;border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 10px;&quot;&gt;
+        &lt;style type=&apos;text/css&apos;&gt;/*&lt;![CDATA[*/
+div.rbtoc1756081974043 {padding: 0px;}
+div.rbtoc1756081974043 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1756081974043 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]&gt;*/&lt;/style&gt;&lt;div class=&apos;toc-macro rbtoc1756081974043&apos;&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#AI&#x5de5;&#x5177;&#x914d;&#x7f6e;-&#x5de5;&#x5177;&apos;&gt;&#x5de5;&#x5177;&lt;/a&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#AI&#x5de5;&#x5177;&#x914d;&#x7f6e;-Codex&apos;&gt;Codex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#AI&#x5de5;&#x5177;&#x914d;&#x7f6e;-ClaudeDesktop&apos;&gt;Claude Desktop&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#AI&#x5de5;&#x5177;&#x914d;&#x7f6e;-ClaudeCode&apos;&gt;Claude Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#AI&#x5de5;&#x5177;&#x914d;&#x7f6e;-MCP&apos;&gt;MCP&lt;/a&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#AI&#x5de5;&#x5177;&#x914d;&#x7f6e;-ClaudeDesktop.1&apos;&gt;Claude Desktop&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#AI&#x5de5;&#x5177;&#x914d;&#x7f6e;-ClaudeCode.1&apos;&gt;Claude Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#AI&#x5de5;&#x5177;&#x914d;&#x7f6e;-Codex.1&apos;&gt;Codex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#AI&#x5de5;&#x5177;&#x914d;&#x7f6e;-Cursor&apos;&gt;Cursor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#AI&#x5de5;&#x5177;&#x914d;&#x7f6e;-ChatGPT&apos;&gt;ChatGPT&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#AI&#x5de5;&#x5177;&#x914d;&#x7f6e;-Junie&apos;&gt;Junie&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#AI&#x5de5;&#x5177;&#x914d;&#x7f6e;-Rule&apos;&gt;Rule&lt;/a&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#AI&#x5de5;&#x5177;&#x914d;&#x7f6e;-ClaudeCode.2&apos;&gt;Claude Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#AI&#x5de5;&#x5177;&#x914d;&#x7f6e;-Codex.2&apos;&gt;Codex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#AI&#x5de5;&#x5177;&#x914d;&#x7f6e;-Cursor.1&apos;&gt;Cursor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#AI&#x5de5;&#x5177;&#x914d;&#x7f6e;-Junie.1&apos;&gt;Junie&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;h2 id=&quot;AI&#x5de5;&#x5177;&#x914d;&#x7f6e;-&#x5de5;&#x5177;&quot;&gt;&#x5de5;&#x5177;&lt;/h2&gt;&lt;h3 id=&quot;AI&#x5de5;&#x5177;&#x914d;&#x7f6e;-Codex&quot;&gt;Codex&lt;/h3&gt;&lt;p&gt;&#x4f4d;&#x7f6e;&#xff1a;&lt;code&gt;~/.codex/config.toml&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&#x5185;&#x5bb9;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;model = &amp;quot;gpt-5&amp;quot;
+model_reasoning_effort = &amp;quot;high&amp;quot;
+
+# &#x6267;&#x884c;&#x5de5;&#x5177;&#x65f6;&#x662f;&#x5426;&#x8981;&#x6c42;&#x786e;&#x8ba4;&#xff1a;never - &#x4e0d;&#x8981;&#x6c42;&#xff1b;on-request - &#x6c99;&#x7bb1;&#x5185;&#x7684;&#x64cd;&#x4f5c;&#x4e0d;&#x8981;&#x6c42;
+approval_policy = &amp;quot;never&amp;quot;
+#approval_policy = &amp;quot;on-request&amp;quot;
+
+# &#x6c99;&#x7bb1;&#x6a21;&#x5f0f;&#xff1a;workspace-write - &#x53ef;&#x5728;&#x5de5;&#x4f5c;&#x533a;&#x5185;&#x5199;&#xff1b;danger-full-access - &#x4e0d;&#x4f7f;&#x7528;&#x6c99;&#x7bb1;
+#sandbox_mode = &amp;quot;danger-full-access&amp;quot;
+sandbox_mode = &amp;quot;workspace-write&amp;quot;
+
+[sandbox_workspace_write]
+# sandbox_mode = &amp;quot;workspace-write&amp;quot; &#x65f6;&#x662f;&#x5426;&#x5141;&#x8bb8;&#x8bbf;&#x95ee;&#x7f51;&#x7edc;
+network_access = true &lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&#x5177;&#x4f53;&#x6587;&#x6863;&#x5728; &lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://github.com/openai/codex/blob/main/codex-rs/config.md&quot; rel=&quot;nofollow&quot;&gt;https://github.com/openai/codex/blob/main/codex-rs/config.md&lt;/a&gt; &lt;/p&gt;&lt;h3 id=&quot;AI&#x5de5;&#x5177;&#x914d;&#x7f6e;-ClaudeDesktop&quot;&gt;Claude Desktop&lt;/h3&gt;&lt;p&gt;&#x4f4d;&#x7f6e;&#xff1a;&lt;code&gt;~/Library/Application Support/Claude/claude_desktop_config.json&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&#x5185;&#x5bb9;&#xff08;&#x4e3b;&#x8981;&#x4e3a; MCP &#x914d;&#x7f6e;&#xff09;&#xff1a;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;{
+  &amp;quot;globalShortcut&amp;quot;: &amp;quot;&amp;quot;,
+  &amp;quot;mcpServers&amp;quot;: {
+    ...
+  },
+  &amp;quot;isUsingBuiltInNodeForMcp&amp;quot;: false
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 id=&quot;AI&#x5de5;&#x5177;&#x914d;&#x7f6e;-ClaudeCode&quot;&gt;Claude Code&lt;/h3&gt;&lt;p&gt;&#x4f4d;&#x7f6e;&#xff1a; &lt;code&gt;~/.claude/settings.json &lt;/code&gt;&lt;/p&gt;&lt;p&gt;&#x5185;&#x5bb9;&#xff1a;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;{
+  &amp;quot;env&amp;quot;: {
+    &amp;quot;CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC&amp;quot;: &amp;quot;1&amp;quot;
+  },
+  &amp;quot;model&amp;quot;: &amp;quot;opus&amp;quot;,
+  &amp;quot;statusLine&amp;quot;: {
+    &amp;quot;type&amp;quot;: &amp;quot;command&amp;quot;,
+    &amp;quot;command&amp;quot;: &amp;quot;bunx ccusage statusline&amp;quot;,
+    &amp;quot;padding&amp;quot;: 0
+  },
+  &amp;quot;&#x24;schema&amp;quot;: &amp;quot;https://json.schemastore.org/claude-code-settings.json&amp;quot;
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&#x4f4d;&#x7f6e;&#xff1a; &lt;code&gt;~/.claude.json&lt;/code&gt; &lt;/p&gt;&lt;p&gt;&#x5185;&#x5bb9;&#xff1a;&#xff08;&#x4e3b;&#x8981;&#x662f; MCP &#x914d;&#x7f6e;&#xff09;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;{
+  &amp;quot;mcpServers&amp;quot;: {
+    ...
+  }
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&#x503c;&#x5f97;&#x4e00;&#x63d0;&#x7684;&#x662f;&#xff0c;Claude Code &#x54ea;&#x6015;&#x662f;&#x5168;&#x5c40;&#x914d;&#x7f6e;&#x4e5f;&#x53ef;&#x4ee5;&#x5b58;&#x5728;&#x4e8e;&#x5f88;&#x591a;&#x5730;&#x65b9;&#xff0c;&#x5177;&#x4f53;&#x53ef;&#x4ee5;&#x53c2;&#x8003; &lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://docs.anthropic.com/en/docs/claude-code/settings&quot; rel=&quot;nofollow&quot;&gt;https://docs.anthropic.com/en/docs/claude-code/settings&lt;/a&gt; &lt;/p&gt;&lt;h2 id=&quot;AI&#x5de5;&#x5177;&#x914d;&#x7f6e;-MCP&quot;&gt;MCP&lt;/h2&gt;&lt;p&gt;MCP &#x914d;&#x7f6e;&#x57fa;&#x672c;&#x90fd;&#x662f;&#x9876;&#x5c42;&#x4e00;&#x4e2a; &lt;code&gt;mcpServers&lt;/code&gt; key&#xff0c;&#x7136;&#x540e;&#x7528; &lt;code&gt;Record&amp;lt;string, Config&amp;gt;&lt;/code&gt; &#x7684;&#x5f62;&#x5f0f;&#x58f0;&#x660e;&#x5bf9;&#x5e94; MCP &#x670d;&#x52a1;&#x7684;&#x914d;&#x7f6e;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;{
+  &amp;quot;mcpServers&amp;quot;: {
+    &amp;quot;mui&amp;quot;: {
+      &amp;quot;command&amp;quot;: &amp;quot;npx&amp;quot;,
+      &amp;quot;args&amp;quot;: [
+        &amp;quot;-y&amp;quot;,
+        &amp;quot;@mui/mcp@latest&amp;quot;
+      ]
+    },
+    &amp;quot;convex&amp;quot;: {
+      &amp;quot;command&amp;quot;: &amp;quot;npx&amp;quot;,
+      &amp;quot;args&amp;quot;: [
+        &amp;quot;-y&amp;quot;,
+        &amp;quot;convex@latest&amp;quot;,
+        &amp;quot;mcp&amp;quot;,
+        &amp;quot;start&amp;quot;
+      ]
+    },
+    &amp;quot;context7&amp;quot;: {
+      &amp;quot;command&amp;quot;: &amp;quot;npx&amp;quot;,
+      &amp;quot;args&amp;quot;: [
+        &amp;quot;-y&amp;quot;,
+        &amp;quot;@upstash/context7-mcp&amp;quot;
+      ]
+    },
+    &amp;quot;sentry&amp;quot;: {
+      &amp;quot;type&amp;quot;: &amp;quot;http&amp;quot;,
+      &amp;quot;url&amp;quot;: &amp;quot;https://mcp.sentry.dev/mcp&amp;quot;
+    },
+    &amp;quot;atlassian&amp;quot;: {
+      &amp;quot;type&amp;quot;: &amp;quot;sse&amp;quot;,
+      &amp;quot;url&amp;quot;: &amp;quot;https://mcp.atlassian.com/v1/sse&amp;quot;,
+      &amp;quot;headers&amp;quot;: {}
+    },
+    &amp;quot;clickup&amp;quot;: {
+      &amp;quot;type&amp;quot;: &amp;quot;stdio&amp;quot;,
+      &amp;quot;command&amp;quot;: &amp;quot;npx&amp;quot;,
+      &amp;quot;args&amp;quot;: [
+        &amp;quot;-y&amp;quot;,
+        &amp;quot;@hauptsache.net/clickup-mcp&amp;quot;
+      ],
+      &amp;quot;env&amp;quot;: {
+        &amp;quot;CLICKUP_API_KEY&amp;quot;: &amp;quot;YOUR_KEY&amp;quot;,
+        &amp;quot;CLICKUP_TEAM_ID&amp;quot;: &amp;quot;YOUR_ID&amp;quot;
+      }
+    }
+  }
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&#x66f4;&#x591a;&#x7684; MCP &#x670d;&#x52a1;&#x53ef;&#x4ee5;&#x770b; &lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://lobehub.com/mcp&quot; rel=&quot;nofollow&quot;&gt;https://lobehub.com/mcp&lt;/a&gt; &lt;/p&gt;&lt;p&gt;MCP &#x57fa;&#x672c;&#x6709;&#x4e09;&#x79cd;&#x7c7b;&#x578b;&#xff0c;&#x5305;&#x62ec; &lt;code&gt;stdio&lt;/code&gt;, &lt;code&gt;http&lt;/code&gt; &#x548c; &lt;code&gt;sse&lt;/code&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;stdio&lt;/code&gt; &#x5f62;&#x5f0f;&#x662f;&#x6700;&#x65e9;&#x7684;&#xff0c;&#x4e00;&#x822c;&#x6240;&#x6709;&#x5b9e;&#x73b0;&#x90fd;&#x652f;&#x6301;&#xff1b;&#x8fd9;&#x4e2a;&#x6709;&#x7684;&#x4e5f;&#x53eb;&#x300c;&#x672c;&#x5730;&#x300d;&#x6a21;&#x5f0f;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;http&lt;/code&gt; &#x662f;&#x73b0;&#x5728;&#x5b98;&#x65b9;&#x6700;&#x63a8;&#x8350;&#x7684;&#x65b9;&#x6848;&#x3001; &lt;code&gt;sse&lt;/code&gt; &#x65b9;&#x6848;&#x5b98;&#x65b9;&#x5df2;&#x5f03;&#x7528;&#xff1b;&#x8fd9;&#x4e24;&#x4e2a;&#x4e00;&#x822c;&#x7edf;&#x79f0;&#x300c;&#x8fdc;&#x7a0b;&#x300d;&#x6a21;&#x5f0f;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&#x5728;&#x914d;&#x7f6e;&#x65f6;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&#x5bf9;&#x4e8e; &lt;code&gt;stdio&lt;/code&gt; &#x7684;&#x5f62;&#x5f0f;&#xff0c;&#x901a;&#x5e38;&#x53ea;&#x6307;&#x5b9a; &lt;code&gt;command&lt;/code&gt; &lt;code&gt;args&lt;/code&gt; &lt;code&gt;env&lt;/code&gt; &#x5373;&#x53ef;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&#x5bf9;&#x4e8e; &lt;code&gt;http&lt;/code&gt; &#x548c; &lt;code&gt;sse&lt;/code&gt; &#x5f62;&#x5f0f;&#xff0c;&#x901a;&#x5e38;&#x53ea;&#x6307;&#x5b9a; &lt;code&gt;url&lt;/code&gt; &lt;code&gt;headers&lt;/code&gt; &#x5373;&#x53ef;&#xff1b;&#x90e8;&#x5206;&#x5b9e;&#x73b0;&#x8981;&#x6c42;&#x6307;&#x5b9a; &lt;code&gt;type&lt;/code&gt; &#x6216; &lt;code&gt;transport&lt;/code&gt; &lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h3 id=&quot;AI&#x5de5;&#x5177;&#x914d;&#x7f6e;-ClaudeDesktop.1&quot;&gt;Claude Desktop&lt;/h3&gt;&lt;p&gt;&#x5bf9;&#x4e8e; &lt;code&gt;stdio&lt;/code&gt; &#x5f62;&#x5f0f;&#x7684; MCP &#x901a;&#x8fc7; &lt;code&gt;~/Library/Application Support/Claude/claude_desktop_config.json&lt;/code&gt; &#x6587;&#x4ef6;&#x914d;&#x7f6e;&lt;/p&gt;&lt;p&gt;&#x5bf9;&#x4e8e;&#x8fdc;&#x7a0b; MCP &#x5219;&#x9700;&#x8981;&#x4ece; Settings &#x2192; Connectors &#x6dfb;&#x52a0;&lt;/p&gt;&lt;h3 id=&quot;AI&#x5de5;&#x5177;&#x914d;&#x7f6e;-ClaudeCode.1&quot;&gt;Claude Code&lt;/h3&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://docs.anthropic.com/en/docs/claude-code/mcp&quot; rel=&quot;nofollow&quot;&gt;https://docs.anthropic.com/en/docs/claude-code/mcp&lt;/a&gt; &lt;/p&gt;&lt;p&gt;Claude Code &#x652f;&#x6301;&#x591a;&#x5c42;&#x7ea7;&#x7684; mcp &#x914d;&#x7f6e;&#xff0c;&#x5305;&#x62ec;&#x7528;&#x6237;&#x5c42;&#x7ea7;&#xff08;user&#xff09;&#x548c;&#x9879;&#x76ee;&#xff08;project / local&#xff09;&#x5c42;&#x7ea7;&lt;/p&gt;&lt;p&gt;&#x5b83;&#x7684; MCP &#x914d;&#x7f6e;&#x6587;&#x4ef6;&#x4f4d;&#x4e8e; &lt;code&gt;~/.claude.json&lt;/code&gt; &#x4e0b;&#xff08;&#x6ce8;&#x610f;&#xff1a;&#x4e0d;&#x662f;&#x5728; &lt;code&gt;~/.claude/settings.json&lt;/code&gt; &#x4e0b;&#xff0c;&#x7f51;&#x4f20;&#x7684; &lt;code&gt;~/.claude/mcp_servers.json&lt;/code&gt; &#x4e5f;&#x4e0d;&#x751f;&#x6548;&#xff09;&lt;/p&gt;&lt;p&gt;&#x5982;&#x679c;&#x662f;&#x9879;&#x76ee;&#x7ef4;&#x5ea6;&#xff0c;&#x5219;&#x4f4d;&#x4e8e;&#x9879;&#x76ee;&#x76ee;&#x5f55;&#x7684; &lt;code&gt;.claude/settings.json&lt;/code&gt; &#x548c;  &lt;code&gt;.claude/settings.local.json&lt;/code&gt; &#x4e0b;&lt;/p&gt;&lt;p&gt;&#x9879;&#x76ee;&#x7ef4;&#x5ea6;&#x7684; mcp &#x4f4d;&#x7f6e;&#x4e5f;&#x53ef;&#x4ee5;&#x4f4d;&#x4e8e; &lt;code&gt;.mcp.json&lt;/code&gt; &#x6587;&#x4ef6;&#x4e2d;&#xff0c;&#x5728;&#x542f;&#x52a8; Claude Code &#x65f6;&#x4f1a;&#x8ba9;&#x4f60;&#x786e;&#x8ba4;&#x662f;&#x5426;&#x52a0;&#x8f7d;&#x9879;&#x76ee;&#x6240;&#x914d;&#x7f6e;&#x7684; MCP &#x5de5;&#x5177;&#xff08;&#x8fd9;&#x4e2a;&#x786e;&#x8ba4;&#x4fe1;&#x606f;&#x4f1a;&#x5b58;&#x50a8;&#x5230; &lt;code&gt;.claude/settings.local.json&lt;/code&gt; &#x4e2d;&#xff09;&lt;/p&gt;&lt;p&gt;Claude Code &#x7684; MCP &#x662f;&#x53ef;&#x4ee5;&#x5229;&#x7528; &lt;code&gt;claude mcp&lt;/code&gt; &#x547d;&#x4ee4;&#x884c;&#x4fee;&#x6539;&#x7684;&#xff0c;&#x4e0d;&#x8fc7;&#x6ce8;&#x610f;&#x8fd9;&#x4e2a;&#x7684; scope&#xff08;&lt;code&gt;-s&lt;/code&gt;&#xff09;&#x9ed8;&#x8ba4;&#x662f; &lt;code&gt;local&lt;/code&gt; &#x5373;&#x5f53;&#x524d;&#x8def;&#x5f84;&#xff0c;&#x53ef;&#x4ee5;&#x5229;&#x7528; &lt;code&gt;-s user&lt;/code&gt; &#x6539;&#x6210;&#x5168;&#x5c40;&#x6216; &lt;code&gt;-s project&lt;/code&gt; &#x6539;&#x6210;&#x9879;&#x76ee;&#x7ef4;&#x5ea6;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;-s user&lt;/code&gt; &#x548c; &lt;code&gt;-s local&lt;/code&gt; &#x90fd;&#x662f;&#x4fee;&#x6539; &lt;code&gt;~/.claude.json&lt;/code&gt; &#x7684;&#xff08;&#x53ea;&#x662f;&#x6539;&#x7684;&#x5c42;&#x7ea7;&#x4e0d;&#x4e00;&#x6837;&#xff1b;user &#x662f;&#x9876;&#x5c42;&#x76f4;&#x63a5;&#x6539;&#x5168;&#x5c40; &lt;code&gt;mcpServers&lt;/code&gt;&#x3001;local &#x662f;&#x6539;&#x7684;&#x662f;&#x9879;&#x76ee;&#x914d;&#x7f6e; &lt;code&gt;projects.{path}.mcpServers&lt;/code&gt;&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;-s project&lt;/code&gt; &#x4fee;&#x6539;&#x7684;&#x662f; &lt;code&gt;.mcp.json&lt;/code&gt; &lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&#x53e6;&#x5916;&#xff0c;&#x53ef;&#x4ee5;&#x5229;&#x7528; &lt;code&gt;claude mcp add-from-claude-desktop&lt;/code&gt; &#x5bfc;&#x5165;&#x5728; Claude Desktop &#x4e2d;&#x914d;&#x7f6e;&#x7684; MCP &#x670d;&#x52a1;&lt;/p&gt;&lt;h3 id=&quot;AI&#x5de5;&#x5177;&#x914d;&#x7f6e;-Codex.1&quot;&gt;Codex&lt;/h3&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://github.com/openai/codex/tree/main?tab=readme-ov-file#model-context-protocol-mcp&quot; rel=&quot;nofollow&quot;&gt;https://github.com/openai/codex/tree/main?tab=readme-ov-file#model-context-protocol-mcp&lt;/a&gt; &lt;/p&gt;&lt;p&gt;Codex &#x7684; MCP &#x914d;&#x7f6e;&#x4f4d;&#x4e8e; &lt;code&gt;~/.codex/config.toml&lt;/code&gt;&#xff0c;&#x683c;&#x5f0f;&#x662f;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;[mcp_servers.mui]
+command = &amp;quot;npx&amp;quot;
+args = [ &amp;quot;-y&amp;quot;, &amp;quot;@mui/mcp@latest&amp;quot; ]
+
+[mcp_servers.convex]
+command = &amp;quot;npx&amp;quot;
+args = [ &amp;quot;-y&amp;quot;, &amp;quot;convex@latest&amp;quot;, &amp;quot;mcp&amp;quot;, &amp;quot;start&amp;quot; ]
+
+[mcp_servers.context7]
+command = &amp;quot;npx&amp;quot;
+args = [ &amp;quot;-y&amp;quot;, &amp;quot;@upstash/context7-mcp&amp;quot; ]&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&#x5373;&#xff1a;&#x91c7;&#x7528; TOML &#x5f62;&#x5f0f;&#x8868;&#x8ff0;&#xff1b;&#x9876;&#x5c42; key &#x662f;  &lt;code&gt;mcp_servers&lt;/code&gt; &#x800c;&#x4e0d;&#x662f; &lt;code&gt;mcpServers&lt;/code&gt;&#xff1b;&#x9700;&#x8981;&#x65f6;&#x53ef;&#x4ee5;&#x5229;&#x7528; &lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://transform.tools/json-to-toml&quot; rel=&quot;nofollow&quot;&gt;https://transform.tools/json-to-toml&lt;/a&gt;  &#x7b80;&#x5355;&#x8f6c;&#x6362;&#x540e;&#x4fee;&#x6539;&#x5f97;&#x5230;&lt;/p&gt;&lt;p&gt;Codex &#x76ee;&#x524d;&#x53ea;&#x652f;&#x6301; &lt;code&gt;stdio&lt;/code&gt; &#x7c7b;&#x578b; &lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://github.com/openai/codex/issues/2129&quot; rel=&quot;nofollow&quot;&gt;https://github.com/openai/codex/issues/2129&lt;/a&gt; &lt;/p&gt;&lt;h3 id=&quot;AI&#x5de5;&#x5177;&#x914d;&#x7f6e;-Cursor&quot;&gt;Cursor&lt;/h3&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://docs.cursor.com/en/context/mcp&quot; rel=&quot;nofollow&quot;&gt;https://docs.cursor.com/en/context/mcp&lt;/a&gt; &lt;/p&gt;&lt;p&gt;Cursor &#x7684; mcp &#x914d;&#x7f6e;&#x4f4d;&#x4e8e; &lt;code&gt;~/.cursor/mcp.json&lt;/code&gt;&#xff0c;&#x5176;&#x5185;&#x5bb9;&#x5c31;&#x662f;&#x6807;&#x51c6;&#x7684; MCP json&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;{
+  &amp;quot;mcpServers&amp;quot;: {
+    ...
+  }
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&#x9664;&#x4e86;&#x5168;&#x5c40;&#x914d;&#x7f6e;&#xff0c;Cursor &#x4e5f;&#x652f;&#x6301;&#x9879;&#x76ee;&#x7ef4;&#x5ea6;&#x7684;&#x914d;&#x7f6e;&#xff0c;&#x4f4d;&#x4e8e; &lt;code&gt;.cursor/mcp.json&lt;/code&gt;&lt;/p&gt;&lt;h3 id=&quot;AI&#x5de5;&#x5177;&#x914d;&#x7f6e;-ChatGPT&quot;&gt;ChatGPT&lt;/h3&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://help.openai.com/en/articles/11487775-connectors-in-chatgpt&quot; rel=&quot;nofollow&quot;&gt;https://help.openai.com/en/articles/11487775-connectors-in-chatgpt&lt;/a&gt; &lt;/p&gt;&lt;p&gt;ChatGPT &#x5f53;&#x524d;&#x4ec5; Team / Pro / Enterprise &#x914d;&#x7f6e;&#x8fdc;&#x7a0b; MCP &#x670d;&#x52a1;&#xff1b;Free / Plus &#x7528;&#x6237;&#x5b8c;&#x5168;&#x4e0d;&#x652f;&#x6301;&lt;/p&gt;&lt;h3 id=&quot;AI&#x5de5;&#x5177;&#x914d;&#x7f6e;-Junie&quot;&gt;Junie&lt;/h3&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://www.jetbrains.com/help/junie/model-context-protocol-mcp.html&quot; rel=&quot;nofollow&quot;&gt;https://www.jetbrains.com/help/junie/model-context-protocol-mcp.html&lt;/a&gt; &lt;/p&gt;&lt;p&gt;Junie &#x7684; mcp &#x914d;&#x7f6e;&#x4f4d;&#x4e8e; &lt;code&gt;~/.junie/mcp/mcp.json&lt;/code&gt;&#xff0c;&#x5176;&#x5185;&#x5bb9;&#x5c31;&#x662f;&#x6807;&#x51c6;&#x7684; MCP json&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;{
+  &amp;quot;mcpServers&amp;quot;: {
+    ...
+  }
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&#x9664;&#x4e86;&#x5168;&#x5c40;&#x914d;&#x7f6e;&#xff0c;Junie &#x4e5f;&#x652f;&#x6301;&#x9879;&#x76ee;&#x7ef4;&#x5ea6;&#x7684;&#x914d;&#x7f6e;&#xff0c;&#x4f4d;&#x4e8e; &lt;code&gt;.junie/mcp/mcp.json&lt;/code&gt;&lt;/p&gt;&lt;h2 id=&quot;AI&#x5de5;&#x5177;&#x914d;&#x7f6e;-Rule&quot;&gt;Rule&lt;/h2&gt;&lt;h3 id=&quot;AI&#x5de5;&#x5177;&#x914d;&#x7f6e;-ClaudeCode.2&quot;&gt;Claude Code&lt;/h3&gt;&lt;p&gt;&#x9879;&#x76ee;&#x76ee;&#x5f55;&#x4e0b;&#x7684; &lt;code&gt;CLAUDE.md&lt;/code&gt;&#xff0c;&#x53ef;&#x4ee5;&#x5728; Claude Code &#x4e2d;&#x7528; &lt;code&gt;/init&lt;/code&gt; &#x751f;&#x6210;&lt;/p&gt;&lt;h3 id=&quot;AI&#x5de5;&#x5177;&#x914d;&#x7f6e;-Codex.2&quot;&gt;Codex&lt;/h3&gt;&lt;p&gt;&#x9879;&#x76ee;&#x76ee;&#x5f55;&#x4e0b;&#x7684; &lt;code&gt;AGENTS.md&lt;/code&gt;&#xff0c;&#x53ef;&#x4ee5;&#x5728; Codex &#x4e2d;&#x7528; &lt;code&gt;/init&lt;/code&gt; &#x751f;&#x6210;&lt;/p&gt;&lt;h3 id=&quot;AI&#x5de5;&#x5177;&#x914d;&#x7f6e;-Cursor.1&quot;&gt;Cursor&lt;/h3&gt;&lt;p&gt;&#x9879;&#x76ee;&#x6839;&#x76ee;&#x5f55;&#x4e0b;&#x7684; &lt;code&gt;.cursorrules&lt;/code&gt; &#x4e0e; &lt;code&gt;.cursor/rules&lt;/code&gt; &#x76ee;&#x5f55;&#x4e0b;&#x7684;&#x6240;&#x6709; &lt;code&gt;.mdc&lt;/code&gt; &#x6587;&#x4ef6;&lt;/p&gt;&lt;p&gt;Cursor &#x53e6;&#x5916;&#x5b58;&#x5728;&#x5168;&#x5c40;&#x89c4;&#x5219;&#x914d;&#x7f6e;&#xff0c;&#x5728; UI &#x4e2d;&#x8bbe;&#x7f6e;&#xff0c;&#x5bf9;&#x6240;&#x6709;&#x9879;&#x76ee;&#x751f;&#x6548;&lt;/p&gt;&lt;h3 id=&quot;AI&#x5de5;&#x5177;&#x914d;&#x7f6e;-Junie.1&quot;&gt;Junie&lt;/h3&gt;&lt;p&gt;&#x9879;&#x76ee;&#x76ee;&#x5f55;&#x4e0b;&#x7684; &lt;code&gt;.junie/guidelines.md&lt;/code&gt;&#xff0c;&#x53ef;&#x4ee5;&#x5728; Junie &#x4e2d;&#x9009;&#x62e9;&#x300c;Create project guidelines&#x300d;&#x8ba9; AI &#x81ea;&#x52a8;&#x521b;&#x5efa;&lt;/p&gt;&lt;p /&gt;
+    &lt;/div&gt;
+        &lt;div style=&quot;padding: 10px 0;&quot;&gt;
+       &lt;a href=&quot;https://singee.atlassian.net/wiki/spaces/MAIN/pages/255852548/AI&quot;&gt;email.notification.view.online&lt;/a&gt;
+              &amp;middot;
+       &lt;a href=&quot;https://singee.atlassian.net/wiki/pages/diffpagesbyversion.action?pageId=255852548&amp;revisedVersion=2&amp;originalVersion=1&quot;&gt;View Changes Online&lt;/a&gt;       
+                  &lt;/div&gt;
+&lt;/div&gt;</summary>
+    <dc:creator>Bryan</dc:creator>
+    <dc:date>2025-08-19T08:13:25Z</dc:date>
+  </entry>
+</feed>
