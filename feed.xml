@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>Bryan &#x7684;&#x77e5;&#x8bc6;&#x5e93;</title>
+  <link rel="alternate" href="https://singee.atlassian.net/wiki"/>
+  
+  <id>https://singee.atlassian.net/wiki</id>
+  <entry>
+    <title>Week 35 @ 2024 &#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;BFS+&#x4e8c;&#x53c9;&#x6811;&#x3011;</title>
+    <link rel="alternate" href="https://singee.atlassian.net/wiki/spaces/MAIN/pages/288292915/Week+35+2024+BFS"/>
+    <author>
+      <name>Bryan</name>
+    </author>
+    <id>tag:singee.atlassian.net,2009:page-288292915-1</id>
+    <updated>2025-08-31T15:44:14Z</updated>
+    <published>2025-08-31T15:44:14Z</published>
+    <summary type="html">&lt;div class=&quot;feed&quot;&gt;    &lt;p&gt;
+                        Live doc
+                    &lt;b&gt;added&lt;/b&gt; by
+                &lt;a  &gt;Bryan&lt;/a&gt;
+            &lt;/p&gt;
+        &lt;div style=&quot;border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 10px;&quot;&gt;
+        &lt;style type=&apos;text/css&apos;&gt;/*&lt;![CDATA[*/
+div.rbtoc1757118531259 {padding: 0px;}
+div.rbtoc1757118531259 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1757118531259 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]&gt;*/&lt;/style&gt;&lt;div class=&apos;toc-macro rbtoc1757118531259&apos;&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week35@2024&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;BFS+&#x4e8c;&#x53c9;&#x6811;&#x3011;-BFS&apos;&gt;BFS&lt;/a&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week35@2024&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;BFS+&#x4e8c;&#x53c9;&#x6811;&#x3011;-LC111.MinimumDepthofBinaryTree&#x4e8c;&#x53c9;&#x6811;&#x7684;&#x6700;&#x5c0f;&#x6df1;&#x5ea6;&apos;&gt;LC 111. Minimum Depth of Binary Tree &#x4e8c;&#x53c9;&#x6811;&#x7684;&#x6700;&#x5c0f;&#x6df1;&#x5ea6;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week35@2024&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;BFS+&#x4e8c;&#x53c9;&#x6811;&#x3011;-LC752.OpentheLock&#x6253;&#x5f00;&#x8f6c;&#x76d8;&#x9501;&apos;&gt;LC 752. Open the Lock &#x6253;&#x5f00;&#x8f6c;&#x76d8;&#x9501;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week35@2024&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;BFS+&#x4e8c;&#x53c9;&#x6811;&#x3011;-&#x4e8c;&#x53c9;&#x6811;&apos;&gt;&#x4e8c;&#x53c9;&#x6811;&lt;/a&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week35@2024&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;BFS+&#x4e8c;&#x53c9;&#x6811;&#x3011;-LC144.BinaryTreePreorderTraversal&#x4e8c;&#x53c9;&#x6811;&#x7684;&#x524d;&#x5e8f;&#x904d;&#x5386;&apos;&gt;LC 144. Binary Tree Preorder Traversal &#x4e8c;&#x53c9;&#x6811;&#x7684;&#x524d;&#x5e8f;&#x904d;&#x5386;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week35@2024&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;BFS+&#x4e8c;&#x53c9;&#x6811;&#x3011;-LC543.DiameterofBinaryTree&#x4e8c;&#x53c9;&#x6811;&#x7684;&#x76f4;&#x5f84;&apos;&gt;LC 543. Diameter of Binary Tree &#x4e8c;&#x53c9;&#x6811;&#x7684;&#x76f4;&#x5f84;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week35@2024&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;BFS+&#x4e8c;&#x53c9;&#x6811;&#x3011;-LC104.MaximumDepthofBinaryTree&#x4e8c;&#x53c9;&#x6811;&#x7684;&#x6700;&#x5927;&#x6df1;&#x5ea6;&apos;&gt;LC 104. Maximum Depth of Binary Tree &#x4e8c;&#x53c9;&#x6811;&#x7684;&#x6700;&#x5927;&#x6df1;&#x5ea6;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;h2 id=&quot;Week35@2024&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;BFS+&#x4e8c;&#x53c9;&#x6811;&#x3011;-BFS&quot;&gt;BFS&lt;/h2&gt;&lt;h3 id=&quot;Week35@2024&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;BFS+&#x4e8c;&#x53c9;&#x6811;&#x3011;-LC111.MinimumDepthofBinaryTree&#x4e8c;&#x53c9;&#x6811;&#x7684;&#x6700;&#x5c0f;&#x6df1;&#x5ea6;&quot;&gt;LC 111. Minimum Depth of Binary Tree &#x4e8c;&#x53c9;&#x6811;&#x7684;&#x6700;&#x5c0f;&#x6df1;&#x5ea6;&lt;/h3&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/minimum-depth-of-binary-tree/&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/minimum-depth-of-binary-tree/&lt;/a&gt; &lt;/p&gt;&lt;p&gt;&lt;strong&gt;DFS &#x89e3;&#x6cd5;&lt;/strong&gt;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;/**
+ * Definition for a binary tree node.
+ * type TreeNode struct {
+ *     Val int
+ *     Left *TreeNode
+ *     Right *TreeNode
+ * }
+ */
+func minDepth(root *TreeNode) int {
+    if root == nil {
+        return 0
+    }
+    
+    return dfs(root)
+}
+
+func dfs(root *TreeNode) int {
+    if root.Left == nil &amp;amp;&amp;amp; root.Right == nil {
+        return 1
+    }
+    
+    if root.Left == nil {
+        return dfs(root.Right) + 1
+    }
+    if root.Right == nil {
+        return dfs(root.Left) + 1
+    }
+
+    return min(dfs(root.Left), dfs(root.Right)) + 1
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;BFS &#x89e3;&#x6cd5;&lt;/strong&gt;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;/**
+ * Definition for a binary tree node.
+ * type TreeNode struct {
+ *     Val int
+ *     Left *TreeNode
+ *     Right *TreeNode
+ * }
+ */
+func minDepth(root *TreeNode) int {
+    if root == nil {
+        return 0
+    }
+    
+    q := make([]*TreeNode, 0, 10_0000)
+    
+    q = append(q, root)
+    depth := 1
+    
+    for len(q) &amp;gt; 0 {
+        sz := len(q)
+        
+        for i := 0; i &amp;lt; sz; i++ {
+            node := q[i]
+            
+            if node.Left == nil &amp;amp;&amp;amp; node.Right == nil {
+                return depth
+            }
+            
+            if node.Left != nil {
+                q = append(q, node.Left)
+            }
+            if node.Right != nil {
+                q = append(q, node.Right)
+            }
+        }
+        
+        depth++
+        q = q[sz:]
+    }
+    
+    
+    panic(&amp;quot;impossible&amp;quot;)
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;BFS &#x8fdb;&#x4e00;&#x6b65;&#x4f18;&#x5316;&#x7a7a;&#x95f4;&#x5360;&#x7528;&lt;/strong&gt;&lt;br/&gt;&#x5728; Go &#x4e2d;&#xff0c;&#x5982;&#x679c;&#x91c7;&#x7528; &lt;code&gt;q = q[x:]&lt;/code&gt; &#x8fd9;&#x79cd;&#x5199;&#x6cd5;&#xff0c;&#x4f1a;&#x5bfc;&#x81f4;&#x524d; x &#x4e2a;&#x7684;&#x5185;&#x5b58;&#x65e0;&#x6cd5;&#x91ca;&#x653e;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;/**
+ * Definition for a binary tree node.
+ * type TreeNode struct {
+ *     Val int
+ *     Left *TreeNode
+ *     Right *TreeNode
+ * }
+ */
+func minDepth(root *TreeNode) int {
+    if root == nil {
+        return 0
+    }
+    
+    var q []*TreeNode
+    
+    q = append(q, root)
+    depth := 1
+    
+    for len(q) &amp;gt; 0 {
+        sz := len(q)
+        qq := q
+        q = nil
+        
+        for i := 0; i &amp;lt; sz; i++ {
+            node := qq[i]
+            
+            if node.Left == nil &amp;amp;&amp;amp; node.Right == nil {
+                return depth
+            }
+            
+            if node.Left != nil {
+                q = append(q, node.Left)
+            }
+            if node.Right != nil {
+                q = append(q, node.Right)
+            }
+        }
+        
+        depth++
+    }
+    
+    
+    panic(&amp;quot;impossible&amp;quot;)
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 id=&quot;Week35@2024&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;BFS+&#x4e8c;&#x53c9;&#x6811;&#x3011;-LC752.OpentheLock&#x6253;&#x5f00;&#x8f6c;&#x76d8;&#x9501;&quot;&gt;LC 752. Open the Lock &#x6253;&#x5f00;&#x8f6c;&#x76d8;&#x9501;&lt;/h3&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/open-the-lock/&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/open-the-lock/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func openLock(deadends []string, target string) int {
+    var q []string
+    visited := make(map[string]bool)
+    
+    for _, x := range deadends {
+        visited[x] = true
+    } 
+    
+    if visited[&amp;quot;0000&amp;quot;] {
+        return -1
+    }
+    
+    q = append(q, &amp;quot;0000&amp;quot;)
+    visited[&amp;quot;0000&amp;quot;] = true
+    
+    step := 0
+    for len(q) &amp;gt; 0 {
+        qq := q
+        q = nil
+        
+        for _, node := range qq {
+            if node == target {
+                return step
+            }
+                        
+            for _, next := range getNext(node) {
+                if visited[next] {
+                    continue
+                }
+                
+                q = append(q, next)
+                visited[next] = true
+            }
+        }
+        
+        step++
+    }
+    
+    
+    return -1
+}
+
+func getNext(node string) []string {
+    result := make([]string, 0, 8)
+    
+    nb := []byte(node)
+    
+    add := func(i, x int) {
+        v := (int(nb[i] - &amp;#39;0&amp;#39;) + x + 10) % 10
+        
+        nb[i] = &amp;#39;0&amp;#39; + byte(v)
+    }
+    
+    for i := 0; i &amp;lt; 4; i++ {
+        add(i, 1)
+        result = append(result, string(nb))
+        add(i, -2)
+        result = append(result, string(nb))
+        add(i, 1)
+    }
+    
+    return result
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;&#x4f18;&#x5316;&#xff1a;&#x53cc;&#x5411; BFS&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&#x5934;&#x5c3e;&#x540c;&#x65f6;&#x904d;&#x5386;&#xff08;&#x5b9e;&#x9645;&#x4ee3;&#x7801;&#x4e0a;&#x662f;&#x904d;&#x5386;&#x4e00;&#x7aef;&#x5b8c;&#x518d;&#x904d;&#x5386;&#x53e6;&#x4e00;&#x7aef;&#xff09;&#xff0c;&#x51fa;&#x73b0;&#x4ea4;&#x96c6;&#x65f6;&#x8fd4;&#x56de;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func openLock(deadends []string, target string) int {
+    visited := make(map[string]bool)
+    for _, x := range deadends {
+        visited[x] = true
+    } 
+    
+    if visited[&amp;quot;0000&amp;quot;] {
+        return -1
+    }
+    
+    q1 := make(map[string]bool)
+    q2 := make(map[string]bool)
+    
+    q1[&amp;quot;0000&amp;quot;] = true
+    q2[target] = true
+    
+    step := 0
+    for len(q1) &amp;gt; 0 &amp;amp;&amp;amp; len(q2) &amp;gt; 0 {
+        temp := make(map[string]bool)
+        
+        for node := range q1 {
+            if q2[node] {
+                return step
+            }
+            
+            visited[node] = true
+                        
+            for _, next := range getNext(node) {
+                if visited[next] {
+                    continue
+                }
+                
+                temp[next] = true
+            }
+        }
+        
+        step++
+        q1, q2 = q2, temp
+    }
+    
+    
+    return -1
+}
+
+func getNext(node string) []string {
+    result := make([]string, 0, 8)
+    
+    nb := []byte(node)
+    
+    add := func(i, x int) {
+        v := (int(nb[i] - &amp;#39;0&amp;#39;) + x + 10) % 10
+        
+        nb[i] = &amp;#39;0&amp;#39; + byte(v)
+    }
+    
+    for i := 0; i &amp;lt; 4; i++ {
+        add(i, 1)
+        result = append(result, string(nb))
+        add(i, -2)
+        result = append(result, string(nb))
+        add(i, 1)
+    }
+    
+    return result
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h2 id=&quot;Week35@2024&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;BFS+&#x4e8c;&#x53c9;&#x6811;&#x3011;-&#x4e8c;&#x53c9;&#x6811;&quot;&gt;&#x4e8c;&#x53c9;&#x6811;&lt;/h2&gt;&lt;span class=&quot;confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size&quot;&gt;&lt;img class=&quot;confluence-embedded-image image-center&quot; alt=&quot;image-20241117-155444.png&quot; width=&quot;760&quot; loading=&quot;lazy&quot; src=&quot;https://singee.atlassian.net/wiki/download/thumbnails/288292915/image-20241117-155444.png?version=1&amp;amp;modificationDate=1756655024225&amp;amp;cacheVersion=1&amp;amp;api=v2&amp;amp;width=760&quot; data-image-src=&quot;https://singee.atlassian.net/wiki/download/attachments/288292915/image-20241117-155444.png?version=1&amp;amp;modificationDate=1756655024225&amp;amp;cacheVersion=1&amp;amp;api=v2&quot; data-height=&quot;1389&quot; data-width=&quot;1080&quot; data-unresolved-comment-count=&quot;0&quot; data-linked-resource-id=&quot;288849939&quot; data-linked-resource-version=&quot;1&quot; data-linked-resource-type=&quot;attachment&quot; data-linked-resource-default-alias=&quot;image-20241117-155444.png&quot; data-base-url=&quot;https://singee.atlassian.net/wiki&quot; data-linked-resource-content-type=&quot;image/png&quot; data-linked-resource-container-id=&quot;288292915&quot; data-linked-resource-container-version=&quot;1&quot; data-media-id=&quot;da2f836c-c36a-4248-b6cb-903e3f033efc&quot; data-media-type=&quot;file&quot;&gt;&lt;/span&gt;&lt;h3 id=&quot;Week35@2024&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;BFS+&#x4e8c;&#x53c9;&#x6811;&#x3011;-LC144.BinaryTreePreorderTraversal&#x4e8c;&#x53c9;&#x6811;&#x7684;&#x524d;&#x5e8f;&#x904d;&#x5386;&quot;&gt;LC 144. Binary Tree Preorder Traversal &#x4e8c;&#x53c9;&#x6811;&#x7684;&#x524d;&#x5e8f;&#x904d;&#x5386;&lt;/h3&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/binary-tree-preorder-traversal/description/&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/binary-tree-preorder-traversal/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;/**
+ * Definition for a binary tree node.
+ * type TreeNode struct {
+ *     Val int
+ *     Left *TreeNode
+ *     Right *TreeNode
+ * }
+ */
+func preorderTraversal(root *TreeNode) (result []int) {
+    var traverse func(node *TreeNode)
+    traverse = func(node *TreeNode) {
+        if node == nil {
+            return
+        }
+        
+        result = append(result, node.Val)
+        traverse(node.Left)
+        traverse(node.Right)
+    }
+    
+    traverse(root)
+    return
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 id=&quot;Week35@2024&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;BFS+&#x4e8c;&#x53c9;&#x6811;&#x3011;-LC543.DiameterofBinaryTree&#x4e8c;&#x53c9;&#x6811;&#x7684;&#x76f4;&#x5f84;&quot;&gt;LC 543. Diameter of Binary Tree &#x4e8c;&#x53c9;&#x6811;&#x7684;&#x76f4;&#x5f84;&lt;/h3&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/diameter-of-binary-tree/description/&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/diameter-of-binary-tree/description/&lt;/a&gt; &lt;/p&gt;&lt;p&gt;&#x4e8c;&#x53c9;&#x6811;&#x7684;&#x76f4;&#x5f84;&#x5b9a;&#x4e49;&#xff1a;&#x4e8c;&#x53c9;&#x6811;&#x4e2d;&#x4efb;&#x610f;&#x4e24;&#x4e2a;&#x8282;&#x70b9;&#x7684;&#x6700;&#x5927;&#x8ddd;&#x79bb;&#xff08;&#x8fb9;&#x6570;&#xff09;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;/**
+ * Definition for a binary tree node.
+ * type TreeNode struct {
+ *     Val int
+ *     Left *TreeNode
+ *     Right *TreeNode
+ * }
+ */
+func diameterOfBinaryTree(root *TreeNode) (diameter int) {
+    traverse(root, &amp;amp;diameter)
+    return
+}
+
+func traverse(root *TreeNode, diameter *int) int {
+    if root == nil {
+        return 0
+    }
+    
+    leftCount := traverse(root.Left, diameter)
+    rightCount := traverse(root.Right, diameter)
+    
+    *diameter = max(*diameter, leftCount + rightCount + 1)
+    
+    return max(leftCount, rightCount) + 1
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 id=&quot;Week35@2024&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;BFS+&#x4e8c;&#x53c9;&#x6811;&#x3011;-LC104.MaximumDepthofBinaryTree&#x4e8c;&#x53c9;&#x6811;&#x7684;&#x6700;&#x5927;&#x6df1;&#x5ea6;&quot;&gt;LC 104. Maximum Depth of Binary Tree &#x4e8c;&#x53c9;&#x6811;&#x7684;&#x6700;&#x5927;&#x6df1;&#x5ea6;&lt;/h3&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/maximum-depth-of-binary-tree/description/&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/maximum-depth-of-binary-tree/description/&lt;/a&gt; &lt;/p&gt;&lt;p&gt;&#x6df1;&#x5ea6;&#xff1a;&#x4ece;&#x6839;&#x8282;&#x70b9;&#x5230;&#x53f6;&#x5b50;&#x7ed3;&#x70b9;&#x7684;&#x6700;&#x957f;&#x8282;&#x70b9;&#x6570;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;/**
+ * Definition for a binary tree node.
+ * type TreeNode struct {
+ *     Val int
+ *     Left *TreeNode
+ *     Right *TreeNode
+ * }
+ */
+func maxDepth(root *TreeNode) int {
+    if root == nil {
+        return 0
+    }
+    
+    return max(maxDepth(root.Left), maxDepth(root.Right)) + 1
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p /&gt;
+    &lt;/div&gt;
+        &lt;div style=&quot;padding: 10px 0;&quot;&gt;
+       &lt;a href=&quot;https://singee.atlassian.net/wiki/spaces/MAIN/pages/288292915/Week+35+2024+BFS&quot;&gt;email.notification.view.online&lt;/a&gt;
+                  &lt;/div&gt;
+&lt;/div&gt;</summary>
+    <dc:creator>Bryan</dc:creator>
+    <dc:date>2025-08-31T15:44:14Z</dc:date>
+  </entry>
+  <entry>
+    <title>React UI &#x5e93;</title>
+    <link rel="alternate" href="https://singee.atlassian.net/wiki/spaces/MAIN/pages/259096582/React+UI"/>
+    <author>
+      <name>Bryan</name>
+    </author>
+    <id>tag:singee.atlassian.net,2009:page-259096582-4</id>
+    <updated>2025-08-31T08:15:17Z</updated>
+    <published>2025-08-31T08:15:17Z</published>
+    <summary type="html">&lt;div class=&quot;feed&quot;&gt;    &lt;p&gt;
+                        Live doc
+                    &lt;b&gt;edited&lt;/b&gt; by
+                &lt;a  &gt;Bryan&lt;/a&gt;
+             - &quot;Autosaved&quot;
+        &lt;/p&gt;
+        &lt;div style=&quot;border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 10px;&quot;&gt;
+        &lt;style type=&apos;text/css&apos;&gt;/*&lt;![CDATA[*/
+div.rbtoc1757118531280 {padding: 0px;}
+div.rbtoc1757118531280 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1757118531280 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]&gt;*/&lt;/style&gt;&lt;div class=&apos;toc-macro rbtoc1757118531280&apos;&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#ReactUI&#x5e93;-&#x57fa;&#x7840;/&#x65e0;&#x6837;&#x5f0f;&apos;&gt;&#x57fa;&#x7840; / &#x65e0;&#x6837;&#x5f0f;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#ReactUI&#x5e93;-UI&#x5e93;/&#x7ec4;&#x4ef6;&#x5e93;&apos;&gt;UI &#x5e93; / &#x7ec4;&#x4ef6;&#x5e93;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#ReactUI&#x5e93;-&#x7ec4;&#x4ef6;&#x5e93;&#xff08;shadcn/copy-paste&#x5f62;&#x5f0f;&#xff09;&apos;&gt;&#x7ec4;&#x4ef6;&#x5e93;&#xff08;shadcn / copy-paste &#x5f62;&#x5f0f;&#xff09;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#ReactUI&#x5e93;-&#x7279;&#x5b9a;&#x7528;&#x9014;&#x7ec4;&#x4ef6;&#x5e93;&apos;&gt;&#x7279;&#x5b9a;&#x7528;&#x9014;&#x7ec4;&#x4ef6;&#x5e93;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#ReactUI&#x5e93;-&#x652f;&#x6301;/&#x5de5;&#x5177;&#x5e93;&apos;&gt;&#x652f;&#x6301; / &#x5de5;&#x5177;&#x5e93;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#ReactUI&#x5e93;-&#x8def;&#x7531;&apos;&gt;&#x8def;&#x7531;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;h2 id=&quot;ReactUI&#x5e93;-&#x57fa;&#x7840;/&#x65e0;&#x6837;&#x5f0f;&quot;&gt;&#x57fa;&#x7840; / &#x65e0;&#x6837;&#x5f0f;&lt;/h2&gt;&lt;p&gt;&#x8001;&#x724c; &lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://www.radix-ui.com/primitives&quot; rel=&quot;nofollow&quot;&gt;https://www.radix-ui.com/primitives&lt;/a&gt; &#xff08;&#x4f46;&#x4f3c;&#x4e4e;&#x5f00;&#x53d1;&#x5df2;&#x7ecf;&#x505c;&#x6ede;&#x4e86;&#xff09;&lt;/p&gt;&lt;p&gt;&#x540e;&#x7ee7; &lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://base-ui.com/&quot; rel=&quot;nofollow&quot;&gt;https://base-ui.com/&lt;/a&gt; &lt;/p&gt;&lt;p&gt;&#x53ef;&#x80fd;&#x8fd8;&#x6709;&#x4ef7;&#x503c;&#x7684;&#x51e0;&#x4e2a;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://react-spectrum.adobe.com/react-aria/index.html&quot; rel=&quot;nofollow&quot;&gt;https://react-spectrum.adobe.com/react-aria/index.html&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://headlessui.com/&quot; rel=&quot;nofollow&quot;&gt;https://headlessui.com/&lt;/a&gt; &#xff08;Tailwind &#x505a;&#x7684;&#xff0c;&#x57fa;&#x672c;&#x5df2;&#x5e9f;&#x5f03;&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; href=&quot;https://tailwindcss.com/plus/ui-blocks/documentation/elements&quot; rel=&quot;nofollow&quot;&gt;Tailwind Elements&lt;/a&gt; &#xff08;Tailwind &#x4e3a; Plus &#x505a;&#x7684;&#xff0c;&#x4ed8;&#x8d39;&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://ariakit.org/&quot; rel=&quot;nofollow&quot;&gt;https://ariakit.org/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h2 id=&quot;ReactUI&#x5e93;-UI&#x5e93;/&#x7ec4;&#x4ef6;&#x5e93;&quot;&gt;UI &#x5e93; / &#x7ec4;&#x4ef6;&#x5e93;&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://www.heroui.com/&quot; rel=&quot;nofollow&quot;&gt;https://www.heroui.com/&lt;/a&gt; &#xff08;&#x57fa;&#x4e8e; Tailwind CSS&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://mantine.dev/&quot; rel=&quot;nofollow&quot;&gt;https://mantine.dev/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://chakra-ui.com/&quot; rel=&quot;nofollow&quot;&gt;https://chakra-ui.com/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://mui.com/&quot; rel=&quot;nofollow&quot;&gt;https://mui.com/&lt;/a&gt; &#xff08;Material Design 2&#xff0c;&#x4f46;&#x662f;&#x53ef;&#x4ee5;&#x81ea;&#x5b9a;&#x4e49;&#x4e3b;&#x9898;&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://daisyui.com/&quot; rel=&quot;nofollow&quot;&gt;https://daisyui.com/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://ui.aceternity.com/&quot; rel=&quot;nofollow&quot;&gt;https://ui.aceternity.com/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://magicui.design/&quot; rel=&quot;nofollow&quot;&gt;https://magicui.design/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://primereact.org/&quot; rel=&quot;nofollow&quot;&gt;https://primereact.org/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://blueprintjs.com/&quot; rel=&quot;nofollow&quot;&gt;https://blueprintjs.com/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://www.radix-ui.com/&quot; rel=&quot;nofollow&quot;&gt;https://www.radix-ui.com/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://react-spectrum.adobe.com/react-spectrum/index.html&quot; rel=&quot;nofollow&quot;&gt;https://react-spectrum.adobe.com/react-spectrum/index.html&lt;/a&gt;   &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://gluestack.io/&quot; rel=&quot;nofollow&quot;&gt;https://gluestack.io/&lt;/a&gt; &#xff08;&#x652f;&#x6301; React Native&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://ionicframework.com/&quot; rel=&quot;nofollow&quot;&gt;https://ionicframework.com/&lt;/a&gt; &#xff08;&#x8de8;&#x7aef;&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; href=&quot;https://flowbite.com/&quot; rel=&quot;nofollow&quot;&gt;https://flowbite.com/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://flowbite-react.com/&quot; rel=&quot;nofollow&quot;&gt;https://flowbite-react.com/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&#x7279;&#x5b9a;&#x7528;&#x9014;&#x7684; / &#x8fc7;&#x65f6;&#x7684;&#x7684;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://ant.design/&quot; rel=&quot;nofollow&quot;&gt;https://ant.design/&lt;/a&gt;&#xff08;&#x5df2;&#x652f;&#x6301;&#x81ea;&#x5b9a;&#x4e49;&#x6837;&#x5f0f;&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; href=&quot;https://atlaskit.atlassian.com/&quot; rel=&quot;nofollow&quot;&gt;https://atlaskit.atlassian.com/&lt;/a&gt; &lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://atlassian.design/&quot; rel=&quot;nofollow&quot;&gt;https://atlassian.design/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://react-bootstrap.netlify.app/&quot; rel=&quot;nofollow&quot;&gt;https://react-bootstrap.netlify.app/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://react.semantic-ui.com/&quot; rel=&quot;nofollow&quot;&gt;https://react.semantic-ui.com/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://js.devexpress.com/React/Demos/WidgetsGallery/&quot; rel=&quot;nofollow&quot;&gt;https://js.devexpress.com/React/Demos/WidgetsGallery/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&#x516c;&#x53f8;&#x5f00;&#x6e90;&#x81ea;&#x5df1;&#x98ce;&#x683c;&#x7684; UI &#x5e93;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://react.fluentui.dev/&quot; rel=&quot;nofollow&quot;&gt;https://react.fluentui.dev/&lt;/a&gt; &#xff08;&#x5fae;&#x8f6f;&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://evergreen.segment.com/&quot; rel=&quot;nofollow&quot;&gt;https://evergreen.segment.com/&lt;/a&gt;&#xff08;Segment&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://eui.elastic.co/#/&quot; rel=&quot;nofollow&quot;&gt;https://eui.elastic.co/#/&lt;/a&gt; &#xff08;Elasticsearch&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://vercel.com/geist/introduction&quot; rel=&quot;nofollow&quot;&gt;https://vercel.com/geist/introduction&lt;/a&gt; &#xff08;Vercel&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://supabase.com/ui&quot; rel=&quot;nofollow&quot;&gt;https://supabase.com/ui&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://semi.design/&quot; rel=&quot;nofollow&quot;&gt;https://semi.design/&lt;/a&gt; &#xff08;&#x6296;&#x97f3;&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://carbondesignsystem.com/&quot; rel=&quot;nofollow&quot;&gt;https://carbondesignsystem.com/&lt;/a&gt; &#xff08;IBM&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://orbit.kiwi/&quot; rel=&quot;nofollow&quot;&gt;https://orbit.kiwi/&lt;/a&gt; &#xff08;Kiwi&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&#x7279;&#x6b8a;&#x98ce;&#x683c;&#x7684;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://react95.io/#&quot; rel=&quot;nofollow&quot;&gt;https://react95.io/#&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h2 id=&quot;ReactUI&#x5e93;-&#x7ec4;&#x4ef6;&#x5e93;&#xff08;shadcn/copy-paste&#x5f62;&#x5f0f;&#xff09;&quot;&gt;&#x7ec4;&#x4ef6;&#x5e93;&#xff08;shadcn / copy-paste &#x5f62;&#x5f0f;&#xff09;&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&#x57fa;&#x4e8e; Tailwind CSS&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&#x57fa;&#x4e8e; &lt;a class=&quot;external-link&quot; href=&quot;https://tailwindcss.com/plus/ui-blocks/documentation/elements&quot; rel=&quot;nofollow&quot;&gt;Elements&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://tailwindcss.com/plus&quot; rel=&quot;nofollow&quot;&gt;https://tailwindcss.com/plus&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&#x57fa;&#x4e8e; Base UI&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://www.9ui.dev/&quot; rel=&quot;nofollow&quot;&gt;https://www.9ui.dev/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://basecn.dev/&quot; rel=&quot;nofollow&quot;&gt;https://basecn.dev/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://reui.io/&quot; rel=&quot;nofollow&quot;&gt;https://reui.io/&lt;/a&gt; &#xff08;&#x90e8;&#x5206;&#x7ec4;&#x4ef6;&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&#x57fa;&#x4e8e; Radix UI&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://ui.shadcn.com/&quot; rel=&quot;nofollow&quot;&gt;https://ui.shadcn.com/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://originui.com/&quot; rel=&quot;nofollow&quot;&gt;https://originui.com/&lt;/a&gt; &#xff08;&#x57fa;&#x4e8e; shadcn/ui&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://tremor.so/&quot; rel=&quot;nofollow&quot;&gt;https://tremor.so/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://reui.io/&quot; rel=&quot;nofollow&quot;&gt;https://reui.io/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&#x57fa;&#x4e8e; React Aria&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; href=&quot;https://www.untitledui.com/react/docs/introduction&quot; rel=&quot;nofollow&quot;&gt;Untitled UI&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&#x5229;&#x7528;&#x4e86;&#x591a;&#x79cd;&#x57fa;&#x7840;&#x7ec4;&#x4ef6;&#x63d0;&#x4f9b;&#x5546;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://animate-ui.com/&quot; rel=&quot;nofollow&quot;&gt;https://animate-ui.com/&lt;/a&gt; &#xff08;&#x57fa;&#x4e8e; Radix UI / Base UI / Headless UI&#xff1b;&#x52a0;&#x4e86;&#x52a8;&#x753b;&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&#x57fa;&#x4e8e; Panda CSS&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://ark-ui.com/&quot; rel=&quot;nofollow&quot;&gt;https://ark-ui.com/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://park-ui.com/&quot; rel=&quot;nofollow&quot;&gt;https://park-ui.com/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h2 id=&quot;ReactUI&#x5e93;-&#x7279;&#x5b9a;&#x7528;&#x9014;&#x7ec4;&#x4ef6;&#x5e93;&quot;&gt;&#x7279;&#x5b9a;&#x7528;&#x9014;&#x7ec4;&#x4ef6;&#x5e93;&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://www.searchkit.co/&quot; rel=&quot;nofollow&quot;&gt;https://www.searchkit.co/&lt;/a&gt; &#xff08;&#x641c;&#x7d22;&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://reactbits.dev/&quot; rel=&quot;nofollow&quot;&gt;https://reactbits.dev/&lt;/a&gt; &#xff08;&#x5404;&#x79cd;&#x70ab;&#x9177;&#x52a8;&#x753b;&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h2 id=&quot;ReactUI&#x5e93;-&#x652f;&#x6301;/&#x5de5;&#x5177;&#x5e93;&quot;&gt;&#x652f;&#x6301; / &#x5de5;&#x5177;&#x5e93;&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://ui.shadcn.com/&quot; rel=&quot;nofollow&quot;&gt;https://ui.shadcn.com/&lt;/a&gt; &#xff08;&#x867d;&#x7136;&#x5b83;&#x662f;&#x4e2a;&#x7ec4;&#x4ef6;&#x5e93;&#xff0c;&#x4f46;&#x4e5f;&#x53ef;&#x4ee5;&#x4e0d;&#x4f7f;&#x7528;&#x5b83;&#x7684;&#x7ec4;&#x4ef6;&#x800c;&#x662f;&#x7528;&#x5b83;&#x7684;&#x5de5;&#x5177;&#x5b89;&#x88c5;&#x5176;&#x4ed6;&#x7ec4;&#x4ef6;&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://github.com/lukeed/clsx&quot; rel=&quot;nofollow&quot;&gt;https://github.com/lukeed/clsx&lt;/a&gt;  &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://github.com/dcastil/tailwind-merge&quot; rel=&quot;nofollow&quot;&gt;https://github.com/dcastil/tailwind-merge&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://zagjs.com/&quot; rel=&quot;nofollow&quot;&gt;https://zagjs.com/&lt;/a&gt;  &#x7b80;&#x5316;&#x590d;&#x6742;&#x7684; UI &#x903b;&#x8f91;&#x5b9a;&#x4e49;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;CSS in JS&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://styled-components.com/&quot; rel=&quot;nofollow&quot;&gt;https://styled-components.com/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://emotion.sh/docs/introduction&quot; rel=&quot;nofollow&quot;&gt;https://emotion.sh/docs/introduction&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://panda-css.com/&quot; rel=&quot;nofollow&quot;&gt;https://panda-css.com/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://compiledcssinjs.com/&quot; rel=&quot;nofollow&quot;&gt;https://compiledcssinjs.com/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Hooks&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://react-spectrum.adobe.com/react-aria/hooks.html&quot; rel=&quot;nofollow&quot;&gt;https://react-spectrum.adobe.com/react-aria/hooks.html&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h2 id=&quot;ReactUI&#x5e93;-&#x8def;&#x7531;&quot;&gt;&#x8def;&#x7531;&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://reactrouter.com/&quot; rel=&quot;nofollow&quot;&gt;https://reactrouter.com/&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://tanstack.com/router/latest&quot; rel=&quot;nofollow&quot;&gt;https://tanstack.com/router/latest&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p /&gt;
+    &lt;/div&gt;
+        &lt;div style=&quot;padding: 10px 0;&quot;&gt;
+       &lt;a href=&quot;https://singee.atlassian.net/wiki/spaces/MAIN/pages/259096582/React+UI&quot;&gt;email.notification.view.online&lt;/a&gt;
+              &amp;middot;
+       &lt;a href=&quot;https://singee.atlassian.net/wiki/pages/diffpagesbyversion.action?pageId=259096582&amp;revisedVersion=4&amp;originalVersion=3&quot;&gt;View Changes Online&lt;/a&gt;       
+                  &lt;/div&gt;
+&lt;/div&gt;</summary>
+    <dc:creator>Bryan</dc:creator>
+    <dc:date>2025-08-31T08:15:17Z</dc:date>
+  </entry>
+</feed>
