@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>Bryan &#x7684;&#x77e5;&#x8bc6;&#x5e93;</title>
+  <link rel="alternate" href="https://singee.atlassian.net/wiki"/>
+  
+  <id>https://singee.atlassian.net/wiki</id>
+  <entry>
+    <title>Week 37 @ 2025 &#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;</title>
+    <link rel="alternate" href="https://singee.atlassian.net/wiki/spaces/MAIN/pages/329973805/Week+37+2025"/>
+    <author>
+      <name>Bryan</name>
+    </author>
+    <id>tag:singee.atlassian.net,2009:page-329973805-1</id>
+    <updated>2025-09-14T15:59:18Z</updated>
+    <published>2025-09-14T15:59:18Z</published>
+    <summary type="html">&lt;div class=&quot;feed&quot;&gt;    &lt;p&gt;
+                        Live doc
+                    &lt;b&gt;added&lt;/b&gt; by
+                &lt;a  &gt;Bryan&lt;/a&gt;
+            &lt;/p&gt;
+        &lt;div style=&quot;border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 10px;&quot;&gt;
+        &lt;style type=&apos;text/css&apos;&gt;/*&lt;![CDATA[*/
+div.rbtoc1758328121657 {padding: 0px;}
+div.rbtoc1758328121657 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1758328121657 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]&gt;*/&lt;/style&gt;&lt;div class=&apos;toc-macro rbtoc1758328121657&apos;&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week37@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-&#x4e8c;&#x5206;&#x641c;&#x7d22;&apos;&gt;&#x4e8c;&#x5206;&#x641c;&#x7d22;&lt;/a&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week37@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC704.BinarySearch&#x4e8c;&#x5206;&#x67e5;&#x627e;&apos;&gt;LC 704. Binary Search &#x4e8c;&#x5206;&#x67e5;&#x627e;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week37@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC34.FindFirstandLastPositionofElementinSortedArray&#x5728;&#x6392;&#x5e8f;&#x6570;&#x7ec4;&#x4e2d;&#x627e;&#x5143;&#x7d20;&#x7684;&#x7b2c;&#x4e00;&#x4e2a;&#x548c;&#x6700;&#x540e;&#x4e00;&#x4e2a;&#x4f4d;&#x7f6e;&apos;&gt;LC 34. Find First and Last Position of Element in Sorted Array &#x5728;&#x6392;&#x5e8f;&#x6570;&#x7ec4;&#x4e2d;&#x627e;&#x5143;&#x7d20;&#x7684;&#x7b2c;&#x4e00;&#x4e2a;&#x548c;&#x6700;&#x540e;&#x4e00;&#x4e2a;&#x4f4d;&#x7f6e;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week37@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC875.KokoEatingBananas&#x7231;&#x5403;&#x9999;&#x8549;&#x7684;&#x73c2;&#x73c2;&apos;&gt;LC 875. Koko Eating Bananas &#x7231;&#x5403;&#x9999;&#x8549;&#x7684;&#x73c2;&#x73c2;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week37@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC1011.CapacityToShipPackagesWithinDDays&#x5728;D&#x5929;&#x5185;&#x9001;&#x8fbe;&#x5305;&#x88f9;&#x7684;&#x80fd;&#x529b;&apos;&gt;LC 1011. Capacity To Ship Packages Within D Days &#x5728; D &#x5929;&#x5185;&#x9001;&#x8fbe;&#x5305;&#x88f9;&#x7684;&#x80fd;&#x529b;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week37@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC410.SplitArrayLargestSum&#x5206;&#x5272;&#x6570;&#x7ec4;&#x7684;&#x6700;&#x5927;&#x503c;&apos;&gt;LC 410. Split Array Largest Sum &#x5206;&#x5272;&#x6570;&#x7ec4;&#x7684;&#x6700;&#x5927;&#x503c;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week37@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC566.ReshapetheMatrix&#x91cd;&#x5851;&#x77e9;&#x9635;&apos;&gt;LC 566. Reshape the Matrix &#x91cd;&#x5851;&#x77e9;&#x9635;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week37@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC74.Searcha2DMatrix&#x641c;&#x7d22;&#x4e8c;&#x7ef4;&#x77e9;&#x9635;&apos;&gt;LC 74. Search a 2D Matrix &#x641c;&#x7d22;&#x4e8c;&#x7ef4;&#x77e9;&#x9635;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;h2 id=&quot;Week37@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-&#x4e8c;&#x5206;&#x641c;&#x7d22;&quot;&gt;&#x4e8c;&#x5206;&#x641c;&#x7d22;&lt;/h2&gt;&lt;h3 id=&quot;Week37@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC704.BinarySearch&#x4e8c;&#x5206;&#x67e5;&#x627e;&quot;&gt;LC 704. Binary Search &#x4e8c;&#x5206;&#x67e5;&#x627e;&lt;/h3&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/binary-search/description/?show=1&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/binary-search/description/?show=1&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func search(nums []int, target int) int {
+    L, R := 0, len(nums)
+    for L &amp;lt; R {
+        mid := L + (R - L) / 2
+        if nums[mid] == target {
+            return mid
+        } else if nums[mid] &amp;lt; target {
+            L = mid + 1
+        } else {
+            R = mid
+        }
+    }
+
+    return -1
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 id=&quot;Week37@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC34.FindFirstandLastPositionofElementinSortedArray&#x5728;&#x6392;&#x5e8f;&#x6570;&#x7ec4;&#x4e2d;&#x627e;&#x5143;&#x7d20;&#x7684;&#x7b2c;&#x4e00;&#x4e2a;&#x548c;&#x6700;&#x540e;&#x4e00;&#x4e2a;&#x4f4d;&#x7f6e;&quot;&gt;LC 34. Find First and Last Position of Element in Sorted Array &#x5728;&#x6392;&#x5e8f;&#x6570;&#x7ec4;&#x4e2d;&#x627e;&#x5143;&#x7d20;&#x7684;&#x7b2c;&#x4e00;&#x4e2a;&#x548c;&#x6700;&#x540e;&#x4e00;&#x4e2a;&#x4f4d;&#x7f6e;&lt;/h3&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/?show=1&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/?show=1&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func searchRange(nums []int, target int) []int {
+    LB := leftBound(nums, target)
+    if LB == len(nums) || nums[LB] != target {
+        return []int{-1, -1}
+    }
+    UB := leftBound(nums, target + 1) - 1
+
+    return []int{LB, UB}
+}
+
+func leftBound(nums []int, target int) int {
+    L, R := 0, len(nums)
+    for L &amp;lt; R {
+        mid := L + (R - L) / 2
+        if nums[mid] &amp;lt; target {
+            L = mid+1
+        } else {
+            R = mid
+        }
+    }
+    return R
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 id=&quot;Week37@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC875.KokoEatingBananas&#x7231;&#x5403;&#x9999;&#x8549;&#x7684;&#x73c2;&#x73c2;&quot;&gt;LC 875. Koko Eating Bananas &lt;strong&gt;&#x7231;&#x5403;&#x9999;&#x8549;&#x7684;&#x73c2;&#x73c2;&lt;/strong&gt;&#xa0;&lt;/h3&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/koko-eating-bananas/description/&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/koko-eating-bananas/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func minEatingSpeed(piles []int, h int) int {
+    L, R := 1, 1_000_000_001
+
+    for L &amp;lt; R {
+        mid := L + (R-L)/2
+
+        if getCount(piles, mid) &amp;lt;= h {
+            R = mid
+        } else {
+            L = mid + 1
+        }
+    }
+
+    return R
+}
+
+func getCount(piles []int, k int) int {
+    c := 0
+
+    for _, x := range piles {
+        c += x / k
+        if x % k != 0 {
+            c++
+        }
+    }
+
+    return c
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 id=&quot;Week37@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC1011.CapacityToShipPackagesWithinDDays&#x5728;D&#x5929;&#x5185;&#x9001;&#x8fbe;&#x5305;&#x88f9;&#x7684;&#x80fd;&#x529b;&quot;&gt;LC 1011. Capacity To Ship Packages Within D Days &#x5728; D &#x5929;&#x5185;&#x9001;&#x8fbe;&#x5305;&#x88f9;&#x7684;&#x80fd;&#x529b;&lt;/h3&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/description/&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func shipWithinDays(weights []int, days int) int {
+    L, R := getInit(weights)
+
+    for L &amp;lt; R {
+        mid := L + (R - L) / 2
+
+        if getNeedDays(weights, mid) &amp;lt;= days {
+            R = mid
+        } else {
+            L = mid + 1
+        }
+    }
+
+    return R
+}
+
+func getInit(arr []int) (L, R int) {
+    L, R = 0, 1
+    for _, x := range arr {
+        L = max(L, x)
+        R += x
+    }
+    return
+}
+
+func getNeedDays(weights []int, cap int) (days int) {
+    remain := 0
+    for _, w := range weights {
+        if remain &amp;lt; w {
+            remain = cap
+            days++
+        }
+
+        remain -= w
+    }
+
+    return
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 id=&quot;Week37@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC410.SplitArrayLargestSum&#x5206;&#x5272;&#x6570;&#x7ec4;&#x7684;&#x6700;&#x5927;&#x503c;&quot;&gt;LC 410. Split Array Largest Sum &#x5206;&#x5272;&#x6570;&#x7ec4;&#x7684;&#x6700;&#x5927;&#x503c;&lt;/h3&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/split-array-largest-sum/description/&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/split-array-largest-sum/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func splitArray(nums []int, k int) int {
+    L, R := getInit(nums)
+
+    for L &amp;lt; R {
+        mid := L + (R - L) / 2
+
+        if getSplitsCount(nums, mid) &amp;lt;= k {
+            R = mid
+        } else {
+            L = mid + 1
+        }
+    }
+
+    return R
+}
+
+
+func getInit(arr []int) (L, R int) {
+    L, R = 0, 1
+    for _, x := range arr {
+        L = max(L, x)
+        R += x
+    }
+    return
+}
+
+
+func getSplitsCount(nums []int, maxGroupSum int) (c int) {
+    remain := 0
+    for _, num := range nums {
+        if remain &amp;lt; num {
+            remain = maxGroupSum
+            c++
+        }
+
+        remain -= num
+    }
+
+    return
+}
+&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 id=&quot;Week37@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC566.ReshapetheMatrix&#x91cd;&#x5851;&#x77e9;&#x9635;&quot;&gt;LC 566. Reshape the Matrix &#x91cd;&#x5851;&#x77e9;&#x9635;&lt;/h3&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/reshape-the-matrix/description/&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/reshape-the-matrix/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func matrixReshape(mat [][]int, r int, c int) [][]int {
+    m, n := len(mat), len(mat[0])
+    if m * n != r * c { // invalid
+        return mat
+    }
+
+    newMatrix := createMatrix(r, c)
+
+    i, j := 0, 0
+    next := func() {
+        j++
+        if j &amp;gt;= c {
+            i++
+            j = 0
+        }
+    }
+
+    for _, row := range mat {
+        for _, v := range row {
+            newMatrix[i][j] = v
+            next()
+        }
+    }
+
+    return newMatrix
+}
+
+func createMatrix(m, n int) [][]int {
+    mat := make([][]int, m)
+    for i := range mat {
+        mat[i] = make([]int, n)
+    }
+    return mat
+}
+
+&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;&#x8f6c;&#x6362;&#x5750;&#x6807;&lt;/strong&gt;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func matrixReshape(mat [][]int, r int, c int) [][]int {
+    n := len(mat[0])
+    // &#x5982;&#x679c;&#x60f3;&#x6210;&#x529f; reshape&#xff0c;&#x5143;&#x7d20;&#x4e2a;&#x6570;&#x5e94;&#x8be5;&#x76f8;&#x540c;
+    if r*c != len(mat)*n {
+        return mat
+    }
+
+    res := make([][]int, r)
+    for i := range res {
+        res[i] = make([]int, c)
+    }
+    
+    for i := 0; i &amp;lt; len(mat)*n; i++ {
+        set(&amp;amp;res, i, get(&amp;amp;mat, i, n))
+    }
+    return res
+}
+
+// &#x901a;&#x8fc7;&#x4e00;&#x7ef4;&#x5750;&#x6807;&#x8bbf;&#x95ee;&#x4e8c;&#x7ef4;&#x6570;&#x7ec4;&#x4e2d;&#x7684;&#x5143;&#x7d20;
+func get(matrix *[][]int, index int, n int) int {
+    // &#x8ba1;&#x7b97;&#x4e8c;&#x7ef4;&#x4e2d;&#x7684;&#x6a2a;&#x7eb5;&#x5750;&#x6807;
+    i := index / n
+    j := index % n
+    return (*matrix)[i][j]
+}
+
+// &#x901a;&#x8fc7;&#x4e00;&#x7ef4;&#x5750;&#x6807;&#x8bbe;&#x7f6e;&#x4e8c;&#x7ef4;&#x6570;&#x7ec4;&#x4e2d;&#x7684;&#x5143;&#x7d20;
+func set(matrix *[][]int, index int, value int) {
+    n := len((*matrix)[0])
+    // &#x8ba1;&#x7b97;&#x4e8c;&#x7ef4;&#x4e2d;&#x7684;&#x6a2a;&#x7eb5;&#x5750;&#x6807;
+    i := index / n
+    j := index % n
+    (*matrix)[i][j] = value
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 id=&quot;Week37@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC74.Searcha2DMatrix&#x641c;&#x7d22;&#x4e8c;&#x7ef4;&#x77e9;&#x9635;&quot;&gt;LC 74. Search a 2D Matrix &#x641c;&#x7d22;&#x4e8c;&#x7ef4;&#x77e9;&#x9635;&lt;/h3&gt;&lt;p&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/search-a-2d-matrix/description/&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/search-a-2d-matrix/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func searchMatrix(matrix [][]int, target int) bool {
+    m, n := len(matrix), len(matrix[0])
+
+    getValueByIndex := func(index int) int {
+        i := index / n
+        j := index % n
+        return matrix[i][j]
+    }
+
+    L, R := 0, m*n
+    for L &amp;lt; R {
+        mid := L + (R - L) / 2
+
+        midValue := getValueByIndex(mid)
+        if midValue == target {
+            return true
+        } else if midValue &amp;lt; target {
+            L = mid + 1
+        } else {
+            R = mid
+        }
+    }
+
+    return false
+}
+&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p /&gt;
+    &lt;/div&gt;
+        &lt;div style=&quot;padding: 10px 0;&quot;&gt;
+       &lt;a href=&quot;https://singee.atlassian.net/wiki/spaces/MAIN/pages/329973805/Week+37+2025&quot;&gt;email.notification.view.online&lt;/a&gt;
+                  &lt;/div&gt;
+&lt;/div&gt;</summary>
+    <dc:creator>Bryan</dc:creator>
+    <dc:date>2025-09-14T15:59:18Z</dc:date>
+  </entry>
+  <entry>
+    <title>Week 36 @ 2025 &#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x53c9;&#x6811; + &#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&#x3011;</title>
+    <link rel="alternate" href="https://singee.atlassian.net/wiki/spaces/MAIN/pages/307429528/Week+36+2025"/>
+    <author>
+      <name>Bryan</name>
+    </author>
+    <id>tag:singee.atlassian.net,2009:page-307429528-2</id>
+    <updated>2025-09-14T15:58:23Z</updated>
+    <published>2025-09-14T15:58:23Z</published>
+    <summary type="html">&lt;div class=&quot;feed&quot;&gt;    &lt;p&gt;
+                        Live doc
+                    &lt;b&gt;edited&lt;/b&gt; by
+                &lt;a  &gt;Bryan&lt;/a&gt;
+             - &quot;Autosaved&quot;
+        &lt;/p&gt;
+        &lt;div style=&quot;border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 10px;&quot;&gt;
+        &lt;style type=&apos;text/css&apos;&gt;/*&lt;![CDATA[*/
+div.rbtoc1758328121675 {padding: 0px;}
+div.rbtoc1758328121675 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1758328121675 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]&gt;*/&lt;/style&gt;&lt;div class=&apos;toc-macro rbtoc1758328121675&apos;&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week36@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x53c9;&#x6811;+&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&#x3011;-&#x4e8c;&#x53c9;&#x6811;&apos;&gt;&#x4e8c;&#x53c9;&#x6811;&lt;/a&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week36@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x53c9;&#x6811;+&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&#x3011;-LC652.FindDuplicateSubtrees&#x5bfb;&#x627e;&#x91cd;&#x590d;&#x7684;&#x5b50;&#x6811;&apos;&gt;LC 652. Find Duplicate Subtrees &#x5bfb;&#x627e;&#x91cd;&#x590d;&#x7684;&#x5b50;&#x6811;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week36@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x53c9;&#x6811;+&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&#x3011;-LC297.SerializeandDeserializeBinaryTree&#x4e8c;&#x53c9;&#x6811;&#x7684;&#x5e8f;&#x5217;&#x5316;&#x4e0e;&#x53cd;&#x5e8f;&#x5217;&#x5316;&apos;&gt;LC 297. Serialize and Deserialize Binary Tree &#x4e8c;&#x53c9;&#x6811;&#x7684;&#x5e8f;&#x5217;&#x5316;&#x4e0e;&#x53cd;&#x5e8f;&#x5217;&#x5316;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week36@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x53c9;&#x6811;+&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&#x3011;-&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&apos;&gt;&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&lt;/a&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week36@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x53c9;&#x6811;+&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&#x3011;-LC230.KthSmallestElementinaBST&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&#x4e2d;&#x7b2c;K&#x5c0f;&#x7684;&#x5143;&#x7d20;&apos;&gt;LC 230. Kth Smallest Element in a BST &#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&#x4e2d;&#x7b2c;K&#x5c0f;&#x7684;&#x5143;&#x7d20;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week36@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x53c9;&#x6811;+&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&#x3011;-LC538.ConertBSTtoGreaterTree&#x628a;&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&#x8f6c;&#x6362;&#x4e3a;&#x7d2f;&#x52a0;&#x6811;&apos;&gt;LC 538. Conert BST to Greater Tree &#x628a;&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&#x8f6c;&#x6362;&#x4e3a;&#x7d2f;&#x52a0;&#x6811;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week36@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x53c9;&#x6811;+&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&#x3011;-LC98.ValidateBinarySearchTree&#x9a8c;&#x8bc1;&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&apos;&gt;LC 98. Validate Binary Search Tree &#x9a8c;&#x8bc1;&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;h2 local-id=&quot;440e2490-e092-4039-8bc7-3360f9e9fc25&quot; id=&quot;Week36@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x53c9;&#x6811;+&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&#x3011;-&#x4e8c;&#x53c9;&#x6811;&quot;&gt;&#x4e8c;&#x53c9;&#x6811;&lt;/h2&gt;&lt;h3 local-id=&quot;f107b2e5-c81a-4a22-9758-4336c8df7ec7&quot; id=&quot;Week36@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x53c9;&#x6811;+&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&#x3011;-LC652.FindDuplicateSubtrees&#x5bfb;&#x627e;&#x91cd;&#x590d;&#x7684;&#x5b50;&#x6811;&quot;&gt;LC 652. Find Duplicate Subtrees &#x5bfb;&#x627e;&#x91cd;&#x590d;&#x7684;&#x5b50;&#x6811;&lt;/h3&gt;&lt;p local-id=&quot;66dec2da-c3b2-4541-870f-63f16b52f31d&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/find-duplicate-subtrees/&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/find-duplicate-subtrees/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;/**
+ * Definition for a binary tree node.
+ * type TreeNode struct {
+ *     Val int
+ *     Left *TreeNode
+ *     Right *TreeNode
+ * }
+ */
+func findDuplicateSubtrees(root *TreeNode) (result []*TreeNode) {
+    m := make(map[string]int)
+    
+    dfs(root, m, &amp;amp;result)
+
+    return result
+}
+
+func dfs(root *TreeNode, m map[string]int, result *[]*TreeNode) string {
+    if root == nil {
+        return &amp;quot;&amp;quot;
+    }
+
+    left := dfs(root.Left, m, result)
+    right := dfs(root.Right, m, result)
+
+    subtree := left + &amp;quot;,&amp;quot; + right + &amp;quot;,&amp;quot; + strconv.Itoa(root.Val)
+
+    m[subtree]++
+
+    if m[subtree] == 2 {
+        *result = append(*result, root)
+    }
+
+    return subtree
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 local-id=&quot;b0c6b8db-edab-4329-81c4-76f9f6e59349&quot; id=&quot;Week36@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x53c9;&#x6811;+&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&#x3011;-LC297.SerializeandDeserializeBinaryTree&#x4e8c;&#x53c9;&#x6811;&#x7684;&#x5e8f;&#x5217;&#x5316;&#x4e0e;&#x53cd;&#x5e8f;&#x5217;&#x5316;&quot;&gt;LC 297. Serialize and Deserialize Binary Tree &#x4e8c;&#x53c9;&#x6811;&#x7684;&#x5e8f;&#x5217;&#x5316;&#x4e0e;&#x53cd;&#x5e8f;&#x5217;&#x5316;&lt;/h3&gt;&lt;p local-id=&quot;4bc15c62-f2db-4130-a5ea-ae68ef9d1194&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/&lt;/a&gt; &lt;/p&gt;&lt;p local-id=&quot;60654da5-aa28-4e1c-b7a8-7f5e65236dc2&quot;&gt;&lt;strong&gt;&#x524d;&#x5e8f;&lt;/strong&gt;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;/**
+ * Definition for a binary tree node.
+ * type TreeNode struct {
+ *     Val int
+ *     Left *TreeNode
+ *     Right *TreeNode
+ * }
+ */
+
+type Codec struct {
+    
+}
+
+func Constructor() Codec {
+    return Codec{}
+}
+
+// Serializes a tree to a single string.
+func (this *Codec) serialize(root *TreeNode) string {
+    if root == nil {
+        return &amp;quot;#&amp;quot;
+    }
+
+    return strconv.Itoa(root.Val) + &amp;quot;,&amp;quot;  + this.serialize(root.Left) + &amp;quot;,&amp;quot; + this.serialize(root.Right) 
+}
+
+// Deserializes your encoded data to tree.
+func (this *Codec) deserialize(data string) *TreeNode {    
+    var dfs func(nodes []string) (*TreeNode, int)
+    dfs = func(nodes []string) (*TreeNode, int) {
+        if len(nodes) == 0 {
+            return nil, 0
+        }
+
+        firstNode := nodes[0]
+        if firstNode == &amp;quot;#&amp;quot; {
+            return nil, 1
+        }
+
+        left, leftLength := dfs(nodes[1:])
+        right, rightLength := dfs(nodes[1+leftLength:])
+
+        nodeVal, _ := strconv.Atoi(firstNode)
+        node := &amp;amp;TreeNode{Val: nodeVal, Left: left, Right: right}
+
+        return node, 1+leftLength+rightLength
+    }
+
+    nodes := strings.Split(data, &amp;quot;,&amp;quot;)
+    root, _ := dfs(nodes)
+
+    return root
+}
+
+
+
+/**
+ * Your Codec object will be instantiated and called as such:
+ * ser := Constructor();
+ * deser := Constructor();
+ * data := ser.serialize(root);
+ * ans := deser.deserialize(data);
+ */&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p local-id=&quot;7549e672-a0c4-4f3c-96d8-0b1991a8e248&quot;&gt;&lt;strong&gt;&#x540e;&#x5e8f;&lt;/strong&gt;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;/**
+ * Definition for a binary tree node.
+ * type TreeNode struct {
+ *     Val int
+ *     Left *TreeNode
+ *     Right *TreeNode
+ * }
+ */
+
+type Codec struct {
+    
+}
+
+func Constructor() Codec {
+    return Codec{}
+}
+
+// Serializes a tree to a single string.
+func (this *Codec) serialize(root *TreeNode) string {
+    if root == nil {
+        return &amp;quot;#&amp;quot;
+    }
+
+    return this.serialize(root.Left) + &amp;quot;,&amp;quot; + this.serialize(root.Right) + &amp;quot;,&amp;quot;  + strconv.Itoa(root.Val) 
+}
+
+// Deserializes your encoded data to tree.
+func (this *Codec) deserialize(data string) *TreeNode {    
+    var dfs func(nodes []string) (*TreeNode, int)
+    dfs = func(nodes []string) (*TreeNode, int) {
+        if len(nodes) == 0 {
+            return nil, 0
+        }
+
+        lastNode := nodes[len(nodes)-1]
+        if lastNode == &amp;quot;#&amp;quot; {
+            return nil, 1
+        }
+
+        right, rightLength := dfs(nodes[:len(nodes)-1])
+        left, leftLength := dfs(nodes[:len(nodes)-1-rightLength])
+
+        nodeVal, _ := strconv.Atoi(lastNode)
+        node := &amp;amp;TreeNode{Val: nodeVal, Left: left, Right: right}
+
+        return node, 1+leftLength+rightLength
+    }
+
+    nodes := strings.Split(data, &amp;quot;,&amp;quot;)
+    root, _ := dfs(nodes)
+
+    return root
+}
+
+
+
+/**
+ * Your Codec object will be instantiated and called as such:
+ * ser := Constructor();
+ * deser := Constructor();
+ * data := ser.serialize(root);
+ * ans := deser.deserialize(data);
+ */&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p local-id=&quot;965523b3-74e6-4988-94ba-c9107674a1e4&quot;&gt;&lt;strong&gt;&#x5c42;&#x5e8f;&lt;/strong&gt;&lt;/p&gt;&lt;p local-id=&quot;34462d35-1be4-4c52-8439-fa96d1f0c07b&quot;&gt;TODO &lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://labuladong.online/algo/data-structure/serialize-and-deserialize-binary-tree/#%E4%BA%94%E3%80%81%E5%B1%82%E7%BA%A7%E9%81%8D%E5%8E%86%E8%A7%A3%E6%B3%95&quot; rel=&quot;nofollow&quot;&gt;https://labuladong.online/algo/data-structure/serialize-and-deserialize-binary-tree/#%E4%BA%94%E3%80%81%E5%B1%82%E7%BA%A7%E9%81%8D%E5%8E%86%E8%A7%A3%E6%B3%95&lt;/a&gt; &lt;/p&gt;&lt;h2 local-id=&quot;b1a06b60-c2b5-43f0-93c5-4fe7ec5c0a05&quot; id=&quot;Week36@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x53c9;&#x6811;+&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&#x3011;-&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&quot;&gt;&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&lt;/h2&gt;&lt;h3 local-id=&quot;dc84b074-f07e-431a-b57e-aee7c6a14245&quot; id=&quot;Week36@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x53c9;&#x6811;+&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&#x3011;-LC230.KthSmallestElementinaBST&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&#x4e2d;&#x7b2c;K&#x5c0f;&#x7684;&#x5143;&#x7d20;&quot;&gt;LC 230. Kth Smallest Element in a BST &#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&#x4e2d;&#x7b2c;K&#x5c0f;&#x7684;&#x5143;&#x7d20;&lt;/h3&gt;&lt;p local-id=&quot;065f5e86-64c1-4f81-affd-c937fba829d2&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/&lt;/a&gt; &lt;/p&gt;&lt;p local-id=&quot;34e96c6e-8e7d-4046-aec1-f3304b25680f&quot;&gt;&lt;strong&gt;&#x66b4;&#x529b;&lt;/strong&gt;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;/**
+ * Definition for a binary tree node.
+ * type TreeNode struct {
+ *     Val int
+ *     Left *TreeNode
+ *     Right *TreeNode
+ * }
+ */
+func kthSmallest(root *TreeNode, k int) int {
+    return dfs(root)[k-1]
+}
+
+func dfs(root *TreeNode) (result []int) {
+    if root == nil {
+        return nil
+    }
+
+    result = dfs(root.Left)
+    result = append(result, root.Val)
+    result = append(result, dfs(root.Right)...)
+
+    return result
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p local-id=&quot;d242c482-1aa4-4472-951c-9b529aeab567&quot;&gt;&lt;strong&gt;&#x66b4;&#x529b; + &#x4f18;&#x5316;&lt;/strong&gt;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;/**
+ * Definition for a binary tree node.
+ * type TreeNode struct {
+ *     Val int
+ *     Left *TreeNode
+ *     Right *TreeNode
+ * }
+ */
+func kthSmallest(root *TreeNode, k int) (result int) {
+    i := 0
+
+    var traverse func (root *TreeNode)
+    traverse = func (root *TreeNode) {
+        if root == nil {
+            return
+        }
+        
+        traverse(root.Left)
+
+        i++
+        if i == k {
+            result = root.Val
+            return
+        }
+
+        traverse(root.Right)
+    }
+
+    traverse(root)
+
+    return result
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 local-id=&quot;48c0d45c-4abd-4e48-8b1d-3910d87f45b7&quot; id=&quot;Week36@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x53c9;&#x6811;+&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&#x3011;-LC538.ConertBSTtoGreaterTree&#x628a;&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&#x8f6c;&#x6362;&#x4e3a;&#x7d2f;&#x52a0;&#x6811;&quot;&gt;LC 538. Conert BST to Greater Tree &#x628a;&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&#x8f6c;&#x6362;&#x4e3a;&#x7d2f;&#x52a0;&#x6811;&lt;/h3&gt;&lt;p local-id=&quot;d0cfd361-925a-4ff0-9aa5-82dab0334bf1&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/convert-bst-to-greater-tree/description/&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/convert-bst-to-greater-tree/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;/**
+ * Definition for a binary tree node.
+ * type TreeNode struct {
+ *     Val int
+ *     Left *TreeNode
+ *     Right *TreeNode
+ * }
+ */
+func convertBST(root *TreeNode) *TreeNode {
+    var dfs func (root *TreeNode, acc int) int
+    dfs = func (root *TreeNode, acc int) int {
+        if root == nil {
+            return acc
+        }
+
+        newAcc := dfs(root.Right, acc)
+        root.Val += newAcc
+        return dfs(root.Left, root.Val)
+    }
+
+    dfs(root, 0)
+
+    return root
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 local-id=&quot;c4ef547b-33be-4e0a-a4cb-a13e98b50a3f&quot; id=&quot;Week36@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x53c9;&#x6811;+&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&#x3011;-LC98.ValidateBinarySearchTree&#x9a8c;&#x8bc1;&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&quot;&gt;LC 98. Validate Binary Search Tree &#x9a8c;&#x8bc1;&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&lt;/h3&gt;&lt;p local-id=&quot;47fe30a5-72d0-4807-a2d5-0e477c60bcb6&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/validate-binary-search-tree/description/&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/validate-binary-search-tree/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;/**
+ * Definition for a binary tree node.
+ * type TreeNode struct {
+ *     Val int
+ *     Left *TreeNode
+ *     Right *TreeNode
+ * }
+ */
+func isValidBST(root *TreeNode) bool {
+    return validate(root, math.MinInt, math.MaxInt)
+}
+
+func validate(root *TreeNode, minValue, maxValue int) bool {
+    if root == nil {
+        return true
+    }
+
+    if root.Val &amp;lt;= minValue || root.Val &amp;gt;= maxValue {
+        return false
+    }
+
+    return validate(root.Left, minValue, root.Val) &amp;amp;&amp;amp; validate(root.Right, root.Val, maxValue)
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p local-id=&quot;9e32032c-691f-4997-a535-16e42f1541b6&quot; /&gt;
+    &lt;/div&gt;
+        &lt;div style=&quot;padding: 10px 0;&quot;&gt;
+       &lt;a href=&quot;https://singee.atlassian.net/wiki/spaces/MAIN/pages/307429528/Week+36+2025&quot;&gt;email.notification.view.online&lt;/a&gt;
+              &amp;middot;
+       &lt;a href=&quot;https://singee.atlassian.net/wiki/pages/diffpagesbyversion.action?pageId=307429528&amp;revisedVersion=2&amp;originalVersion=1&quot;&gt;View Changes Online&lt;/a&gt;       
+                  &lt;/div&gt;
+&lt;/div&gt;</summary>
+    <dc:creator>Bryan</dc:creator>
+    <dc:date>2025-09-14T15:58:23Z</dc:date>
+  </entry>
+</feed>
