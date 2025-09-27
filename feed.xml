@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>Bryan &#x7684;&#x77e5;&#x8bc6;&#x5e93;</title>
+  <link rel="alternate" href="https://singee.atlassian.net/wiki"/>
+  
+  <id>https://singee.atlassian.net/wiki</id>
+  <entry>
+    <title>LVM</title>
+    <link rel="alternate" href="https://singee.atlassian.net/wiki/spaces/MAIN/pages/356352001/LVM"/>
+    <author>
+      <name>Bryan</name>
+    </author>
+    <id>tag:singee.atlassian.net,2009:page-356352001-1</id>
+    <updated>2025-09-25T07:32:22Z</updated>
+    <published>2025-09-25T07:32:22Z</published>
+    <summary type="html">&lt;div class=&quot;feed&quot;&gt;    &lt;p&gt;
+                        Live doc
+                    &lt;b&gt;added&lt;/b&gt; by
+                &lt;a  &gt;Bryan&lt;/a&gt;
+            &lt;/p&gt;
+        &lt;div style=&quot;border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 10px;&quot;&gt;
+        &lt;p local-id=&quot;7e106265-1892-4d06-9179-7c300e78e89a&quot;&gt;&#x5e38;&#x7528;&#x7684; LVM &#x90e8;&#x7f72;&#x547d;&#x4ee4;&lt;/p&gt;&lt;div class=&quot;table-wrap&quot;&gt;&lt;table data-table-width=&quot;760&quot; data-layout=&quot;default&quot; data-local-id=&quot;51fa8ee6-3bd8-4ace-ac95-962dfa554040&quot; class=&quot;confluenceTable&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;69527743-a8aa-4ebd-9fa5-a7957d738483&quot; /&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;fff5b7d4-2861-4199-9b89-6c522b7260eb&quot;&gt;&#x7269;&#x7406;&#x5377;&#xff08;PV&#xff09;&#x7ba1;&#x7406;&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;a3bd52d4-0c80-4b79-b497-bf0dde28985e&quot;&gt;&#x5377;&#x7ec4;&#xff08;VG&#xff09;&#x7ba1;&#x7406;&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;708944b4-a909-4546-ade5-4ebe731619d0&quot;&gt;&#x903b;&#x8f91;&#x5377;&#xff08;LV&#xff09;&#x7ba1;&#x7406;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;ec772892-5c14-4011-987b-0a65c6f32fa5&quot;&gt;&#x626b;&#x63cf; scan&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;ec7d26f7-f8b5-41d4-87f8-336a47e848b0&quot;&gt;pvscan&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;71161e38-6c80-41a6-8bf7-1a089ea93ed9&quot;&gt;vgscan&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;7e91a534-b8c4-48a1-b7c6-7d2af532c265&quot;&gt;lvscan&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;054fefd0-3513-48d2-ae67-cb581ceb09a6&quot;&gt;&#x521b;&#x5efa; create&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;daa1af6c-a919-45d7-bb3d-95818ea82222&quot;&gt;pvcreate&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;f1ab08ab-a8fa-42a5-b7c0-d7c269bcb368&quot;&gt;vgcreate&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;a37e3131-89b6-419a-ac5b-01d2d0de340e&quot;&gt;lvcreate&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;6aa462b9-1fe9-4fbe-a40a-b65e983e2dda&quot;&gt;&#x663e;&#x793a; display&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;983bd63c-cb59-49c6-82d4-84c7c5ffab72&quot;&gt;pvdisplay&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;1154b222-d7fd-47f4-9fdd-5fcf823d80ca&quot;&gt;vgdisplay&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;5d78f4be-4083-4ea3-b200-a491eb021d61&quot;&gt;lvdisplay&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;b72a52ad-0869-4e83-a971-3ab10d793e91&quot;&gt;&#x5220;&#x9664; remove&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;12ab3b8b-fab7-472f-afaf-2f2e60a38887&quot;&gt;pvremove&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;5c3dddc6-e56d-4d74-ba5c-e12ae86af1a0&quot;&gt;vgremove&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;b1467ca5-b2ca-4c5c-8bee-0656eb8de0b8&quot;&gt;lvremove&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;7d35d473-208b-486e-af30-2e1a534007d0&quot;&gt;&#x6269;&#x5c55; extend&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;e2a2baa4-9535-4486-aaaf-c27e50d04778&quot; /&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;2033f435-861e-4c4b-a981-23d0c65485d0&quot;&gt;vgextend&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;353f8b86-5ee1-4efa-a9c8-db0a9049ff88&quot;&gt;lvextend&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;c3191e05-01bc-489b-989a-fdcbedbee3b0&quot;&gt;&#x7f29;&#x5c0f; reduce&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;3e6738b1-7ac9-4c07-b486-d214b98a6340&quot; /&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;30b8ca30-31cc-4403-8763-eaf35a49172d&quot;&gt;vgreduce&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;cb2a8306-af38-4996-b457-6474785f33e6&quot;&gt;lvreduce&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+    &lt;/div&gt;
+        &lt;div style=&quot;padding: 10px 0;&quot;&gt;
+       &lt;a href=&quot;https://singee.atlassian.net/wiki/spaces/MAIN/pages/356352001/LVM&quot;&gt;email.notification.view.online&lt;/a&gt;
+                  &lt;/div&gt;
+&lt;/div&gt;</summary>
+    <dc:creator>Bryan</dc:creator>
+    <dc:date>2025-09-25T07:32:22Z</dc:date>
+  </entry>
+  
+  <entry>
+    <title>MBR</title>
+    <link rel="alternate" href="https://singee.atlassian.net/wiki/spaces/MAIN/pages/355926017/MBR"/>
+    <author>
+      <name>Bryan</name>
+    </author>
+    <id>tag:singee.atlassian.net,2009:page-355926017-1</id>
+    <updated>2025-09-25T04:13:41Z</updated>
+    <published>2025-09-25T04:13:41Z</published>
+    <summary type="html">&lt;div class=&quot;feed&quot;&gt;    &lt;p&gt;
+                        Live doc
+                    &lt;b&gt;added&lt;/b&gt; by
+                &lt;a  &gt;Bryan&lt;/a&gt;
+            &lt;/p&gt;
+        &lt;div style=&quot;border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 10px;&quot;&gt;
+        &lt;div class=&quot;confluence-information-macro confluence-information-macro-information&quot;&gt;&lt;span class=&quot;aui-icon aui-icon-small aui-iconfont-info confluence-information-macro-icon&quot;&gt;&lt;/span&gt;&lt;div class=&quot;confluence-information-macro-body&quot;&gt;&lt;p local-id=&quot;eb41de6d-6815-4c82-8ec6-0b6d2493968c&quot;&gt;MBR &#x73b0;&#x5728;&#x5df2;&#x5f00;&#x59cb;&#x9000;&#x51fa;&#x5386;&#x53f2;&#x821e;&#x53f0;&#xff0c;&#x662f;&#x4f20;&#x7edf; BIOS &#x65f6;&#x4ee3;&#x4ea7;&#x7269;&#xff1b;&#x73b0;&#x5728; UEFI &#x65f6;&#x4ee3;&#x5df2;&#x7ecf;&#x4f7f;&#x7528; GPT &#x4e86;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;p local-id=&quot;9a3475a4-b1ed-4066-a885-c57fa4fdc7e3&quot;&gt;&#x786c;&#x76d8;&#x8bbe;&#x5907;&#x662f;&#x7531;&#x5927;&#x91cf;&#x7684;&#x6247;&#x533a;&#x7ec4;&#x6210;&#x7684;&#xff0c;&#x6bcf;&#x4e2a;&#x6247;&#x533a;&#x7684;&#x5bb9;&#x91cf;&#x4e3a; 512 &#x5b57;&#x8282;&#x3002;&lt;/p&gt;&lt;p local-id=&quot;f0740a41-eec3-48f4-828d-8ff223dd46ae&quot;&gt;&#x5176;&#x4e2d;&#x7b2c;&#x4e00;&#x4e2a;&#x6247;&#x533a;&#x6700;&#x91cd;&#x8981;&#xff0c;&#x5b83;&#x91cc;&#x9762;&#x4fdd;&#x5b58;&#x7740;&#x4e3b;&#x5f15;&#x5bfc;&#x8bb0;&#x5f55;&#xff08;MBR, Master Boot Record&#xff09;&#x4e0e;&#x5206;&#x533a;&#x8868;&#x4fe1;&#x606f;&#x3002;&#x5c31;&#x7b2c;&#x4e00;&#x4e2a;&#x6247;&#x533a;&#x6765;&#x8bb2;&#xff0c;&#x4e3b;&#x5f15;&#x5bfc;&#x8bb0;&#x5f55;&#x9700;&#x8981;&#x5360;&#x7528; 446 &#x5b57;&#x8282;&#xff0c;&#x5206;&#x533a;&#x8868;&#x4e3a; 64 &#x5b57;&#x8282;&#xff0c;&#x7ed3;&#x675f;&#x7b26;&#x5360;&#x7528; 2 &#x5b57;&#x8282;&#xff1b;&#x5176;&#x4e2d;&#x5206;&#x533a;&#x8868;&#x4e2d;&#x6bcf;&#x8bb0;&#x5f55;&#x4e00;&#x4e2a;&#x5206;&#x533a;&#x4fe1;&#x606f;&#x5c31;&#x9700;&#x8981; 16 &#x5b57;&#x8282;&#xff0c;&#x8fd9;&#x6837;&#x4e00;&#x6765;&#x6700;&#x591a;&#x53ea;&#x6709; 4 &#x4e2a;&#x5206;&#x533a;&#x4fe1;&#x606f;&#x53ef;&#x4ee5;&#x5199;&#x5230;&#x7b2c;&#x4e00;&#x4e2a;&#x6247;&#x533a;&#x4e2d;&#xff0c;&#x8fd9; 4 &#x4e2a;&#x5206;&#x533a;&#x5c31;&#x662f; 4 &#x4e2a;&#x4e3b;&#x5206;&#x533a;&#x3002;&lt;/p&gt;&lt;span class=&quot;confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size&quot;&gt;&lt;img class=&quot;confluence-embedded-image image-center&quot; alt=&quot;image-20250925-035610.png&quot; width=&quot;517&quot; loading=&quot;lazy&quot; src=&quot;https://singee.atlassian.net/wiki/download/thumbnails/355926017/image-20250925-035610.png?version=1&amp;amp;modificationDate=1758772573264&amp;amp;cacheVersion=1&amp;amp;api=v2&amp;amp;width=517&quot; data-image-src=&quot;https://singee.atlassian.net/wiki/download/attachments/355926017/image-20250925-035610.png?version=1&amp;amp;modificationDate=1758772573264&amp;amp;cacheVersion=1&amp;amp;api=v2&quot; data-height=&quot;284&quot; data-width=&quot;517&quot; data-unresolved-comment-count=&quot;0&quot; data-linked-resource-id=&quot;355532804&quot; data-linked-resource-version=&quot;1&quot; data-linked-resource-type=&quot;attachment&quot; data-linked-resource-default-alias=&quot;image-20250925-035610.png&quot; data-base-url=&quot;https://singee.atlassian.net/wiki&quot; data-linked-resource-content-type=&quot;image/png&quot; data-linked-resource-container-id=&quot;355926017&quot; data-linked-resource-container-version=&quot;1&quot; data-media-id=&quot;0d3f082e-98d6-4ed6-a603-282cc5a5fba8&quot; data-media-type=&quot;file&quot;&gt;&lt;/span&gt;&lt;p local-id=&quot;a587b057-2bc5-4d05-a3de-ef62d1c8a367&quot;&gt;&#x73b0;&#x5728;&#xff0c;&#x95ee;&#x9898;&#x6765;&#x4e86;&#x2014;&#x7b2c;&#x4e00;&#x4e2a;&#x6247;&#x533a;&#x6700;&#x591a;&#x53ea;&#x80fd;&#x521b;&#x5efa;&#x51fa; 4 &#x4e2a;&#x5206;&#x533a;&#xff1f;&#x4e8e;&#x662f;&#x4e3a;&#x4e86;&#x89e3;&#x51b3;&#x5206;&#x533a;&#x4e2a;&#x6570;&#x4e0d;&#x591f; &#x7684;&#x95ee;&#x9898;&#xff0c;&#x53ef;&#x4ee5;&#x5c06;&#x7b2c;&#x4e00;&#x4e2a;&#x6247;&#x533a;&#x7684;&#x5206;&#x533a;&#x8868;&#x4e2d; 16 &#x5b57;&#x8282;&#xff08;&#x539f;&#x672c;&#x8981;&#x5199;&#x5165;&#x4e3b;&#x5206;&#x533a;&#x4fe1;&#x606f;&#xff09;&#x7684;&#x7a7a;&#x95f4;&#xff08;&#x79f0;&#x4e4b;&#x4e3a;&#x6269; &#x5c55;&#x5206;&#x533a;&#xff09;&#x62ff;&#x51fa;&#x6765;&#x6307;&#x5411;&#x53e6;&#x5916;&#x4e00;&#x4e2a;&#x5206;&#x533a;&#x3002;&#x4e5f;&#x5c31;&#x662f;&#x8bf4;&#xff0c;&#x6269;&#x5c55;&#x5206;&#x533a;&#x5176;&#x5b9e;&#x5e76;&#x4e0d;&#x662f;&#x4e00;&#x4e2a;&#x771f;&#x6b63;&#x7684;&#x5206;&#x533a;&#xff0c;&#x800c;&#x66f4;&#x50cf; &#x662f;&#x4e00;&#x4e2a;&#x5360;&#x7528; 16 &#x5b57;&#x8282;&#x5206;&#x533a;&#x8868;&#x7a7a;&#x95f4;&#x7684;&#x6307;&#x9488;&#x2014;&#x4e00;&#x4e2a;&#x6307;&#x5411;&#x53e6;&#x5916;&#x4e00;&#x4e2a;&#x5206;&#x533a;&#x7684;&#x6307;&#x9488;&#x3002;&#x8fd9;&#x6837;&#x4e00;&#x6765;&#xff0c;&#x7528;&#x6237;&#x4e00; &#x822c;&#x4f1a;&#x9009;&#x62e9;&#x4f7f;&#x7528; 3 &#x4e2a;&#x4e3b;&#x5206;&#x533a;&#x52a0; 1 &#x4e2a;&#x6269;&#x5c55;&#x5206;&#x533a;&#x7684;&#x65b9;&#x6cd5;&#xff0c;&#x7136;&#x540e;&#x5728;&#x6269;&#x5c55;&#x5206;&#x533a;&#x4e2d;&#x521b;&#x5efa;&#x51fa;&#x6570;&#x4e2a;&#x903b;&#x8f91;&#x5206;&#x533a;&#xff0c; &#x4ece;&#x800c;&#x6765;&#x6ee1;&#x8db3;&#x591a;&#x5206;&#x533a;&#xff08;&#x5927;&#x4e8e; 4 &#x4e2a;&#xff09;&#x7684;&#x9700;&#x6c42;&#x3002;&lt;/p&gt;&lt;span class=&quot;confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size&quot;&gt;&lt;img class=&quot;confluence-embedded-image image-center&quot; alt=&quot;image-20250925-035702.png&quot; width=&quot;653&quot; loading=&quot;lazy&quot; src=&quot;https://singee.atlassian.net/wiki/download/thumbnails/355926017/image-20250925-035702.png?version=1&amp;amp;modificationDate=1758772624607&amp;amp;cacheVersion=1&amp;amp;api=v2&amp;amp;width=653&quot; data-image-src=&quot;https://singee.atlassian.net/wiki/download/attachments/355926017/image-20250925-035702.png?version=1&amp;amp;modificationDate=1758772624607&amp;amp;cacheVersion=1&amp;amp;api=v2&quot; data-height=&quot;214&quot; data-width=&quot;653&quot; data-unresolved-comment-count=&quot;0&quot; data-linked-resource-id=&quot;354549764&quot; data-linked-resource-version=&quot;1&quot; data-linked-resource-type=&quot;attachment&quot; data-linked-resource-default-alias=&quot;image-20250925-035702.png&quot; data-base-url=&quot;https://singee.atlassian.net/wiki&quot; data-linked-resource-content-type=&quot;image/png&quot; data-linked-resource-container-id=&quot;355926017&quot; data-linked-resource-container-version=&quot;1&quot; data-media-id=&quot;536c19ac-f1b3-46fa-95f7-c6c0648bf38e&quot; data-media-type=&quot;file&quot;&gt;&lt;/span&gt;&lt;h3 local-id=&quot;a5c08562-9fb5-4c36-9e5f-50b406e8ca53&quot; id=&quot;MBR-&#x5206;&#x533a;&#x8868;&#x4fe1;&#x606f;&quot;&gt;&#x5206;&#x533a;&#x8868;&#x4fe1;&#x606f;&lt;/h3&gt;&lt;p local-id=&quot;771ef0b5-2ff8-415e-97f4-06a652964c94&quot;&gt;MBR &#x5206;&#x533a;&#x8868;&#x9879;&#xff08;16 &#x5b57;&#x8282;&#xff09;&lt;/p&gt;&lt;div class=&quot;table-wrap&quot;&gt;&lt;table data-layout=&quot;default&quot; data-local-id=&quot;40e86901-a361-4092-a442-6546e25239d5&quot; class=&quot;confluenceTable&quot;&gt;&lt;colgroup&gt;&lt;col style=&quot;width: 78.0px;&quot;/&gt;&lt;col style=&quot;width: 73.0px;&quot;/&gt;&lt;col style=&quot;width: 174.0px;&quot;/&gt;&lt;col style=&quot;width: 430.0px;&quot;/&gt;&lt;/colgroup&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th class=&quot;confluenceTh&quot;&gt;&lt;p local-id=&quot;f08e1b38-0f8d-4ea8-b0e2-98cc7d36a90c&quot;&gt;&lt;strong&gt;&#x504f;&#x79fb;&lt;/strong&gt;&lt;/p&gt;&lt;/th&gt;&lt;th class=&quot;confluenceTh&quot;&gt;&lt;p local-id=&quot;7e995537-9770-4ca5-b45b-cf1e0694d7cf&quot;&gt;&lt;strong&gt;&#x5b57;&#x8282;&#x6570;&lt;/strong&gt;&lt;/p&gt;&lt;/th&gt;&lt;th class=&quot;confluenceTh&quot;&gt;&lt;p local-id=&quot;d61ec607-162e-407a-b5de-14115adf77f0&quot;&gt;&lt;strong&gt;&#x5b57;&#x6bb5;&#x540d;&lt;/strong&gt;&lt;/p&gt;&lt;/th&gt;&lt;th class=&quot;confluenceTh&quot;&gt;&lt;p local-id=&quot;b6c23e74-85d2-499e-98d5-92d62e702981&quot;&gt;&lt;strong&gt;&#x542b;&#x4e49;&lt;/strong&gt;&lt;/p&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;2e175670-3eb7-4734-94ba-fa9dbe863ecc&quot;&gt;0x00&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;77db6ede-bb1b-41d7-b224-3517c797adaa&quot;&gt;1&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;4ef8fd1d-f7e4-453d-9f98-7031662a0c5b&quot;&gt;&lt;strong&gt;Boot Indicator&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;ec372132-8176-41af-958c-ff2bbcf036a6&quot;&gt;&#x542f;&#x52a8;&#x6807;&#x5fd7;&#xff1a;0x80=bootable&#xff0c;0x00=&#x975e;&#x542f;&#x52a8;&#x5206;&#x533a;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;210f47eb-ed36-4c98-b243-d2bf99dddd42&quot;&gt;0x01&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;54cb3dcc-59a4-42f5-86cc-5b44348c3774&quot;&gt;3&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;6f4186c8-ca06-421f-a1b6-7ae062f72969&quot;&gt;&lt;strong&gt;Starting CHS&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;5cf0ccb4-ba28-488e-af9f-9d1715eba466&quot;&gt;&#x8d77;&#x59cb;&#x67f1;&#x9762;/&#x78c1;&#x5934;/&#x6247;&#x533a;&#xff08;CHS&#xff0c;&#x5df2;&#x8fc7;&#x65f6;&#xff0c;&#x5e38;&#x88ab;&#x586b;&#x6700;&#x5927;&#x503c;&#x5360;&#x4f4d;&#xff09;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;550e5822-d635-4a8c-9fc2-ec4555076388&quot;&gt;0x04&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;bf8087b8-fbe9-4532-8fd3-69470a9aa8a4&quot;&gt;1&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;5b905f85-f972-4eef-a41c-403b386aba90&quot;&gt;&lt;strong&gt;Partition Type&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;f17ab55b-e60d-4568-89fb-de69aa73e3e9&quot;&gt;&#x5206;&#x533a;&#x7c7b;&#x578b;&#x7801;&#xff08;&#x5982; 0x07 NTFS/exFAT, 0x83 Linux, 0x0B/0x0C FAT32, 0x05/0x0F &#x6269;&#x5c55;&#x5206;&#x533a; &#x7b49;&#xff09;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;f3942784-4cc9-41a5-a5b3-f1c1bec446bb&quot;&gt;0x05&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;cdf66073-5de1-4a62-82c5-8bfda8e2dc38&quot;&gt;3&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;ac35763d-d72b-4d5b-a1ae-6030b9b2a127&quot;&gt;&lt;strong&gt;Ending CHS&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;b54c25ff-937e-4d15-80ce-f4fe71626067&quot;&gt;&#x7ed3;&#x675f; CHS&#xff08;&#x540c;&#x4e0a;&#xff0c;&#x591a;&#x4e3a;&#x5360;&#x4f4d;&#xff09;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;697f5011-e250-431a-8f42-61973471e4f7&quot;&gt;0x08&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;fd635d61-47a7-4df3-b192-6ecced2a81d0&quot;&gt;4&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;d274941e-56ef-4c07-8849-e5b519bae769&quot;&gt;&lt;strong&gt;Starting LBA&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;cc906e87-58d1-4448-a8ac-1529f741ec9f&quot;&gt;&#x8d77;&#x59cb;&#x6247;&#x533a;&#x7684; &lt;strong&gt;LBA&lt;/strong&gt;&#xff08;&#x76f8;&#x5bf9;&#x6574;&#x4e2a;&#x78c1;&#x76d8;&#x7684;&#x7edd;&#x5bf9;&#x6247;&#x533a;&#x53f7;&#xff0c;&lt;strong&gt;&#x5c0f;&#x7aef;&lt;/strong&gt;&#xff09;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;995409c3-864f-43b0-9180-4503e43a0b15&quot;&gt;0x0C&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;5aa640cb-728b-4920-b48d-d1fc44e1fcc7&quot;&gt;4&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;ea1d9cdc-08e3-4ec8-a4d3-729f265c9d56&quot;&gt;&lt;strong&gt;Number of Sectors&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;72bde710-2cc6-4b7c-9137-43db43be29ef&quot;&gt;&#x5206;&#x533a;&#x5305;&#x542b;&#x7684;&#x6247;&#x533a;&#x603b;&#x6570;&#xff08;&lt;strong&gt;&#x5c0f;&#x7aef;&lt;/strong&gt;&#xff0c;32 &#x4f4d;&#xff0c;&#x8fd9;&#x5c31;&#x662f; 2 TiB &#x9650;&#x5236;&#x7684;&#x6839;&#x6e90;&#xff09;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;p local-id=&quot;aa7d2183-2e57-4ae9-bf63-15288dabfb5e&quot;&gt;&lt;strong&gt;Boot Indicator&lt;/strong&gt;&lt;/p&gt;&lt;p local-id=&quot;7fd4dd1d-990c-41a9-9c1d-a0e21eaf3e0d&quot;&gt;&#x4f20;&#x7edf; BIOS &#x4ec5;&#x4f1a;&#x4ece;&#x6807;&#x8bb0;&#x4e3a; 0x80 &#x7684;&#x4e3b;&#x5206;&#x533a;&#x542f;&#x52a8;&#xff08;&#x901a;&#x5e38;&#x53ea;&#x80fd;&#x6709; 0 &#x6216; 1 &#x4e2a;&#x542f;&#x52a8;&#x5206;&#x533a;&#xff09;&#x3002;&lt;/p&gt;&lt;p local-id=&quot;2f2d453c-75ff-418d-94f3-6e8a540c3580&quot;&gt;&lt;strong&gt;CHS&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p local-id=&quot;f4b67ed8-46ad-49fa-9e3c-21e7cad03e2b&quot;&gt;3 &#x5b57;&#x8282; CHS &#x7684;&#x7ed3;&#x6784;&#xff1a;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p local-id=&quot;6f8905a6-b70e-4d7d-a76d-5116ab27df8c&quot;&gt;Byte[0] = Head&#xff08;0&#x2013;255&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p local-id=&quot;d845ea49-32d4-4345-8e3c-ff31adec58da&quot;&gt;Byte[1] = Sector&#xff08;&#x4f4e; 6 &#x4f4d;&#xff0c;&#x53d6;&#x503c; 1&#x2013;63&#xff09; + Cylinder &#x9ad8; 2 &#x4f4d;&#xff08;&#x4f4d; 6&#x2013;7&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p local-id=&quot;4111c537-1ca7-4682-a852-049f594fd9e6&quot;&gt;Byte[2] = Cylinder &#x4f4e; 8 &#x4f4d;&#xff08;&#x5408;&#x8d77;&#x6765; Cylinder &#x4e3a; 10 &#x4f4d;)&#x3002;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id=&quot;f247c301-2496-4a57-b37e-720a6b66a78b&quot;&gt;&#x73b0;&#x4ee3;&#x7cfb;&#x7edf;&#x57fa;&#x672c;&#x4f9d;&#x8d56; &lt;strong&gt;LBA &#x5b57;&#x6bb5;&lt;/strong&gt;&#xff1b;CHS &#x901a;&#x5e38;&#x88ab;&#x5199;&#x6210;&#x201c;&#x6700;&#x5927;&#x503c;&#x201d;&#x5360;&#x4f4d;&#xff08;&#x5982; FE FF FF &#x6216; FF FF FF&#xff09;&#x8868;&#x793a;&#x201c;&#x522b;&#x7ba1; CHS&#xff0c;&#x770b; LBA&#x201d;&#x3002;&lt;/p&gt;&lt;p local-id=&quot;22c23ddf-8aad-4c7f-978e-094fb43f403d&quot;&gt;&lt;strong&gt;Partition Type&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p local-id=&quot;b87415fc-8d90-4757-b096-6248a83e20da&quot;&gt;0x05/0x0F &#x8868;&#x793a;&#x6269;&#x5c55;&#x5206;&#x533a;&#xff08;&#x94fe;&#x5230; EBR &#x7ee7;&#x7eed;&#x6302;&#x903b;&#x8f91;&#x5206;&#x533a;&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p local-id=&quot;b87415fc-8d90-4757-b096-6248a83e20da&quot;&gt;0xEE &#x7528;&#x4e8e; GPT &#x7684; Protective MBR&#x3002;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id=&quot;aefcf1b5-a172-45d5-9858-9d2f24a9cfdf&quot;&gt;&lt;strong&gt;2TiB &#x9650;&#x5236;&lt;/strong&gt;&lt;/p&gt;&lt;p local-id=&quot;bf9e2428-53b9-4b13-a102-f7c66eb644f6&quot;&gt;MBR &#x7684;&#x5206;&#x533a;&#x8868;&#x628a;&#x201c;&#x8d77;&#x59cb;&#x6247;&#x533a;&#x201d;&#x548c;&#x201c;&#x6247;&#x533a;&#x6570;&#x91cf;&#x201d;&#x90fd;&#x53ea;&#x7528; 32 &#x4f4d;&#x65e0;&#x7b26;&#x53f7;&#x6574;&#x6570;&#x8bb0;&#x5f55;&#x3002;&lt;/p&gt;&lt;p local-id=&quot;08c72eb3-88d4-4948-a487-5b62d50b1a9f&quot;&gt;&#x5728;&#x5e38;&#x89c1; 512 B &#x903b;&#x8f91;&#x6247;&#x533a;&#x4e0b;&#xff0c;&#x53ef;&#x5bfb;&#x5740;&#x7684;&#x6700;&#x5927;&#x6247;&#x533a;&#x6570;&#x4e3a; 2^32 &#x4e2a;&#xff0c;&#x4e8e;&#x662f;&#x6700;&#x5927;&#x5bb9;&#x91cf; &#x2248; 2^32 * 512 = 2^41 Bytes &#x2248; 2TB&lt;/p&gt;&lt;p local-id=&quot;6901cd28-19d8-45be-a9ce-e7c076b47ec0&quot; /&gt;&lt;ul&gt;&lt;li&gt;&lt;p local-id=&quot;bc478097-4831-40f3-8533-aba9dd6c2597&quot;&gt;2^32 &#x662f;&#x53ef;&#x5bfb;&#x5740;&#x7684;&#x7edd;&#x5bf9;&#x6247;&#x533a;&#x53f7;&#xff08;LBA&#xff09;&#x53ea;&#x6709; 32 &#x4f4d;&#xff08;&#x65e0;&#x8bba;&#x5206;&#x533a;&#x4ece;&#x54ea;&#x513f;&#x5f00;&#x59cb;&#xff0c;&#x5206;&#x533a;&#x7684;&#x7ed3;&#x5c3e; LBA &#x90fd;&#x4e0d;&#x80fd;&#x8d85;&#x8fc7; 0xFFFFFFFF&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p local-id=&quot;1003feac-842a-4d6e-b50b-552fed81029d&quot;&gt;4K &#x903b;&#x8f91;&#x6247;&#x533a;&#x7684;&#x7406;&#x8bba;&#x503c;&#xff1a;&#x82e5;&#x78c1;&#x76d8;&#x4ee5; 4096 B &#x903b;&#x8f91;&#x6247;&#x533a;&#x5bf9;&#x5916;&#x5448;&#x73b0;&#xff0c;&#x7406;&#x8bba;&#x4e0a;&#x9650;&#x53d8;&#x4e3a; 16 TiB&#xff0c;&#x4f46;&#x751f;&#x6001;&#x91cc;&#x5927;&#x91cf;&#x7cfb;&#x7edf;/&#x5de5;&#x5177;&#x5bf9; &#x201c;MBR + &#x5927;&#x6247;&#x533a; + &amp;gt;2 TiB&#x201d; &#x7684;&#x517c;&#x5bb9;&#x6027;&#x4e0d;&#x4e00;&#x81f4;&#xff0c;&#x5b9e;&#x52a1;&#x4e2d;&#x4ecd;&#x4f18;&#x5148;&#x7528; GPT&#x3002;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id=&quot;206d473c-3cba-42d5-810e-a9c9fda55f6d&quot; /&gt;
+    &lt;/div&gt;
+        &lt;div style=&quot;padding: 10px 0;&quot;&gt;
+       &lt;a href=&quot;https://singee.atlassian.net/wiki/spaces/MAIN/pages/355926017/MBR&quot;&gt;email.notification.view.online&lt;/a&gt;
+                  &lt;/div&gt;
+&lt;/div&gt;</summary>
+    <dc:creator>Bryan</dc:creator>
+    <dc:date>2025-09-25T04:13:41Z</dc:date>
+  </entry>
+  <entry>
+    <title>MBR vs GPT</title>
+    <link rel="alternate" href="https://singee.atlassian.net/wiki/spaces/MAIN/pages/355139587/MBR+vs+GPT"/>
+    <author>
+      <name>Bryan</name>
+    </author>
+    <id>tag:singee.atlassian.net,2009:page-355139587-1</id>
+    <updated>2025-09-25T04:00:32Z</updated>
+    <published>2025-09-25T04:00:32Z</published>
+    <summary type="html">&lt;div class=&quot;feed&quot;&gt;    &lt;p&gt;
+                        Live doc
+                    &lt;b&gt;added&lt;/b&gt; by
+                &lt;a  &gt;Bryan&lt;/a&gt;
+            &lt;/p&gt;
+        &lt;div style=&quot;border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 10px;&quot;&gt;
+        &lt;p local-id=&quot;60a9c0fa-3e5c-4bda-b874-fc0a907d083c&quot;&gt;MBR&#xff08;Master Boot Record&#xff09;vs GPT&#xff08;GUID Partition Table&#xff09;&lt;/p&gt;&lt;div class=&quot;table-wrap&quot;&gt;&lt;table data-table-width=&quot;760&quot; data-layout=&quot;default&quot; data-local-id=&quot;e3b07e05-1d60-4196-a59d-faf36e278a2d&quot; class=&quot;confluenceTable&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th class=&quot;confluenceTh&quot;&gt;&lt;p local-id=&quot;38abfdbb-4b49-4e77-b753-cccbd6f16423&quot;&gt;&lt;strong&gt;&#x7ef4;&#x5ea6;&lt;/strong&gt;&lt;/p&gt;&lt;/th&gt;&lt;th class=&quot;confluenceTh&quot;&gt;&lt;p local-id=&quot;51567178-1ab3-4eb3-b0ae-ae6e3eec2ba6&quot;&gt;&lt;strong&gt;MBR&lt;/strong&gt;&lt;/p&gt;&lt;/th&gt;&lt;th class=&quot;confluenceTh&quot;&gt;&lt;p local-id=&quot;345bd41f-8353-4e1d-9612-9968cd730f41&quot;&gt;&lt;strong&gt;GPT&lt;/strong&gt;&lt;/p&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;aec0a81f-9f1e-48f5-bee5-e2c2259ee6fd&quot;&gt;&#x5f15;&#x5bfc;/&#x89c4;&#x8303;&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;8fc4b87c-54e8-45c5-9f7e-7ae78e61ef49&quot;&gt;&#x4f20;&#x7edf; BIOS &#x65f6;&#x4ee3;&#x4ea7;&#x7269;&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;ca372620-610c-4c6d-845f-195e1d2cbc6c&quot;&gt;UEFI &#x89c4;&#x8303;&#x7684;&#x4e00;&#x90e8;&#x5206;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;0745e5a6-33bf-4beb-99e0-f9c3e3f8e97b&quot;&gt;&#x6700;&#x5927;&#x53ef;&#x5bfb;&#x5740;&#x5bb9;&#x91cf;&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;bd1899fb-6316-4ce4-bac6-c7bb1984327f&quot;&gt;&#x5728; 512B &#x903b;&#x8f91;&#x6247;&#x533a;&#x4e0b;&#x7ea6; &lt;strong&gt;2 TiB&lt;/strong&gt;&#xff08;2^32&#xd7;512B&#xff09;&#xff1b;4K &#x903b;&#x8f91;&#x6247;&#x533a;&#x7406;&#x8bba;&#x4e0a;&#x9650;&#x66f4;&#x9ad8;&#x4f46;&#x517c;&#x5bb9;&#x6027;&#x5dee;&#xff0c;&#x5b9e;&#x52a1;&#x4e0a;&#x901a;&#x5e38;&#x4ecd;&#x53d7;&#x9650;&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;3e024da7-8f61-4dde-b1b0-dfb9eff6984c&quot;&gt;&#x7406;&#x8bba;&#x53ef;&#x5230; &lt;strong&gt;ZB &#x7ea7;&lt;/strong&gt;&#xff08;2^64 &#x6247;&#x533a;&#xff09;&#xff0c;&#x5b9e;&#x9645;&#x7531; OS/&#x56fa;&#x4ef6;&#x9650;&#x5236;&#xff0c;&#x8f7b;&#x677e;&#x8de8;&#x8d8a; 2 TiB&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;4c9dec6b-0080-4ed7-96ea-7a2f60c21a02&quot;&gt;&#x5206;&#x533a;&#x6570;&#x91cf;&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;76a9af22-bc15-419f-ab96-4f6d420e220c&quot;&gt;&#x6700;&#x591a; &lt;strong&gt;4 &#x4e2a;&#x4e3b;&#x5206;&#x533a;&lt;/strong&gt;&#xff1b;&#x6216; 3 &#x4e3b;&#x5206;&#x533a; + 1 &#x6269;&#x5c55;&#x5206;&#x533a;&#xff08;&#x6269;&#x5c55;&#x91cc;&#x518d;&#x653e;&#x903b;&#x8f91;&#x5206;&#x533a;&#xff09;&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;fd720840-02e8-46ff-9b53-aaf2fcfa6da2&quot;&gt;&#x65e0;&#x9700;&#x6269;&#x5c55;/&#x903b;&#x8f91;&#x5206;&#x533a;&#xff1b;&#x591a;&#x6570; OS &#x9ed8;&#x8ba4; &lt;strong&gt;&#x6700;&#x591a; 128 &#x4e2a;&lt;/strong&gt;&#xff08;&#x53ef;&#x589e;&#x5927;&#x8868;&#x9879;&#x533a;&#x4ee5;&#x652f;&#x6301;&#x66f4;&#x591a;&#xff09;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;a96eb4e6-3554-44d9-a782-4ccda9853181&quot;&gt;&#x5143;&#x6570;&#x636e;&#x5065;&#x58ee;&#x6027;&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;d0f3e25d-d4a4-40b0-919a-aa96399e2754&quot;&gt;&#x4ec5; 0 &#x53f7;&#x6247;&#x533a;&#x4e00;&#x4efd;&#x8868;&#xff0c;&#x635f;&#x574f;&#x5373;&#x9ebb;&#x70e6;&#xff1b;&#x65e0;&#x6821;&#x9a8c;&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;4c8ced44-18a2-4324-a235-c51f1f145b07&quot;&gt;&lt;strong&gt;&#x4e3b;/&#x5907;&#x4e24;&#x4efd;&#x5934;&#x4e0e;&#x8868;&lt;/strong&gt;&#xff08;&#x78c1;&#x76d8;&#x5934;&#x5c3e;&#x5404;&#x4e00;&#x4efd;&#xff09;+ &lt;strong&gt;CRC32 &#x6821;&#x9a8c;&lt;/strong&gt;&#xff0c;&#x66f4;&#x6613;&#x68c0;&#x6d4b;/&#x4fee;&#x590d;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;95bc26ad-c74b-4237-a8fa-ecae3a881f80&quot;&gt;&#x5206;&#x533a;&#x6807;&#x8bc6;&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;e283b92c-1369-4ccf-adee-c0c430452e5c&quot;&gt;&#x7528;&#x5206;&#x533a;&#x7c7b;&#x578b;&#x5b57;&#x8282;&#xff08;0x07/0x83&#x2026;&#xff09;+&#x201c;&#x6d3b;&#x52a8;&#x201d;&#x6807;&#x5fd7;&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;ad0fc1a5-cf11-4512-bb4b-cda82f19b042&quot;&gt;&#x6bcf;&#x4e2a;&#x5206;&#x533a;&#x6709; &lt;strong&gt;&#x7c7b;&#x578b; GUID&lt;/strong&gt; + &lt;strong&gt;&#x552f;&#x4e00;&#x5206;&#x533a; GUID&lt;/strong&gt; + &#x53ef;&#x8bfb;&#x540d;&#x79f0; + &#x5c5e;&#x6027;&#x4f4d;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;ad55d2c9-e091-404e-8de2-c65d65d52a5a&quot;&gt;&#x517c;&#x5bb9;&#x6027;&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;09e0e6a7-63fd-4210-87e5-b7a2627a240e&quot;&gt;&#x51e0;&#x4e4e;&#x6240;&#x6709;&#x65e7;&#x673a;&#x5668;&#x90fd;&#x652f;&#x6301;&#xff1b;&#x9002;&#x5408;&#x8001; BIOS&#x3001;&#x8001;&#x5de5;&#x5177;&#x94fe;&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;0e609b65-e420-429c-93d1-33ab50275653&quot;&gt;&#x73b0;&#x4ee3; OS/&#x56fa;&#x4ef6;&#x901a;&#x7528;&#xff1b;&lt;strong&gt;UEFI &#x6a21;&#x5f0f;&#x4e0b;&#x5b89;&#x88c5;/&#x5f15;&#x5bfc;&#x9996;&#x9009;&lt;/strong&gt;&#x3002;Windows &#x4ece; GPT &#x542f;&#x52a8;&#x8981;&#x6c42; UEFI&#xff1b;Linux &#x53ef;&#x5728; BIOS &#x4e0a;&#x4ece; GPT &#x542f;&#x52a8;&#xff08;&#x9700; GRUB + bios_grub &#x5c0f;&#x5206;&#x533a;&#xff09;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;b20c846c-d3c7-4a0c-831d-4de1b7ae23db&quot;&gt;&#x4fdd;&#x62a4;&#x673a;&#x5236;&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;6cb28e5d-7a51-461a-a749-f39e74f5bedd&quot;&gt;&#x65e0;&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;98f455aa-87bd-4827-828e-050e8aa7efc7&quot;&gt;&#x6709; &lt;strong&gt;Protective MBR&#xff08;0xEE&#xff09;&lt;/strong&gt;&#xff0c;&#x9632;&#x6b62;&#x65e7; MBR &#x5de5;&#x5177;&#x8bef;&#x628a; GPT &#x78c1;&#x76d8;&#x8bc6;&#x522b;&#x4e3a;&#x7a7a;&#x76d8;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;b0b893b1-9379-4bc3-8118-1ce42487d2fa&quot;&gt;&#x5f15;&#x5bfc;&#x5206;&#x533a;&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;50934c2a-5602-4463-b516-c739cff4bf10&quot;&gt;&#x4f9d;&#x8d56;&#x6d3b;&#x52a8;&#x4e3b;&#x5206;&#x533a;&#x7684;&#x5f15;&#x5bfc;&#x4ee3;&#x7801;&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;9ae95859-4378-4ac6-926f-0f5c323b8900&quot;&gt;&#x4f7f;&#x7528; &lt;strong&gt;ESP&#xff08;EFI System Partition&#xff09;&lt;/strong&gt;&#xff08;FAT32&#xff0c;&#x5e38;&#x89c1; 100&#x2013;600 MB&#xff09;&#x5b58;&#x653e;&#x5f15;&#x5bfc;&#x7a0b;&#x5e8f;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;p local-id=&quot;6624db89-58b0-4008-b3b0-1c4639d220bc&quot; /&gt;&lt;h1 local-id=&quot;9daa39dd-7d7b-474d-a5f2-f76c23dc8784&quot; id=&quot;MBRvsGPT-&#x8be5;&#x9009;&#x54ea;&#x4e00;&#x4e2a;&#xff1f;&quot;&gt;&lt;strong&gt;&#x8be5;&#x9009;&#x54ea;&#x4e00;&#x4e2a;&#xff1f;&lt;/strong&gt;&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;&lt;p local-id=&quot;920cbdee-154f-42d0-bd26-b825e5e4766d&quot;&gt;&lt;strong&gt;&#x78c1;&#x76d8; &#x2265; 2 TB&#x3001;&#x9700;&#x8981;&#x5f88;&#x591a;&#x5206;&#x533a;&#x3001;&#x8ffd;&#x6c42;&#x53ef;&#x9760;&#x6027;/&#x81ea;&#x68c0;&lt;/strong&gt;&#xff1a;&#x9009; &lt;strong&gt;GPT&lt;/strong&gt;&#xff08;&#x63a8;&#x8350;&#x73b0;&#x4ee3;&#x673a;&#x5668;&#x7684;&#x9ed8;&#x8ba4;&#x9009;&#x62e9;&#xff09;&#x3002;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p local-id=&quot;ea0ffb2b-683a-4c6b-b052-add24e6c25ea&quot;&gt;&lt;strong&gt;&#x5fc5;&#x987b;&#x4e0e;&#x53ea;&#x8bc6;&#x522b; MBR &#x7684;&#x65e7; BIOS/&#x65e7;&#x7cfb;&#x7edf;&#x517c;&#x5bb9;&lt;/strong&gt;&#xff1a;&#x9009; &lt;strong&gt;MBR&lt;/strong&gt;&#x3002;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p local-id=&quot;b11e21f6-5fcf-40eb-b786-2aedd79026b9&quot;&gt;&lt;strong&gt;UEFI + Windows &#x4ece;&#x8be5;&#x76d8;&#x542f;&#x52a8;&lt;/strong&gt;&#xff1a;&#x5fc5;&#x987b; &lt;strong&gt;GPT&lt;/strong&gt;&#x3002;&lt;/p&gt;&lt;p local-id=&quot;e20b6aff-6ffd-415a-8071-509d5497f695&quot;&gt;&lt;strong&gt;UEFI + Linux&lt;/strong&gt;&#xff1a;GPT &#x6700;&#x987a;&#x624b;&#xff1b;&lt;strong&gt;BIOS + Linux&lt;/strong&gt;&#xff1a;GPT &#x4ea6;&#x53ef;&#xff08;&#x52a0; bios_grub &#x5206;&#x533a;&#xff09;&#x3002;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id=&quot;eed441e9-e861-4699-b37a-cd02618f76e8&quot; /&gt;&lt;h1 local-id=&quot;04d2cc2a-f02c-4bb1-b915-982f5bcd4368&quot; id=&quot;MBRvsGPT-&#x5e38;&#x89c1;&#x7ec6;&#x8282;/&#x6613;&#x6df7;&#x70b9;&quot;&gt;&lt;strong&gt;&#x5e38;&#x89c1;&#x7ec6;&#x8282;/&#x6613;&#x6df7;&#x70b9;&lt;/strong&gt;&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;&lt;p local-id=&quot;0c006d66-7920-4eae-8bab-18072a92c137&quot;&gt;&lt;strong&gt;&#x201c;MBR 2 TB &#x9650;&#x5236;&#x201d;&lt;/strong&gt;&#xff1a;&#x5728; 512B &#x903b;&#x8f91;&#x6247;&#x533a;&#x4e0b;&#x662f;&#x771f;&#x9650;&#x5236;&#xff1b;4K &#x903b;&#x8f91;&#x6247;&#x533a;&#x7406;&#x8bba;&#x53ef;&#x653e;&#x5927;&#xff0c;&#x4f46;&#x751f;&#x6001;&#x517c;&#x5bb9;&#x590d;&#x6742;&#xff0c;&#x5b9e;&#x9645;&#x751f;&#x4ea7;&#x57fa;&#x672c;&#x7528; GPT &#x89e3;&#x51b3;&#x8d85; 2 TB&#x3002;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p local-id=&quot;d56b3ee3-2c6a-47d6-8bcd-b933a4fdd377&quot;&gt;&lt;strong&gt;&#x5206;&#x533a;&#x547d;&#x540d;&lt;/strong&gt;&#xff1a;GPT &#x5206;&#x533a;&#x6709;&#x53ef;&#x8bfb;&#x540d;&#x79f0;&#xff08;&#x4fbf;&#x4e8e;&#x8fd0;&#x7ef4;&#xff09;&#xff0c;MBR &#x6ca1;&#x6709;&#x3002;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p local-id=&quot;0c8939d6-4ef6-4b92-b1cb-68cca3a5f39c&quot;&gt;&lt;strong&gt;&#x6062;&#x590d;&lt;/strong&gt;&#xff1a;GPT &#x6709;&#x5907;&#x4efd;&#x8868;&#x4e0e; CRC&#xff0c;&#x66f4;&#x5bb9;&#x6613;&#x53d1;&#x73b0;/&#x4fee;&#x590d;&#x8868;&#x635f;&#x574f;&#xff1b;MBR &#x53ea;&#x6709;&#x4e00;&#x4efd;&#x8868;&#xff0c;&#x98ce;&#x9669;&#x66f4;&#x9ad8;&#x3002;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p local-id=&quot;92359470-729e-4398-949e-1c2bd07af909&quot;&gt;&lt;strong&gt;&#x6df7;&#x5408;/&#x8fc7;&#x6e21;&lt;/strong&gt;&#xff1a;&#x6240;&#x8c13; &lt;strong&gt;Hybrid MBR&lt;/strong&gt; &#x662f;&#x7ed9;&#x65e7;&#x5de5;&#x5177;&#x770b;&#x7684;&#x6298;&#x4e2d;&#x65b9;&#x6848;&#xff08;&#x82f9;&#x679c;&#x65e7;&#x673a;&#x5e38;&#x89c1;&#xff09;&#xff0c;&#x4e0d;&#x5efa;&#x8bae;&#x65b0;&#x90e8;&#x7f72;&#x4f7f;&#x7528;&#x3002;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h1 local-id=&quot;d9ae57e3-72bf-4fe0-a4db-42bcbd96fe28&quot; id=&quot;MBRvsGPT-&#x67e5;&#x770b;/&#x8f6c;&#x6362;&#xff08;&#x7b80;&#x7248;&#xff09;&quot;&gt;&lt;strong&gt;&#x67e5;&#x770b;/&#x8f6c;&#x6362;&#xff08;&#x7b80;&#x7248;&#xff09;&lt;/strong&gt;&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;&lt;p local-id=&quot;4e231309-47a9-4d33-a21c-3a4b985b890d&quot;&gt;&lt;strong&gt;Windows&lt;/strong&gt;&#xff1a;diskpart &#x2192; list disk&#xff08;GPT &#x5217;&#x6709; * &#x53f7;&#xff09;&#xff1b;&#x8f6c;&#x6362;&#xff1a;mbr2gpt /convert /allowFullOS&#xff08;&#x6ee1;&#x8db3;&#x6761;&#x4ef6;&#x53ef;&lt;strong&gt;&#x65e0;&#x635f;&lt;/strong&gt;&#x5c06;&#x7cfb;&#x7edf;&#x76d8; MBR&#x2192;GPT&#xff09;&#x3002;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p local-id=&quot;00cca63b-1ce9-4c80-b754-7fde898c4004&quot;&gt;&lt;strong&gt;Linux&lt;/strong&gt;&#xff1a;lsblk -o NAME,PTTYPE,PTUUID &#x6216; parted -l/gdisk -l&#xff1b;&#x8f6c;&#x6362;&#x53ef;&#x7528; gdisk &#x7684;&#x8f6c;&#x6362;&#x529f;&#x80fd;&#xff08;&#x52a1;&#x5fc5;&#x5148;&#x5907;&#x4efd;&#xff09;&#x3002;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id=&quot;6e88fdc4-ad7b-478d-a679-7b57bb3668de&quot; /&gt;
+    &lt;/div&gt;
+        &lt;div style=&quot;padding: 10px 0;&quot;&gt;
+       &lt;a href=&quot;https://singee.atlassian.net/wiki/spaces/MAIN/pages/355139587/MBR+vs+GPT&quot;&gt;email.notification.view.online&lt;/a&gt;
+                  &lt;/div&gt;
+&lt;/div&gt;</summary>
+    <dc:creator>Bryan</dc:creator>
+    <dc:date>2025-09-25T04:00:32Z</dc:date>
+  </entry>
+  <entry>
+    <title>&#x4e3b;&#x5206;&#x533a;&#xff0c;&#x903b;&#x8f91;&#x5206;&#x533a;&#xff0c;&#x6269;&#x5c55;&#x5206;&#x533a;</title>
+    <link rel="alternate" href="https://singee.atlassian.net/wiki/spaces/MAIN/pages/355729410"/>
+    <author>
+      <name>Bryan</name>
+    </author>
+    <id>tag:singee.atlassian.net,2009:page-355729410-1</id>
+    <updated>2025-09-25T03:50:22Z</updated>
+    <published>2025-09-25T03:50:22Z</published>
+    <summary type="html">&lt;div class=&quot;feed&quot;&gt;    &lt;p&gt;
+                        Live doc
+                    &lt;b&gt;added&lt;/b&gt; by
+                &lt;a  &gt;Bryan&lt;/a&gt;
+            &lt;/p&gt;
+        &lt;div style=&quot;border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 10px;&quot;&gt;
+        &lt;p local-id=&quot;578b0b96-7e7e-49a9-94ec-bfed2b4ceccd&quot;&gt;&#x8fd9;&#x51e0;&#x4e2a;&#x540d;&#x8bcd;&#x90fd;&#x662f;&lt;strong&gt;MBR &#x5206;&#x533a;&#x65f6;&#x4ee3;&lt;/strong&gt;&#x7684;&#x4ea7;&#x7269;&#xff08;GPT &#x65f6;&#x4ee3;&#x57fa;&#x672c;&#x4e0d;&#x7528;&#x5b83;&#x4eec;&#xff09;&lt;/p&gt;&lt;style type=&apos;text/css&apos;&gt;/*&lt;![CDATA[*/
+div.rbtoc1758932951414 {padding: 0px;}
+div.rbtoc1758932951414 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1758932951414 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]&gt;*/&lt;/style&gt;&lt;div class=&apos;toc-macro rbtoc1758932951414&apos;&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#id-&#x4e3b;&#x5206;&#x533a;&#xff0c;&#x903b;&#x8f91;&#x5206;&#x533a;&#xff0c;&#x6269;&#x5c55;&#x5206;&#x533a;-&#x4e09;&#x79cd;&#x5206;&#x533a;&#x7684;&#x542b;&#x4e49;&apos;&gt;&#x4e09;&#x79cd;&#x5206;&#x533a;&#x7684;&#x542b;&#x4e49;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#id-&#x4e3b;&#x5206;&#x533a;&#xff0c;&#x903b;&#x8f91;&#x5206;&#x533a;&#xff0c;&#x6269;&#x5c55;&#x5206;&#x533a;-&#x4e3a;&#x4ec0;&#x4e48;&#x4f1a;&#x6709;&#x6269;&#x5c55;/&#x903b;&#x8f91;&#x5206;&#x533a;&apos;&gt;&#x4e3a;&#x4ec0;&#x4e48;&#x4f1a;&#x6709;&#x6269;&#x5c55;/&#x903b;&#x8f91;&#x5206;&#x533a;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#id-&#x4e3b;&#x5206;&#x533a;&#xff0c;&#x903b;&#x8f91;&#x5206;&#x533a;&#xff0c;&#x6269;&#x5c55;&#x5206;&#x533a;-&#x5728;&#x5404;&#x7cfb;&#x7edf;&#x91cc;&#x7684;&#x8868;&#x73b0;&apos;&gt;&#x5728;&#x5404;&#x7cfb;&#x7edf;&#x91cc;&#x7684;&#x8868;&#x73b0;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#id-&#x4e3b;&#x5206;&#x533a;&#xff0c;&#x903b;&#x8f91;&#x5206;&#x533a;&#xff0c;&#x6269;&#x5c55;&#x5206;&#x533a;-&#x4e0e;GPT&#x7684;&#x5bf9;&#x6bd4;&#xff08;&#x73b0;&#x4ee3;&#x4e3b;&#x6d41;&#xff09;&apos;&gt;&#x4e0e; GPT &#x7684;&#x5bf9;&#x6bd4;&#xff08;&#x73b0;&#x4ee3;&#x4e3b;&#x6d41;&#xff09;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#id-&#x4e3b;&#x5206;&#x533a;&#xff0c;&#x903b;&#x8f91;&#x5206;&#x533a;&#xff0c;&#x6269;&#x5c55;&#x5206;&#x533a;-&#x5e38;&#x89c1;&#x95ee;&#x7b54;&apos;&gt;&#x5e38;&#x89c1;&#x95ee;&#x7b54;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#id-&#x4e3b;&#x5206;&#x533a;&#xff0c;&#x903b;&#x8f91;&#x5206;&#x533a;&#xff0c;&#x6269;&#x5c55;&#x5206;&#x533a;-&#x5c0f;&#x6280;&#x5de7;&#xff08;Linux&#xff09;&apos;&gt;&#x5c0f;&#x6280;&#x5de7;&#xff08;Linux&#xff09;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;h1 local-id=&quot;b7816ad3-094f-4687-b6af-8fc628fde848&quot; id=&quot;id-&#x4e3b;&#x5206;&#x533a;&#xff0c;&#x903b;&#x8f91;&#x5206;&#x533a;&#xff0c;&#x6269;&#x5c55;&#x5206;&#x533a;-&#x4e09;&#x79cd;&#x5206;&#x533a;&#x7684;&#x542b;&#x4e49;&quot;&gt;&lt;strong&gt;&#x4e09;&#x79cd;&#x5206;&#x533a;&#x7684;&#x542b;&#x4e49;&lt;/strong&gt;&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;&lt;p local-id=&quot;29b97ec3-ca05-4ebb-95f4-8997a027d053&quot;&gt;&lt;strong&gt;&#x4e3b;&#x5206;&#x533a;&#xff08;Primary partition&#xff09;&lt;/strong&gt;&lt;/p&gt;&lt;p local-id=&quot;0f5b0f2d-15a3-4f6c-97f3-adc471a76a05&quot;&gt;&#x76f4;&#x63a5;&#x5199;&#x5728; MBR &#x7684;&#x5206;&#x533a;&#x8868;&#x56db;&#x4e2a;&#x69fd;&#x4f4d;&#x4e4b;&#x4e00;&#x91cc;&#x3002;&#x5386;&#x53f2;&#x9650;&#x5236;&#xff1a;&lt;strong&gt;&#x6700;&#x591a; 4 &#x4e2a;&#x4e3b;&#x5206;&#x533a;&lt;/strong&gt;&#x3002;&lt;/p&gt;&lt;p local-id=&quot;098c2583-233f-4565-9b0d-2bd669b44ebe&quot;&gt;&#x4f20;&#x7edf; BIOS/MBR &#x542f;&#x52a8;&#x65f6;&#xff0c;&#x901a;&#x5e38;&#x4ece;&#x88ab;&#x6807;&#x8bb0;&#x4e3a; &lt;em&gt;Active&lt;/em&gt; &#x7684;&#x4e3b;&#x5206;&#x533a;&#x5f15;&#x5bfc;&#x3002;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p local-id=&quot;80628323-6103-4e5b-a817-739b6916b4d9&quot;&gt;&lt;strong&gt;&#x6269;&#x5c55;&#x5206;&#x533a;&#xff08;Extended partition&#xff09;&lt;/strong&gt;&lt;/p&gt;&lt;p local-id=&quot;fb0efd8e-bffb-4173-93c5-aa41af372099&quot;&gt;&#x4e3a;&#x4e86;&#x7a81;&#x7834;&#x201c;&#x6700;&#x591a; 4 &#x4e2a;&#x201d;&#x7684;&#x9650;&#x5236;&#xff0c;&#x628a;&#x5176;&#x4e2d;&lt;strong&gt;&#x4e00;&#x4e2a;&#x4e3b;&#x5206;&#x533a;&lt;/strong&gt;&#x6539;&#x4f5c;&#x201c;&#x5bb9;&#x5668;&#x201d;&#xff0c;&#x79f0;&#x4e3a;&#x6269;&#x5c55;&#x5206;&#x533a;&#x3002;&#x5b83;&#x672c;&#x8eab;&lt;strong&gt;&#x4e0d;&#x5b58;&#x653e;&#x6587;&#x4ef6;&#x7cfb;&#x7edf;&lt;/strong&gt;&#xff0c;&#x53ea;&#x7528;&#x6765;&lt;strong&gt;&#x5bb9;&#x7eb3;&#x591a;&#x4e2a;&#x903b;&#x8f91;&#x5206;&#x533a;&lt;/strong&gt;&#x3002;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p local-id=&quot;877cf4a8-542f-4e00-b8f0-02cd9f23138d&quot;&gt;&lt;strong&gt;&#x903b;&#x8f91;&#x5206;&#x533a;&#xff08;Logical partition&#xff09;&lt;/strong&gt;&lt;/p&gt;&lt;p local-id=&quot;f26d2c6d-8867-4d72-90b8-10a35bce4684&quot;&gt;&#x653e;&#x5728;&#x6269;&#x5c55;&#x5206;&#x533a;&#x5185;&#x90e8;&#xff0c;&#x7531;&#x4e00;&#x4e32; &lt;strong&gt;EBR&#xff08;&#x6269;&#x5c55;&#x5f15;&#x5bfc;&#x8bb0;&#x5f55;&#xff09;&lt;/strong&gt; &#x94fe;&#x8868;&#x63cf;&#x8ff0;&#xff0c;&#x53ef;&#x4ee5;&#x521b;&#x5efa;&lt;strong&gt;&#x5f88;&#x591a;&#x4e2a;&lt;/strong&gt;&#xff08;&#x8fdc;&#x8d85; 4 &#x4e2a;&#xff09;&#x3002;&lt;/p&gt;&lt;p local-id=&quot;2c874f4f-75bb-45c2-bda0-857123855ee9&quot;&gt;&#x903b;&#x8f91;&#x5206;&#x533a;&#x624d;&#x662f;&#x5b9e;&#x9645;&#x653e;&#x6587;&#x4ef6;&#x7cfb;&#x7edf;/&#x6570;&#x636e;&#x7684;&#x5206;&#x533a;&#x5355;&#x5143;&#x3002;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h1 local-id=&quot;a3038ae8-cd00-4ab6-9d6e-07c9d1aa6a88&quot; id=&quot;id-&#x4e3b;&#x5206;&#x533a;&#xff0c;&#x903b;&#x8f91;&#x5206;&#x533a;&#xff0c;&#x6269;&#x5c55;&#x5206;&#x533a;-&#x4e3a;&#x4ec0;&#x4e48;&#x4f1a;&#x6709;&#x6269;&#x5c55;/&#x903b;&#x8f91;&#x5206;&#x533a;&quot;&gt;&lt;strong&gt;&#x4e3a;&#x4ec0;&#x4e48;&#x4f1a;&#x6709;&#x6269;&#x5c55;/&#x903b;&#x8f91;&#x5206;&#x533a;&lt;/strong&gt;&lt;/h1&gt;&lt;p local-id=&quot;54cf8908-8e27-4cfb-a4a2-9a757a16ff7c&quot;&gt;MBR &#x7684;&#x5206;&#x533a;&#x8868;&#x53ea;&#x6709; 4 &#x4e2a;&#x8868;&#x9879; &#x2192; &#x6700;&#x591a;&#x53ea;&#x80fd;&#x6709; 4 &#x4e2a;&#x4e3b;&#x5206;&#x533a;&#x3002;&lt;/p&gt;&lt;p local-id=&quot;67ba64d2-bace-4ab4-b00e-499cc958733f&quot;&gt;&#x9700;&#x8981;&#x66f4;&#x591a;&#x5206;&#x533a;&#x65f6;&#xff0c;&#x5c31;&#x628a;&#x5176;&#x4e2d;&#x4e00;&#x4e2a;&#x4e3b;&#x5206;&#x533a;&#x6539;&#x4e3a;&#x201c;&#x6269;&#x5c55;&#x5206;&#x533a;&#x201d;&#xff0c;&#x5728;&#x5b83;&#x91cc;&#x9762;&#x518d;&#x5206;&#x51fa;&#x591a;&#x4e2a;&#x201c;&#x903b;&#x8f91;&#x5206;&#x533a;&#x201d;&#x3002;&lt;/p&gt;&lt;h1 local-id=&quot;861dbe0a-2f53-4dbb-a756-f05cf0562ea5&quot; id=&quot;id-&#x4e3b;&#x5206;&#x533a;&#xff0c;&#x903b;&#x8f91;&#x5206;&#x533a;&#xff0c;&#x6269;&#x5c55;&#x5206;&#x533a;-&#x5728;&#x5404;&#x7cfb;&#x7edf;&#x91cc;&#x7684;&#x8868;&#x73b0;&quot;&gt;&lt;strong&gt;&#x5728;&#x5404;&#x7cfb;&#x7edf;&#x91cc;&#x7684;&#x8868;&#x73b0;&lt;/strong&gt;&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;&lt;p local-id=&quot;99a7b88c-f434-4f7d-94bb-c8cf0ffc997f&quot;&gt;&lt;strong&gt;Linux &#x8bbe;&#x5907;&#x547d;&#x540d;&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p local-id=&quot;d96556a1-c3ac-4208-9022-c69dc06322d8&quot;&gt;&#x4e3b;&#x5206;&#x533a;&#xff1a;/dev/sda1 ~ /dev/sda4&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p local-id=&quot;fb4503db-4fab-4ebc-9a5c-a7d1739d914c&quot;&gt;&#x903b;&#x8f91;&#x5206;&#x533a;&#xff1a;&#x4ece; &lt;strong&gt;/dev/sda5&lt;/strong&gt; &#x5f00;&#x59cb;&#xff08;&#x5386;&#x53f2;&#x539f;&#x56e0;&#xff0c;5 &#x4ee5;&#x540e;&#x4fdd;&#x7559;&#x7ed9;&#x903b;&#x8f91;&#x5206;&#x533a;&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p local-id=&quot;fdd3ae2f-4289-478d-8bbf-a5a83ff4e05e&quot;&gt;&lt;strong&gt;Windows &#x76d8;&#x7b26;&lt;/strong&gt;&lt;/p&gt;&lt;p local-id=&quot;33563a8c-594a-4568-88bd-4d46004ed95e&quot;&gt;&#x4e3b;&#x5206;&#x533a;&#x4e0e;&#x6269;&#x5c55;&#x5206;&#x533a;&#x91cc;&#x7684;&#x903b;&#x8f91;&#x5206;&#x533a;&#x90fd;&#x4f1a;&#x88ab;&#x5206;&#x914d;&#x76d8;&#x7b26;&#xff08;&#x5982; C:, D:&#x2026;&#xff09;&#xff0c;&#x6269;&#x5c55;&#x5206;&#x533a;&#x672c;&#x8eab;&#x4e0d;&#x5206;&#x914d;&#x76d8;&#x7b26;&#x3002;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id=&quot;d8769942-26af-4096-84d7-03301fd58280&quot; /&gt;&lt;h1 local-id=&quot;6a3d6cdc-18d7-49f1-91e5-a29424d847f7&quot; id=&quot;id-&#x4e3b;&#x5206;&#x533a;&#xff0c;&#x903b;&#x8f91;&#x5206;&#x533a;&#xff0c;&#x6269;&#x5c55;&#x5206;&#x533a;-&#x4e0e;GPT&#x7684;&#x5bf9;&#x6bd4;&#xff08;&#x73b0;&#x4ee3;&#x4e3b;&#x6d41;&#xff09;&quot;&gt;&lt;strong&gt;&#x4e0e; GPT &#x7684;&#x5bf9;&#x6bd4;&#xff08;&#x73b0;&#x4ee3;&#x4e3b;&#x6d41;&#xff09;&lt;/strong&gt;&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;&lt;p local-id=&quot;e21f0e55-35cc-4a80-9e24-30739ff2b380&quot;&gt;&lt;strong&gt;GPT&#xff08;GUID Partition Table&#xff09;&lt;/strong&gt; &#x6ca1;&#x6709;&#x4e3b;/&#x6269;&#x5c55;/&#x903b;&#x8f91;&#x4e4b;&#x5206;&#xff0c;&#x6240;&#x6709;&#x5206;&#x533a;&#x90fd;&#x662f;&#x201c;&#x4e00;&#x7ea7;&#x5206;&#x533a;&#x201d;&#x3002;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p local-id=&quot;6e142139-31fd-4a2c-8e68-569b4f5f60ab&quot;&gt;&#x5e38;&#x89c1;&#x5b9e;&#x73b0;&#x9ed8;&#x8ba4;&#x652f;&#x6301; &lt;strong&gt;&#x2265;128 &#x4e2a;&#x5206;&#x533a;&lt;/strong&gt;&#xff0c;&#x4e14;&#x7a81;&#x7834; MBR &lt;strong&gt;2 TiB&lt;/strong&gt; &#x5bb9;&#x91cf;&#x4e0a;&#x9650;&#x3002;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p local-id=&quot;a8518bab-b8f0-4346-835c-26cc109b6311&quot;&gt;UEFI &#x542f;&#x52a8;&#x901a;&#x5e38;&#x9700;&#x8981;&#x4e00;&#x4e2a; &lt;strong&gt;EFI System Partition (ESP)&lt;/strong&gt;&#xff08;FAT32&#xff0c;&#x7ea6; 100&#x2013;300 MiB&#xff09;&#x3002;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;blockquote&gt;&lt;p local-id=&quot;95051b12-e76b-4f3b-a4ba-7705626ca570&quot;&gt;&lt;strong&gt;&#x7ed3;&#x8bba;&lt;/strong&gt;&#xff1a;&#x65b0;&#x8bbe;&#x5907;/&#x65b0;&#x7cfb;&#x7edf;&#x5c3d;&#x91cf;&#x7528; &lt;strong&gt;GPT&lt;/strong&gt;&#xff1b;&#x53ea;&#x6709;&#x517c;&#x5bb9;&#x8001;&#x65e7; BIOS/&#x5de5;&#x5177;&#x65f6;&#x624d;&#x8003;&#x8651; MBR &#x7684;&#x4e3b;/&#x6269;&#x5c55;/&#x903b;&#x8f91;&#x5206;&#x533a;&#x3002;&lt;/p&gt;&lt;/blockquote&gt;&lt;h1 local-id=&quot;4406f3d0-b58e-4b75-9e1c-6fb9c31f17f4&quot; id=&quot;id-&#x4e3b;&#x5206;&#x533a;&#xff0c;&#x903b;&#x8f91;&#x5206;&#x533a;&#xff0c;&#x6269;&#x5c55;&#x5206;&#x533a;-&#x5e38;&#x89c1;&#x95ee;&#x7b54;&quot;&gt;&lt;strong&gt;&#x5e38;&#x89c1;&#x95ee;&#x7b54;&lt;/strong&gt;&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;&lt;p local-id=&quot;d8a886ea-158f-45ea-a0f2-197a338e86fa&quot;&gt;&lt;strong&gt;&#x80fd;&#x6709;&#x51e0;&#x4e2a;&#x903b;&#x8f91;&#x5206;&#x533a;&#xff1f;&lt;/strong&gt;&lt;/p&gt;&lt;p local-id=&quot;112e1c63-92bd-4c69-b586-436e6c79d008&quot;&gt;&#x7406;&#x8bba;&#x4e0a;&#x5f88;&#x591a;&#xff08;&#x53d7; EBR &#x94fe;/&#x5de5;&#x5177;&#x5b9e;&#x73b0;&#x9650;&#x5236;&#xff09;&#xff0c;&#x5b9e;&#x9645;&#x591f;&#x7528;&#x3002;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p local-id=&quot;996a7f76-ef2c-424d-a081-51051ccf335c&quot;&gt;&lt;strong&gt;&#x6269;&#x5c55;&#x5206;&#x533a;&#x80fd;&#x88c5;&#x7cfb;&#x7edf;&#x5417;&#xff1f;&lt;/strong&gt;&lt;/p&gt;&lt;p local-id=&quot;bd4d15f5-c187-4d38-8ec8-7d885d39eeba&quot;&gt;&#x81ea;&#x8eab;&#x4e0d;&#x80fd;&#xff1b;&#x7cfb;&#x7edf;&#x88c5;&#x5728;&#x5176;&#x4e2d;&#x7684;&#x201c;&#x903b;&#x8f91;&#x5206;&#x533a;&#x201d;&#x91cc;&#x3002;&#x4f20;&#x7edf; BIOS &#x76f4;&#x542f;&#x504f;&#x597d;&#x4e3b;&#x5206;&#x533a;&#xff0c;&#x4f46;&#x73b0;&#x4ee3;&#x5f15;&#x5bfc;&#x5668;&#xff08;&#x5982; GRUB&#xff09;&#x53ef;&#x4ece;&#x903b;&#x8f91;&#x5206;&#x533a;&#x542f;&#x52a8;&#x3002;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p local-id=&quot;8567ff2b-1274-4a84-bc58-d1a0b21a2565&quot;&gt;&lt;strong&gt;LVM/RAID &#x4e0e;&#x5206;&#x533a;&lt;/strong&gt;&lt;/p&gt;&lt;p local-id=&quot;b8f8e672-2db6-410a-a0a2-2cb1f610c8df&quot;&gt;&#x5e38;&#x89c1;&#x505a;&#x6cd5;&#x662f;&#x5728; GPT &#x4e0a;&#x76f4;&#x63a5;&#x5efa;&#x4e00;&#x4e2a;&#x5206;&#x533a;&#x7ed9; LVM/RAID&#xff1b;&#x5728; MBR &#x4e0a;&#x4e5f;&#x53ef;&#x628a;&lt;strong&gt;&#x4e00;&#x4e2a;&#x4e3b;&#x5206;&#x533a;&lt;/strong&gt;&#x6216;&lt;strong&gt;&#x903b;&#x8f91;&#x5206;&#x533a;&lt;/strong&gt;&#x7528;&#x4f5c; LVM PV&#x3002;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h1 local-id=&quot;52af13c1-95dc-4b0a-bfd8-f128cdc7e452&quot; id=&quot;id-&#x4e3b;&#x5206;&#x533a;&#xff0c;&#x903b;&#x8f91;&#x5206;&#x533a;&#xff0c;&#x6269;&#x5c55;&#x5206;&#x533a;-&#x5c0f;&#x6280;&#x5de7;&#xff08;Linux&#xff09;&quot;&gt;&lt;strong&gt;&#x5c0f;&#x6280;&#x5de7;&#xff08;Linux&#xff09;&lt;/strong&gt;&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;&lt;p local-id=&quot;448725ec-b5b6-430b-944d-3d2950e555c4&quot;&gt;&#x67e5;&#x770b;&#xff1a;&lt;code&gt;lsblk&lt;/code&gt;, &lt;code&gt;fdisk -l&lt;/code&gt;, &lt;code&gt;parted -l&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p local-id=&quot;144143be-37d2-4cb2-b6a7-bb37778d316d&quot;&gt;&#x521b;&#x5efa;&#xff08;MBR &#x601d;&#x8def;&#xff09;&#xff1a;&#x5148;&#x5efa; &#x2264;3 &#x4e2a;&#x4e3b;&#x5206;&#x533a; + 1 &#x4e2a;&#x6269;&#x5c55;&#x5206;&#x533a;&#xff0c;&#x518d;&#x5728;&#x6269;&#x5c55;&#x91cc;&#x5206;&#x903b;&#x8f91;&#x5206;&#x533a;&#x3002;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p local-id=&quot;9a3a00af-c81b-4f5c-91ad-4fe606b4aec9&quot;&gt;&#x521b;&#x5efa;&#xff08;&#x63a8;&#x8350; GPT&#xff09;&#xff1a;&#x76f4;&#x63a5;&#x6309;&#x9700;&#x8981;&#x5efa;&#x591a;&#x4e2a;&#x5206;&#x533a;&#xff0c;&#x4e0d;&#x518d;&#x8003;&#x8651;&#x4e3b;/&#x6269;&#x5c55;/&#x903b;&#x8f91;&#x4e4b;&#x5206;&#x3002;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id=&quot;dca7b077-3b5b-4f4f-ad75-d88884b50466&quot; /&gt;
+    &lt;/div&gt;
+        &lt;div style=&quot;padding: 10px 0;&quot;&gt;
+       &lt;a href=&quot;https://singee.atlassian.net/wiki/spaces/MAIN/pages/355729410&quot;&gt;email.notification.view.online&lt;/a&gt;
+                  &lt;/div&gt;
+&lt;/div&gt;</summary>
+    <dc:creator>Bryan</dc:creator>
+    <dc:date>2025-09-25T03:50:22Z</dc:date>
+  </entry>
+  <entry>
+    <title>mDNS</title>
+    <link rel="alternate" href="https://singee.atlassian.net/wiki/spaces/MAIN/pages/346128388/mDNS"/>
+    <author>
+      <name>Bryan</name>
+    </author>
+    <id>tag:singee.atlassian.net,2009:page-346128388-3</id>
+    <updated>2025-09-22T06:25:52Z</updated>
+    <published>2025-09-22T06:25:52Z</published>
+    <summary type="html">&lt;div class=&quot;feed&quot;&gt;    &lt;p&gt;
+                        Live doc
+                    &lt;b&gt;edited&lt;/b&gt; by
+                &lt;a  &gt;Bryan&lt;/a&gt;
+             - &quot;Autosaved&quot;
+        &lt;/p&gt;
+        &lt;div style=&quot;border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 10px;&quot;&gt;
+        &lt;p local-id=&quot;89ae5fde-6d89-4247-885a-3bfbdd39bcba&quot;&gt;mDNS&#xff08;Multicast DNS&#xff0c;&#x7ec4;&#x64ad; DNS&#xff09;&#x662f;&#x4e00;&#x79cd;&#x5728;&#x672c;&#x5730;&#x5c40;&#x57df;&#x7f51;&#x5185;&#x3001;&#x65e0;&#x9700;&#x4e13;&#x7528; DNS &#x670d;&#x52a1;&#x5668;&#x5c31;&#x80fd;&#x505a;&#x4e3b;&#x673a;&#x540d;&#x89e3;&#x6790;&#x4e0e;&#x670d;&#x52a1;&#x53d1;&#x73b0;&#x7684;&#x534f;&#x8bae;&#x3002;&lt;/p&gt;&lt;style type=&apos;text/css&apos;&gt;/*&lt;![CDATA[*/
+div.rbtoc1758932951436 {padding: 0px;}
+div.rbtoc1758932951436 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1758932951436 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]&gt;*/&lt;/style&gt;&lt;div class=&apos;toc-macro rbtoc1758932951436&apos;&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#mDNS-&#x529f;&#x80fd;&apos;&gt;&#x529f;&#x80fd;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#mDNS-&#x5173;&#x952e;&#x70b9;&#x4e00;&#x89c8;&apos;&gt;&#x5173;&#x952e;&#x70b9;&#x4e00;&#x89c8;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#mDNS-&#x4f7f;&#x7528;&apos;&gt;&#x4f7f;&#x7528;&lt;/a&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#mDNS-&#x4e3b;&#x52a8;&#x67e5;&#x8be2;&apos;&gt;&#x4e3b;&#x52a8;&#x67e5;&#x8be2;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#mDNS-&#x88ab;&#x52a8;&#x7f13;&#x5b58;&apos;&gt;&#x88ab;&#x52a8;&#x7f13;&#x5b58;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#mDNS-&#x4e3b;&#x673a;&#x540d;&#x89e3;&#x6790;&#x4e0e;&#x670d;&#x52a1;&#x53d1;&#x73b0;&apos;&gt;&#x4e3b;&#x673a;&#x540d;&#x89e3;&#x6790;&#x4e0e;&#x670d;&#x52a1;&#x53d1;&#x73b0;&lt;/a&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#mDNS-_services._dns-sd._udp.local&apos;&gt;_services._dns-sd._udp.local&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#mDNS-&#x5de5;&#x5177;&apos;&gt;&#x5de5;&#x5177;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;h2 local-id=&quot;f6f694de-129e-4847-963d-d9929f7fec24&quot; id=&quot;mDNS-&#x529f;&#x80fd;&quot;&gt;&#x529f;&#x80fd;&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;p local-id=&quot;bc9dad82-aeec-44f3-938d-cee6aa885b1b&quot;&gt;&lt;strong&gt;&#x4e3b;&#x673a;&#x540d;&#x89e3;&#x6790;&lt;/strong&gt;&#xff1a;&#x628a; my-printer.local &#x89e3;&#x6790;&#x6210; IP&#xff0c;&#x9002;&#x7528;&#x4e8e;&#x4e34;&#x65f6;/&#x5bb6;&#x5ead;/&#x5c0f;&#x578b;&#x7f51;&#x7edc;&#xff0c;&#x65e0;&#x9700;&#x642d;&#x5efa; DNS&#x3002;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p local-id=&quot;74c7f5e2-e673-4a57-bd2b-1ecb7c86fc23&quot;&gt;&lt;strong&gt;&#x670d;&#x52a1;&#x53d1;&#x73b0;&#xff08;&#x914d;&#x5408; DNS-SD&#xff09;&lt;/strong&gt;&#xff1a;&#x53d1;&#x73b0;&#x201c;&#x6709;&#x54ea;&#x4e9b; AirPlay&#x3001;&#x6253;&#x5370;&#x3001;HTTP &#x670d;&#x52a1;&#x201d;&#x7b49;&#xff0c;&#x800c;&#x4e0d;&#x4ec5;&#x4ec5;&#x662f;&#x4e3b;&#x673a;&#x540d;&#x3002;&#x4f8b;&#x5982;&#x6d4f;&#x89c8; _airplay._tcp.local&#x3001;_http._tcp.local&#x3002;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h2 local-id=&quot;27fa43b7-6ea9-4fa5-9562-5b818a57aff5&quot; id=&quot;mDNS-&#x5173;&#x952e;&#x70b9;&#x4e00;&#x89c8;&quot;&gt;&lt;strong&gt;&#x5173;&#x952e;&#x70b9;&#x4e00;&#x89c8;&lt;/strong&gt;&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;p local-id=&quot;adf1d566-13d9-4481-ab1c-25f2c97734f4&quot;&gt;&#x7aef;&#x53e3;&#x4e0e;&#x5730;&#x5740;&#xff1a;&lt;strong&gt;UDP/5353&lt;/strong&gt;&#xff1b;IPv4 &#x7ec4;&#x64ad; &lt;strong&gt;224.0.0.251&lt;/strong&gt;&#xff0c;IPv6 &#x7ec4;&#x64ad; &lt;strong&gt;ff02::fb&lt;/strong&gt;&#xff08;&#x94fe;&#x8def;&#x672c;&#x5730;&#xff0c;&#x8def;&#x7531;&#x5668;&#x4e0d;&#x4f1a;&#x8f6c;&#x53d1;&#xff09;&#x3002;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p local-id=&quot;6ec6ceda-8f27-428b-9d98-48f901bf1b0e&quot;&gt;&#x6b63;&#x786e;&#x7684; mDNS &#x67e5;&#x8be2;&#xff08;&#x591a;&#x64ad;&#xff09;&#x9700;&#x8981;&#x6ee1;&#x8db3;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p local-id=&quot;5c7d938b-7342-4cf0-afc5-8086c95ad2ed&quot;&gt;IP Header &#x4e2d;&#x76ee;&#x6807;IP&#x5730;&#x5740;&#x5c5e;&#x4e8e;&#x591a;&#x64ad;&#x5730;&#x5740; 224.0.0.251 &#x6216; ff02::fb&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p local-id=&quot;749a858c-ac58-4976-85eb-8131d70eedd6&quot;&gt;Ethernet Header&#x4e2d;&#x76ee;&#x6807; MAC &#x5c5e;&#x4e8e;&#x591a;&#x64ad; MAC&#xff08;&#x7531;&#x591a;&#x64ad;IP&#x7f16;&#x7801;&#x800c;&#x6210;&#xff09;&lt;/p&gt;&lt;ol start=&quot;1&quot;&gt;&lt;li&gt;&lt;p local-id=&quot;ef1b4f47-c8c8-4c77-840c-8c9ee99a2283&quot;&gt;IPv4 mDNS&#xff08;224.0.0.251&#xff09;&#x2192; &lt;strong&gt;01:00:5e:00:00:fb&lt;/strong&gt;&lt;/p&gt;&lt;p local-id=&quot;9bbe62c7-24b5-4a2a-a047-5a5985a694f3&quot;&gt;&#x89c4;&#x5219;&#xff1a;01:00:5e + IPv4 &#x591a;&#x64ad;&#x5730;&#x5740;&#x7684;&lt;strong&gt;&#x4f4e; 23 &#x4f4d;&lt;/strong&gt;&#xff08;RFC 1112&#xff09;&#x3002;&#x5bf9; 224.0.0.251&#xff08;0xE0.00.00.FB&#xff09;&#x6620;&#x5c04;&#x5373; 00:00:fb&#x3002;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p local-id=&quot;39a7f72d-f484-4419-9786-db074d04cd99&quot;&gt;IPv6 mDNS&#xff08;ff02::fb&#xff09;&#x2192; &lt;strong&gt;33:33:00:00:00:fb&lt;/strong&gt;&lt;/p&gt;&lt;p local-id=&quot;6b26543f-cde0-42d9-9a14-6bf4bef0609d&quot;&gt;&#x89c4;&#x5219;&#xff1a;33:33 + IPv6 &#x7ec4;&#x64ad;&#x5730;&#x5740;&#x7684;&lt;strong&gt;&#x4f4e; 32 &#x4f4d;&lt;/strong&gt;&#xff08;RFC 2464/5342&#xff09;&#x3002;&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;li&gt;&lt;p local-id=&quot;5459fed3-dd47-4124-8f59-0f28114bf623&quot;&gt;UDP&#x3001;&#x7aef;&#x53e3; 5353&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p local-id=&quot;85971ca3-12bb-418f-a07a-b061907dc7a0&quot;&gt;&#x57df;&#x540d;&#x540e;&#x7f00;&#xff1a;&#x901a;&#x5e38;&#x662f; &lt;strong&gt;.local.&lt;/strong&gt;&#xff08;RFC 6762 &#x89c4;&#x5b9a;&#x4e3a; mDNS &#x4e13;&#x7528;&#x540e;&#x7f00;&#xff09;&#x3002;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p local-id=&quot;d16ee5e2-a051-4904-91f2-f9a0df8d557e&quot;&gt;&#x76f8;&#x5173;&#x6807;&#x51c6;&#xff1a;&lt;strong&gt;RFC 6762&lt;/strong&gt;&#xff08;mDNS&#xff09;&#x3001;&lt;strong&gt;RFC 6763&lt;/strong&gt;&#xff08;DNS-SD&#xff09;&#x3002;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p local-id=&quot;eb15d031-81ec-40ab-a490-3aa5c0501134&quot;&gt;&#x5e38;&#x89c1;&#x5b9e;&#x73b0;/&#x540d;&#x79f0;&#xff1a;Apple &lt;strong&gt;Bonjour&lt;/strong&gt;&#xff08;macOS/iOS&#xff09;&#xff0c;Linux &#x4e0a;&#x7684; &lt;strong&gt;Avahi&lt;/strong&gt;&#xff0c;Windows 10+ &#x4e5f;&#x652f;&#x6301; mDNS&#x3002;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h2 local-id=&quot;d76a5b65-af10-458a-a6ec-46febfd13d5b&quot; id=&quot;mDNS-&#x4f7f;&#x7528;&quot;&gt;&#x4f7f;&#x7528;&lt;/h2&gt;&lt;h3 local-id=&quot;1d6f81be-bed8-4984-b886-33d9e104e7c0&quot; id=&quot;mDNS-&#x4e3b;&#x52a8;&#x67e5;&#x8be2;&quot;&gt;&lt;strong&gt;&#x4e3b;&#x52a8;&#x67e5;&#x8be2;&lt;/strong&gt;&lt;/h3&gt;&lt;ol start=&quot;1&quot;&gt;&lt;li&gt;&lt;p local-id=&quot;e74b4234-ec55-4404-bdf6-f830dd9f2356&quot;&gt;&#x4f60;&#x8981;&#x8bbf;&#x95ee; host.local&#xff0c;&#x7cfb;&#x7edf;&#x628a; DNS &#x67e5;&#x8be2;&#x6539;&#x4e3a;&lt;strong&gt;&#x53d1;&#x7ec4;&#x64ad;&lt;/strong&gt;&#x5230; 224.0.0.251:5353&#x3002;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p local-id=&quot;210f97f7-bfcb-4f8f-b4ed-7f0fbc077e13&quot;&gt;&#x7f51;&#x6bb5;&#x91cc;&#x62e5;&#x6709;&#x8be5;&#x540d;&#x5b57;&#x7684;&#x8bbe;&#x5907;&#x76f4;&#x63a5;&lt;strong&gt;&#x5355;&#x64ad;/&#x7ec4;&#x64ad;&#x56de;&#x590d;&lt;/strong&gt; A/AAAA &#x8bb0;&#x5f55;&#xff08;&#x8fd8;&#x53ef;&#x80fd;&#x5e26; SRV/TXT &#x7b49;&#xff09;&#x3002;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p local-id=&quot;06cb8afa-9386-4fb8-982d-bd66e90cb274&quot;&gt;&lt;strong&gt;DNS-SD&lt;/strong&gt;&#xff1a;&#x8981;&#x627e;&#x670d;&#x52a1;&#x65f6;&#xff0c;&#x5148;&#x67e5;&#x8be2; _&amp;lt;service&amp;gt;._&amp;lt;proto&amp;gt;.local&#xff08;&#x6bd4;&#x5982; _http._tcp.local&#xff09;&#x5f97;&#x5230;&#x670d;&#x52a1;&#x5b9e;&#x4f8b;&#x540d;&#xff0c;&#x518d;&#x67e5; SRV/TXT &#x83b7;&#x53d6;&lt;strong&gt;&#x4e3b;&#x673a;&#x540d;+&#x7aef;&#x53e3;+&#x5143;&#x6570;&#x636e;&lt;/strong&gt;&#xff0c;&#x6700;&#x540e;&#x67e5;&#x4e3b;&#x673a;&#x540d;&#x7684; A/AAAA&#x3002;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p local-id=&quot;f52088f6-2af9-4e99-a767-4d006a3f387b&quot;&gt;&#x51b2;&#x7a81;&#x5904;&#x7406;&#xff1a;&#x8bbe;&#x5907;&#x4e0a;&#x7535;&#x4f1a;&lt;strong&gt;&#x63a2;&#x6d4b;&lt;/strong&gt;&#xff08;probe&#xff09;&#x540d;&#x5b57;&#x662f;&#x5426;&#x88ab;&#x5360;&#x7528;&#xff1b;&#x5982;&#x51b2;&#x7a81;&#x4f1a;&#x6539;&#x540d;&#xff08;&#x5982; X (2).local&#xff09;&#x5e76;&#x5ba3;&#x5e03;&#xff08;announce/defend&#xff09;&#x3002;&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;h3 local-id=&quot;aae798bc-e8dc-44b8-b3ba-084f195163d0&quot; id=&quot;mDNS-&#x88ab;&#x52a8;&#x7f13;&#x5b58;&quot;&gt;&#x88ab;&#x52a8;&#x7f13;&#x5b58;&lt;/h3&gt;&lt;p local-id=&quot;f4b22b42-80a8-4749-b309-327558546d2b&quot;&gt;mDNS/ DNS-SD &#x5b88;&#x62a4;&#x8fdb;&#x7a0b;&#xff08;macOS &#x7684; mDNSResponder&#x3001;Linux &#x7684; avahi-daemon&#xff09;&#x4f1a;&#x65c1;&#x542c;&#x6240;&#x6709; 5353 &#x6d41;&#x91cf;&#xff0c;&#x628a;&#x770b;&#x5230;&#x7684;&#x5e94;&#x7b54;&#xff08;&#x542b;&#x5f00;&#x673a; announce&#x3001;&#x540e;&#x7eed;&#x66f4;&#x65b0;&#x3001;goodbye=TTL 0&#xff09;&#x653e;&#x8fdb;&#x672c;&#x5730;&#x7f13;&#x5b58;&#x3002;&lt;/p&gt;&lt;p local-id=&quot;9663a009-dec3-4e02-a667-67b7147b4d52&quot; /&gt;&lt;h2 local-id=&quot;e7ca34ea-88bc-4180-9d60-7d1c6b0579e2&quot; id=&quot;mDNS-&#x4e3b;&#x673a;&#x540d;&#x89e3;&#x6790;&#x4e0e;&#x670d;&#x52a1;&#x53d1;&#x73b0;&quot;&gt;&#x4e3b;&#x673a;&#x540d;&#x89e3;&#x6790;&#x4e0e;&#x670d;&#x52a1;&#x53d1;&#x73b0;&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;p local-id=&quot;f3e91bc2-d134-44a7-9209-d53d271d6079&quot;&gt;&#x4e3b;&#x673a;&#x540d;&#x89e3;&#x6790;&#xff1a;&#x53ea;&#x7528; A/AAAA &#x67e5;&#x8be2; host.local &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p local-id=&quot;fc3912f7-06a1-4c6e-91f8-042c7be349d4&quot;&gt;&#x670d;&#x52a1;&#x53d1;&#x73b0;&#xff08;DNS-SD&#xff09;&#xff1a;&#x67e5; _service._tcp.local&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;table-wrap&quot;&gt;&lt;table data-table-width=&quot;760&quot; data-layout=&quot;default&quot; data-local-id=&quot;16fb59bf-b2a8-418a-b14a-4acc023ee5b0&quot; class=&quot;confluenceTable&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th class=&quot;confluenceTh&quot;&gt;&lt;p local-id=&quot;6581a94b-108e-4fe2-a242-aabc0f7e7218&quot;&gt;&lt;strong&gt;&#x76ee;&#x6807;&lt;/strong&gt;&lt;/p&gt;&lt;/th&gt;&lt;th class=&quot;confluenceTh&quot;&gt;&lt;p local-id=&quot;5cbdafb7-99e6-4ef6-ba26-837c6a65d5b0&quot;&gt;&lt;strong&gt;&#x67e5;&#x8be2;&#x540d;&lt;/strong&gt;&lt;/p&gt;&lt;/th&gt;&lt;th class=&quot;confluenceTh&quot;&gt;&lt;p local-id=&quot;a79de619-27ae-4b6b-b8dd-7e7a4b450694&quot;&gt;&lt;strong&gt;&#x4e3b;&#x8981; RR &#x7c7b;&#x578b;&lt;/strong&gt;&lt;/p&gt;&lt;/th&gt;&lt;th class=&quot;confluenceTh&quot;&gt;&lt;p local-id=&quot;28753d3a-bd1f-4537-86cc-eebf8a6d1ea0&quot;&gt;&lt;strong&gt;&#x7ed3;&#x679c;&#x91cc;&#x6709;&#x4ec0;&#x4e48;&lt;/strong&gt;&lt;/p&gt;&lt;/th&gt;&lt;th class=&quot;confluenceTh&quot;&gt;&lt;p local-id=&quot;7d8edbec-781f-4ed1-a180-a60abf7bb130&quot;&gt;&lt;strong&gt;&#x9002;&#x7528;&#x573a;&#x666f;&lt;/strong&gt;&lt;/p&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;aabc1d2b-f0c1-4d6d-8271-556a45318b2d&quot;&gt;&lt;strong&gt;&#x4e3b;&#x673a;&#x540d;&#x89e3;&#x6790;&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;0e088c62-dcb1-43ed-8172-32898ed901fa&quot;&gt;host.local.&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;b1a662b3-a54d-483e-ab98-20794138f80e&quot;&gt;&lt;strong&gt;A/AAAA&lt;/strong&gt;&#xff08;&#x53ef;&#x80fd;&#x5e26;&#x9644;&#x52a0;&#x8bb0;&#x5f55;&#xff09;&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;6fc147ce-ee90-4c27-b9fc-3ec8edeb8739&quot;&gt;&#x53ea;&#x7ed9;&#x4f60; IP&#xff08;v4/v6&#xff09;&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;5fd4c516-91fc-4e3e-b83f-d7ed80c2d141&quot;&gt;&#x4f60;&#x5df2;&#x7ecf;&#x77e5;&#x9053;&#x4e3b;&#x673a;&#x540d;&#xff0c;&#x53ea;&#x60f3;&#x62ff;&#x5230; IP&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;d169f842-8234-48fd-a5f2-191fcb1242b0&quot;&gt;&lt;strong&gt;&#x670d;&#x52a1;&#x53d1;&#x73b0;&#xff08;DNS-SD&#xff09;&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;8b63afea-ebd1-40ee-9ee3-63ca795aeebf&quot;&gt;_&amp;lt;service&amp;gt;._&amp;lt;proto&amp;gt;.local.&#xff08;&#x4f8b;&#x5982; _http._tcp.local.&#xff09;&#x6216;&#x5148;&#x67e5; _services._dns-sd._udp.local.&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;1dbca686-9513-408d-a01b-05fe8e7eb7dc&quot;&gt;&lt;strong&gt;PTR &#x2192; SRV + TXT &#x2192; A/AAAA&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;db9f66a4-70e2-4d03-b0fd-d596776f7214&quot;&gt;&#x53d1;&#x73b0;&#x6709;&#x54ea;&#x4e9b;&#x201c;&#x670d;&#x52a1;&#x5b9e;&#x4f8b;&#x201d;&#xff08;&#x540d;&#x5b57;&#x3001;&#x7aef;&#x53e3;&#x3001;&#x5143;&#x4fe1;&#x606f;&#xff09;&#xff0c;&#x518d;&#x89e3;&#x6790;&#x5b83;&#x80cc;&#x540e;&#x7684;&#x4e3b;&#x673a; IP&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p local-id=&quot;05b9d12f-6dd8-46e1-9133-d5dae1abbabe&quot;&gt;&#x4f60;&#x4e0d;&#x77e5;&#x9053;&#x8c01;&#x63d0;&#x4f9b;&#x670d;&#x52a1;&#x3001;&#x7aef;&#x53e3;&#x662f;&#x591a;&#x5c11;&#x3001;&#x6216;&#x9700;&#x8981;&#x6309;&#x7c7b;&#x578b;&#x5217;&#x51fa;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;p local-id=&quot;25793daa-5e17-4594-b2f6-786ec9d56947&quot;&gt;&#x7b80;&#x5316;&#x6d41;&#x7a0b;&#x5bf9;&#x6bd4;&#xff1a;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p local-id=&quot;be2ae4ef-7444-4379-b3b7-d0bef19ae446&quot;&gt;&lt;strong&gt;&#x4e3b;&#x673a;&#x540d;&#x89e3;&#x6790;&lt;/strong&gt;&#xff1a;&lt;/p&gt;&lt;p local-id=&quot;8b655c0d-c503-4bb2-a057-bd7a4157653f&quot;&gt;&#x4f60;&#x53d1; A/AAAA host.local &#x2192; &#x8fd4;&#x56de; A/AAAA&#xff08;IP&#xff09;&#x3002;&lt;strong&gt;&#x5230;&#x6b64;&#x7ed3;&#x675f;&lt;/strong&gt;&#x3002;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p local-id=&quot;2d34df4b-065c-4d69-8988-572a3bb6d595&quot;&gt;&lt;strong&gt;&#x670d;&#x52a1;&#x53d1;&#x73b0;&lt;/strong&gt;&#xff1a;&lt;/p&gt;&lt;p local-id=&quot;0e3342ec-81a5-4978-b151-d8fdaaa3624f&quot;&gt;&#x4f60;&#x53d1; PTR _http._tcp.local &#x2192; &#x5f97;&#x5230;&#x82e5;&#x5e72;&#x5b9e;&#x4f8b;&#x540d;&#xff08;&#x6bd4;&#x5982; &amp;quot;Home Assistant._http._tcp.local&amp;quot;&#xff09;&lt;/p&gt;&lt;p local-id=&quot;b80dbad6-e7a0-42c7-84c6-e0440578922a&quot;&gt;&#x2192; &#x5bf9;&#x67d0;&#x4e2a;&#x5b9e;&#x4f8b;&#x53d1; SRV/TXT &#x2192; &#x5f97;&#x5230;&lt;strong&gt;&#x76ee;&#x6807;&#x4e3b;&#x673a;&#x540d; + &#x7aef;&#x53e3; + &#x5143;&#x6570;&#x636e;&lt;/strong&gt;&#xff08;&#x5982;&#x8def;&#x5f84;&#x3001;&#x7279;&#x6027;&#xff09;&lt;/p&gt;&lt;p local-id=&quot;127fef00-a14a-4c77-9316-1c47e61550b7&quot;&gt;&#x2192; &#x518d;&#x5bf9;&#x76ee;&#x6807;&#x4e3b;&#x673a;&#x540d;&#x53d1; A/AAAA &#x62ff;&#x5230; IP&#x3002;&lt;strong&gt;&#x94fe;&#x8def;&#x66f4;&#x957f;&#xff0c;&#x4f46;&#x4fe1;&#x606f;&#x66f4;&#x5168;&lt;/strong&gt;&#x3002;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h3 local-id=&quot;3f131c77-f60f-482e-9b9b-043783f48dde&quot; id=&quot;mDNS-_services._dns-sd._udp.local&quot;&gt;_services._dns-sd._udp.local&lt;/h3&gt;&lt;p local-id=&quot;73433b20-0851-49dc-8151-efb392c72cf4&quot;&gt;DNS-SD &#x7684;&#x201c;&#x670d;&#x52a1;&#x7c7b;&#x578b;&#x679a;&#x4e3e; (Service Type Enumeration)&#x201d;&#x5165;&#x53e3;&#x3002;&lt;/p&gt;&lt;p local-id=&quot;41f44d9b-ac4d-4a67-bc9e-7335f5c817fb&quot;&gt;&#x5bf9; &lt;code&gt;_services._dns-sd._udp.local&lt;/code&gt; &#x53d1; PTR &#x67e5;&#x8be2;&#xff0c;&#x7f51;&#x7edc;&#x91cc;&#x7684;&#x8bbe;&#x5907;&#x4f1a;&#x7528; PTR &#x8bb0;&#x5f55;&#x544a;&#x8bc9;&#x4f60;&#x201c;&#x6211;&#x6b63;&#x5728;&#x53d1;&#x5e03;&#x54ea;&#x4e9b;&#x670d;&#x52a1;&#x7c7b;&#x578b;&#x201d;&#x3002;&#x8fd4;&#x56de;&#x7684;&#x4e0d;&#x662f;&#x5177;&#x4f53;&#x8bbe;&#x5907;&#x6216; IP&#xff0c;&#x800c;&#x662f;&#x4e00;&#x4e32;&#x7c7b;&#x578b;&#x540d;&#xff0c;&#x6bd4;&#x5982;&#xff1a;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;_http._tcp.local.
+_airplay._tcp.local.
+_raop._tcp.local.
+_googlecast._tcp.local.
+_hap._tcp.local.         # HomeKit / HAP
+_home-assistant._tcp.local.
+_ipp._tcp.local.         # IPP &#x6253;&#x5370;&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p local-id=&quot;effb52fd-6ccc-4d93-8844-079f9102fb54&quot;&gt;&#x8fd9;&#x4e00;&#x6b65;&#x5c31;&#x50cf;&#x201c;&#x5148;&#x770b;&#x770b;&#x8fd9;&#x4e2a;&#x7f51;&#x6bb5;&#x90fd;&#x6709;&#x4ec0;&#x4e48;&#x54c1;&#x7c7b;&#x7684;&#x670d;&#x52a1;&#x201d;&#x3002;&lt;/p&gt;&lt;blockquote&gt;&lt;p local-id=&quot;263a9d13-7777-4ea4-9268-8d830c843abc&quot;&gt;&#x8bf4;&#x660e;&#xff1a;&#x8bbe;&#x5907;/&#x6808;&#xff08;Bonjour/Avahi&#xff09;&#x901a;&#x5e38;&#x4f1a;&#x81ea;&#x52a8;&#x628a;&#x81ea;&#x5df1;&#x58f0;&#x660e;&#x7684;&#x670d;&#x52a1;&#x7c7b;&#x578b;&#x901a;&#x8fc7;&#x8fd9;&#x4e2a;&#x5165;&#x53e3;&#x518d;&#x201c;&#x6307;&#x4e00;&#x904d;&#x201d;&#x3002;&#x4e0d;&#x662f;&#x5f3a;&#x5236;&#x6807;&#x51c6;&#x52a8;&#x4f5c;&#xff0c;&#x4f46;&#x4e3b;&#x6d41;&#x5b9e;&#x73b0;&#x90fd;&#x652f;&#x6301;&#xff0c;&#x6240;&#x4ee5; Browser / Scan &#x7c7b;&#x5de5;&#x5177;&#x5e38;&#x7528;&#x5b83;&#x6765;&#x201c;&#x5217;&#x6e05;&#x5355;&#x201d;&#x3002;&lt;/p&gt;&lt;/blockquote&gt;&lt;h2 local-id=&quot;5bd4df73-1fdb-4e4a-9617-55e0650bc51b&quot; id=&quot;mDNS-&#x5de5;&#x5177;&quot;&gt;&#x5de5;&#x5177;&lt;/h2&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;# &#x5217;&#x51fa;&#x5168;&#x90e8;&#x670d;&#x52a1;
+avahi-browse -at
+
+# &#x5217;&#x51fa;&#x5168;&#x90e8;&#x670d;&#x52a1;&#x53ca;&#x5176;&#x89e3;&#x6790;&#x7ed3;&#x679c;
+avahi-browse -art
+
+# &#x5217;&#x51fa;&#x7f51;&#x6bb5;&#x91cc;&#x201c;&#x6709;&#x54ea;&#x4e9b;&#x670d;&#x52a1;&#x7c7b;&#x578b;&#x201d;
+avahi-browse -rt _services._dns-sd._udp
+
+# &#x6d4f;&#x89c8;&#x67d0;&#x4e2a;&#x670d;&#x52a1;&#x7c7b;&#x578b;&#xff08;&#x5217;&#x51fa;&#x5b9e;&#x4f8b;&#x540d;&#xff09;
+avahi-browse -rt _http._tcp
+
+# &#x9488;&#x5bf9;&#x5177;&#x4f53;&#x5b9e;&#x4f8b;&#x67e5;&#x770b; SRV/TXT/IP&#xff08;avahi &#x4f1a;&#x81ea;&#x52a8;&#x8ddf;&#x8fdb;&#x89e3;&#x6790;&#xff09;
+avahi-browse -rt _hap._tcp
+# &#x6216; Apple &#x5de5;&#x5177;&#x5206;&#x6b65;&#xff1a;
+dns-sd -B _http._tcp                 # &#x6d4f;&#x89c8;&#x7c7b;&#x578b;
+dns-sd -L &amp;quot;Home Assistant&amp;quot; _http._tcp local   # &#x89e3;&#x6790;&#x67d0;&#x4e2a;&#x5b9e;&#x4f8b; &#x2192; SRV/TXT/A/AAAA&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+        &lt;div style=&quot;padding: 10px 0;&quot;&gt;
+       &lt;a href=&quot;https://singee.atlassian.net/wiki/spaces/MAIN/pages/346128388/mDNS&quot;&gt;email.notification.view.online&lt;/a&gt;
+              &amp;middot;
+       &lt;a href=&quot;https://singee.atlassian.net/wiki/pages/diffpagesbyversion.action?pageId=346128388&amp;revisedVersion=3&amp;originalVersion=2&quot;&gt;View Changes Online&lt;/a&gt;       
+                  &lt;/div&gt;
+&lt;/div&gt;</summary>
+    <dc:creator>Bryan</dc:creator>
+    <dc:date>2025-09-22T06:25:52Z</dc:date>
+  </entry>
+  <entry>
+    <title>Week 38 @ 2025 &#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;</title>
+    <link rel="alternate" href="https://singee.atlassian.net/wiki/spaces/MAIN/pages/344752252/Week+38+2025"/>
+    <author>
+      <name>Bryan</name>
+    </author>
+    <id>tag:singee.atlassian.net,2009:page-344752252-1</id>
+    <updated>2025-09-21T13:24:23Z</updated>
+    <published>2025-09-21T13:24:23Z</published>
+    <summary type="html">&lt;div class=&quot;feed&quot;&gt;    &lt;p&gt;
+                        Live doc
+                    &lt;b&gt;added&lt;/b&gt; by
+                &lt;a  &gt;Bryan&lt;/a&gt;
+            &lt;/p&gt;
+        &lt;div style=&quot;border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 10px;&quot;&gt;
+        &lt;style type=&apos;text/css&apos;&gt;/*&lt;![CDATA[*/
+div.rbtoc1758932951456 {padding: 0px;}
+div.rbtoc1758932951456 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1758932951456 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]&gt;*/&lt;/style&gt;&lt;div class=&apos;toc-macro rbtoc1758932951456&apos;&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week38@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-&#x4e8c;&#x5206;&#x641c;&#x7d22;&apos;&gt;&#x4e8c;&#x5206;&#x641c;&#x7d22;&lt;/a&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week38@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC240.Searcha2DMatrixII&#x641c;&#x7d22;&#x4e8c;&#x7ef4;&#x77e9;&#x9635;II&apos;&gt;LC 240. Search a 2D Matrix II &#x641c;&#x7d22;&#x4e8c;&#x7ef4;&#x77e9;&#x9635; II&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week38@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC392.IsSubsequence&#x5224;&#x65ad;&#x5b50;&#x5e8f;&#x5217;&apos;&gt;LC 392. Is Subsequence &#x5224;&#x65ad;&#x5b50;&#x5e8f;&#x5217;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week38@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC792.NumberofMatchingSubsequences&#x5339;&#x914d;&#x5b50;&#x5e8f;&#x5217;&#x7684;&#x5355;&#x8bcd;&#x6570;&apos;&gt;LC 792. Number of Matching Subsequences &#x5339;&#x914d;&#x5b50;&#x5e8f;&#x5217;&#x7684;&#x5355;&#x8bcd;&#x6570;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week38@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC658.&#x627e;&#x5230;K&#x4e2a;&#x6700;&#x63a5;&#x8fd1;&#x7684;&#x5143;&#x7d20;&apos;&gt;LC 658. &#x627e;&#x5230; K &#x4e2a;&#x6700;&#x63a5;&#x8fd1;&#x7684;&#x5143;&#x7d20;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week38@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC35.SearchInsertPosition&#x641c;&#x7d22;&#x63d2;&#x5165;&#x4f4d;&#x7f6e;&apos;&gt;LC 35. Search Insert Position &#x641c;&#x7d22;&#x63d2;&#x5165;&#x4f4d;&#x7f6e;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week38@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC162.FindPeakElement&#x5bfb;&#x627e;&#x5cf0;&#x503c;&apos;&gt;LC 162. Find Peak Element &#x5bfb;&#x627e;&#x5cf0;&#x503c;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;h2 id=&quot;Week38@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-&#x4e8c;&#x5206;&#x641c;&#x7d22;&quot;&gt;&#x4e8c;&#x5206;&#x641c;&#x7d22;&lt;/h2&gt;&lt;h3 id=&quot;Week38@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC240.Searcha2DMatrixII&#x641c;&#x7d22;&#x4e8c;&#x7ef4;&#x77e9;&#x9635;II&quot;&gt;LC 240. Search a 2D Matrix II &#x641c;&#x7d22;&#x4e8c;&#x7ef4;&#x77e9;&#x9635; II&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://leetcode.com/problems/search-a-2d-matrix-ii/&quot; data-card-appearance=&quot;inline&quot; class=&quot;external-link&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/search-a-2d-matrix-ii/&lt;/a&gt; &lt;/p&gt;&lt;p&gt;&#xff08;&#x4e0d;&#x662f;&#x4e8c;&#x5206;&#xff09;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func searchMatrix(matrix [][]int, target int) bool {
+    m, n := len(matrix), len(matrix[0])
+
+    i, j := 0, n-1
+
+    for i &amp;lt; m &amp;amp;&amp;amp; j &amp;gt;= 0 {
+        v := matrix[i][j]
+        if v == target {
+            return true
+        }
+
+        if v &amp;lt; target {
+            i++
+        } else {
+            j--
+        }
+    }
+
+    return false
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 id=&quot;Week38@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC392.IsSubsequence&#x5224;&#x65ad;&#x5b50;&#x5e8f;&#x5217;&quot;&gt;LC 392. Is Subsequence &#x5224;&#x65ad;&#x5b50;&#x5e8f;&#x5217;&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://leetcode.com/problems/is-subsequence/description/&quot; data-card-appearance=&quot;inline&quot; class=&quot;external-link&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/is-subsequence/description/&lt;/a&gt; &lt;/p&gt;&lt;p&gt;&#xff08;&#x4e0d;&#x662f;&#x4e8c;&#x5206;&#xff09;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func isSubsequence(s string, t string) bool {
+    if s == &amp;quot;&amp;quot; {
+        return true
+    }
+
+    j := 0
+    for i := 0; i &amp;lt; len(t); i++ {
+        if t[i] == s[j] {
+            j++
+
+            if j == len(s) {
+                return true
+            }
+        }
+    }
+    return false
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 id=&quot;Week38@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC792.NumberofMatchingSubsequences&#x5339;&#x914d;&#x5b50;&#x5e8f;&#x5217;&#x7684;&#x5355;&#x8bcd;&#x6570;&quot;&gt;LC 792. Number of Matching Subsequences &#x5339;&#x914d;&#x5b50;&#x5e8f;&#x5217;&#x7684;&#x5355;&#x8bcd;&#x6570;&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://leetcode.com/problems/number-of-matching-subsequences/description/&quot; data-card-appearance=&quot;inline&quot; class=&quot;external-link&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/number-of-matching-subsequences/description/&lt;/a&gt; &lt;/p&gt;&lt;p&gt;&lt;strong&gt;&#x66b4;&#x529b;&#xff08;&#x6ca1;&#x6709;&#x8d85;&#x65f6;&#xff09;&lt;/strong&gt;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func numMatchingSubseq(s string, words []string) int {
+    count := 0
+    for _, word := range words {
+        if isSubsequence(word, s) {
+            count++
+        }
+    }
+    return count
+}
+
+func isSubsequence(s string, t string) bool {
+    if s == &amp;quot;&amp;quot; {
+        return true
+    }
+
+    j := 0
+    for i := 0; i &amp;lt; len(t); i++ {
+        if t[i] == s[j] {
+            j++
+
+            if j == len(s) {
+                return true
+            }
+        }
+    }
+    return false
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;&#x9884;&#x5904;&#x7406; + &#x4e8c;&#x5206;&lt;/strong&gt;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func numMatchingSubseq(s string, words []string) int {
+    chars := getCharIndexes(s)
+    
+    count := 0
+    for _, word := range words {
+        if isSubsequence(chars, word) {
+            count++
+        }
+    }
+    return count
+}
+
+func getCharIndexes(s string) [][]int {
+    result := make([][]int, 26)
+    for i := range s {
+        idx := charToIdx(s[i])
+        
+        result[idx] = append(result[idx], i)
+    }
+    return result
+}
+
+func charToIdx(c byte) int {
+    return int(c - &amp;#39;a&amp;#39;)
+}
+
+func isSubsequence(s [][]int, word string) bool {
+    j := -1
+
+    for i := 0; i &amp;lt; len(word); i++ {
+        j = search(s[charToIdx(word[i])], j)
+        if j == -1 {
+            return false
+        }
+    }
+
+    return true
+}
+
+func search(arr []int, prevIndex int) int {
+    target := prevIndex + 1
+
+    L, R := 0, len(arr)-1
+    for L &amp;lt; R {
+        mid := L + (R - L) / 2
+        if arr[mid] &amp;gt;= target {
+            R = mid
+        } else {
+            L = mid + 1
+        }
+    }
+
+    if R &amp;lt; 0 || R &amp;gt;= len(arr) {
+        return -1
+    }
+    if arr[R] &amp;lt;= prevIndex {
+        return -1
+    }
+
+    return arr[R]
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 id=&quot;Week38@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC658.&#x627e;&#x5230;K&#x4e2a;&#x6700;&#x63a5;&#x8fd1;&#x7684;&#x5143;&#x7d20;&quot;&gt;LC 658. &#x627e;&#x5230; K &#x4e2a;&#x6700;&#x63a5;&#x8fd1;&#x7684;&#x5143;&#x7d20;&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://leetcode.com/problems/find-k-closest-elements/description/&quot; data-card-appearance=&quot;inline&quot; class=&quot;external-link&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/find-k-closest-elements/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func findClosestElements(arr []int, k int, x int) []int {
+    ii := leftBound(arr, x)
+    if ii == len(arr) {
+        return arr[len(arr)-k:len(arr)]
+    }
+
+    result := make([]int, 0, k)
+
+    i, j := ii-1, ii // a &amp;lt; b
+
+    for len(result) &amp;lt; k {
+        if i &amp;lt; 0 {
+            result = append(result, arr[j:j+k-len(result)]...)
+            break
+        }
+        if j &amp;gt;= len(arr) {
+            result = append(result, arr[i+1-k+len(result):i+1]...,
+            )
+            break
+        }
+
+        if x-arr[i] &amp;lt;= arr[j]-x {
+            result = append(result, arr[i])
+            i--
+        } else {
+            result = append(result, arr[j])
+            j++
+        }
+    }
+
+    sort.Ints(result)
+
+    return result
+}
+
+func leftBound(arr []int, x int) int {
+    L, R := 0, len(arr)
+    for L &amp;lt; R {
+        mid := L + (R - L) / 2
+        if arr[mid] &amp;gt;= x {
+            R = mid
+        } else {
+            L = mid + 1
+        }
+    }
+    return R
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 id=&quot;Week38@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC35.SearchInsertPosition&#x641c;&#x7d22;&#x63d2;&#x5165;&#x4f4d;&#x7f6e;&quot;&gt;LC 35. Search Insert Position &#x641c;&#x7d22;&#x63d2;&#x5165;&#x4f4d;&#x7f6e;&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://leetcode.com/problems/search-insert-position/description/&quot; data-card-appearance=&quot;inline&quot; class=&quot;external-link&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/search-insert-position/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func searchInsert(nums []int, target int) int {
+    L, R := 0, len(nums)
+    for L &amp;lt; R {
+        mid := L + (R - L) / 2
+        if nums[mid] &amp;gt;= target {
+            R = mid
+        } else {
+            L = mid + 1
+        }
+    }
+    return R
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 id=&quot;Week38@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC162.FindPeakElement&#x5bfb;&#x627e;&#x5cf0;&#x503c;&quot;&gt;LC 162. Find Peak Element &#x5bfb;&#x627e;&#x5cf0;&#x503c;&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://leetcode.com/problems/find-peak-element/description/&quot; data-card-appearance=&quot;inline&quot; class=&quot;external-link&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/find-peak-element/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func findPeakElement(nums []int) int {
+    L, R := 0, len(nums)
+    for L &amp;lt; R {
+        mid := L + (R -L) / 2
+
+        if mid == len(nums)-1 || nums[mid] &amp;gt; nums[mid + 1] {
+            R = mid
+        } else {
+            L = mid + 1
+        }
+    }
+
+    return R
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p /&gt;
+    &lt;/div&gt;
+        &lt;div style=&quot;padding: 10px 0;&quot;&gt;
+       &lt;a href=&quot;https://singee.atlassian.net/wiki/spaces/MAIN/pages/344752252/Week+38+2025&quot;&gt;email.notification.view.online&lt;/a&gt;
+                  &lt;/div&gt;
+&lt;/div&gt;</summary>
+    <dc:creator>Bryan</dc:creator>
+    <dc:date>2025-09-21T13:24:23Z</dc:date>
+  </entry>
+</feed>
