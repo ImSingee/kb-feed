@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>Bryan &#x7684;&#x77e5;&#x8bc6;&#x5e93;</title>
+  <link rel="alternate" href="https://singee.atlassian.net/wiki"/>
+  
+  <id>https://singee.atlassian.net/wiki</id>
+  <entry>
+    <title>Week 39 @ 2025 &#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x56de;&#x6eaf;&#x3011;</title>
+    <link rel="alternate" href="https://singee.atlassian.net/wiki/spaces/MAIN/pages/361103504/Week+39+2025"/>
+    <author>
+      <name>Bryan</name>
+    </author>
+    <id>tag:singee.atlassian.net,2009:page-361103504-1</id>
+    <updated>2025-09-28T13:22:52Z</updated>
+    <published>2025-09-28T13:22:52Z</published>
+    <summary type="html">&lt;div class=&quot;feed&quot;&gt;    &lt;p&gt;
+                        Live doc
+                    &lt;b&gt;added&lt;/b&gt; by
+                &lt;a  &gt;Bryan&lt;/a&gt;
+            &lt;/p&gt;
+        &lt;div style=&quot;border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 10px;&quot;&gt;
+        &lt;style type=&apos;text/css&apos;&gt;/*&lt;![CDATA[*/
+div.rbtoc1759537693516 {padding: 0px;}
+div.rbtoc1759537693516 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1759537693516 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]&gt;*/&lt;/style&gt;&lt;div class=&apos;toc-macro rbtoc1759537693516&apos;&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week39@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x56de;&#x6eaf;&#x3011;-&#x6392;&#x5217;/&#x7ec4;&#x5408;/&#x5b50;&#x96c6;&apos;&gt;&#x6392;&#x5217; / &#x7ec4;&#x5408; / &#x5b50;&#x96c6;&lt;/a&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week39@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x56de;&#x6eaf;&#x3011;-&#x5143;&#x7d20;&#x65e0;&#x91cd;&#x4e0d;&#x53ef;&#x590d;&#x9009;&apos;&gt;&#x5143;&#x7d20;&#x65e0;&#x91cd;&#x4e0d;&#x53ef;&#x590d;&#x9009;&lt;/a&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week39@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x56de;&#x6eaf;&#x3011;-[&#x5b50;&#x96c6;]LC78.Subsets&#x5b50;&#x96c6;&apos;&gt;[&#x5b50;&#x96c6;] LC 78. Subsets &#x5b50;&#x96c6;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week39@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x56de;&#x6eaf;&#x3011;-[&#x7ec4;&#x5408;]LC77.Combinations&#x7ec4;&#x5408;&apos;&gt;[&#x7ec4;&#x5408;] LC 77. Combinations &#x7ec4;&#x5408;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week39@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x56de;&#x6eaf;&#x3011;-[&#x6392;&#x5217;]LC46.Permutations&#x5168;&#x6392;&#x5217;&apos;&gt;[&#x6392;&#x5217;] LC 46. Permutations &#x5168;&#x6392;&#x5217;&lt;/a&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week39@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x56de;&#x6eaf;&#x3011;-&#x6269;&#x5c55;&#xff1a;&#x53ea;&#x6709;k&#x4e2a;&#x5143;&#x7d20;&#x7684;&#x6392;&#x5217;&#xff08;&#x4e0d;&#x662f;&#x5168;&#x6392;&#x5217;&#xff09;&apos;&gt;&#x6269;&#x5c55;&#xff1a;&#x53ea;&#x6709; k &#x4e2a;&#x5143;&#x7d20;&#x7684;&#x6392;&#x5217;&#xff08;&#x4e0d;&#x662f;&#x5168;&#x6392;&#x5217;&#xff09;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week39@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x56de;&#x6eaf;&#x3011;-&#x5143;&#x7d20;&#x53ef;&#x91cd;&#x4e0d;&#x53ef;&#x590d;&#x9009;&apos;&gt;&#x5143;&#x7d20;&#x53ef;&#x91cd;&#x4e0d;&#x53ef;&#x590d;&#x9009;&lt;/a&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week39@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x56de;&#x6eaf;&#x3011;-[&#x5b50;&#x96c6;]LC90.SubsetsII&#x5b50;&#x96c6;II&apos;&gt;[&#x5b50;&#x96c6;] LC 90. Subsets II &#x5b50;&#x96c6; II&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week39@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x56de;&#x6eaf;&#x3011;-[&#x7ec4;&#x5408;]LC40.CombinationsumII&#x7ec4;&#x5408;&#x603b;&#x548c;II&apos;&gt;[&#x7ec4;&#x5408;] LC 40. Combination sum II &#x7ec4;&#x5408;&#x603b;&#x548c; II&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week39@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x56de;&#x6eaf;&#x3011;-[&#x6392;&#x5217;]LC47.&#x5168;&#x6392;&#x5217;II&apos;&gt;[&#x6392;&#x5217;] LC 47. &#x5168;&#x6392;&#x5217; II&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week39@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x56de;&#x6eaf;&#x3011;-&#x5143;&#x7d20;&#x65e0;&#x91cd;&#x53ef;&#x590d;&#x9009;&apos;&gt;&#x5143;&#x7d20;&#x65e0;&#x91cd;&#x53ef;&#x590d;&#x9009;&lt;/a&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week39@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x56de;&#x6eaf;&#x3011;-[&#x7ec4;&#x5408;/&#x5b50;&#x96c6;]LC39.CombinationSum&#x7ec4;&#x5408;&#x603b;&#x548c;&apos;&gt;[&#x7ec4;&#x5408;/&#x5b50;&#x96c6;] LC 39. Combination Sum &#x7ec4;&#x5408;&#x603b;&#x548c;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week39@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x56de;&#x6eaf;&#x3011;-[&#x6392;&#x5217;]&apos;&gt;[&#x6392;&#x5217;]&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;h1 local-id=&quot;1207c4c3-2ada-42f1-be44-680110d40b34&quot; id=&quot;Week39@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x56de;&#x6eaf;&#x3011;-&#x6392;&#x5217;/&#x7ec4;&#x5408;/&#x5b50;&#x96c6;&quot;&gt;&#x6392;&#x5217; / &#x7ec4;&#x5408; / &#x5b50;&#x96c6;&lt;/h1&gt;&lt;p local-id=&quot;5bb265a5-3367-486d-b796-5e4819582a6b&quot;&gt;&lt;strong&gt;&#x5f62;&#x5f0f;&#x4e00;&#x3001;&#x5143;&#x7d20;&#x65e0;&#x91cd;&#x4e0d;&#x53ef;&#x590d;&#x9009;&#xff0c;&#x5373; &lt;/strong&gt;&lt;code&gt;nums&lt;/code&gt;&lt;strong&gt; &#x4e2d;&#x7684;&#x5143;&#x7d20;&#x90fd;&#x662f;&#x552f;&#x4e00;&#x7684;&#xff0c;&#x6bcf;&#x4e2a;&#x5143;&#x7d20;&#x6700;&#x591a;&#x53ea;&#x80fd;&#x88ab;&#x4f7f;&#x7528;&#x4e00;&#x6b21;&#xff0c;&#x8fd9;&#x4e5f;&#x662f;&#x6700;&#x57fa;&#x672c;&#x7684;&#x5f62;&#x5f0f;&lt;/strong&gt;&#x3002;&lt;/p&gt;&lt;p local-id=&quot;9ba91e10-b145-48fa-ac27-2199986cf495&quot;&gt;&#x4ee5;&#x7ec4;&#x5408;&#x4e3a;&#x4f8b;&#xff0c;&#x5982;&#x679c;&#x8f93;&#x5165; &lt;code&gt;nums = [2,3,6,7]&lt;/code&gt;&#xff0c;&#x548c;&#x4e3a; 7 &#x7684;&#x7ec4;&#x5408;&#x5e94;&#x8be5;&#x53ea;&#x6709; &lt;code&gt;[7]&lt;/code&gt;&#x3002;&lt;/p&gt;&lt;p local-id=&quot;d846eb53-9bc9-4daf-aea3-405b94c1275a&quot;&gt;&lt;strong&gt;&#x5f62;&#x5f0f;&#x4e8c;&#x3001;&#x5143;&#x7d20;&#x53ef;&#x91cd;&#x4e0d;&#x53ef;&#x590d;&#x9009;&#xff0c;&#x5373; &lt;/strong&gt;&lt;code&gt;nums&lt;/code&gt;&lt;strong&gt; &#x4e2d;&#x7684;&#x5143;&#x7d20;&#x53ef;&#x4ee5;&#x5b58;&#x5728;&#x91cd;&#x590d;&#xff0c;&#x6bcf;&#x4e2a;&#x5143;&#x7d20;&#x6700;&#x591a;&#x53ea;&#x80fd;&#x88ab;&#x4f7f;&#x7528;&#x4e00;&#x6b21;&lt;/strong&gt;&#x3002;&lt;/p&gt;&lt;p local-id=&quot;8472bb88-8f15-489b-8fe9-6d7a0def36fa&quot;&gt;&#x4ee5;&#x7ec4;&#x5408;&#x4e3a;&#x4f8b;&#xff0c;&#x5982;&#x679c;&#x8f93;&#x5165; &lt;code&gt;nums = [2,5,2,1,2]&lt;/code&gt;&#xff0c;&#x548c;&#x4e3a; 7 &#x7684;&#x7ec4;&#x5408;&#x5e94;&#x8be5;&#x6709;&#x4e24;&#x79cd; &lt;code&gt;[2,2,2,1]&lt;/code&gt; &#x548c; &lt;code&gt;[5,2]&lt;/code&gt;&#x3002;&lt;/p&gt;&lt;p local-id=&quot;8eadbe45-ba40-4fdb-92cd-70a548bd57ba&quot;&gt;&lt;strong&gt;&#x5f62;&#x5f0f;&#x4e09;&#x3001;&#x5143;&#x7d20;&#x65e0;&#x91cd;&#x53ef;&#x590d;&#x9009;&#xff0c;&#x5373; &lt;/strong&gt;&lt;code&gt;nums&lt;/code&gt;&lt;strong&gt; &#x4e2d;&#x7684;&#x5143;&#x7d20;&#x90fd;&#x662f;&#x552f;&#x4e00;&#x7684;&#xff0c;&#x6bcf;&#x4e2a;&#x5143;&#x7d20;&#x53ef;&#x4ee5;&#x88ab;&#x4f7f;&#x7528;&#x82e5;&#x5e72;&#x6b21;&lt;/strong&gt;&#x3002;&lt;/p&gt;&lt;p local-id=&quot;3e8cb565-11ab-4215-8902-ec4d540d8b01&quot;&gt;&#x4ee5;&#x7ec4;&#x5408;&#x4e3a;&#x4f8b;&#xff0c;&#x5982;&#x679c;&#x8f93;&#x5165; &lt;code&gt;nums = [2,3,6,7]&lt;/code&gt;&#xff0c;&#x548c;&#x4e3a; 7 &#x7684;&#x7ec4;&#x5408;&#x5e94;&#x8be5;&#x6709;&#x4e24;&#x79cd; &lt;code&gt;[2,2,3]&lt;/code&gt; &#x548c; &lt;code&gt;[7]&lt;/code&gt;&#x3002;&lt;/p&gt;&lt;p local-id=&quot;796222e9-7061-433d-a017-c43fc0a20009&quot;&gt;&#x5f53;&#x7136;&#xff0c;&#x4e5f;&#x53ef;&#x4ee5;&#x8bf4;&#x6709;&#x7b2c;&#x56db;&#x79cd;&#x5f62;&#x5f0f;&#xff0c;&#x5373;&#x5143;&#x7d20;&#x53ef;&#x91cd;&#x53ef;&#x590d;&#x9009;&#x3002;&#x4f46;&#x65e2;&#x7136;&#x5143;&#x7d20;&#x53ef;&#x590d;&#x9009;&#xff0c;&#x90a3;&#x53c8;&#x4f55;&#x5fc5;&#x5b58;&#x5728;&#x91cd;&#x590d;&#x5143;&#x7d20;&#x5462;&#xff1f;&#x5143;&#x7d20;&#x53bb;&#x91cd;&#x4e4b;&#x540e;&#x5c31;&#x7b49;&#x540c;&#x4e8e;&#x5f62;&#x5f0f;&#x4e09;&#xff0c;&#x6240;&#x4ee5;&#x8fd9;&#x79cd;&#x60c5;&#x51b5;&#x4e0d;&#x7528;&#x8003;&#x8651;&#x3002;&lt;/p&gt;&lt;p local-id=&quot;d3f2214d-4d73-4521-b797-4cb1d76a6af4&quot;&gt;&#x4e0a;&#x9762;&#x7528;&#x7ec4;&#x5408;&#x95ee;&#x9898;&#x4e3e;&#x7684;&#x4f8b;&#x5b50;&#xff0c;&#x4f46;&#x6392;&#x5217;&#x3001;&#x7ec4;&#x5408;&#x3001;&#x5b50;&#x96c6;&#x95ee;&#x9898;&#x90fd;&#x53ef;&#x4ee5;&#x6709;&#x8fd9;&#x4e09;&#x79cd;&#x57fa;&#x672c;&#x5f62;&#x5f0f;&#xff0c;&#x6240;&#x4ee5;&#x5171;&#x6709; 9 &#x79cd;&#x53d8;&#x5316;&#x3002;&lt;/p&gt;&lt;h2 local-id=&quot;fa430b6d-fa45-4831-af89-21108cc9b2ef&quot; id=&quot;Week39@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x56de;&#x6eaf;&#x3011;-&#x5143;&#x7d20;&#x65e0;&#x91cd;&#x4e0d;&#x53ef;&#x590d;&#x9009;&quot;&gt;&#x5143;&#x7d20;&#x65e0;&#x91cd;&#x4e0d;&#x53ef;&#x590d;&#x9009;&lt;/h2&gt;&lt;h3 local-id=&quot;5bcd9bd1-ae1d-4553-afd6-93d1bc7f6993&quot; id=&quot;Week39@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x56de;&#x6eaf;&#x3011;-[&#x5b50;&#x96c6;]LC78.Subsets&#x5b50;&#x96c6;&quot;&gt;[&#x5b50;&#x96c6;] LC 78. Subsets &#x5b50;&#x96c6;&lt;/h3&gt;&lt;p local-id=&quot;4723be96-ca5a-4ed5-806a-c27a07e2233a&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/subsets/&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/subsets/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func subsets(nums []int) (result [][]int) {
+    var prev []int
+    
+    var backtrack func(start int)
+    backtrack = func(start int) {
+        result = append(result, append([]int(nil), prev...))
+        
+        for i := start; i &amp;lt; len(nums); i++ {
+            prev = append(prev, nums[i])
+            backtrack(i + 1)
+            prev = prev[:len(prev)-1]
+        }
+    }
+    
+    backtrack(0)
+    
+    return
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 local-id=&quot;b0e8af65-ec4a-46d2-b8aa-f41ab8180faa&quot; id=&quot;Week39@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x56de;&#x6eaf;&#x3011;-[&#x7ec4;&#x5408;]LC77.Combinations&#x7ec4;&#x5408;&quot;&gt;[&#x7ec4;&#x5408;] LC 77. Combinations &#x7ec4;&#x5408;&lt;/h3&gt;&lt;p local-id=&quot;b0791d02-6391-4394-9e57-f57cc16c42e3&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/combinations/description/&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/combinations/description/&lt;/a&gt; &lt;/p&gt;&lt;p local-id=&quot;ea62a6fc-3b00-4fb7-8290-a7196450e2aa&quot;&gt;&lt;strong&gt;&#x7ec4;&#x5408;&#x548c;&#x5b50;&#x96c6;&#x662f;&#x4e00;&#x6837;&#x7684;&#xff1a;&#x5927;&#x5c0f;&#x4e3a; &lt;/strong&gt;&lt;code&gt;k&lt;/code&gt;&lt;strong&gt; &#x7684;&#x7ec4;&#x5408;&#x5c31;&#x662f;&#x5927;&#x5c0f;&#x4e3a; &lt;/strong&gt;&lt;code&gt;k&lt;/code&gt;&lt;strong&gt; &#x7684;&#x5b50;&#x96c6;&lt;/strong&gt;&#x3002;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func combine(n int, k int) (result [][]int) {
+    var prev []int
+    
+    var backtrack func(start int)
+    backtrack = func(start int) {
+        if len(prev) == k {
+            result = append(result, append([]int(nil), prev...))
+            return
+        }
+        
+        for i := start; i &amp;lt;= n; i++ {
+            prev = append(prev, i)
+            backtrack(i+1)
+            prev = prev[:len(prev)-1]
+        }
+    }
+    backtrack(1)
+    
+    return
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 local-id=&quot;c8c273d8-8c08-4f00-aec1-81aefc76bf9f&quot; id=&quot;Week39@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x56de;&#x6eaf;&#x3011;-[&#x6392;&#x5217;]LC46.Permutations&#x5168;&#x6392;&#x5217;&quot;&gt;[&#x6392;&#x5217;] LC 46. Permutations &#x5168;&#x6392;&#x5217;&lt;/h3&gt;&lt;p local-id=&quot;c190be06-b849-42f2-9f6f-7f223f0d9741&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/permutations/description/&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/permutations/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func permute(nums []int) (result [][]int) {
+    used := make(map[int]bool, 6)
+    var prev []int
+    
+    var backtrack func()
+    backtrack = func() {
+        if len(prev) == len(nums) {
+            result = append(result, append([]int(nil), prev...))
+            return
+        }
+        
+        for i := 0; i &amp;lt; len(nums); i++ {
+            num := nums[i]
+            
+            if used[num] { 
+                continue 
+            }
+            
+            prev = append(prev, num)
+            used[num] = true
+            
+            backtrack()
+            
+            prev = prev[:len(prev)-1]
+            delete(used, num)
+        }
+    }
+    backtrack()
+    
+    return
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h4 local-id=&quot;7167140c-08de-495a-bb38-57c44e710a8f&quot; id=&quot;Week39@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x56de;&#x6eaf;&#x3011;-&#x6269;&#x5c55;&#xff1a;&#x53ea;&#x6709;k&#x4e2a;&#x5143;&#x7d20;&#x7684;&#x6392;&#x5217;&#xff08;&#x4e0d;&#x662f;&#x5168;&#x6392;&#x5217;&#xff09;&quot;&gt;&#x6269;&#x5c55;&#xff1a;&#x53ea;&#x6709; k &#x4e2a;&#x5143;&#x7d20;&#x7684;&#x6392;&#x5217;&#xff08;&#x4e0d;&#x662f;&#x5168;&#x6392;&#x5217;&#xff09;&lt;/h4&gt;&lt;p local-id=&quot;fb343f35-99f8-4bef-a1e2-bc8f0099846a&quot;&gt;&#x6539;&#x4e0b; &lt;code&gt;backtrack&lt;/code&gt; &#x51fd;&#x6570;&#x7684; base case&#xff0c;&#x4ec5;&#x6536;&#x96c6;&#x7b2c; &lt;code&gt;k&lt;/code&gt; &#x5c42;&#x7684;&#x8282;&#x70b9;&#x503c;&#x5373;&#x53ef;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func backtrack(nums []int, k int) {
+    // base case&#xff0c;&#x5230;&#x8fbe;&#x7b2c; k &#x5c42;&#xff0c;&#x6536;&#x96c6;&#x8282;&#x70b9;&#x7684;&#x503c;
+    if len(track) == k {
+        // &#x7b2c; k &#x5c42;&#x8282;&#x70b9;&#x7684;&#x503c;&#x5c31;&#x662f;&#x5927;&#x5c0f;&#x4e3a; k &#x7684;&#x6392;&#x5217;
+        res = append(res, append([]int(nil), track...))
+        return
+    }
+
+    // &#x56de;&#x6eaf;&#x7b97;&#x6cd5;&#x6807;&#x51c6;&#x6846;&#x67b6;
+    for i := 0; i &amp;lt; len(nums); i++ {
+        // ...
+        backtrack(nums, k)
+        // ...
+    }
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h2 local-id=&quot;a42bb1c9-f355-47e0-ae8a-84d2c78d225b&quot; id=&quot;Week39@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x56de;&#x6eaf;&#x3011;-&#x5143;&#x7d20;&#x53ef;&#x91cd;&#x4e0d;&#x53ef;&#x590d;&#x9009;&quot;&gt;&#x5143;&#x7d20;&#x53ef;&#x91cd;&#x4e0d;&#x53ef;&#x590d;&#x9009;&lt;/h2&gt;&lt;h3 local-id=&quot;99af1929-66b0-4fb4-9589-3bf8d8cf6d51&quot; id=&quot;Week39@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x56de;&#x6eaf;&#x3011;-[&#x5b50;&#x96c6;]LC90.SubsetsII&#x5b50;&#x96c6;II&quot;&gt;[&#x5b50;&#x96c6;] LC 90. Subsets II &#x5b50;&#x96c6; II&lt;/h3&gt;&lt;p local-id=&quot;94ab6e9f-674e-49c9-a934-c72851a0b1c4&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/subsets-ii&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/subsets-ii&lt;/a&gt; &lt;/p&gt;&lt;p local-id=&quot;0f6ac794-3696-49d6-af1e-bf417df5d516&quot;&gt;&lt;strong&gt;&#x548c;&#x5143;&#x7d20;&#x4e0d;&#x53ef;&#x91cd;&#x7684;&#x533a;&#x522b;&#xff1a;&#x9700;&#x8981;&#x5148;&#x8fdb;&#x884c;&#x6392;&#x5e8f;&#xff0c;&#x8ba9;&#x76f8;&#x540c;&#x7684;&#x5143;&#x7d20;&#x9760;&#x5728;&#x4e00;&#x8d77;&#xff0c;&#x5982;&#x679c;&#x53d1;&#x73b0; &lt;/strong&gt;&lt;code&gt;nums[i] == nums[i-1]&lt;/code&gt;&lt;strong&gt;&#xff0c;&#x5219;&#x8df3;&#x8fc7;&lt;/strong&gt;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func subsetsWithDup(nums []int) (result [][]int) {
+    sort.Ints(nums)
+    
+    var prev []int
+    
+    var backtrack func(start int)
+    backtrack = func(start int) {
+        result = append(result, append([]int(nil), prev...))
+        
+        for i := start; i &amp;lt; len(nums); i++ {
+            if i &amp;gt; start &amp;amp;&amp;amp; nums[i] == nums[i-1] {
+                continue
+            }
+            
+            num := nums[i]
+            
+            prev = append(prev, num)
+            backtrack(i+1)
+            prev = prev[:len(prev)-1]
+        }
+    }
+    backtrack(0)
+    
+    return result
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 local-id=&quot;ddbdff50-16fc-4a19-aa07-474c7e10982a&quot; id=&quot;Week39@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x56de;&#x6eaf;&#x3011;-[&#x7ec4;&#x5408;]LC40.CombinationsumII&#x7ec4;&#x5408;&#x603b;&#x548c;II&quot;&gt;[&#x7ec4;&#x5408;] LC 40. Combination sum II &#x7ec4;&#x5408;&#x603b;&#x548c; II&lt;/h3&gt;&lt;p local-id=&quot;ba0c8cba-338a-4c80-b839-d5613d6e27ea&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/combination-sum-ii/description/&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/combination-sum-ii/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func combinationSum2(candidates []int, target int) (result [][]int) {
+    sort.Ints(candidates)
+    
+    var prev []int
+    var prevSum int
+    
+    var backtrack func(start int)
+    backtrack = func(start int) {
+        if prevSum == target {
+            result = append(result, append([]int(nil), prev...))
+        }
+        if prevSum &amp;gt;= target {
+            return
+        }
+        
+        for i := start; i &amp;lt; len(candidates); i++ {
+            if i &amp;gt; start &amp;amp;&amp;amp; candidates[i] == candidates[i-1] {
+                continue
+            }
+            
+            prev = append(prev, candidates[i])
+            prevSum += candidates[i]
+            
+            backtrack(i+1)
+            
+            prev = prev[:len(prev)-1]
+            prevSum -= candidates[i]
+        }
+    }
+    
+    backtrack(0)
+    return
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 local-id=&quot;e9de5c17-e756-499b-b58d-604c097b4561&quot; id=&quot;Week39@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x56de;&#x6eaf;&#x3011;-[&#x6392;&#x5217;]LC47.&#x5168;&#x6392;&#x5217;II&quot;&gt;[&#x6392;&#x5217;] LC 47. &#x5168;&#x6392;&#x5217; II&lt;/h3&gt;&lt;p local-id=&quot;5e0bf091-a771-4c35-ac5f-1c824fd2b093&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/permutations-ii/description/&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/permutations-ii/description/&lt;/a&gt; &lt;/p&gt;&lt;p local-id=&quot;7fe14e26-989b-45a1-94a5-194849a2c9a3&quot;&gt;&lt;strong&gt;&#x6807;&#x51c6;&#x5168;&#x6392;&#x5217;&#x7b97;&#x6cd5;&#x4e4b;&#x6240;&#x4ee5;&#x51fa;&#x73b0;&#x91cd;&#x590d;&#xff0c;&#x662f;&#x56e0;&#x4e3a;&#x628a;&#x76f8;&#x540c;&#x5143;&#x7d20;&#x5f62;&#x6210;&#x7684;&#x6392;&#x5217;&#x5e8f;&#x5217;&#x89c6;&#x4e3a;&#x4e0d;&#x540c;&#x7684;&#x5e8f;&#x5217;&#xff0c;&#x4f46;&#x5b9e;&#x9645;&#x4e0a;&#x5b83;&#x4eec;&#x5e94;&#x8be5;&#x662f;&#x76f8;&#x540c;&#x7684;&#xff1b;&#x800c;&#x5982;&#x679c;&#x56fa;&#x5b9a;&#x76f8;&#x540c;&#x5143;&#x7d20;&#x5f62;&#x6210;&#x7684;&#x5e8f;&#x5217;&#x987a;&#x5e8f;&#xff0c;&#x5f53;&#x7136;&#x5c31;&#x907f;&#x514d;&#x4e86;&#x91cd;&#x590d;&lt;/strong&gt;&#x3002;&lt;/p&gt;&lt;p local-id=&quot;9fa05201-54b9-4482-856a-1e3ccc1d90bc&quot;&gt;&#x90a3;&#x4e48;&#x53cd;&#x6620;&#x5230;&#x4ee3;&#x7801;&#x4e0a;&#xff0c;&#x4f60;&#x6ce8;&#x610f;&#x770b;&#x8fd9;&#x4e2a;&#x526a;&#x679d;&#x903b;&#x8f91;&#xff1a;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;// &#x65b0;&#x6dfb;&#x52a0;&#x7684;&#x526a;&#x679d;&#x903b;&#x8f91;&#xff0c;&#x56fa;&#x5b9a;&#x76f8;&#x540c;&#x7684;&#x5143;&#x7d20;&#x5728;&#x6392;&#x5217;&#x4e2d;&#x7684;&#x76f8;&#x5bf9;&#x4f4d;&#x7f6e;
+if (i &amp;gt; 0 &amp;amp;&amp;amp; nums[i] == nums[i - 1] &amp;amp;&amp;amp; !used[i - 1]) {
+    // &#x5982;&#x679c;&#x524d;&#x9762;&#x7684;&#x76f8;&#x90bb;&#x76f8;&#x7b49;&#x5143;&#x7d20;&#x6ca1;&#x6709;&#x7528;&#x8fc7;&#xff0c;&#x5219;&#x8df3;&#x8fc7;
+    continue;
+}
+// &#x9009;&#x62e9; nums[i]&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p local-id=&quot;90fcb54e-2f6a-499e-812c-4d8ad7ef4743&quot;&gt;&lt;strong&gt;&#x5f53;&#x51fa;&#x73b0;&#x91cd;&#x590d;&#x5143;&#x7d20;&#x65f6;&#xff0c;&#x6bd4;&#x5982;&#x8f93;&#x5165; &lt;/strong&gt;&lt;code&gt;nums = [1,2,2&apos;,2&apos;&apos;]&lt;/code&gt;&lt;strong&gt;&#xff0c;&lt;/strong&gt;&lt;code&gt;2&apos;&lt;/code&gt;&lt;strong&gt; &#x53ea;&#x6709;&#x5728; &lt;/strong&gt;&lt;code&gt;2&lt;/code&gt;&lt;strong&gt; &#x5df2;&#x7ecf;&#x88ab;&#x4f7f;&#x7528;&#x7684;&#x60c5;&#x51b5;&#x4e0b;&#x624d;&#x4f1a;&#x88ab;&#x9009;&#x62e9;&#xff0c;&#x540c;&#x7406;&#xff0c;&lt;/strong&gt;&lt;code&gt;2&apos;&apos;&lt;/code&gt;&lt;strong&gt; &#x53ea;&#x6709;&#x5728; &lt;/strong&gt;&lt;code&gt;2&apos;&lt;/code&gt;&lt;strong&gt; &#x5df2;&#x7ecf;&#x88ab;&#x4f7f;&#x7528;&#x7684;&#x60c5;&#x51b5;&#x4e0b;&#x624d;&#x4f1a;&#x88ab;&#x9009;&#x62e9;&#xff0c;&#x8fd9;&#x5c31;&#x4fdd;&#x8bc1;&#x4e86;&#x76f8;&#x540c;&#x5143;&#x7d20;&#x5728;&#x6392;&#x5217;&#x4e2d;&#x7684;&#x76f8;&#x5bf9;&#x4f4d;&#x7f6e;&#x4fdd;&#x8bc1;&#x56fa;&#x5b9a;&lt;/strong&gt;&#x3002;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func permuteUnique(nums []int) (result [][]int) {
+    used := make([]bool, 9)
+    prev := make([]int, 0, 8)
+    
+    sort.Ints(nums)
+    
+    var backtrack func()
+    backtrack = func() {
+        if len(prev) == len(nums) {
+            result = append(result, append([]int(nil), prev...))
+            return
+        }
+        
+        for i := 0; i &amp;lt; len(nums); i++ {
+            num := nums[i]
+            
+            if i &amp;gt; 0 &amp;amp;&amp;amp; nums[i] == nums[i-1] &amp;amp;&amp;amp; !used[i-1] {
+                continue
+            }
+            
+            if used[i] {
+                continue
+            }
+            
+            prev = append(prev, num)
+            used[i] = true
+            
+            backtrack()
+            
+            prev = prev[:len(prev)-1]
+            used[i] = false
+        }
+    }
+    backtrack()
+    
+    return
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p local-id=&quot;84d7dcea-4398-42bf-889a-97316ec89ac3&quot;&gt;&lt;strong&gt;&#x53e6;&#x4e00;&#x79cd;&#x526a;&#x679d;&#x601d;&#x8def;&lt;/strong&gt;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func permuteUnique(nums []int) (result [][]int) {
+    used := make([]bool, 9)
+    prev := make([]int, 0, 8)
+    
+    sort.Ints(nums)
+    
+    var backtrack func()
+    backtrack = func() {
+        if len(prev) == len(nums) {
+            result = append(result, append([]int(nil), prev...))
+            return
+        }
+        
+        prevNum := 1024
+        for i := 0; i &amp;lt; len(nums); i++ {
+            num := nums[i]
+            
+            if used[i] || num == prevNum {
+                continue
+            }
+            
+            prev = append(prev, num)
+            used[i] = true
+            prevNum = num
+            
+            backtrack()
+            
+            prev = prev[:len(prev)-1]
+            used[i] = false
+        }
+    }
+    backtrack()
+    
+    return
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h2 local-id=&quot;55f42cc3-3035-430d-b002-7805c24d12fa&quot; id=&quot;Week39@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x56de;&#x6eaf;&#x3011;-&#x5143;&#x7d20;&#x65e0;&#x91cd;&#x53ef;&#x590d;&#x9009;&quot;&gt;&#x5143;&#x7d20;&#x65e0;&#x91cd;&#x53ef;&#x590d;&#x9009;&lt;/h2&gt;&lt;h3 local-id=&quot;00faad44-0b36-4c9e-af10-c2745634ebd0&quot; id=&quot;Week39@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x56de;&#x6eaf;&#x3011;-[&#x7ec4;&#x5408;/&#x5b50;&#x96c6;]LC39.CombinationSum&#x7ec4;&#x5408;&#x603b;&#x548c;&quot;&gt;[&#x7ec4;&#x5408;/&#x5b50;&#x96c6;] LC 39. Combination Sum &#x7ec4;&#x5408;&#x603b;&#x548c;&lt;/h3&gt;&lt;p local-id=&quot;b9a3019a-8ad3-4f5a-918a-b7d66e6052cc&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/combination-sum/description/&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/combination-sum/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func combinationSum(candidates []int, target int) (result [][]int) {
+    var prev []int
+    var prevSum int
+    
+    var backtrack func(start int)
+    backtrack = func(start int) {
+        if prevSum == target {
+            result = append(result, append([]int(nil), prev...))
+        }
+        if prevSum &amp;gt;= target {
+            return
+        }
+        
+        for i := start; i &amp;lt; len(candidates); i++ {
+            prev = append(prev, candidates[i])
+            prevSum += candidates[i]
+            
+            backtrack(i)
+            
+            prev = prev[:len(prev)-1]
+            prevSum -= candidates[i]
+        }
+    }
+    backtrack(0)
+    
+    return
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 local-id=&quot;36df0df0-4d25-43e5-828f-45db1f630345&quot; id=&quot;Week39@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x56de;&#x6eaf;&#x3011;-[&#x6392;&#x5217;]&quot;&gt;[&#x6392;&#x5217;]&lt;/h3&gt;&lt;p local-id=&quot;55300885-c923-4745-ae52-674455a1463d&quot;&gt;&lt;strong&gt;&#x6807;&#x51c6;&#x7684;&#x5168;&#x6392;&#x5217;&#x7b97;&#x6cd5;&#x5229;&#x7528; &lt;/strong&gt;&lt;code&gt;used&lt;/code&gt;&lt;strong&gt; &#x6570;&#x7ec4;&#x8fdb;&#x884c;&#x526a;&#x679d;&#xff0c;&#x907f;&#x514d;&#x91cd;&#x590d;&#x4f7f;&#x7528;&#x540c;&#x4e00;&#x4e2a;&#x5143;&#x7d20;&#x3002;&#x5982;&#x679c;&#x5141;&#x8bb8;&#x91cd;&#x590d;&#x4f7f;&#x7528;&#x5143;&#x7d20;&#x7684;&#x8bdd;&#xff0c;&#x76f4;&#x63a5;&#x653e;&#x98de;&#x81ea;&#x6211;&#xff0c;&#x53bb;&#x9664;&#x6240;&#x6709; &lt;/strong&gt;&lt;code&gt;used&lt;/code&gt;&lt;strong&gt; &#x6570;&#x7ec4;&#x7684;&#x526a;&#x679d;&#x903b;&#x8f91;&#x5c31;&#x884c;&#x4e86;&lt;/strong&gt;&#x3002;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func permuteRepeat(nums []int) [][]int {
+    var res [][]int
+    var track []int
+    
+    backtrack(nums, &amp;amp;res, track)
+    
+    return res
+}
+
+// &#x56de;&#x6eaf;&#x7b97;&#x6cd5;&#x6838;&#x5fc3;&#x51fd;&#x6570;
+func backtrack(nums []int, res *[][]int, track []int) {
+    // base case&#xff0c;&#x5230;&#x8fbe;&#x53f6;&#x5b50;&#x8282;&#x70b9;
+    if len(track) == len(nums) {
+        // &#x6536;&#x96c6;&#x53f6;&#x5b50;&#x8282;&#x70b9;&#x4e0a;&#x7684;&#x503c;
+        tmp := make([]int, len(track))
+        copy(tmp, track)
+        *res = append(*res, tmp)
+        return
+    }
+
+    // &#x56de;&#x6eaf;&#x7b97;&#x6cd5;&#x6807;&#x51c6;&#x6846;&#x67b6;
+    for i := 0; i &amp;lt; len(nums); i++ {
+        // &#x505a;&#x9009;&#x62e9;
+        track = append(track, nums[i])
+        // &#x8fdb;&#x5165;&#x4e0b;&#x4e00;&#x5c42;&#x56de;&#x6eaf;&#x6811;
+        backtrack(nums, res, track)
+        // &#x53d6;&#x6d88;&#x9009;&#x62e9;
+        track = track[:len(track)-1]
+    }
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p local-id=&quot;1ce726fc-fd64-4ea4-a002-2e6123ca8887&quot; /&gt;
+    &lt;/div&gt;
+        &lt;div style=&quot;padding: 10px 0;&quot;&gt;
+       &lt;a href=&quot;https://singee.atlassian.net/wiki/spaces/MAIN/pages/361103504/Week+39+2025&quot;&gt;email.notification.view.online&lt;/a&gt;
+                  &lt;/div&gt;
+&lt;/div&gt;</summary>
+    <dc:creator>Bryan</dc:creator>
+    <dc:date>2025-09-28T13:22:52Z</dc:date>
+  </entry>
+</feed>
