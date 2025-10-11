@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>Bryan &#x7684;&#x77e5;&#x8bc6;&#x5e93;</title>
+  <link rel="alternate" href="https://singee.atlassian.net/wiki"/>
+  
+  <id>https://singee.atlassian.net/wiki</id>
+  <entry>
+    <title>Week 40 @ 2025 &#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6808;&#x3011;</title>
+    <link rel="alternate" href="https://singee.atlassian.net/wiki/spaces/MAIN/pages/379453658/Week+40+2025"/>
+    <author>
+      <name>Bryan</name>
+    </author>
+    <id>tag:singee.atlassian.net,2009:page-379453658-1</id>
+    <updated>2025-10-05T14:52:49Z</updated>
+    <published>2025-10-05T14:52:49Z</published>
+    <summary type="html">&lt;div class=&quot;feed&quot;&gt;    &lt;p&gt;
+                        Live doc
+                    &lt;b&gt;added&lt;/b&gt; by
+                &lt;a  &gt;Bryan&lt;/a&gt;
+            &lt;/p&gt;
+        &lt;div style=&quot;border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 10px;&quot;&gt;
+        &lt;style type=&apos;text/css&apos;&gt;/*&lt;![CDATA[*/
+div.rbtoc1760142525044 {padding: 0px;}
+div.rbtoc1760142525044 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1760142525044 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]&gt;*/&lt;/style&gt;&lt;div class=&apos;toc-macro rbtoc1760142525044&apos;&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week40@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6808;&#x3011;-&#x6808;&apos;&gt;&#x6808;&lt;/a&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week40@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6808;&#x3011;-LC71.SimplifyPath&#x7b80;&#x5316;&#x8def;&#x5f84;&apos;&gt;LC 71. Simplify Path &#x7b80;&#x5316;&#x8def;&#x5f84;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week40@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6808;&#x3011;-LC143.ReorderList&#x91cd;&#x6392;&#x94fe;&#x8868;&apos;&gt;LC 143. Reorder List &#x91cd;&#x6392;&#x94fe;&#x8868;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week40@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6808;&#x3011;-LC20.ValidParentheses&#x6709;&#x6548;&#x7684;&#x62ec;&#x53f7;&apos;&gt;LC 20. Valid Parentheses &#x6709;&#x6548;&#x7684;&#x62ec;&#x53f7;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week40@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6808;&#x3011;-LC150.EvaluateReversePolishNotation&#x9006;&#x6ce2;&#x5170;&#x8868;&#x8fbe;&#x5f0f;&#x6c42;&#x503c;&apos;&gt;LC 150. Evaluate Reverse Polish Notation &#x9006;&#x6ce2;&#x5170;&#x8868;&#x8fbe;&#x5f0f;&#x6c42;&#x503c;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week40@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6808;&#x3011;-LC225.ImplementStackusingQueues&#x7528;&#x961f;&#x5217;&#x5b9e;&#x73b0;&#x6808;&apos;&gt;LC 225. Implement Stack using Queues &#x7528;&#x961f;&#x5217;&#x5b9e;&#x73b0;&#x6808;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week40@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6808;&#x3011;-LC388.LongestAbsoluteFilePath&#x6587;&#x4ef6;&#x7684;&#x6700;&#x957f;&#x7edd;&#x5bf9;&#x8def;&#x5f84;&apos;&gt;LC 388. Longest Absolute File Path &#x6587;&#x4ef6;&#x7684;&#x6700;&#x957f;&#x7edd;&#x5bf9;&#x8def;&#x5f84;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week40@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6808;&#x3011;-LC155.MinStack&#x6700;&#x5c0f;&#x6808;&apos;&gt;LC 155. Min Stack &#x6700;&#x5c0f;&#x6808;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;h2 local-id=&quot;84b3e664-5e6c-4555-9ac8-6b57138bd0c5&quot; id=&quot;Week40@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6808;&#x3011;-&#x6808;&quot;&gt;&#x6808;&lt;/h2&gt;&lt;h3 local-id=&quot;f35d758f-9921-468f-aaa2-eaf0bbd1337f&quot; id=&quot;Week40@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6808;&#x3011;-LC71.SimplifyPath&#x7b80;&#x5316;&#x8def;&#x5f84;&quot;&gt;LC 71. Simplify Path &#x7b80;&#x5316;&#x8def;&#x5f84;&lt;/h3&gt;&lt;p local-id=&quot;76832a99-dc1e-4bad-8b40-0d17075eb727&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/simplify-path/description/&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/simplify-path/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func simplifyPath(path string) string {
+    splits := strings.Split(path, &amp;quot;/&amp;quot;)
+    paths := make([]string, 0, len(splits))
+
+    for _, p:= range splits {
+        if p == &amp;quot;&amp;quot; || p == &amp;quot;.&amp;quot; {
+            continue
+        }
+        if p == &amp;quot;..&amp;quot; {
+            if len(paths) &amp;gt; 0 {
+                paths = paths[:len(paths)-1]
+            }
+            continue
+        }
+
+        paths = append(paths, p)
+    }
+
+    return &amp;quot;/&amp;quot; + strings.Join(paths, &amp;quot;/&amp;quot;)
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 local-id=&quot;beaa9ade-84bc-40dc-839a-041c8b3f086d&quot; id=&quot;Week40@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6808;&#x3011;-LC143.ReorderList&#x91cd;&#x6392;&#x94fe;&#x8868;&quot;&gt;LC 143. Reorder List &#x91cd;&#x6392;&#x94fe;&#x8868;&lt;/h3&gt;&lt;p local-id=&quot;d28bf801-c63b-4301-b1cb-eff850d73b8a&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/reorder-list/description/&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/reorder-list/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;/**
+ * Definition for singly-linked list.
+ * type ListNode struct {
+ *     Val int
+ *     Next *ListNode
+ * }
+ */
+func reorderList(head *ListNode) {
+    stack := make([]*ListNode, 0, 5_0000)
+    
+    for node := head; node != nil; node = node.Next {
+        stack = append(stack, node)
+    }
+
+    h := head
+    for {
+        last := pop(&amp;amp;stack)
+        next := h.Next       
+
+        if last == next || last.Next == next {
+            last.Next = nil
+            break
+        }
+         
+        h.Next = last
+        last.Next = next
+
+        h = next
+    }
+}
+
+func pop(stack *[]*ListNode) *ListNode {
+    l := len(*stack)
+
+    last := (*stack)[l-1]
+    *stack = (*stack)[:l-1]
+
+    return last
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 local-id=&quot;e4f77230-d70d-48ec-bbd4-8af859314b7e&quot; id=&quot;Week40@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6808;&#x3011;-LC20.ValidParentheses&#x6709;&#x6548;&#x7684;&#x62ec;&#x53f7;&quot;&gt;LC 20. Valid Parentheses &#x6709;&#x6548;&#x7684;&#x62ec;&#x53f7; &lt;/h3&gt;&lt;p local-id=&quot;8d34c891-1edb-4926-a580-7213b40e1769&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/valid-parentheses/description/&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/valid-parentheses/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;fun
+
+c isValid(s string) bool {
+    pp := make([]byte, 0, len(s))
+
+    for i := range s {
+        c := s[i]
+        switch c {
+            case &amp;#39;(&amp;#39;, &amp;#39;[&amp;#39;, &amp;#39;{&amp;#39;:
+                pp = append(pp, c)
+            case &amp;#39;)&amp;#39;, &amp;#39;]&amp;#39;, &amp;#39;}&amp;#39;:
+                if len(pp) == 0 {
+                    return false
+                }
+
+                last := pp[len(pp)-1]
+                pp = pp[:len(pp)-1]
+
+                if c != getPair(last) {
+                    return false
+                }
+        }
+    }
+
+    return len(pp) == 0
+}
+
+func getPair(c byte) byte {
+    switch c {
+        case &amp;#39;(&amp;#39;:
+            return &amp;#39;)&amp;#39;
+        case &amp;#39;[&amp;#39;:
+            return &amp;#39;]&amp;#39;
+        case &amp;#39;{&amp;#39;:
+            return &amp;#39;}&amp;#39;
+    }
+
+    panic(&amp;quot;impossible&amp;quot;)
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 local-id=&quot;767b5c63-41d3-4138-b8b6-895289e4d01e&quot; id=&quot;Week40@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6808;&#x3011;-LC150.EvaluateReversePolishNotation&#x9006;&#x6ce2;&#x5170;&#x8868;&#x8fbe;&#x5f0f;&#x6c42;&#x503c;&quot;&gt;LC 150. Evaluate Reverse Polish Notation &#x9006;&#x6ce2;&#x5170;&#x8868;&#x8fbe;&#x5f0f;&#x6c42;&#x503c;&lt;/h3&gt;&lt;p local-id=&quot;2e4f666f-ad34-40ca-a922-c01a073cbc54&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/evaluate-reverse-polish-notation/description/&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/evaluate-reverse-polish-notation/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func evalRPN(tokens []string) int {
+    nums := make([]int, 0, len(tokens))
+
+    for _, token := range tokens {
+        switch token {
+            case &amp;quot;+&amp;quot;:
+                a, b := pop2(&amp;amp;nums)
+                nums = append(nums, a + b)
+            case &amp;quot;-&amp;quot;:
+                a, b := pop2(&amp;amp;nums)
+                nums = append(nums, a - b)
+            case &amp;quot;*&amp;quot;:
+                a, b := pop2(&amp;amp;nums)
+                nums = append(nums, a * b)
+            case &amp;quot;/&amp;quot;:
+                a, b := pop2(&amp;amp;nums)
+                nums = append(nums, a / b)
+            default:
+                num, _ := strconv.Atoi(token)
+                nums = append(nums, num)
+        }
+    }
+
+    return nums[0]
+}
+
+func pop2(nums *[]int) (a, b int) {
+    l := len(*nums)
+
+    a, b = (*nums)[l-2], (*nums)[l-1]
+    *nums = (*nums)[:l-2]
+
+    return
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 local-id=&quot;45ab5b99-5365-4674-891d-4c03ba6a8c62&quot; id=&quot;Week40@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6808;&#x3011;-LC225.ImplementStackusingQueues&#x7528;&#x961f;&#x5217;&#x5b9e;&#x73b0;&#x6808;&quot;&gt;LC 225. Implement Stack using Queues &#x7528;&#x961f;&#x5217;&#x5b9e;&#x73b0;&#x6808;&lt;/h3&gt;&lt;p local-id=&quot;56faba8c-0a64-429f-96bc-a077a01626af&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/implement-stack-using-queues/description/&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/implement-stack-using-queues/description/&lt;/a&gt; &lt;/p&gt;&lt;p local-id=&quot;7ed1d16a-f66c-4716-8119-6469b47a6081&quot;&gt;Pop &#x7684;&#x65f6;&#x95f4;&#x590d;&#x6742;&#x5ea6; O(N)&#xff0c;&#x5176;&#x4ed6;&#x64cd;&#x4f5c;&#x7684;&#x65f6;&#x95f4;&#x590d;&#x6742;&#x5ea6; O(1)&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;type MyStack struct {
+    q *list.List
+    topElement int
+}
+
+
+func Constructor() MyStack {
+    return MyStack {
+        q: list.New(),
+        topElement: -1,
+    }
+}
+
+
+func (this *MyStack) Push(x int)  {
+    this.q.PushBack(x)
+    this.topElement = x
+}
+
+func (this *MyStack) Top() int {
+    return this.topElement
+}
+
+
+
+func (this *MyStack) Pop() int {
+    n := this.q.Len()
+
+    if n == 0 {
+        return -1
+    }
+
+    for ; n &amp;gt; 2; n-- {
+        // move front value to back
+
+        front := this.q.Front()
+        this.q.Remove(front)
+        this.q.PushBack(front.Value)
+    }
+
+    // now n==1 or n==2
+    if n == 2 {
+        front := this.q.Front()
+        frontValue := front.Value.(int)
+        this.q.Remove(front)
+        this.q.PushBack(frontValue)
+
+        this.topElement = frontValue
+        n--
+    } else {
+        // n == 1, reset topElement to -1
+        this.topElement = -1
+    }
+
+    // now n == 1
+    front := this.q.Front()
+    frontValue := front.Value.(int)
+    this.q.Remove(front)
+    
+    return frontValue
+}
+
+
+
+
+func (this *MyStack) Empty() bool {
+    return this.q.Len() == 0
+}
+
+
+/**
+ * Your MyStack object will be instantiated and called as such:
+ * obj := Constructor();
+ * obj.Push(x);
+ * param_2 := obj.Pop();
+ * param_3 := obj.Top();
+ * param_4 := obj.Empty();
+ */&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 local-id=&quot;67839df3-db1b-4768-be38-11244792b42d&quot; id=&quot;Week40@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6808;&#x3011;-LC388.LongestAbsoluteFilePath&#x6587;&#x4ef6;&#x7684;&#x6700;&#x957f;&#x7edd;&#x5bf9;&#x8def;&#x5f84;&quot;&gt;LC 388. Longest Absolute File Path &#x6587;&#x4ef6;&#x7684;&#x6700;&#x957f;&#x7edd;&#x5bf9;&#x8def;&#x5f84;&lt;/h3&gt;&lt;p local-id=&quot;3af2f828-5eac-46b3-93a8-524f256c18c8&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/longest-absolute-file-path/description/&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/longest-absolute-file-path/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func lengthLongestPath(input string) int {
+    lines := strings.Split(input, &amp;quot;\n&amp;quot;)
+
+    levelLengths := make([]int, 1_0000)
+    levelLengths[0] = -1
+
+    maxLength := 0
+
+    for _, line := range lines {
+        level, name := cutTab(line)
+        currentLength := levelLengths[level] + 1 + len(name)
+        if strings.Contains(name, &amp;quot;.&amp;quot;) {
+            maxLength = max(maxLength, currentLength)
+        }
+        levelLengths[level+1] = currentLength
+    }
+
+    return maxLength
+}
+
+func cutTab(line string) (count int, trimmed string) {
+    for i := range line {
+        if line[i] != &amp;#39;\t&amp;#39; {
+            count = i
+            break
+        }
+    }
+    trimmed = line[count:]
+    return
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 local-id=&quot;94decb85-4e77-42b3-a01d-cd22bd67a1b6&quot; id=&quot;Week40@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6808;&#x3011;-LC155.MinStack&#x6700;&#x5c0f;&#x6808;&quot;&gt;LC 155. Min Stack &#x6700;&#x5c0f;&#x6808;&lt;/h3&gt;&lt;p local-id=&quot;02da64ae-21a4-4dc8-b610-6d17930471aa&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/min-stack/description/&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/min-stack/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;type MinStack struct {
+    nums []int
+    mins []int
+}
+
+const maxValue = math.MaxInt
+
+
+func Constructor() MinStack {
+    return MinStack{
+        nums: []int{maxValue},
+        mins: []int{maxValue},
+    }
+}
+
+
+func (this *MinStack) Push(val int)  {
+    this.nums = append(this.nums, val)
+
+    if lastValue(this.mins) &amp;gt;= val {
+        this.mins = append(this.mins, val)
+    }
+}
+
+
+func (this *MinStack) Pop()  {
+    v := this.nums[len(this.nums)-1]
+    this.nums = this.nums[:len(this.nums)-1]
+
+    if v == lastValue(this.mins) {
+        this.mins = this.mins[:len(this.mins)-1]
+    }
+}
+
+
+func (this *MinStack) Top() int {
+    return lastValue(this.nums)
+}
+
+
+func (this *MinStack) GetMin() int {
+    return lastValue(this.mins)
+}
+
+func lastValue(arr []int) int {
+    return arr[len(arr)-1]
+}
+
+
+/**
+ * Your MinStack object will be instantiated and called as such:
+ * obj := Constructor();
+ * obj.Push(val);
+ * obj.Pop();
+ * param_3 := obj.Top();
+ * param_4 := obj.GetMin();
+ */&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p local-id=&quot;adf74a5a-10fd-4036-a55f-ecf4af61b557&quot; /&gt;
+    &lt;/div&gt;
+        &lt;div style=&quot;padding: 10px 0;&quot;&gt;
+       &lt;a href=&quot;https://singee.atlassian.net/wiki/spaces/MAIN/pages/379453658/Week+40+2025&quot;&gt;email.notification.view.online&lt;/a&gt;
+                  &lt;/div&gt;
+&lt;/div&gt;</summary>
+    <dc:creator>Bryan</dc:creator>
+    <dc:date>2025-10-05T14:52:49Z</dc:date>
+  </entry>
+</feed>
