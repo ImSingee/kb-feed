@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>Bryan &#x7684;&#x77e5;&#x8bc6;&#x5e93;</title>
+  <link rel="alternate" href="https://singee.atlassian.net/wiki"/>
+  
+  <id>https://singee.atlassian.net/wiki</id>
+  
+  <entry>
+    <title>TS &#x7c7b;&#x578b;&#x4f53;&#x64cd;</title>
+    <link rel="alternate" href="https://singee.atlassian.net/wiki/spaces/MAIN/pages/404127745/TS"/>
+    <author>
+      <name>Bryan</name>
+    </author>
+    <id>tag:singee.atlassian.net,2009:page-404127745-3</id>
+    <updated>2025-10-15T07:38:28Z</updated>
+    <published>2025-10-15T07:38:28Z</published>
+    <summary type="html">&lt;div class=&quot;feed&quot;&gt;    &lt;p&gt;
+                        Live doc
+                    &lt;b&gt;edited&lt;/b&gt; by
+                &lt;a  &gt;Bryan&lt;/a&gt;
+             - &quot;Autosaved&quot;
+        &lt;/p&gt;
+        &lt;div style=&quot;border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 10px;&quot;&gt;
+        &lt;blockquote local-id=&quot;5b9b9977-0d49-4e10-bcdc-643c173b90dd&quot;&gt;&lt;p local-id=&quot;721e4a11-06a0-413a-878c-21b6ec6ddd3e&quot;&gt;&#x7c7b;&#x578b;&#x4f53;&#x64cd;&#xff1a;type gymnastics&lt;/p&gt;&lt;/blockquote&gt;&lt;style type=&apos;text/css&apos;&gt;/*&lt;![CDATA[*/
+div.rbtoc1760747334598 {padding: 0px;}
+div.rbtoc1760747334598 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1760747334598 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]&gt;*/&lt;/style&gt;&lt;div class=&apos;toc-macro rbtoc1760747334598&apos;&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#TS&#x7c7b;&#x578b;&#x4f53;&#x64cd;-extends&apos;&gt;extends&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#TS&#x7c7b;&#x578b;&#x4f53;&#x64cd;-never,any,unknown&apos;&gt;never, any, unknown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#TS&#x7c7b;&#x578b;&#x4f53;&#x64cd;-&#x6761;&#x4ef6;&#x7c7b;&#x578b;&#x5c55;&#x5f00;/IsNever&apos;&gt;&#x6761;&#x4ef6;&#x7c7b;&#x578b;&#x5c55;&#x5f00; / IsNever&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#TS&#x7c7b;&#x578b;&#x4f53;&#x64cd;-IsUnknown&apos;&gt;IsUnknown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#TS&#x7c7b;&#x578b;&#x4f53;&#x64cd;-IsEqual&apos;&gt;IsEqual&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#TS&#x7c7b;&#x578b;&#x4f53;&#x64cd;-infer&apos;&gt;infer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;h2 local-id=&quot;e6191554-4f07-4b7c-8467-29bd46188b0a&quot; id=&quot;TS&#x7c7b;&#x578b;&#x4f53;&#x64cd;-extends&quot;&gt;extends&lt;/h2&gt;&lt;p local-id=&quot;dfac0bab-e924-499a-82f4-8f32ff77f126&quot;&gt;&lt;code&gt;extends&lt;/code&gt; &#x7684;&#x542b;&#x4e49;&#x662f;&#x300c;&#x53ef;&#x8d4b;&#x503c;&#x300d;&#xff0c;&#x5373;&#x5982;&#x679c; A extends B &#x5219;&#x6709; &lt;code&gt;b: B = a as A&lt;/code&gt; &#x6210;&#x7acb;&lt;/p&gt;&lt;p local-id=&quot;5cc3ac9e-ee08-448f-90b8-b0988bb04c77&quot;&gt;&#x6211;&#x4eec;&#x4e5f;&#x53ef;&#x4ee5;&#x4ece;&#x96c6;&#x5408;&#x7684;&#x89d2;&#x5ea6;&#x7406;&#x89e3;&#xff0c;&#x5c06; extends &#x5f53;&#x6210;&#x300c;&#x5305;&#x542b;&#x4e8e; &#x2286;&#x300d;&#x7684;&#x542b;&#x4e49;&#xff0c;&#x5373; A extends B &#x5219;&#x610f;&#x5473;&#x7740; &lt;code&gt;A &#x2286; B&lt;/code&gt;&lt;/p&gt;&lt;h2 local-id=&quot;733a56c0-e454-449e-94f5-7868e1478146&quot; id=&quot;TS&#x7c7b;&#x578b;&#x4f53;&#x64cd;-never,any,unknown&quot;&gt;never, any, unknown&lt;/h2&gt;&lt;div class=&quot;ap-container&quot; id=&quot;ap-appsplus-tabs-pro-confluence__appsplus-tabs-pro-macro3729123146833220993&quot;&gt;
+
+  &lt;div class=&quot;ap-content &quot; id=&quot;embedded-appsplus-tabs-pro-confluence__appsplus-tabs-pro-macro3729123146833220993&quot;&gt;&lt;/div&gt;
+  &lt;script nonce=&quot;7158c5d3b70e48aab5005be9a3424d48&quot; class=&quot;ap-iframe-body-script&quot;&gt;
+  (function(){
+    var data = {
+    &quot;addon_key&quot;:&quot;appsplus-tabs-pro-confluence&quot;,
+    &quot;uniqueKey&quot;:&quot;appsplus-tabs-pro-confluence__appsplus-tabs-pro-macro3729123146833220993&quot;,
+    &quot;key&quot;:&quot;appsplus-tabs-pro-macro&quot;,
+     &quot;moduleType&quot;:&quot;dynamicContentMacros&quot;,      &quot;moduleLocation&quot;:&quot;content&quot;,         &quot;cp&quot;:&quot;/wiki&quot;,
+            &quot;general&quot;:&quot;&quot;,
+    &quot;w&quot;:&quot;&quot;,
+    &quot;h&quot;:&quot;&quot;,
+    &quot;url&quot;:&quot;https://tabs.appsplus.co/confluence/macro?data=https%3A%2F%2Fgist.github.com%2Flaughinghan%2F31e02b3f3b79a4b1d58138beff1a2a89&amp;xdm_e=https%3A%2F%2Fsingee.atlassian.net&amp;xdm_c=channel-appsplus-tabs-pro-confluence__appsplus-tabs-pro-macro3729123146833220993&amp;cp=%2Fwiki&amp;xdm_deprecated_addon_key_do_not_use=appsplus-tabs-pro-confluence&amp;lic=active&amp;userAccess=true&amp;cv=1000.0.0-5addc1007ff0&amp;traceId=c2d3060c778401344bca53561c3e800d&amp;spanId=1272fed2bee0bcc9&amp;traceSampled=0&quot;,
+        &quot;structuredContext&quot;: &quot;{\&quot;license\&quot;:{\&quot;active\&quot;:true},\&quot;confluence\&quot;:{\&quot;editor\&quot;:{\&quot;version\&quot;:\&quot;v2\&quot;},\&quot;macro\&quot;:{\&quot;outputType\&quot;:\&quot;feed\&quot;,\&quot;hash\&quot;:\&quot;9c26d809-27a2-4814-9456-22861c198aaf\&quot;,\&quot;id\&quot;:\&quot;9c26d809-27a2-4814-9456-22861c198aaf\&quot;},\&quot;tracing\&quot;:{\&quot;traceId\&quot;:\&quot;c2d3060c778401344bca53561c3e800d\&quot;,\&quot;spanId\&quot;:\&quot;1272fed2bee0bcc9\&quot;,\&quot;sampled\&quot;:\&quot;0\&quot;},\&quot;content\&quot;:{\&quot;type\&quot;:\&quot;page\&quot;,\&quot;version\&quot;:\&quot;3\&quot;,\&quot;id\&quot;:\&quot;404127745\&quot;},\&quot;space\&quot;:{\&quot;key\&quot;:\&quot;MAIN\&quot;,\&quot;id\&quot;:\&quot;458752\&quot;}},\&quot;url\&quot;:{\&quot;displayUrl\&quot;:\&quot;https://singee.atlassian.net/wiki\&quot;}}&quot;,
+    &quot;contentClassifier&quot;:&quot;content&quot;,
+    &quot;productCtx&quot;:&quot;{\&quot;page.id\&quot;:\&quot;404127745\&quot;,\&quot;macro.hash\&quot;:\&quot;9c26d809-27a2-4814-9456-22861c198aaf\&quot;,\&quot;data\&quot;:\&quot;https://gist.github.com/laughinghan/31e02b3f3b79a4b1d58138beff1a2a89\&quot;,\&quot;space.key\&quot;:\&quot;MAIN\&quot;,\&quot;tracing.sampled\&quot;:\&quot;0\&quot;,\&quot;page.type\&quot;:\&quot;page\&quot;,\&quot;content.version\&quot;:\&quot;3\&quot;,\&quot;page.title\&quot;:\&quot;TS \u7c7b\u578b\u4f53\u64cd\&quot;,\&quot;macro.localId\&quot;:\&quot;1019d5a0-ca47-4a9d-a87c-bcc2f15eb1ca\&quot;,\&quot;macro.body\&quot;:\&quot;\&quot;,\&quot;: = | RAW | = :\&quot;:\&quot;data=https://gist.github.com/laughinghan/31e02b3f3b79a4b1d58138beff1a2a89\&quot;,\&quot;space.id\&quot;:\&quot;458752\&quot;,\&quot;macro.truncated\&quot;:\&quot;false\&quot;,\&quot;content.type\&quot;:\&quot;page\&quot;,\&quot;output.type\&quot;:\&quot;feed\&quot;,\&quot;page.version\&quot;:\&quot;3\&quot;,\&quot;macro.fragmentLocalId\&quot;:\&quot;\&quot;,\&quot;content.id\&quot;:\&quot;404127745\&quot;,\&quot;tracing.traceId\&quot;:\&quot;c2d3060c778401344bca53561c3e800d\&quot;,\&quot;macro.id\&quot;:\&quot;9c26d809-27a2-4814-9456-22861c198aaf\&quot;,\&quot;tracing.spanId\&quot;:\&quot;1272fed2bee0bcc9\&quot;,\&quot;editor.version\&quot;:\&quot;v2\&quot;}&quot;,
+    &quot;timeZone&quot;:&quot;Asia/Shanghai&quot;,
+    &quot;origin&quot;:&quot;https://tabs.appsplus.co&quot;,
+    &quot;hostOrigin&quot;:&quot;https://singee.atlassian.net&quot;,
+    &quot;sandbox&quot;:&quot;allow-downloads allow-forms allow-modals allow-popups allow-popups-to-escape-sandbox allow-scripts allow-same-origin allow-top-navigation-by-user-activation allow-storage-access-by-user-activation&quot;,    &quot;pearApp&quot;:&quot;true&quot;,        &quot;apiMigrations&quot;: {
+        &quot;gdpr&quot;: true
+    }
+}
+;
+    if(window.AP &amp;&amp; window.AP.subCreate) {
+      window._AP.appendConnectAddon(data);
+    } else {
+      require([&apos;ac/create&apos;], function(create){
+        create.appendConnectAddon(data);
+      });
+    }
+
+    // For Confluence App Analytics. This code works in conjunction with CFE&apos;s ConnectSupport.js.
+    // Here, we add a listener to the initial HTML page that stores events if the ConnectSupport component
+    // has not mounted yet. In CFE, we process the missed event data and disable this initial listener.
+    const __MAX_EVENT_ARRAY_SIZE__ = 20;
+    const connectAppAnalytics = &quot;ecosystem.confluence.connect.analytics&quot;;
+    window.connectHost &amp;&amp; window.connectHost.onIframeEstablished((eventData) =&gt; {
+      if (!window.__CONFLUENCE_CONNECT_SUPPORT_LOADED__) {
+        let events = JSON.parse(window.localStorage.getItem(connectAppAnalytics)) || [];
+        if (events.length &gt;= __MAX_EVENT_ARRAY_SIZE__) {
+          events.shift();
+        }
+        events.push(eventData);
+        window.localStorage.setItem(connectAppAnalytics, JSON.stringify(events));
+      }
+    });
+
+  }());
+&lt;/script&gt;
+
+&lt;/div&gt;
+&lt;p local-id=&quot;7cfd7b76-fa1f-4f0d-b197-77ffcada308d&quot;&gt;&#x6211;&#x4eec;&#x53ef;&#x4ee5;&#x8ba4;&#x4e3a;&#xff0c;&#x5728;&#x96c6;&#x5408;&#x7684;&#x89d2;&#x5ea6;&#xff0c;never &#x2286; &#x4efb;&#x4f55;&#x7c7b;&#x578b; &#x2286; unknown&lt;/p&gt;&lt;ul local-id=&quot;7df84cb0-8ce7-4e78-9ab7-2639e2ad2d2a&quot;&gt;&lt;li local-id=&quot;810774b0-8f24-4cfb-aaf5-2eac015eab52&quot;&gt;&lt;p local-id=&quot;4cd63741-6366-40af-a428-2cf6e68acceb&quot;&gt;&lt;code&gt;never&lt;/code&gt; &#x662f;&lt;strong&gt;&#x5e95;&#x7c7b;&#x578b;&lt;/strong&gt;&#xff08;bottom type&#xff09;&#xff1a;&#x5b83;&#x662f;&#x6240;&#x6709;&#x7c7b;&#x578b;&#x7684;&#x5b50;&#x7c7b;&#x578b;&lt;/p&gt;&lt;/li&gt;&lt;li local-id=&quot;3c3f1127-8ab3-492c-bfb5-0c71dc7038fb&quot;&gt;&lt;p local-id=&quot;a8897b11-762a-4562-bdea-4d5fd2cf4559&quot;&gt;&lt;code&gt;unknown&lt;/code&gt; &#x662f;&lt;strong&gt;&#x9876;&#x7c7b;&#x578b;&lt;/strong&gt;&#xff08;top type&#xff09;&#xff1a;&#x6240;&#x6709;&#x7c7b;&#x578b;&#xff08;&#x5305;&#x62ec; &lt;code&gt;any&lt;/code&gt;&#xff09;&#x90fd;&#x53ef;&#x8d4b;&#x503c;&#x7ed9; &lt;code&gt;unknown&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p local-id=&quot;45bdb983-c2ed-4102-81ad-fdbc59cf2ca8&quot;&gt;&#x6240;&#x4ee5;&#xff0c;&#x5b58;&#x5728;&#x5982;&#x4e0b;&#x7684;&#x6027;&#x8d28;&lt;/p&gt;&lt;p local-id=&quot;d92e00fd-4836-49b9-8d73-48d4a777c002&quot;&gt;&lt;strong&gt;never extends &#x4efb;&#x610f;&#x503c;&#x90fd;&#x662f;&#x6210;&#x7acb;&#x7684;&lt;/strong&gt;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;type X1 = never extends never ? &amp;#39;yes&amp;#39; : &amp;#39;no&amp;#39;; // yes
+type X2 = never extends 233 ? &amp;#39;yes&amp;#39; : &amp;#39;no&amp;#39;; // yes
+type X3 = never extends unknown ? &amp;#39;yes&amp;#39; : &amp;#39;no&amp;#39;; // yes&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p local-id=&quot;86216d78-2d22-4752-b76e-8718ffed1e9a&quot;&gt;&lt;strong&gt;&#x4efb;&#x610f;&#xff08;&#x975e; never&#xff09;&#x503c; extends never &#x90fd;&#x662f;&#x4e0d;&#x6210;&#x7acb;&#x7684;&lt;/strong&gt;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;type X4 = 233 extends never ? &amp;#39;yes&amp;#39; : &amp;#39;no&amp;#39;; // no
+type X5 = unknown extends never ? &amp;#39;yes&amp;#39; : &amp;#39;no&amp;#39;; // no&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p local-id=&quot;0d11baa4-6c91-42bd-b6ea-9cf98e701d18&quot;&gt;&lt;strong&gt;&#x4efb;&#x610f;&#x503c; extends unknown &#x90fd;&#x662f;&#x6210;&#x7acb;&#x7684;&lt;/strong&gt;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;type X6 = never extends unknown ? &amp;#39;yes&amp;#39; : &amp;#39;no&amp;#39;; // yes
+type X7 = 233 extends unknown ? &amp;#39;yes&amp;#39; : &amp;#39;no&amp;#39;; // yes
+type X8 = unknown extends unknown ? &amp;#39;yes&amp;#39; : &amp;#39;no&amp;#39;; // yes&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p local-id=&quot;8ac6bee3-395e-4715-a1fc-4a3fa04fc7a5&quot;&gt;&lt;strong&gt;unknown extends &#x4efb;&#x610f;&#xff08;&#x975e; unknown&#xff09;&#x503c;&#x90fd;&#x662f;&#x4e0d;&#x6210;&#x7acb;&#x7684;&lt;/strong&gt;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;type X9 = unknown extends never ? &amp;#39;yes&amp;#39; : &amp;#39;no&amp;#39;; // no
+type X10 = unknown extends 233 ? &amp;#39;yes&amp;#39; : &amp;#39;no&amp;#39;; // no&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p local-id=&quot;5401439b-6349-417a-87ef-ffa1ae24010c&quot;&gt;&#x5728;&#x8fd9;&#x57fa;&#x7840;&#x4e0a;&#xff0c;&#x8fd8;&#x6709;&#x4e2a;&#x7279;&#x6b8a;&#x7684; any&#xff1b;any &#x4e0d;&#x592a;&#x9002;&#x5408;&#x4ece;&#x96c6;&#x5408;&#x89d2;&#x5ea6;&#x7406;&#x89e3;&#xff0c;&#x6211;&#x4eec;&#x56de;&#x5f52;&#x5230;&#x300c;&#x53ef;&#x8d4b;&#x503c;&#x300d;&#x89d2;&#x5ea6;&lt;/p&gt;&lt;p local-id=&quot;45a2a35e-8dfa-42cd-9712-e217f7c0f370&quot;&gt;&lt;strong&gt;&#x4efb;&#x4f55;&#x503c;&#x90fd;&#x53ef;&#x4ee5;&#x8d4b;&#x503c;&#x7ed9; any&lt;/strong&gt;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;type Y1 = never extends any ? &amp;#39;yes&amp;#39; : &amp;#39;no&amp;#39;; // yes
+type Y2 = 233 extends any ? &amp;#39;yes&amp;#39; : &amp;#39;no&amp;#39;; // yes
+type Y3 = unknown extends any ? &amp;#39;yes&amp;#39; : &amp;#39;no&amp;#39;; // yes
+type Y4 = any extends any ? &amp;#39;yes&amp;#39; : &amp;#39;no&amp;#39;; // yes&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p local-id=&quot;fd542204-c29b-4ebd-a19f-8d98f0ba4685&quot;&gt;&lt;strong&gt;any &#x53ef;&#x4ee5;&#x8d4b;&#x503c;&#x7ed9; unknown&lt;/strong&gt;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;type Y5 = any extends unknown ? &amp;#39;yes&amp;#39; : &amp;#39;no&amp;#39;; // yes&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p local-id=&quot;95b36b47-bfdd-462e-aec9-adcd077f1a3f&quot;&gt;&lt;strong&gt;&#x7279;&#x6b8a;&#x89c4;&#x5219;&#xff1a;&#x5f53;&#x88ab;&#x68c0;&#x67e5;&#x7684;&#x7c7b;&#x578b;&#x662f; any &#x65f6;&#xff0c;&#x6761;&#x4ef6;&#x7c7b;&#x578b;&#x4f1a;&#x53d6;&#x4e24;&#x6761;&#x5206;&#x652f;&#x7684;&#x5e76;&#x96c6;&lt;/strong&gt;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;type Y6 = any extends never ? &amp;#39;yes&amp;#39; : &amp;#39;no&amp;#39;; // yes | no
+type Y7 = any extends 233 ? &amp;#39;yes&amp;#39; : &amp;#39;no&amp;#39;; // yes | no&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h2 local-id=&quot;90e57a97-11a4-4753-a6b1-ee0cd17f0e5c&quot; id=&quot;TS&#x7c7b;&#x578b;&#x4f53;&#x64cd;-&#x6761;&#x4ef6;&#x7c7b;&#x578b;&#x5c55;&#x5f00;/IsNever&quot;&gt;&#x6761;&#x4ef6;&#x7c7b;&#x578b;&#x5c55;&#x5f00; / IsNever&lt;/h2&gt;&lt;p local-id=&quot;2cdaf9a9-993b-466a-a795-51fb3244ebb4&quot;&gt;&#x6839;&#x636e; &lt;code&gt;extends&lt;/code&gt; &#x7684;&#x6027;&#x8d28;&#xff0c;&#x663e;&#x800c;&#x6613;&#x89c1;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;type X = never extends never ? &amp;#39;yes&amp;#39; : &amp;#39;no&amp;#39;; // yes&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p local-id=&quot;c39ef4e3-e83a-4764-97a4-2b7bd9b800d4&quot;&gt;&#x4f46;&#x5982;&#x679c;&#x6362;&#x79cd;&#x5199;&#x6cd5;&#x5462;&#xff1f;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;type IsNever&amp;lt;T&amp;gt; = T extends never ? &amp;#39;yes&amp;#39; : &amp;#39;no&amp;#39;;
+type X = IsNever&amp;lt;never&amp;gt;; // never&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p local-id=&quot;7aaf3d27-b8b5-464a-8007-28702a758aa0&quot; /&gt;&lt;p local-id=&quot;5564656f-2d21-4781-bb3b-a7ad488c41af&quot;&gt;TS &#x4e2d;&#x5b58;&#x5728;&#x4e00;&#x4e2a; &lt;a href=&quot;https://www.typescriptlang.org/docs/handbook/2/conditional-types.html#distributive-conditional-types&quot; class=&quot;external-link&quot; rel=&quot;nofollow&quot;&gt;Distributive Conditional Types&lt;/a&gt; &#x89c4;&#x5219;&#xff0c;&#x5373;&#x5bf9;&#x4e8e; &lt;code&gt;type T = T1 | T2&lt;/code&gt; &#x8fd9;&#x79cd;&#x96c6;&#x5408;&#x7c7b;&#x578b;&#xff0c;&lt;code&gt;DoSomething&amp;lt;T&amp;gt;&lt;/code&gt; &#x4f1a;&#x88ab;&#x8f6c;&#x6362;&#x6210; &lt;code&gt;DoSomething&amp;lt;T1&amp;gt; || DoSomething&amp;lt;T2&amp;gt;&lt;/code&gt;&lt;/p&gt;&lt;p local-id=&quot;076b3989-5bcc-4580-8cea-1e6c83320a31&quot;&gt;&#x800c; never &#x4f1a;&#x88ab;&#x8ba4;&#x4e3a;&#x662f;&#x4e00;&#x4e2a;&#x7a7a;&#x7684;&#x96c6;&#x5408;&#x7c7b;&#x578b;&#xff0c;&#x56e0;&#x6b64; &lt;code&gt;DoSomething&amp;lt;never&amp;gt;&lt;/code&gt; &#x59cb;&#x7ec8;&#x4e3a; never&lt;/p&gt;&lt;p local-id=&quot;060a3ab4-8aef-451a-84df-fb39fa834b54&quot; /&gt;&lt;p local-id=&quot;741b99ae-aabe-433d-b200-e4239c8c5ede&quot;&gt;&#x90a3;&#x4e48;&#xff0c;&#x6b63;&#x786e;&#x7684; &lt;code&gt;IsNever&lt;/code&gt; &#x5b9e;&#x73b0;&#x5c31;&#x9700;&#x8981;&#x300c;&#x5173;&#x6389;&#x300d;&#x8fd9;&#x4e2a;&#x5c55;&#x5f00;&#x7684;&#x7279;&#x6027;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;type IsNever&amp;lt;T&amp;gt; = [T] extends [never] ? true : false;
+type IsNever&amp;lt;T&amp;gt; = (() =&amp;gt; T) extends () =&amp;gt; never ? true : false;&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p local-id=&quot;ddb29eb7-f151-47ae-bd65-2fe70dc64dc4&quot; /&gt;&lt;p local-id=&quot;ab039e7b-97ee-4832-881f-a97a4ee1d39b&quot;&gt;&#x53c2;&#x8003;&#xff1a;&lt;a href=&quot;https://github.com/microsoft/TypeScript/issues/31751&quot; local-id=&quot;4282f7e6-deb1-4642-b6bf-0eb1774d9160&quot; data-card-appearance=&quot;inline&quot; class=&quot;external-link&quot; rel=&quot;nofollow&quot;&gt;https://github.com/microsoft/TypeScript/issues/31751&lt;/a&gt; &lt;/p&gt;&lt;h2 local-id=&quot;06280ae0-6c73-4cc1-9724-74aeded83c9f&quot; id=&quot;TS&#x7c7b;&#x578b;&#x4f53;&#x64cd;-IsUnknown&quot;&gt;IsUnknown&lt;/h2&gt;&lt;p local-id=&quot;901c6bbb-8193-4632-b081-21ac87dd0e9a&quot;&gt;&#x53c2;&#x8003;&#xff1a;&lt;a href=&quot;https://github.com/microsoft/TypeScript/issues/27418&quot; local-id=&quot;68c4b3a8-b9bb-4d8f-9ebf-c6e592f7b68c&quot; data-card-appearance=&quot;inline&quot; class=&quot;external-link&quot; rel=&quot;nofollow&quot;&gt;https://github.com/microsoft/TypeScript/issues/27418&lt;/a&gt; &lt;/p&gt;&lt;h2 local-id=&quot;031960e5-b09c-4ec7-96af-8b8d72507bf3&quot; id=&quot;TS&#x7c7b;&#x578b;&#x4f53;&#x64cd;-IsEqual&quot;&gt;IsEqual&lt;/h2&gt;&lt;p local-id=&quot;2d0935e9-600b-424e-a1e4-f81f7ab75646&quot;&gt;&#x5229;&#x7528;&#x96c6;&#x5408;&#x7684;&#x6027;&#x8d28;&#xff0c;A &#x2286; B &#x4e14; B &#x2286; A &#x5219; A = B&lt;/p&gt;&lt;p local-id=&quot;a6f731be-6ec8-4d06-8406-6222bdd61c3e&quot;&gt;&#x518d;&#x7ed3;&#x5408;&#x4e0a;&#x9762; &lt;code&gt;IsNever&lt;/code&gt; &#x7684;&#x7ecf;&#x9a8c;&#xff08;&#x5173;&#x6389;&#x5bf9;&#x96c6;&#x5408;&#x7c7b;&#x578b;&#x7684;&#x5c55;&#x5f00;&#xff09;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h2 local-id=&quot;b009ef58-7144-4a8f-b8ea-299494c77455&quot; id=&quot;TS&#x7c7b;&#x578b;&#x4f53;&#x64cd;-infer&quot;&gt;infer&lt;/h2&gt;&lt;p local-id=&quot;9b47f5ec-3a5e-4256-992a-639c8edda9ef&quot;&gt;&lt;a href=&quot;https://www.typescriptlang.org/docs/handbook/2/conditional-types.html#inferring-within-conditional-types&quot; class=&quot;external-link&quot; rel=&quot;nofollow&quot;&gt;infer&lt;/a&gt; &#x53ef;&#x4ee5;&#x8ba9;&#x6211;&#x4eec;&#x4ece;&#x8868;&#x8fbe;&#x5f0f;&#x4e2d;&#x300c;&#x63d0;&#x53d6;&#x300d;&#x7c7b;&#x578b;&#xff0c;&#x6709;&#x70b9;&#x7c7b;&#x4f3c; Rust &#x7684; match pattern&lt;/p&gt;&lt;p local-id=&quot;6d06f745-b3d5-4708-83cd-0b81b6500901&quot;&gt;&#x4f8b;&#x5982;&#x6211;&#x4eec;&#x60f3;&#x5b9a;&#x4e49;&#x4e00;&#x4e2a; &lt;code&gt;Flatten&lt;/code&gt; &#x7c7b;&#x578b;&#xff0c;&#x5c06; &lt;code&gt;Array&amp;lt;T&amp;gt;&lt;/code&gt; &#x6062;&#x590d;&#x4e3a; &lt;code&gt;T&lt;/code&gt;&lt;/p&gt;&lt;p local-id=&quot;5bcc5678-8d04-4f47-996c-745e8d649b5c&quot;&gt;&#x4e0d;&#x4f7f;&#x7528; infer &#x7684;&#x505a;&#x6cd5;&#x662f;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;type Flatten&amp;lt;T&amp;gt; = T extends Array&amp;lt;any&amp;gt; ? T[number] : never&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p local-id=&quot;c3edf563-4411-43ff-a94a-7ac5bd9c9b97&quot;&gt;&#x800c;&#x5229;&#x7528; infer&#xff0c;&#x6211;&#x4eec;&#x53ef;&#x4ee5;&#x76f4;&#x63a5;&#x300c;&#x5339;&#x914d;&#x5e76;&#x63d0;&#x53d6;&#x300d;&#x4e2d;&#x95f4;&#x7684; any&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;type Flatten&amp;lt;T&amp;gt; = T extends Array&amp;lt;infer Item&amp;gt; ? Item : never&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p local-id=&quot;4e2c13da-f202-4a8e-8660-e72cd8ee4f70&quot; /&gt;
+    &lt;/div&gt;
+        &lt;div style=&quot;padding: 10px 0;&quot;&gt;
+       &lt;a href=&quot;https://singee.atlassian.net/wiki/spaces/MAIN/pages/404127745/TS&quot;&gt;email.notification.view.online&lt;/a&gt;
+              &amp;middot;
+       &lt;a href=&quot;https://singee.atlassian.net/wiki/pages/diffpagesbyversion.action?pageId=404127745&amp;revisedVersion=3&amp;originalVersion=2&quot;&gt;View Changes Online&lt;/a&gt;       
+                  &lt;/div&gt;
+&lt;/div&gt;</summary>
+    <dc:creator>Bryan</dc:creator>
+    <dc:date>2025-10-15T07:38:28Z</dc:date>
+  </entry>
+  <entry>
+    <title>Week 41 @ 2025 &#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6ed1;&#x52a8;&#x7a97;&#x53e3;&#x3011;</title>
+    <link rel="alternate" href="https://singee.atlassian.net/wiki/spaces/MAIN/pages/394788887/Week+41+2025"/>
+    <author>
+      <name>Bryan</name>
+    </author>
+    <id>tag:singee.atlassian.net,2009:page-394788887-1</id>
+    <updated>2025-10-12T12:41:22Z</updated>
+    <published>2025-10-12T12:41:22Z</published>
+    <summary type="html">&lt;div class=&quot;feed&quot;&gt;    &lt;p&gt;
+                        Live doc
+                    &lt;b&gt;added&lt;/b&gt; by
+                &lt;a  &gt;Bryan&lt;/a&gt;
+            &lt;/p&gt;
+        &lt;div style=&quot;border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 10px;&quot;&gt;
+        &lt;style type=&apos;text/css&apos;&gt;/*&lt;![CDATA[*/
+div.rbtoc1760747334643 {padding: 0px;}
+div.rbtoc1760747334643 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1760747334643 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]&gt;*/&lt;/style&gt;&lt;div class=&apos;toc-macro rbtoc1760747334643&apos;&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week41@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6ed1;&#x52a8;&#x7a97;&#x53e3;&#x3011;-&#x6ed1;&#x52a8;&#x7a97;&#x53e3;&apos;&gt;&#x6ed1;&#x52a8;&#x7a97;&#x53e3;&lt;/a&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week41@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6ed1;&#x52a8;&#x7a97;&#x53e3;&#x3011;-LC76.MinimumWindowSubstring&#x6700;&#x5c0f;&#x8986;&#x76d6;&#x5b50;&#x4e32;&apos;&gt;LC 76. Minimum Window Substring &#x6700;&#x5c0f;&#x8986;&#x76d6;&#x5b50;&#x4e32;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week41@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6ed1;&#x52a8;&#x7a97;&#x53e3;&#x3011;-LC567.PermutationinString&#x5b57;&#x7b26;&#x4e32;&#x7684;&#x6392;&#x5217;&apos;&gt;LC 567. Permutation in String &#x5b57;&#x7b26;&#x4e32;&#x7684;&#x6392;&#x5217;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week41@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6ed1;&#x52a8;&#x7a97;&#x53e3;&#x3011;-LC438.FindAllAnagramsinaString&#x627e;&#x5230;&#x5b57;&#x7b26;&#x4e32;&#x4e2d;&#x6240;&#x6709;&#x5b57;&#x6bcd;&#x5f02;&#x4f4d;&#x8bcd;&apos;&gt;LC 438. Find All Anagrams in a String &#x627e;&#x5230;&#x5b57;&#x7b26;&#x4e32;&#x4e2d;&#x6240;&#x6709;&#x5b57;&#x6bcd;&#x5f02;&#x4f4d;&#x8bcd;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week41@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6ed1;&#x52a8;&#x7a97;&#x53e3;&#x3011;-LC3.LongestSubstringWithoutRepeatingCharacters&#x65e0;&#x91cd;&#x590d;&#x5b57;&#x7b26;&#x7684;&#x6700;&#x957f;&#x5b50;&#x4e32;&apos;&gt;LC 3. Longest Substring Without Repeating Characters &#x65e0;&#x91cd;&#x590d;&#x5b57;&#x7b26;&#x7684;&#x6700;&#x957f;&#x5b50;&#x4e32;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;h2 local-id=&quot;760a7893-3a93-4ecc-9a69-2bc095b96d0d&quot; id=&quot;Week41@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6ed1;&#x52a8;&#x7a97;&#x53e3;&#x3011;-&#x6ed1;&#x52a8;&#x7a97;&#x53e3;&quot;&gt;&#x6ed1;&#x52a8;&#x7a97;&#x53e3;&lt;/h2&gt;&lt;h3 local-id=&quot;5f110f10-f21f-4053-a706-b49d2c29eae3&quot; id=&quot;Week41@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6ed1;&#x52a8;&#x7a97;&#x53e3;&#x3011;-LC76.MinimumWindowSubstring&#x6700;&#x5c0f;&#x8986;&#x76d6;&#x5b50;&#x4e32;&quot;&gt;LC 76. Minimum Window Substring &#x6700;&#x5c0f;&#x8986;&#x76d6;&#x5b50;&#x4e32;&lt;/h3&gt;&lt;p local-id=&quot;c96ea2a4-2bb3-4403-a7a3-8252d8bb54a7&quot;&gt;&lt;a href=&quot;https://leetcode.com/problems/minimum-window-substring/&quot; data-card-appearance=&quot;inline&quot; class=&quot;external-link&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/minimum-window-substring/&lt;/a&gt;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func minWindow(s string, t string) string {
+    expect := toNumArray(t)
+
+    window := newNumArray()
+    result := &amp;quot;&amp;quot;
+
+    left, right := 0, 0
+    for right &amp;lt; len(s) {
+        window.Add(s[right])
+        right++
+
+        for left &amp;lt; right &amp;amp;&amp;amp; window.GreaterThanOrEqual(expect) {
+            window.Remove(s[left])
+
+            result = shorter(result, s[left:right])
+
+            left++
+        }
+    }
+
+    return result
+}
+
+type NumArray []int
+
+func newNumArray() NumArray {
+    return make(NumArray, 52)
+}
+
+func (arr NumArray) Add(c byte) {
+    arr[toNum(c)]++
+}
+
+func (arr NumArray) Remove(c byte) {
+    arr[toNum(c)]--
+}
+
+func (arr NumArray) GreaterThanOrEqual(another NumArray) bool {
+    for i := range arr {
+        if arr[i] &amp;lt; another[i] {
+            return false
+        }
+    }
+    return true
+}
+
+func toNumArray(s string) NumArray {
+    arr := newNumArray()
+    for i := range s {
+        arr.Add(s[i])
+    }
+    return arr
+}
+
+func toNum(c byte) int {
+    if c &amp;gt;= &amp;#39;a&amp;#39; &amp;amp;&amp;amp; c &amp;lt;= &amp;#39;z&amp;#39; {
+        return int(c - &amp;#39;a&amp;#39;)
+    }
+    if c &amp;gt;= &amp;#39;A&amp;#39; &amp;amp;&amp;amp; c &amp;lt;= &amp;#39;Z&amp;#39; {
+        return int(c - &amp;#39;A&amp;#39;) + 26
+    }
+
+    return -1
+}
+
+func shorter(base, s string) string {
+    if base == &amp;quot;&amp;quot; || len(s) &amp;lt; len(base) {
+        return s
+    }
+    return base
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p local-id=&quot;7b35cc50-b01b-439f-bf3b-f4148c7620fb&quot;&gt;&lt;strong&gt;&#x4f18;&#x5316;&lt;/strong&gt;&lt;/p&gt;&lt;p local-id=&quot;c32a862f-e48c-4022-b774-746702bef4d9&quot;&gt;&#x5229;&#x7528;&#x7edf;&#x8ba1;&#x300c;&#x6ee1;&#x8db3;&#x7a97;&#x53e3;&#x6761;&#x4ef6;&#x7684;&#x5b57;&#x7b26;&#x6570;&#x300d;&#x51cf;&#x5c11; GreaterThanOrEqual &#x5224;&#x65ad;&#x7684;&#x6210;&#x672c;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func minWindow(s string, t string) string {
+    expect := toNumArray(t)
+
+    window := newNumArray()
+    result := &amp;quot;&amp;quot;
+
+    valid := 0
+    expectValid := 0
+    for _, c := range expect {
+        if c &amp;gt; 0 {
+            expectValid++
+        }
+    }
+
+    left, right := 0, 0
+    for right &amp;lt; len(s) {
+        rx := toNum(s[right])
+        right++
+
+        if expect[rx] &amp;gt; 0 {
+            window[rx]++
+            if window[rx] == expect[rx] {
+                valid++
+            }
+        }
+
+        for left &amp;lt; right &amp;amp;&amp;amp; valid == expectValid {
+            lx := toNum(s[left])
+            if expect[lx] &amp;gt; 0 {
+                if window[lx] == expect[lx] {
+                    valid--
+                }
+
+                window[lx]--
+            }
+            
+            result = shorter(result, s[left:right])
+
+            left++
+        }
+    }
+
+    return result
+}
+
+type NumArray []int
+
+func newNumArray() NumArray {
+    return make(NumArray, 52)
+}
+
+func toNumArray(s string) NumArray {
+    arr := newNumArray()
+    for i := range s {
+        arr[toNum(s[i])]++
+    }
+    return arr
+}
+
+func toNum(c byte) int {
+    if c &amp;gt;= &amp;#39;a&amp;#39; &amp;amp;&amp;amp; c &amp;lt;= &amp;#39;z&amp;#39; {
+        return int(c - &amp;#39;a&amp;#39;)
+    }
+    if c &amp;gt;= &amp;#39;A&amp;#39; &amp;amp;&amp;amp; c &amp;lt;= &amp;#39;Z&amp;#39; {
+        return int(c - &amp;#39;A&amp;#39;) + 26
+    }
+
+    return -1
+}
+
+func shorter(base, s string) string {
+    if base == &amp;quot;&amp;quot; || len(s) &amp;lt; len(base) {
+        return s
+    }
+    return base
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 local-id=&quot;91927c39-4410-4141-b2b8-97819c68c98f&quot; id=&quot;Week41@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6ed1;&#x52a8;&#x7a97;&#x53e3;&#x3011;-LC567.PermutationinString&#x5b57;&#x7b26;&#x4e32;&#x7684;&#x6392;&#x5217;&quot;&gt;LC 567. Permutation in String &#x5b57;&#x7b26;&#x4e32;&#x7684;&#x6392;&#x5217;&lt;/h3&gt;&lt;p local-id=&quot;86465016-17fc-430b-9cd9-0af7c6c30a75&quot;&gt;&lt;a href=&quot;https://leetcode.com/problems/permutation-in-string/&quot; data-card-appearance=&quot;inline&quot; class=&quot;external-link&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/permutation-in-string/&lt;/a&gt;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func checkInclusion(s1 string, s2 string) bool {
+    expect := toNumberMap(s1)
+    window := newNumberMap()
+
+    valid := 0
+    expectValid := 0
+    for _, c := range expect {
+        if c &amp;gt; 0 {
+            expectValid++
+        }
+    }
+
+    left, right := 0, 0
+
+    for right &amp;lt; len(s2) {
+        rx := toNumber(s2[right])
+        if expect[rx] &amp;gt; 0 {
+            window[rx] ++
+
+            if expect[rx] == window[rx] {
+                valid++
+            }
+        }
+        right++
+
+        for left &amp;lt; right &amp;amp;&amp;amp; valid == expectValid {
+            lx := toNumber(s2[left])
+            if expect[lx] &amp;gt; 0 {
+                if expect[lx] == window[lx] {
+                    valid--
+                }
+
+                window[lx]--
+            }
+
+            if right-left == len(s1) {
+                return true
+            }
+
+
+            left++
+        }
+    }
+
+    return false
+}
+
+type NumberMap []int
+
+func newNumberMap() NumberMap {
+    return make(NumberMap, 26)
+}
+
+func toNumberMap(s string) NumberMap {
+    m := newNumberMap()
+
+    for i := range s {
+        m[toNumber(s[i])]++
+    }
+
+    return m
+}
+
+func toNumber(c byte) int {
+    return int(c - &amp;#39;a&amp;#39;)
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p local-id=&quot;a943b94d-57a6-4743-aad2-f0e60b0a093d&quot;&gt;&lt;strong&gt;&#x601d;&#x8def;&#x4e8c;&#xff1a;&#x5b9a;&#x957f;&#x7a97;&#x53e3;&lt;/strong&gt;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func checkInclusion(s1 string, s2 string) bool {
+    expect := toNumberMap(s1)
+    window := newNumberMap()
+
+    valid := 0
+    expectValid := 0
+    for _, c := range expect {
+        if c &amp;gt; 0 {
+            expectValid++
+        }
+    }
+
+    left, right := 0, 0
+
+    for right &amp;lt; len(s2) {
+        rx := toNumber(s2[right])
+        if expect[rx] &amp;gt; 0 {
+            window[rx] ++
+
+            if expect[rx] == window[rx] {
+                valid++
+            }
+        }
+        right++
+
+        if right - left == len(s1) {
+            if valid == expectValid {
+                return true
+            }
+
+            lx := toNumber(s2[left])
+            if expect[lx] &amp;gt; 0 {
+                if expect[lx] == window[lx] {
+                    valid--
+                }
+
+                window[lx]--
+            }
+
+            left++
+        }
+    }
+
+    return false
+}
+
+type NumberMap []int
+
+func newNumberMap() NumberMap {
+    return make(NumberMap, 26)
+}
+
+func toNumberMap(s string) NumberMap {
+    m := newNumberMap()
+
+    for i := range s {
+        m[toNumber(s[i])]++
+    }
+
+    return m
+}
+
+func toNumber(c byte) int {
+    return int(c - &amp;#39;a&amp;#39;)
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 local-id=&quot;51510723-4855-4e5b-bcf4-a821b8980b2e&quot; id=&quot;Week41@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6ed1;&#x52a8;&#x7a97;&#x53e3;&#x3011;-LC438.FindAllAnagramsinaString&#x627e;&#x5230;&#x5b57;&#x7b26;&#x4e32;&#x4e2d;&#x6240;&#x6709;&#x5b57;&#x6bcd;&#x5f02;&#x4f4d;&#x8bcd;&quot;&gt;LC 438. Find All Anagrams in a String &lt;strong&gt;&#x627e;&#x5230;&#x5b57;&#x7b26;&#x4e32;&#x4e2d;&#x6240;&#x6709;&#x5b57;&#x6bcd;&#x5f02;&#x4f4d;&#x8bcd;&lt;/strong&gt;&lt;/h3&gt;&lt;p local-id=&quot;450df728-e48d-4af5-8e02-eb0b8b180169&quot;&gt;&lt;a href=&quot;https://leetcode.com/problems/find-all-anagrams-in-a-string/&quot; data-card-appearance=&quot;inline&quot; class=&quot;external-link&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/find-all-anagrams-in-a-string/&lt;/a&gt;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func findAnagrams(s string, p string) (result []int) {
+    window := newNumMap()
+    expect := toNumMap(p)
+
+    valid := 0
+    expectValid := 0
+    for _, c := range expect {
+        if c &amp;gt; 0 {
+            expectValid++
+        }
+    }
+
+    left, right := 0, 0
+
+    for right &amp;lt; len(s) {
+        if rx := idx(s[right]); expect[rx] &amp;gt; 0 {
+            window[rx]++
+            if window[rx] == expect[rx] {
+                valid++
+            }
+        }
+
+        right++
+
+
+        if right - left == len(p) {
+            if valid == expectValid {
+                result = append(result, left)
+            }
+
+            if lx := idx(s[left]); expect[lx] &amp;gt; 0 {
+                if window[lx] == expect[lx] {
+                    valid--
+                }
+
+                window[lx]--
+            }
+
+            left++
+        }
+    }
+
+
+    return result
+}
+
+type NumMap []int
+
+func newNumMap() NumMap {
+    return make(NumMap, 26)
+}
+
+func toNumMap(s string) NumMap {
+    m := newNumMap()
+
+    for i := range s {
+        m[idx(s[i])]++
+    }
+
+    return m
+}
+
+func idx(c byte) int {
+    return int(c - &amp;#39;a&amp;#39;)
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 local-id=&quot;97009e1a-1cbf-47e0-8232-efe95788ce1a&quot; id=&quot;Week41@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x6ed1;&#x52a8;&#x7a97;&#x53e3;&#x3011;-LC3.LongestSubstringWithoutRepeatingCharacters&#x65e0;&#x91cd;&#x590d;&#x5b57;&#x7b26;&#x7684;&#x6700;&#x957f;&#x5b50;&#x4e32;&quot;&gt;LC 3. Longest Substring Without Repeating Characters &lt;strong&gt;&#x65e0;&#x91cd;&#x590d;&#x5b57;&#x7b26;&#x7684;&#x6700;&#x957f;&#x5b50;&#x4e32;&lt;/strong&gt;&lt;/h3&gt;&lt;p local-id=&quot;cb4182c5-c85b-4b56-9480-f7bb3c6bebef&quot;&gt;&lt;a href=&quot;https://leetcode.com/problems/longest-substring-without-repeating-characters/&quot; data-card-appearance=&quot;inline&quot; class=&quot;external-link&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/longest-substring-without-repeating-characters/&lt;/a&gt;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func lengthOfLongestSubstring(s string) (result int) {
+    window := make(map[byte]bool, 66)
+    dup := false
+
+    left, right := 0, 0
+    
+    for right &amp;lt; len(s) {
+        rc := s[right]
+        if !window[rc] {
+            window[rc] = true
+        } else {
+            dup = true
+        }
+
+        right++
+
+        if !dup {
+            result = max(result, right-left)
+        }
+
+        for left &amp;lt; right &amp;amp;&amp;amp; dup {
+            lc := s[left]
+
+            if lc == rc {
+                dup = false
+            } else {
+                window[lc] = false
+            }
+            
+            left++
+        }
+    }
+
+    return
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p local-id=&quot;290de8b6-8749-4d8c-a5b2-f152d3185421&quot;&gt;&lt;strong&gt;&#x7b80;&#x5316;&#x5224;&#x65ad;&#x903b;&#x8f91;&lt;/strong&gt;&lt;/p&gt;&lt;p local-id=&quot;0a7be89c-7cf2-4da7-b591-cab736d21349&quot;&gt;&#xff08;&#x65f6;&#x95f4;&#x590d;&#x6742;&#x5ea6;&#x4e00;&#x6837;&#xff0c;&#x4f46;&#x662f;&#x4f3c;&#x4e4e;&#x603b;&#x6267;&#x884c;&#x65f6;&#x95f4;&#x6ca1;&#x6709;&#x4e0a;&#x9762;&#x5f15;&#x5165; dup &#x505a;&#x5224;&#x65ad;&#x597d; 7ms vs 0ms - &#x5f53;&#x7136;&#x4e0d;&#x786e;&#x5b9a;&#x662f;&#x5426;&#x662f; leetcode &#x7684;&#x539f;&#x56e0;&#xff09;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func lengthOfLongestSubstring(s string) (result int) {
+    window := make(map[byte]int, 66)
+
+    left, right := 0, 0
+    
+    for right &amp;lt; len(s) {
+        rc := s[right]
+        window[rc]++
+
+        right++
+
+        for window[rc] &amp;gt; 1 {
+            window[s[left]]--
+            left++
+        }
+
+        result = max(result, right - left)
+    }
+
+    return
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p local-id=&quot;fd196c86-a3a9-482d-80de-b7e580d22760&quot; /&gt;
+    &lt;/div&gt;
+        &lt;div style=&quot;padding: 10px 0;&quot;&gt;
+       &lt;a href=&quot;https://singee.atlassian.net/wiki/spaces/MAIN/pages/394788887/Week+41+2025&quot;&gt;email.notification.view.online&lt;/a&gt;
+                  &lt;/div&gt;
+&lt;/div&gt;</summary>
+    <dc:creator>Bryan</dc:creator>
+    <dc:date>2025-10-12T12:41:22Z</dc:date>
+  </entry>
+</feed>
