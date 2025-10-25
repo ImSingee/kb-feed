@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>Bryan &#x7684;&#x77e5;&#x8bc6;&#x5e93;</title>
+  <link rel="alternate" href="https://singee.atlassian.net/wiki"/>
+  
+  <id>https://singee.atlassian.net/wiki</id>
+  <entry>
+    <title>JetBrains AI &#x76f8;&#x5173;&#x57df;&#x540d;&#x7b56;&#x7565;</title>
+    <link rel="alternate" href="https://singee.atlassian.net/wiki/spaces/MAIN/pages/127893576/JetBrains+AI"/>
+    <author>
+      <name/>
+    </author>
+    <id>tag:singee.atlassian.net,2009:page-127893576-2</id>
+    <updated>2025-10-20T01:10:12Z</updated>
+    <published>2025-10-20T01:10:12Z</published>
+    <summary type="html">&lt;div class=&quot;feed&quot;&gt;    &lt;p&gt;
+                        Live doc
+                    &lt;b&gt;edited&lt;/b&gt; by
+                    Anonymous
+             - &quot;Autosaved&quot;
+        &lt;/p&gt;
+        &lt;div style=&quot;border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 10px;&quot;&gt;
+        &lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;DOMAIN-SUFFIX,jetbrains.ai,AI
+DOMAIN-SUFFIX,jb.gg,AI
+DOMAIN-SUFFIX,grazie.aws.intellij.net,AI
+DOMAIN-SUFFIX,grazie.ai,AI
+
+DOMAIN,plugins.jetbrains.com,PROXY
+DOMAIN,download.jetbrains.com,PROXY
+DOMAIN,download-cdn.jetbrains.com,PROXY
+DOMAIN-SUFFIX,marketplace.jetbrains.com,PROXY
+
+DOMAIN-SUFFIX,jetbrains.com,AI // fallback for www.jetbrains.com/config; cloudconfig.jetbrains.com etc.&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p /&gt;
+    &lt;/div&gt;
+        &lt;div style=&quot;padding: 10px 0;&quot;&gt;
+       &lt;a href=&quot;https://singee.atlassian.net/wiki/spaces/MAIN/pages/127893576/JetBrains+AI&quot;&gt;email.notification.view.online&lt;/a&gt;
+              &amp;middot;
+       &lt;a href=&quot;https://singee.atlassian.net/wiki/pages/diffpagesbyversion.action?pageId=127893576&amp;revisedVersion=2&amp;originalVersion=1&quot;&gt;View Changes Online&lt;/a&gt;       
+                  &lt;/div&gt;
+&lt;/div&gt;</summary>
+    <dc:date>2025-10-20T01:10:12Z</dc:date>
+  </entry>
+  <entry>
+    <title>Week 42 @ 2025 &#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;BFS&#x3011;</title>
+    <link rel="alternate" href="https://singee.atlassian.net/wiki/spaces/MAIN/pages/415039508/Week+42+2025+BFS"/>
+    <author>
+      <name>Bryan</name>
+    </author>
+    <id>tag:singee.atlassian.net,2009:page-415039508-1</id>
+    <updated>2025-10-19T13:41:36Z</updated>
+    <published>2025-10-19T13:41:36Z</published>
+    <summary type="html">&lt;div class=&quot;feed&quot;&gt;    &lt;p&gt;
+                        Live doc
+                    &lt;b&gt;added&lt;/b&gt; by
+                &lt;a  &gt;Bryan&lt;/a&gt;
+            &lt;/p&gt;
+        &lt;div style=&quot;border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 10px;&quot;&gt;
+        &lt;style type=&apos;text/css&apos;&gt;/*&lt;![CDATA[*/
+div.rbtoc1761352241992 {padding: 0px;}
+div.rbtoc1761352241992 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1761352241992 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]&gt;*/&lt;/style&gt;&lt;div class=&apos;toc-macro rbtoc1761352241992&apos;&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week42@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;BFS&#x3011;-BFS&apos;&gt;BFS&lt;/a&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week42@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;BFS&#x3011;-LC111.MinimumDepthofBinaryTree&#x4e8c;&#x53c9;&#x6811;&#x7684;&#x6700;&#x5c0f;&#x6df1;&#x5ea6;&apos;&gt;LC 111. Minimum Depth of Binary Tree &#x4e8c;&#x53c9;&#x6811;&#x7684;&#x6700;&#x5c0f;&#x6df1;&#x5ea6;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week42@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;BFS&#x3011;-LC752.OpentheLock&#x6253;&#x5f00;&#x8f6c;&#x76d8;&#x9501;&apos;&gt;LC 752. Open the Lock &#x6253;&#x5f00;&#x8f6c;&#x76d8;&#x9501;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week42@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;BFS&#x3011;-&#x4e8c;&#x53c9;&#x6811;&apos;&gt;&#x4e8c;&#x53c9;&#x6811;&lt;/a&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week42@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;BFS&#x3011;-LC144.BinaryTreePreorderTraversal&#x4e8c;&#x53c9;&#x6811;&#x7684;&#x524d;&#x5e8f;&#x904d;&#x5386;&apos;&gt;LC 144. Binary Tree Preorder Traversal &#x4e8c;&#x53c9;&#x6811;&#x7684;&#x524d;&#x5e8f;&#x904d;&#x5386;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week42@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;BFS&#x3011;-LC543.DiameterofBinaryTree&#x4e8c;&#x53c9;&#x6811;&#x7684;&#x76f4;&#x5f84;&apos;&gt;LC 543. Diameter of Binary Tree &#x4e8c;&#x53c9;&#x6811;&#x7684;&#x76f4;&#x5f84;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week42@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;BFS&#x3011;-LC104.MaximumDepthofBinaryTree&#x4e8c;&#x53c9;&#x6811;&#x7684;&#x6700;&#x5927;&#x6df1;&#x5ea6;&apos;&gt;LC 104. Maximum Depth of Binary Tree &#x4e8c;&#x53c9;&#x6811;&#x7684;&#x6700;&#x5927;&#x6df1;&#x5ea6;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;h2 local-id=&quot;4ddf3176-562f-4fbf-b7b0-b3f3a3e672d1&quot; id=&quot;Week42@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;BFS&#x3011;-BFS&quot;&gt;BFS&lt;/h2&gt;&lt;h3 local-id=&quot;b70fe692-760d-416a-adb9-7485b26e631b&quot; id=&quot;Week42@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;BFS&#x3011;-LC111.MinimumDepthofBinaryTree&#x4e8c;&#x53c9;&#x6811;&#x7684;&#x6700;&#x5c0f;&#x6df1;&#x5ea6;&quot;&gt;LC 111. Minimum Depth of Binary Tree &#x4e8c;&#x53c9;&#x6811;&#x7684;&#x6700;&#x5c0f;&#x6df1;&#x5ea6;&lt;/h3&gt;&lt;p local-id=&quot;34f8b9ce-561f-480f-8463-c7fad1de4d37&quot;&gt;&lt;a href=&quot;https://leetcode.com/problems/minimum-depth-of-binary-tree/&quot; local-id=&quot;1ce6ac63-5608-4033-bfda-4aff1d370221&quot; data-card-appearance=&quot;inline&quot; class=&quot;external-link&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/minimum-depth-of-binary-tree/&lt;/a&gt; &lt;/p&gt;&lt;p local-id=&quot;53c41ebb-07c0-4f87-ba25-a6c1c8c7c4ca&quot;&gt;&lt;strong&gt;DFS &#x89e3;&#x6cd5;&lt;/strong&gt;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;/**
+ * Definition for a binary tree node.
+ * type TreeNode struct {
+ *     Val int
+ *     Left *TreeNode
+ *     Right *TreeNode
+ * }
+ */
+func minDepth(root *TreeNode) int {
+    if root == nil {
+        return 0
+    }
+    
+    return dfs(root)
+}
+
+func dfs(root *TreeNode) int {
+    if root.Left == nil &amp;amp;&amp;amp; root.Right == nil {
+        return 1
+    }
+    
+    if root.Left == nil {
+        return dfs(root.Right) + 1
+    }
+    if root.Right == nil {
+        return dfs(root.Left) + 1
+    }
+
+    return min(dfs(root.Left), dfs(root.Right)) + 1
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p local-id=&quot;85bc0b5d-4461-4c02-9c2f-79dbee61a499&quot;&gt;&lt;strong&gt;BFS &#x89e3;&#x6cd5;&lt;/strong&gt;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;/**
+ * Definition for a binary tree node.
+ * type TreeNode struct {
+ *     Val int
+ *     Left *TreeNode
+ *     Right *TreeNode
+ * }
+ */
+func minDepth(root *TreeNode) int {
+    if root == nil {
+        return 0
+    }
+    
+    q := make([]*TreeNode, 0, 10_0000)
+    
+    q = append(q, root)
+    depth := 1
+    
+    for len(q) &amp;gt; 0 {
+        sz := len(q)
+        
+        for i := 0; i &amp;lt; sz; i++ {
+            node := q[i]
+            
+            if node.Left == nil &amp;amp;&amp;amp; node.Right == nil {
+                return depth
+            }
+            
+            if node.Left != nil {
+                q = append(q, node.Left)
+            }
+            if node.Right != nil {
+                q = append(q, node.Right)
+            }
+        }
+        
+        depth++
+        q = q[sz:]
+    }
+    
+    
+    panic(&amp;quot;impossible&amp;quot;)
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p local-id=&quot;2aaf73c9-b9f6-49fd-bf87-ebf08fa7cfda&quot;&gt;&lt;strong&gt;BFS &#x8fdb;&#x4e00;&#x6b65;&#x4f18;&#x5316;&#x7a7a;&#x95f4;&#x5360;&#x7528;&lt;/strong&gt;&lt;br/&gt;&#x5728; Go &#x4e2d;&#xff0c;&#x5982;&#x679c;&#x91c7;&#x7528; &lt;code&gt;q = q[x:]&lt;/code&gt; &#x8fd9;&#x79cd;&#x5199;&#x6cd5;&#xff0c;&#x4f1a;&#x5bfc;&#x81f4;&#x524d; x &#x4e2a;&#x7684;&#x5185;&#x5b58;&#x65e0;&#x6cd5;&#x91ca;&#x653e;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;/**
+ * Definition for a binary tree node.
+ * type TreeNode struct {
+ *     Val int
+ *     Left *TreeNode
+ *     Right *TreeNode
+ * }
+ */
+func minDepth(root *TreeNode) int {
+    if root == nil {
+        return 0
+    }
+    
+    var q []*TreeNode
+    
+    q = append(q, root)
+    depth := 1
+    
+    for len(q) &amp;gt; 0 {
+        sz := len(q)
+        qq := q
+        q = nil
+        
+        for i := 0; i &amp;lt; sz; i++ {
+            node := qq[i]
+            
+            if node.Left == nil &amp;amp;&amp;amp; node.Right == nil {
+                return depth
+            }
+            
+            if node.Left != nil {
+                q = append(q, node.Left)
+            }
+            if node.Right != nil {
+                q = append(q, node.Right)
+            }
+        }
+        
+        depth++
+    }
+    
+    
+    panic(&amp;quot;impossible&amp;quot;)
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 local-id=&quot;c24bdaa5-801f-47b1-a78f-93a7d1ed9956&quot; id=&quot;Week42@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;BFS&#x3011;-LC752.OpentheLock&#x6253;&#x5f00;&#x8f6c;&#x76d8;&#x9501;&quot;&gt;LC 752. Open the Lock &#x6253;&#x5f00;&#x8f6c;&#x76d8;&#x9501;&lt;/h3&gt;&lt;p local-id=&quot;7f472d88-9bc8-4790-961f-8e5547a857a6&quot;&gt;&lt;a href=&quot;https://leetcode.com/problems/open-the-lock/&quot; local-id=&quot;4e38220b-20e8-4f09-baa1-03dce46e1509&quot; data-card-appearance=&quot;inline&quot; class=&quot;external-link&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/open-the-lock/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func openLock(deadends []string, target string) int {
+    var q []string
+    visited := make(map[string]bool)
+    
+    for _, x := range deadends {
+        visited[x] = true
+    } 
+    
+    if visited[&amp;quot;0000&amp;quot;] {
+        return -1
+    }
+    
+    q = append(q, &amp;quot;0000&amp;quot;)
+    visited[&amp;quot;0000&amp;quot;] = true
+    
+    step := 0
+    for len(q) &amp;gt; 0 {
+        qq := q
+        q = nil
+        
+        for _, node := range qq {
+            if node == target {
+                return step
+            }
+                        
+            for _, next := range getNext(node) {
+                if visited[next] {
+                    continue
+                }
+                
+                q = append(q, next)
+                visited[next] = true
+            }
+        }
+        
+        step++
+    }
+    
+    
+    return -1
+}
+
+func getNext(node string) []string {
+    result := make([]string, 0, 8)
+    
+    nb := []byte(node)
+    
+    add := func(i, x int) {
+        v := (int(nb[i] - &amp;#39;0&amp;#39;) + x + 10) % 10
+        
+        nb[i] = &amp;#39;0&amp;#39; + byte(v)
+    }
+    
+    for i := 0; i &amp;lt; 4; i++ {
+        add(i, 1)
+        result = append(result, string(nb))
+        add(i, -2)
+        result = append(result, string(nb))
+        add(i, 1)
+    }
+    
+    return result
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p local-id=&quot;1aadd06d-6bf1-487d-ad09-54a6ba3ef0ca&quot;&gt;&lt;strong&gt;&#x4f18;&#x5316;&#xff1a;&#x53cc;&#x5411; BFS&lt;/strong&gt;&lt;/p&gt;&lt;p local-id=&quot;25c2243e-41fe-4e85-97bf-0596f438bca3&quot;&gt;&#x5934;&#x5c3e;&#x540c;&#x65f6;&#x904d;&#x5386;&#xff08;&#x5b9e;&#x9645;&#x4ee3;&#x7801;&#x4e0a;&#x662f;&#x904d;&#x5386;&#x4e00;&#x7aef;&#x5b8c;&#x518d;&#x904d;&#x5386;&#x53e6;&#x4e00;&#x7aef;&#xff09;&#xff0c;&#x51fa;&#x73b0;&#x4ea4;&#x96c6;&#x65f6;&#x8fd4;&#x56de;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func openLock(deadends []string, target string) int {
+    visited := make(map[string]bool)
+    for _, x := range deadends {
+        visited[x] = true
+    } 
+    
+    if visited[&amp;quot;0000&amp;quot;] {
+        return -1
+    }
+    
+    q1 := make(map[string]bool)
+    q2 := make(map[string]bool)
+    
+    q1[&amp;quot;0000&amp;quot;] = true
+    q2[target] = true
+    
+    step := 0
+    for len(q1) &amp;gt; 0 &amp;amp;&amp;amp; len(q2) &amp;gt; 0 {
+        temp := make(map[string]bool)
+        
+        for node := range q1 {
+            if q2[node] {
+                return step
+            }
+            
+            visited[node] = true
+                        
+            for _, next := range getNext(node) {
+                if visited[next] {
+                    continue
+                }
+                
+                temp[next] = true
+            }
+        }
+        
+        step++
+        q1, q2 = q2, temp
+    }
+    
+    
+    return -1
+}
+
+func getNext(node string) []string {
+    result := make([]string, 0, 8)
+    
+    nb := []byte(node)
+    
+    add := func(i, x int) {
+        v := (int(nb[i] - &amp;#39;0&amp;#39;) + x + 10) % 10
+        
+        nb[i] = &amp;#39;0&amp;#39; + byte(v)
+    }
+    
+    for i := 0; i &amp;lt; 4; i++ {
+        add(i, 1)
+        result = append(result, string(nb))
+        add(i, -2)
+        result = append(result, string(nb))
+        add(i, 1)
+    }
+    
+    return result
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h2 local-id=&quot;7f3771bf-9ae8-49fd-9999-ce08849965ba&quot; id=&quot;Week42@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;BFS&#x3011;-&#x4e8c;&#x53c9;&#x6811;&quot;&gt;&#x4e8c;&#x53c9;&#x6811;&lt;/h2&gt;&lt;span class=&quot;confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size&quot;&gt;&lt;img class=&quot;confluence-embedded-image image-center&quot; alt=&quot;image-20241117-155444.png&quot; width=&quot;760&quot; loading=&quot;lazy&quot; src=&quot;https://singee.atlassian.net/wiki/download/thumbnails/415039508/image-20241117-155444.png?version=1&amp;amp;modificationDate=1760881266545&amp;amp;cacheVersion=1&amp;amp;api=v2&amp;amp;width=760&quot; data-image-src=&quot;https://singee.atlassian.net/wiki/download/attachments/415039508/image-20241117-155444.png?version=1&amp;amp;modificationDate=1760881266545&amp;amp;cacheVersion=1&amp;amp;api=v2&quot; data-height=&quot;1389&quot; data-width=&quot;1080&quot; data-unresolved-comment-count=&quot;0&quot; data-linked-resource-id=&quot;414187645&quot; data-linked-resource-version=&quot;1&quot; data-linked-resource-type=&quot;attachment&quot; data-linked-resource-default-alias=&quot;image-20241117-155444.png&quot; data-base-url=&quot;https://singee.atlassian.net/wiki&quot; data-linked-resource-content-type=&quot;image/png&quot; data-linked-resource-container-id=&quot;415039508&quot; data-linked-resource-container-version=&quot;1&quot; data-media-id=&quot;d60b3af3-770d-4283-bb74-adf146f8e856&quot; data-media-type=&quot;file&quot;&gt;&lt;/span&gt;&lt;h3 local-id=&quot;b21ca6a9-eb05-44e3-8b7a-8df9f25fd372&quot; id=&quot;Week42@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;BFS&#x3011;-LC144.BinaryTreePreorderTraversal&#x4e8c;&#x53c9;&#x6811;&#x7684;&#x524d;&#x5e8f;&#x904d;&#x5386;&quot;&gt;LC 144. Binary Tree Preorder Traversal &#x4e8c;&#x53c9;&#x6811;&#x7684;&#x524d;&#x5e8f;&#x904d;&#x5386;&lt;/h3&gt;&lt;p local-id=&quot;498de88d-ea80-4ad5-88d9-aabe311e05da&quot;&gt;&lt;a href=&quot;https://leetcode.com/problems/binary-tree-preorder-traversal/description/&quot; local-id=&quot;4a0f034a-72a6-44ff-85b0-101474d77e21&quot; data-card-appearance=&quot;inline&quot; class=&quot;external-link&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/binary-tree-preorder-traversal/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;/**
+ * Definition for a binary tree node.
+ * type TreeNode struct {
+ *     Val int
+ *     Left *TreeNode
+ *     Right *TreeNode
+ * }
+ */
+func preorderTraversal(root *TreeNode) (result []int) {
+    var traverse func(node *TreeNode)
+    traverse = func(node *TreeNode) {
+        if node == nil {
+            return
+        }
+        
+        result = append(result, node.Val)
+        traverse(node.Left)
+        traverse(node.Right)
+    }
+    
+    traverse(root)
+    return
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 local-id=&quot;d8f51d4e-7174-4003-b32c-11259c7e66ba&quot; id=&quot;Week42@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;BFS&#x3011;-LC543.DiameterofBinaryTree&#x4e8c;&#x53c9;&#x6811;&#x7684;&#x76f4;&#x5f84;&quot;&gt;LC 543. Diameter of Binary Tree &#x4e8c;&#x53c9;&#x6811;&#x7684;&#x76f4;&#x5f84;&lt;/h3&gt;&lt;p local-id=&quot;e29fd199-4daa-4339-89ad-34bcbad9feeb&quot;&gt;&lt;a href=&quot;https://leetcode.com/problems/diameter-of-binary-tree/description/&quot; local-id=&quot;99f81132-88f1-46ed-81db-4b4c76c8dbe4&quot; data-card-appearance=&quot;inline&quot; class=&quot;external-link&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/diameter-of-binary-tree/description/&lt;/a&gt; &lt;/p&gt;&lt;p local-id=&quot;961e46c2-668c-4ba7-aed8-61cf24bd74df&quot;&gt;&#x4e8c;&#x53c9;&#x6811;&#x7684;&#x76f4;&#x5f84;&#x5b9a;&#x4e49;&#xff1a;&#x4e8c;&#x53c9;&#x6811;&#x4e2d;&#x4efb;&#x610f;&#x4e24;&#x4e2a;&#x8282;&#x70b9;&#x7684;&#x6700;&#x5927;&#x8ddd;&#x79bb;&#xff08;&#x8fb9;&#x6570;&#xff09;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;/**
+ * Definition for a binary tree node.
+ * type TreeNode struct {
+ *     Val int
+ *     Left *TreeNode
+ *     Right *TreeNode
+ * }
+ */
+func diameterOfBinaryTree(root *TreeNode) (diameter int) {
+    traverse(root, &amp;amp;diameter)
+    return
+}
+
+func traverse(root *TreeNode, diameter *int) int {
+    if root == nil {
+        return 0
+    }
+    
+    leftCount := traverse(root.Left, diameter)
+    rightCount := traverse(root.Right, diameter)
+    
+    *diameter = max(*diameter, leftCount + rightCount + 1)
+    
+    return max(leftCount, rightCount) + 1
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 local-id=&quot;fcc2addb-2e2a-4518-965a-b025f3562a05&quot; id=&quot;Week42@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;BFS&#x3011;-LC104.MaximumDepthofBinaryTree&#x4e8c;&#x53c9;&#x6811;&#x7684;&#x6700;&#x5927;&#x6df1;&#x5ea6;&quot;&gt;LC 104. Maximum Depth of Binary Tree &#x4e8c;&#x53c9;&#x6811;&#x7684;&#x6700;&#x5927;&#x6df1;&#x5ea6;&lt;/h3&gt;&lt;p local-id=&quot;587602af-aa79-437d-bd8d-6f715260a46f&quot;&gt;&lt;a href=&quot;https://leetcode.com/problems/maximum-depth-of-binary-tree/description/&quot; local-id=&quot;a7750f2e-14f1-4207-8ab1-79ef89f82659&quot; data-card-appearance=&quot;inline&quot; class=&quot;external-link&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/maximum-depth-of-binary-tree/description/&lt;/a&gt; &lt;/p&gt;&lt;p local-id=&quot;994eb56c-cc56-497f-8e29-b86c844fe006&quot;&gt;&#x6df1;&#x5ea6;&#xff1a;&#x4ece;&#x6839;&#x8282;&#x70b9;&#x5230;&#x53f6;&#x5b50;&#x7ed3;&#x70b9;&#x7684;&#x6700;&#x957f;&#x8282;&#x70b9;&#x6570;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;/**
+ * Definition for a binary tree node.
+ * type TreeNode struct {
+ *     Val int
+ *     Left *TreeNode
+ *     Right *TreeNode
+ * }
+ */
+func maxDepth(root *TreeNode) int {
+    if root == nil {
+        return 0
+    }
+    
+    return max(maxDepth(root.Left), maxDepth(root.Right)) + 1
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p local-id=&quot;da8a8d81-3fd6-44ab-9105-39078daea3b9&quot; /&gt;
+    &lt;/div&gt;
+        &lt;div style=&quot;padding: 10px 0;&quot;&gt;
+       &lt;a href=&quot;https://singee.atlassian.net/wiki/spaces/MAIN/pages/415039508/Week+42+2025+BFS&quot;&gt;email.notification.view.online&lt;/a&gt;
+                  &lt;/div&gt;
+&lt;/div&gt;</summary>
+    <dc:creator>Bryan</dc:creator>
+    <dc:date>2025-10-19T13:41:36Z</dc:date>
+  </entry>
+</feed>
