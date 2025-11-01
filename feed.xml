@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>Bryan &#x7684;&#x77e5;&#x8bc6;&#x5e93;</title>
+  <link rel="alternate" href="https://singee.atlassian.net/wiki"/>
+  
+  <id>https://singee.atlassian.net/wiki</id>
+  <entry>
+    <title>Week 43 @ 2025 &#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x53c9;&#x6811;&#x3011;</title>
+    <link rel="alternate" href="https://singee.atlassian.net/wiki/spaces/MAIN/pages/435453982/Week+43+2025"/>
+    <author>
+      <name>Bryan</name>
+    </author>
+    <id>tag:singee.atlassian.net,2009:page-435453982-1</id>
+    <updated>2025-10-26T16:14:43Z</updated>
+    <published>2025-10-26T16:14:43Z</published>
+    <summary type="html">&lt;div class=&quot;feed&quot;&gt;    &lt;p&gt;
+                        Live doc
+                    &lt;b&gt;added&lt;/b&gt; by
+                &lt;a  &gt;Bryan&lt;/a&gt;
+            &lt;/p&gt;
+        &lt;div style=&quot;border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 10px;&quot;&gt;
+        &lt;style type=&apos;text/css&apos;&gt;/*&lt;![CDATA[*/
+div.rbtoc1761957274623 {padding: 0px;}
+div.rbtoc1761957274623 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1761957274623 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]&gt;*/&lt;/style&gt;&lt;div class=&apos;toc-macro rbtoc1761957274623&apos;&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week43@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x53c9;&#x6811;&#x3011;-&#x4e8c;&#x53c9;&#x6811;&apos;&gt;&#x4e8c;&#x53c9;&#x6811;&lt;/a&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week43@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x53c9;&#x6811;&#x3011;-LC652.FindDuplicateSubtrees&#x5bfb;&#x627e;&#x91cd;&#x590d;&#x7684;&#x5b50;&#x6811;&apos;&gt;LC 652. Find Duplicate Subtrees &#x5bfb;&#x627e;&#x91cd;&#x590d;&#x7684;&#x5b50;&#x6811;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week43@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x53c9;&#x6811;&#x3011;-LC297.SerializeandDeserializeBinaryTree&#x4e8c;&#x53c9;&#x6811;&#x7684;&#x5e8f;&#x5217;&#x5316;&#x4e0e;&#x53cd;&#x5e8f;&#x5217;&#x5316;&apos;&gt;LC 297. Serialize and Deserialize Binary Tree &#x4e8c;&#x53c9;&#x6811;&#x7684;&#x5e8f;&#x5217;&#x5316;&#x4e0e;&#x53cd;&#x5e8f;&#x5217;&#x5316;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week43@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x53c9;&#x6811;&#x3011;-&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&apos;&gt;&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&lt;/a&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week43@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x53c9;&#x6811;&#x3011;-LC230.KthSmallestElementinaBST&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&#x4e2d;&#x7b2c;K&#x5c0f;&#x7684;&#x5143;&#x7d20;&apos;&gt;LC 230. Kth Smallest Element in a BST &#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&#x4e2d;&#x7b2c;K&#x5c0f;&#x7684;&#x5143;&#x7d20;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week43@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x53c9;&#x6811;&#x3011;-LC538.ConertBSTtoGreaterTree&#x628a;&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&#x8f6c;&#x6362;&#x4e3a;&#x7d2f;&#x52a0;&#x6811;&apos;&gt;LC 538. Conert BST to Greater Tree &#x628a;&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&#x8f6c;&#x6362;&#x4e3a;&#x7d2f;&#x52a0;&#x6811;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week43@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x53c9;&#x6811;&#x3011;-LC98.ValidateBinarySearchTree&#x9a8c;&#x8bc1;&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&apos;&gt;LC 98. Validate Binary Search Tree &#x9a8c;&#x8bc1;&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;h2 local-id=&quot;9ba48a9d-79f6-41ab-9d93-1b7c8e8761c2&quot; id=&quot;Week43@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x53c9;&#x6811;&#x3011;-&#x4e8c;&#x53c9;&#x6811;&quot;&gt;&#x4e8c;&#x53c9;&#x6811;&lt;/h2&gt;&lt;h3 local-id=&quot;647c12a9-8dd7-474e-b43b-01e0edfe1d4f&quot; id=&quot;Week43@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x53c9;&#x6811;&#x3011;-LC652.FindDuplicateSubtrees&#x5bfb;&#x627e;&#x91cd;&#x590d;&#x7684;&#x5b50;&#x6811;&quot;&gt;LC 652. Find Duplicate Subtrees &#x5bfb;&#x627e;&#x91cd;&#x590d;&#x7684;&#x5b50;&#x6811;&lt;/h3&gt;&lt;p local-id=&quot;451a2d6e-aead-4a98-998f-fc9f13a430da&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/find-duplicate-subtrees/&quot; local-id=&quot;ac1185b6-7096-45c8-a2a1-322c75924546&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/find-duplicate-subtrees/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;/**
+ * Definition for a binary tree node.
+ * type TreeNode struct {
+ *     Val int
+ *     Left *TreeNode
+ *     Right *TreeNode
+ * }
+ */
+func findDuplicateSubtrees(root *TreeNode) (result []*TreeNode) {
+    m := make(map[string]int)
+    
+    dfs(root, m, &amp;amp;result)
+
+    return result
+}
+
+func dfs(root *TreeNode, m map[string]int, result *[]*TreeNode) string {
+    if root == nil {
+        return &amp;quot;&amp;quot;
+    }
+
+    left := dfs(root.Left, m, result)
+    right := dfs(root.Right, m, result)
+
+    subtree := left + &amp;quot;,&amp;quot; + right + &amp;quot;,&amp;quot; + strconv.Itoa(root.Val)
+
+    m[subtree]++
+
+    if m[subtree] == 2 {
+        *result = append(*result, root)
+    }
+
+    return subtree
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 local-id=&quot;2409632e-f40f-433d-8d45-4354b2698428&quot; id=&quot;Week43@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x53c9;&#x6811;&#x3011;-LC297.SerializeandDeserializeBinaryTree&#x4e8c;&#x53c9;&#x6811;&#x7684;&#x5e8f;&#x5217;&#x5316;&#x4e0e;&#x53cd;&#x5e8f;&#x5217;&#x5316;&quot;&gt;LC 297. Serialize and Deserialize Binary Tree &#x4e8c;&#x53c9;&#x6811;&#x7684;&#x5e8f;&#x5217;&#x5316;&#x4e0e;&#x53cd;&#x5e8f;&#x5217;&#x5316;&lt;/h3&gt;&lt;p local-id=&quot;450ee042-6564-41e7-a90b-b1614056e256&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/&quot; local-id=&quot;2a04d2b6-64b7-4569-9235-5c8a0a48a877&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/&lt;/a&gt; &lt;/p&gt;&lt;p local-id=&quot;203fa131-aead-47e8-9648-fe972609df18&quot;&gt;&lt;strong&gt;&#x524d;&#x5e8f;&lt;/strong&gt;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;/**
+ * Definition for a binary tree node.
+ * type TreeNode struct {
+ *     Val int
+ *     Left *TreeNode
+ *     Right *TreeNode
+ * }
+ */
+
+type Codec struct {
+    
+}
+
+func Constructor() Codec {
+    return Codec{}
+}
+
+// Serializes a tree to a single string.
+func (this *Codec) serialize(root *TreeNode) string {
+    if root == nil {
+        return &amp;quot;#&amp;quot;
+    }
+
+    return strconv.Itoa(root.Val) + &amp;quot;,&amp;quot;  + this.serialize(root.Left) + &amp;quot;,&amp;quot; + this.serialize(root.Right) 
+}
+
+// Deserializes your encoded data to tree.
+func (this *Codec) deserialize(data string) *TreeNode {    
+    var dfs func(nodes []string) (*TreeNode, int)
+    dfs = func(nodes []string) (*TreeNode, int) {
+        if len(nodes) == 0 {
+            return nil, 0
+        }
+
+        firstNode := nodes[0]
+        if firstNode == &amp;quot;#&amp;quot; {
+            return nil, 1
+        }
+
+        left, leftLength := dfs(nodes[1:])
+        right, rightLength := dfs(nodes[1+leftLength:])
+
+        nodeVal, _ := strconv.Atoi(firstNode)
+        node := &amp;amp;TreeNode{Val: nodeVal, Left: left, Right: right}
+
+        return node, 1+leftLength+rightLength
+    }
+
+    nodes := strings.Split(data, &amp;quot;,&amp;quot;)
+    root, _ := dfs(nodes)
+
+    return root
+}
+
+
+
+/**
+ * Your Codec object will be instantiated and called as such:
+ * ser := Constructor();
+ * deser := Constructor();
+ * data := ser.serialize(root);
+ * ans := deser.deserialize(data);
+ */&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p local-id=&quot;462cc202-1e98-40a6-be9b-ff646265990a&quot;&gt;&lt;strong&gt;&#x540e;&#x5e8f;&lt;/strong&gt;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;/**
+ * Definition for a binary tree node.
+ * type TreeNode struct {
+ *     Val int
+ *     Left *TreeNode
+ *     Right *TreeNode
+ * }
+ */
+
+type Codec struct {
+    
+}
+
+func Constructor() Codec {
+    return Codec{}
+}
+
+// Serializes a tree to a single string.
+func (this *Codec) serialize(root *TreeNode) string {
+    if root == nil {
+        return &amp;quot;#&amp;quot;
+    }
+
+    return this.serialize(root.Left) + &amp;quot;,&amp;quot; + this.serialize(root.Right) + &amp;quot;,&amp;quot;  + strconv.Itoa(root.Val) 
+}
+
+// Deserializes your encoded data to tree.
+func (this *Codec) deserialize(data string) *TreeNode {    
+    var dfs func(nodes []string) (*TreeNode, int)
+    dfs = func(nodes []string) (*TreeNode, int) {
+        if len(nodes) == 0 {
+            return nil, 0
+        }
+
+        lastNode := nodes[len(nodes)-1]
+        if lastNode == &amp;quot;#&amp;quot; {
+            return nil, 1
+        }
+
+        right, rightLength := dfs(nodes[:len(nodes)-1])
+        left, leftLength := dfs(nodes[:len(nodes)-1-rightLength])
+
+        nodeVal, _ := strconv.Atoi(lastNode)
+        node := &amp;amp;TreeNode{Val: nodeVal, Left: left, Right: right}
+
+        return node, 1+leftLength+rightLength
+    }
+
+    nodes := strings.Split(data, &amp;quot;,&amp;quot;)
+    root, _ := dfs(nodes)
+
+    return root
+}
+
+
+
+/**
+ * Your Codec object will be instantiated and called as such:
+ * ser := Constructor();
+ * deser := Constructor();
+ * data := ser.serialize(root);
+ * ans := deser.deserialize(data);
+ */&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p local-id=&quot;e83d81f9-09a1-431b-b3d7-ac469a4a4a94&quot;&gt;&lt;strong&gt;&#x5c42;&#x5e8f;&lt;/strong&gt;&lt;/p&gt;&lt;p local-id=&quot;2276e077-0446-4a8d-9e42-d165d32f6b84&quot;&gt;TODO &lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://labuladong.online/algo/data-structure/serialize-and-deserialize-binary-tree/#%E4%BA%94%E3%80%81%E5%B1%82%E7%BA%A7%E9%81%8D%E5%8E%86%E8%A7%A3%E6%B3%95&quot; local-id=&quot;bc81d594-ebaa-4aab-9574-7a8b958d1581&quot; rel=&quot;nofollow&quot;&gt;https://labuladong.online/algo/data-structure/serialize-and-deserialize-binary-tree/#%E4%BA%94%E3%80%81%E5%B1%82%E7%BA%A7%E9%81%8D%E5%8E%86%E8%A7%A3%E6%B3%95&lt;/a&gt; &lt;/p&gt;&lt;h2 local-id=&quot;022129fd-f346-4621-b9f5-3c5f34b34d9f&quot; id=&quot;Week43@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x53c9;&#x6811;&#x3011;-&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&quot;&gt;&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&lt;/h2&gt;&lt;h3 local-id=&quot;6bc4f253-d6b6-4c6b-94a1-f1eecec89230&quot; id=&quot;Week43@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x53c9;&#x6811;&#x3011;-LC230.KthSmallestElementinaBST&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&#x4e2d;&#x7b2c;K&#x5c0f;&#x7684;&#x5143;&#x7d20;&quot;&gt;LC 230. Kth Smallest Element in a BST &#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&#x4e2d;&#x7b2c;K&#x5c0f;&#x7684;&#x5143;&#x7d20;&lt;/h3&gt;&lt;p local-id=&quot;823b4788-8313-463d-b0cb-04c73f7bd6d2&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/&quot; local-id=&quot;ed5a4b41-fc6c-4f2a-af98-19701d715eef&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/&lt;/a&gt; &lt;/p&gt;&lt;p local-id=&quot;2268b0ae-6da9-4709-a6f1-f069680176f2&quot;&gt;&lt;strong&gt;&#x66b4;&#x529b;&lt;/strong&gt;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;/**
+ * Definition for a binary tree node.
+ * type TreeNode struct {
+ *     Val int
+ *     Left *TreeNode
+ *     Right *TreeNode
+ * }
+ */
+func kthSmallest(root *TreeNode, k int) int {
+    return dfs(root)[k-1]
+}
+
+func dfs(root *TreeNode) (result []int) {
+    if root == nil {
+        return nil
+    }
+
+    result = dfs(root.Left)
+    result = append(result, root.Val)
+    result = append(result, dfs(root.Right)...)
+
+    return result
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p local-id=&quot;c50f4f8a-f717-46c8-9cb6-4848d9117c00&quot;&gt;&lt;strong&gt;&#x66b4;&#x529b; + &#x4f18;&#x5316;&lt;/strong&gt;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;/**
+ * Definition for a binary tree node.
+ * type TreeNode struct {
+ *     Val int
+ *     Left *TreeNode
+ *     Right *TreeNode
+ * }
+ */
+func kthSmallest(root *TreeNode, k int) (result int) {
+    i := 0
+
+    var traverse func (root *TreeNode)
+    traverse = func (root *TreeNode) {
+        if root == nil {
+            return
+        }
+        
+        traverse(root.Left)
+
+        i++
+        if i == k {
+            result = root.Val
+            return
+        }
+
+        traverse(root.Right)
+    }
+
+    traverse(root)
+
+    return result
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 local-id=&quot;a81f6186-17ce-413f-982b-8f17f4e4a286&quot; id=&quot;Week43@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x53c9;&#x6811;&#x3011;-LC538.ConertBSTtoGreaterTree&#x628a;&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&#x8f6c;&#x6362;&#x4e3a;&#x7d2f;&#x52a0;&#x6811;&quot;&gt;LC 538. Conert BST to Greater Tree &#x628a;&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&#x8f6c;&#x6362;&#x4e3a;&#x7d2f;&#x52a0;&#x6811;&lt;/h3&gt;&lt;p local-id=&quot;87c2dbbd-2a71-432f-a22c-de5ad567c084&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/convert-bst-to-greater-tree/description/&quot; local-id=&quot;4735d9c6-bd98-4101-a615-f3e966ee3edf&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/convert-bst-to-greater-tree/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;/**
+ * Definition for a binary tree node.
+ * type TreeNode struct {
+ *     Val int
+ *     Left *TreeNode
+ *     Right *TreeNode
+ * }
+ */
+func convertBST(root *TreeNode) *TreeNode {
+    var dfs func (root *TreeNode, acc int) int
+    dfs = func (root *TreeNode, acc int) int {
+        if root == nil {
+            return acc
+        }
+
+        newAcc := dfs(root.Right, acc)
+        root.Val += newAcc
+        return dfs(root.Left, root.Val)
+    }
+
+    dfs(root, 0)
+
+    return root
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 local-id=&quot;351d04a1-3785-48f1-a3d6-d8784b3c1fee&quot; id=&quot;Week43@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x53c9;&#x6811;&#x3011;-LC98.ValidateBinarySearchTree&#x9a8c;&#x8bc1;&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&quot;&gt;LC 98. Validate Binary Search Tree &#x9a8c;&#x8bc1;&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&lt;/h3&gt;&lt;p local-id=&quot;b8a07093-d543-4d10-962f-e6320bff4f41&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/validate-binary-search-tree/description/&quot; local-id=&quot;8e873dbb-ace6-4c66-9923-24dd7335922e&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/validate-binary-search-tree/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;/**
+ * Definition for a binary tree node.
+ * type TreeNode struct {
+ *     Val int
+ *     Left *TreeNode
+ *     Right *TreeNode
+ * }
+ */
+func isValidBST(root *TreeNode) bool {
+    return validate(root, math.MinInt, math.MaxInt)
+}
+
+func validate(root *TreeNode, minValue, maxValue int) bool {
+    if root == nil {
+        return true
+    }
+
+    if root.Val &amp;lt;= minValue || root.Val &amp;gt;= maxValue {
+        return false
+    }
+
+    return validate(root.Left, minValue, root.Val) &amp;amp;&amp;amp; validate(root.Right, root.Val, maxValue)
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p local-id=&quot;17ded682-27c2-4a9e-b8ff-9672451b1592&quot; /&gt;
+    &lt;/div&gt;
+        &lt;div style=&quot;padding: 10px 0;&quot;&gt;
+       &lt;a href=&quot;https://singee.atlassian.net/wiki/spaces/MAIN/pages/435453982/Week+43+2025&quot;&gt;email.notification.view.online&lt;/a&gt;
+                  &lt;/div&gt;
+&lt;/div&gt;</summary>
+    <dc:creator>Bryan</dc:creator>
+    <dc:date>2025-10-26T16:14:43Z</dc:date>
+  </entry>
+</feed>
