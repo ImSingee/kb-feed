@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>Bryan &#x7684;&#x77e5;&#x8bc6;&#x5e93;</title>
+  <link rel="alternate" href="https://singee.atlassian.net/wiki"/>
+  
+  <id>https://singee.atlassian.net/wiki</id>
+  <entry>
+    <title>Git Repo &#x2014;&#x2014; WorkTree, Bare Repo, Mirror</title>
+    <link rel="alternate" href="https://singee.atlassian.net/wiki/spaces/MAIN/pages/494927873/Git+Repo+WorkTree+Bare+Repo+Mirror"/>
+    <author>
+      <name>Bryan</name>
+    </author>
+    <id>tag:singee.atlassian.net,2009:page-494927873-4</id>
+    <updated>2025-11-12T07:34:02Z</updated>
+    <published>2025-11-12T07:34:02Z</published>
+    <summary type="html">&lt;div class=&quot;feed&quot;&gt;    &lt;p&gt;
+                        Live doc
+                    &lt;b&gt;edited&lt;/b&gt; by
+                &lt;a  &gt;Bryan&lt;/a&gt;
+             - &quot;Autosaved&quot;
+        &lt;/p&gt;
+        &lt;div style=&quot;border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 10px;&quot;&gt;
+        &lt;style type=&apos;text/css&apos;&gt;/*&lt;![CDATA[*/
+div.rbtoc1763253330276 {padding: 0px;}
+div.rbtoc1763253330276 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1763253330276 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]&gt;*/&lt;/style&gt;&lt;div class=&apos;toc-macro rbtoc1763253330276&apos;&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#GitRepo&#x2014;&#x2014;WorkTree,BareRepo,Mirror-Worktree&amp;amp;BareRepo&apos;&gt;Worktree &amp;amp; Bare Repo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#GitRepo&#x2014;&#x2014;WorkTree,BareRepo,Mirror-Mirror&apos;&gt;Mirror&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#GitRepo&#x2014;&#x2014;WorkTree,BareRepo,Mirror-&#x53c2;&#x8003;&apos;&gt;&#x53c2;&#x8003;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;h2 local-id=&quot;161ce008-9fef-49bc-bd68-3a11c75ab9a1&quot; id=&quot;GitRepo&#x2014;&#x2014;WorkTree,BareRepo,Mirror-Worktree&amp;amp;BareRepo&quot;&gt;Worktree &amp;amp; Bare Repo&lt;/h2&gt;&lt;p local-id=&quot;11ef0c5e-73bb-46f1-b413-acb771a3187e&quot;&gt;&#x9996;&#x5148;&#x8bf4;&#x4e00;&#x4e2a;&#x57fa;&#x7840;&#x6982;&#x5ff5;&#xff0c;&#x6211;&#x4eec;&#x901a;&#x5e38;&#x514b;&#x9686; &lt;code&gt;git clone https://xxx.com/repo.git&lt;/code&gt; &#x65f6;&#xff0c;&#x6211;&#x4eec;&#x5b9e;&#x9645;&#x4e0a;&#x662f;&#x505a;&#x4e86;&#x4e24;&#x4ef6;&#x4e8b;&#x60c5;&lt;/p&gt;&lt;ol start=&quot;1&quot; local-id=&quot;9ff520dd-74e0-4bdd-b8e4-6873eae874e2&quot;&gt;&lt;li local-id=&quot;e2ce4516-ff27-44fd-862c-7e089d467273&quot;&gt;&lt;p local-id=&quot;50959cc1-114a-474e-9c6b-955aa9c45155&quot;&gt;&#x5728;&#x5bf9;&#x5e94;&#x7684; &lt;code&gt;&amp;lt;repo&amp;gt;/.git&lt;/code&gt; &#x76ee;&#x5f55;&#x4e0b;&#xff0c;&#x521b;&#x5efa;&#x4e86;&#x4e00;&#x5806; Git &#x76f8;&#x5173;&#x7684;&#x6587;&#x4ef6;&lt;/p&gt;&lt;/li&gt;&lt;li local-id=&quot;3f1c9697-b921-4c12-a0c0-ed1857128f7e&quot;&gt;&lt;p local-id=&quot;142b5887-7fc1-4dd6-97c8-313e4370fac8&quot;&gt;&#x5728; &lt;code&gt;&amp;lt;repo&amp;gt;&lt;/code&gt; &#x76ee;&#x5f55;&#x4e0b;&#xff0c;&#x653e;&#x7f6e;&#xff08;&#x4e0b;&#x8f7d;&#xff09;&#x4e86;&#x6211;&#x4eec;&#x7684;&#x9879;&#x76ee;&#x4ee3;&#x7801;&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p local-id=&quot;ff239e1d-6a05-4734-a1ce-54e782b4ab42&quot;&gt;&lt;code&gt;&amp;lt;repo&amp;gt;/.git&lt;/code&gt; &#x76ee;&#x5f55;&#x53eb;&#x505a; &lt;a class=&quot;external-link&quot; href=&quot;https://git-scm.com/docs/git#Documentation/git.txt---git-dirpath&quot; rel=&quot;nofollow&quot;&gt;GIT_DIR&lt;/a&gt;&#x3001;&#x800c; &lt;code&gt;&amp;lt;repo&amp;gt;&lt;/code&gt;&#x76ee;&#x5f55;&#x5219;&#x662f; &lt;a class=&quot;external-link&quot; href=&quot;https://git-scm.com/docs/git-worktree&quot; rel=&quot;nofollow&quot;&gt;Work Tree&lt;/a&gt;&#xff0c;&#x6240;&#x4ee5;&#x6267;&#x884c; &lt;code&gt;git clone&lt;/code&gt; &#x547d;&#x4ee4;&#x5b9e;&#x9645;&#x505a;&#x7684;&#x4e8b;&#x60c5;&#x662f;&#xff1a;&lt;/p&gt;&lt;ol start=&quot;1&quot; local-id=&quot;9a0495b8-abe7-4094-bfbf-282ea11f40db&quot;&gt;&lt;li local-id=&quot;04dae61b-2b22-41b7-84e4-b2b08055d6a8&quot;&gt;&lt;p local-id=&quot;3533d3ab-8343-4b10-8b39-be00350af4fc&quot;&gt;&#x4ece;&#x670d;&#x52a1;&#x5668;&#x62c9;&#x53d6; Repo &#x7684;&lt;a class=&quot;external-link&quot; href=&quot;https://git-scm.com/docs/gitrepository-layout&quot; rel=&quot;nofollow&quot;&gt;&#x6240;&#x6709;&#x5185;&#x5bb9;&lt;/a&gt;&#xff0c;&#x5e76;&#x5b58;&#x50a8;&#x5230; &lt;code&gt;.git&lt;/code&gt; &#x76ee;&#x5f55;&#x4e0b;&#xff08;&#x4e14;&#x5c06;&#x8fdc;&#x7aef;&#x670d;&#x52a1;&#x5668;&#x7684;&#x76f8;&#x5173;&#x4fe1;&#x606f;&#x8bb0;&#x5f55;&#x5230; &lt;code&gt;&amp;lt;repo&amp;gt;/.git/remotes&lt;/code&gt; &#x4e2d;&#xff09;&lt;/p&gt;&lt;/li&gt;&lt;li local-id=&quot;02996048-cfdd-4bae-b660-2e4fec9f5d5c&quot;&gt;&lt;p local-id=&quot;98ea042b-850a-4dae-9f46-dee45286b651&quot;&gt;&#x6839;&#x636e;&#x8fdc;&#x7aef;&#x7684; &lt;code&gt;HEAD&lt;/code&gt; &#x4fe1;&#x606f;&#xff0c;&#x5f97;&#x5230;&#x5f53;&#x524d;&#x9ed8;&#x8ba4;&#x5206;&#x652f;&#x662f;&#x4ec0;&#x4e48;&#x3001;&#x5e76;&#x5c06;&#x672c;&#x5730; HEAD &#x6307;&#x5411;&#x8be5;&#x5206;&#x652f;&#xff0c;&#x7136;&#x540e;&#x5c06;&#x8fd9;&#x4e00;&#x5206;&#x652f;&#x7684;&#x4ee3;&#x7801; checkout &#x51fa;&#x6765;&#x653e;&#x5230; &lt;code&gt;&amp;lt;repo&amp;gt;&lt;/code&gt; &#x4e0b;&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p local-id=&quot;1a3383ee-86fd-406c-b593-82be13d4ef78&quot;&gt;&#x7136;&#x540e;&#x6211;&#x4eec;&#x5b9e;&#x9645;&#x4e0a;&#x53ef;&#x4ee5;&#x628a;&#x8fd9;&#x4e24;&#x4e2a;&#x6b65;&#x9aa4;&#x62c6;&#x5f00;&lt;/p&gt;&lt;p local-id=&quot;fc2e8f08-e995-44dc-8ba6-75304beb14ab&quot;&gt;&#x7b2c;&#x4e00;&#x79cd;&#x529e;&#x6cd5;&#x662f;&#xff0c;&#x4f9d;&#x7136;&#x7528;&#x73b0;&#x5728;&#x7684;&#x7ed3;&#x6784;&#xff0c;&#x4f46;&#x662f;&#x52a0;&#x4e0a; &lt;code&gt;--no-checkout&lt;/code&gt; &#x53c2;&#x6570;&#xff0c;&#x4f1a;&#x53d1;&#x73b0;&#xff0c;&lt;code&gt;&amp;lt;repo&amp;gt;/.git&lt;/code&gt;  &#x76ee;&#x5f55;&#x4e0d;&#x53d8;&#xff0c;&#x4f46;&#x662f; &lt;code&gt;&amp;lt;repo&amp;gt;&lt;/code&gt; &#x4e0b;&#x6ca1;&#x6709;&#x4efb;&#x4f55;&#x6587;&#x4ef6;&#xff08;&#x9664;&#x4e86; &lt;code&gt;.git&lt;/code&gt; &#x76ee;&#x5f55;&#xff09;&#xff0c;&#x6b64;&#x65f6;&#xff0c;&#x672c;&#x5730;&#x5206;&#x652f;&#x5df2;&#x521b;&#x5efa;&#x5e76;&#x6307;&#x5411;&#x4e86;&#x8fdc;&#x7aef;&#x5206;&#x652f;&#x3001;&#x672c;&#x5730; HEAD &#x4e5f;&#x6307;&#x5411;&#x4e86;&#x6b63;&#x786e;&#x7684;&#x5206;&#x652f;&#xff0c;&#x4f46;&#x5e76;&#x6ca1;&#x6709;&#x5c06;&#x8be5;&#x5206;&#x652f;&#x7684;&#x6587;&#x4ef6; checkout &#x5230; work tree &#x76ee;&#x5f55;&#xff0c;&#x53bb;&#x770b; &lt;code&gt;git status&lt;/code&gt; &#x80fd;&#x770b;&#x5230; git &#x663e;&#x793a;&#x7684;&#x72b6;&#x6001;&#x7b49;&#x540c;&#x4e8e;&#x300c;&#x5220;&#x9664;&#x4e86;&#x6240;&#x6709;&#x6587;&#x4ef6;&#x300d;&#xff08;&#x5982;&#x679c;&#x60f3;&#x5c06;&#x8fd9;&#x79cd;&#x4ed3;&#x5e93;&#x8fd8;&#x539f;&#x5230;&#x666e;&#x901a;&#x7684;&#x4ed3;&#x5e93;&#xff0c;&#x6267;&#x884c; &lt;code&gt;git reset --hard HEAD&lt;/code&gt; &#x5373;&#x53ef;&#xff09;&lt;/p&gt;&lt;p local-id=&quot;d50fcc72-f512-49d8-bc5f-394b4197cf99&quot;&gt;&#x7b2c;&#x4e8c;&#x79cd;&#x529e;&#x6cd5;&#x5219;&#x662f;&#xff0c;&#x7528; &lt;code&gt;--bare&lt;/code&gt; &#x53c2;&#x6570;&#xff0c;&#x4f1a;&#x53d1;&#x73b0;&#xff0c;&#x514b;&#x9686;&#x4e0b;&#x6765;&#x7684;&#x76ee;&#x5f55;&#x53eb;&#x505a; &lt;code&gt;&amp;lt;repo&amp;gt;.git&lt;/code&gt; &#x91cc;&#x9762;&#x5c31;&#x76f4;&#x63a5;&#x662f;&#x539f;&#x6765; &lt;code&gt;&amp;lt;repo&amp;gt;/.git&lt;/code&gt; &#x5185;&#x5bb9;&#xff0c;&#x76f4;&#x63a5;&#x4e0d;&#x5b58;&#x5728;&#x4efb;&#x4f55; worktree&#xff0c;&#x4e5f;&#x6ca1;&#x6709;&#x521b;&#x5efa;&#x4efb;&#x4f55;&#x672c;&#x5730;&#x5206;&#x652f;&#xff08;&#x5982;&#x679c;&#x60f3;&#x5c06;&#x8fd9;&#x79cd;&#x4ed3;&#x5e93;&#x8fd8;&#x539f;&#x6210;&#x300c;&#x7b2c;&#x4e00;&#x79cd;&#x300d;&#x7684;&#x6216;&#x662f;&#x666e;&#x901a; clone &#x5f97;&#x4ed3;&#x5e93;&#xff0c;&#x53c2;&#x8003; &lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://stackoverflow.com/questions/10637378/how-do-i-convert-a-bare-git-repository-into-a-normal-one-in-place&quot; local-id=&quot;ce772bea-219e-4d7c-9d83-1ce70242887f&quot; rel=&quot;nofollow&quot;&gt;https://stackoverflow.com/questions/10637378/how-do-i-convert-a-bare-git-repository-into-a-normal-one-in-place&lt;/a&gt; &#xff09;&lt;/p&gt;&lt;p local-id=&quot;fc0ee359-6907-4e75-986f-7b51077fec4b&quot; /&gt;&lt;h2 local-id=&quot;92ba2ccc-7cd4-4786-b6e8-1a45d787027c&quot; id=&quot;GitRepo&#x2014;&#x2014;WorkTree,BareRepo,Mirror-Mirror&quot;&gt;Mirror&lt;/h2&gt;&lt;p local-id=&quot;6f591eff-6fac-450a-8ffb-118d0dc64e21&quot;&gt;git clone &#x65f6;&#x8fd8;&#x53ef;&#x4ee5;&#x6307;&#x5b9a;&#x4e00;&#x4e2a; &lt;code&gt;--mirror&lt;/code&gt; &#x53c2;&#x6570;&#xff0c;&#x5f53;&#x4ee5; mirror &#x6a21;&#x5f0f;&#x514b;&#x9686;&#x4e00;&#x4e2a; repo &#x65f6;&#xff0c;&#x5728; &lt;code&gt;--bare&lt;/code&gt; &#x7684;&#x57fa;&#x7840;&#x4e0a;&#xff0c;&lt;/p&gt;&lt;p local-id=&quot;29277e67-a35d-4a3e-8c86-c72462e95a73&quot; /&gt;&lt;h2 local-id=&quot;404c23b6-25e7-4a48-a9df-ae650546272c&quot; id=&quot;GitRepo&#x2014;&#x2014;WorkTree,BareRepo,Mirror-&#x53c2;&#x8003;&quot;&gt;&#x53c2;&#x8003;&lt;/h2&gt;&lt;p local-id=&quot;28d7c0c2-56de-40eb-a0be-8e98ff0f8675&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://git-scm.com/docs/gitrepository-layout&quot; local-id=&quot;ad916192-1766-4751-8350-956b2fc38d99&quot; rel=&quot;nofollow&quot;&gt;https://git-scm.com/docs/gitrepository-layout&lt;/a&gt; &lt;/p&gt;&lt;p local-id=&quot;957a159b-baf2-4806-a5e3-1117a79d0214&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://git-scm.com/docs/git-clone&quot; local-id=&quot;c1f7e537-df1b-4738-b3c8-cb5a6f65ff38&quot; rel=&quot;nofollow&quot;&gt;https://git-scm.com/docs/git-clone&lt;/a&gt; &lt;/p&gt;&lt;p local-id=&quot;0220a22f-7446-4071-929e-fa0dad4c53e3&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://git-scm.com/docs/git-worktree&quot; local-id=&quot;c0609e26-5998-405e-9bfe-f4dc81686748&quot; rel=&quot;nofollow&quot;&gt;https://git-scm.com/docs/git-worktree&lt;/a&gt; &lt;/p&gt;&lt;p local-id=&quot;c0690db9-7e7b-48d9-ae9f-788e541a2844&quot; /&gt;
+    &lt;/div&gt;
+        &lt;div style=&quot;padding: 10px 0;&quot;&gt;
+       &lt;a href=&quot;https://singee.atlassian.net/wiki/spaces/MAIN/pages/494927873/Git+Repo+WorkTree+Bare+Repo+Mirror&quot;&gt;email.notification.view.online&lt;/a&gt;
+              &amp;middot;
+       &lt;a href=&quot;https://singee.atlassian.net/wiki/pages/diffpagesbyversion.action?pageId=494927873&amp;revisedVersion=4&amp;originalVersion=3&quot;&gt;View Changes Online&lt;/a&gt;       
+                  &lt;/div&gt;
+&lt;/div&gt;</summary>
+    <dc:creator>Bryan</dc:creator>
+    <dc:date>2025-11-12T07:34:02Z</dc:date>
+  </entry>
+  <entry>
+    <title>Week 45 @ 2025 &#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217; + &#x5355;&#x8c03;&#x6808;&#x3011;</title>
+    <link rel="alternate" href="https://singee.atlassian.net/wiki/spaces/MAIN/pages/484638833/Week+45+2025"/>
+    <author>
+      <name>Bryan</name>
+    </author>
+    <id>tag:singee.atlassian.net,2009:page-484638833-1</id>
+    <updated>2025-11-09T15:20:54Z</updated>
+    <published>2025-11-09T15:20:54Z</published>
+    <summary type="html">&lt;div class=&quot;feed&quot;&gt;    &lt;p&gt;
+                        Live doc
+                    &lt;b&gt;added&lt;/b&gt; by
+                &lt;a  &gt;Bryan&lt;/a&gt;
+            &lt;/p&gt;
+        &lt;div style=&quot;border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 10px;&quot;&gt;
+        &lt;style type=&apos;text/css&apos;&gt;/*&lt;![CDATA[*/
+div.rbtoc1763253330299 {padding: 0px;}
+div.rbtoc1763253330299 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1763253330299 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]&gt;*/&lt;/style&gt;&lt;div class=&apos;toc-macro rbtoc1763253330299&apos;&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week45@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-&#x5355;&#x8c03;&#x961f;&#x5217;&apos;&gt;&#x5355;&#x8c03;&#x961f;&#x5217;&lt;/a&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week45@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC239.SlidingWindowMaximum&#x6ed1;&#x52a8;&#x7a97;&#x53e3;&#x6700;&#x5927;&#x503c;&apos;&gt;LC 239. Sliding Window Maximum &#x6ed1;&#x52a8;&#x7a97;&#x53e3;&#x6700;&#x5927;&#x503c;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week45@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-&#x5355;&#x8c03;&#x6808;&apos;&gt;&#x5355;&#x8c03;&#x6808;&lt;/a&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week45@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC1019.NextGreaterNodeInLinkedList&#x94fe;&#x8868;&#x4e2d;&#x7684;&#x4e0b;&#x4e00;&#x4e2a;&#x66f4;&#x5927;&#x8282;&#x70b9;&apos;&gt;LC 1019. Next Greater Node In Linked List &#x94fe;&#x8868;&#x4e2d;&#x7684;&#x4e0b;&#x4e00;&#x4e2a;&#x66f4;&#x5927;&#x8282;&#x70b9;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week45@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC1944.NumberofVisiblePeopleinaQueue&#x961f;&#x5217;&#x4e2d;&#x53ef;&#x4ee5;&#x770b;&#x5230;&#x7684;&#x4eba;&#x6570;&apos;&gt;LC 1944. Number of Visible People in a Queue &#x961f;&#x5217;&#x4e2d;&#x53ef;&#x4ee5;&#x770b;&#x5230;&#x7684;&#x4eba;&#x6570;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week45@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC1475.FinalPricesWithaSpecialDiscountinaShop&#x5546;&#x54c1;&#x6298;&#x6263;&#x540e;&#x7684;&#x6700;&#x7ec8;&#x4ef7;&#x683c;&apos;&gt;LC 1475. Final Prices With a Special Discount in a Shop &#x5546;&#x54c1;&#x6298;&#x6263;&#x540e;&#x7684;&#x6700;&#x7ec8;&#x4ef7;&#x683c;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week45@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC901.OnlineStockSpan&#x80a1;&#x7968;&#x4ef7;&#x683c;&#x8de8;&#x5ea6;&apos;&gt;LC 901. Online Stock Span &#x80a1;&#x7968;&#x4ef7;&#x683c;&#x8de8;&#x5ea6;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week45@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC402.RemoveKDigits&#x79fb;&#x6389;K&#x4f4d;&#x6570;&#x5b57;&apos;&gt;LC 402. Remove K Digits &#x79fb;&#x6389; K &#x4f4d;&#x6570;&#x5b57;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week45@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC853.CarFleet&#x8f66;&#x961f;&apos;&gt;LC 853. Car Fleet &#x8f66;&#x961f;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;h2 local-id=&quot;5a18eafd-4539-4eb2-ae62-53a2ffc6bed7&quot; id=&quot;Week45@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-&#x5355;&#x8c03;&#x961f;&#x5217;&quot;&gt;&#x5355;&#x8c03;&#x961f;&#x5217;&lt;/h2&gt;&lt;h3 local-id=&quot;ab3ff7d4-604f-4bc8-8cf1-4906e1c1eccb&quot; id=&quot;Week45@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC239.SlidingWindowMaximum&#x6ed1;&#x52a8;&#x7a97;&#x53e3;&#x6700;&#x5927;&#x503c;&quot;&gt;LC 239. Sliding Window Maximum &#x6ed1;&#x52a8;&#x7a97;&#x53e3;&#x6700;&#x5927;&#x503c;&lt;/h3&gt;&lt;p local-id=&quot;a5c002b1-9bd9-47f9-a70e-e50bdf3a1287&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/sliding-window-maximum/description/&quot; local-id=&quot;0c693354-8042-412d-ade4-c21a3de56587&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/sliding-window-maximum/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func maxSlidingWindow(nums []int, k int) []int {
+    q := NewMonotonicQueue()
+
+    result := make([]int, 0, len(nums))
+
+    for i := 0; i &amp;lt; k; i++ {
+        q.Push(nums[i])
+    }
+    result = append(result, q.Max())
+
+    for i := k; i &amp;lt; len(nums); i++ {
+        q.Push(nums[i])
+        q.Pop(nums[i-k])
+
+        result = append(result, q.Max())
+    }
+
+    return result
+}
+
+type MonotonicQueue struct {
+    l *list.List
+}
+
+func NewMonotonicQueue() *MonotonicQueue {
+    return &amp;amp;MonotonicQueue {
+        l: list.New(),
+    }
+}
+
+func (q *MonotonicQueue) Push(x int) {
+    for {
+        back := q.l.Back()
+        if back == nil || back.Value.(int) &amp;gt;= x {
+            break
+        }
+        q.l.Remove(back)
+    }
+
+    q.l.PushBack(x)
+}
+
+func (q *MonotonicQueue) Pop(x int) {
+    front := q.l.Front()
+    if front.Value == x {
+        q.l.Remove(front)
+    }
+}
+
+func (q *MonotonicQueue) Max() int {
+    return q.l.Front().Value.(int)
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h2 local-id=&quot;e9636bcb-2311-4b7c-bef3-c58142c7e7ae&quot; id=&quot;Week45@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-&#x5355;&#x8c03;&#x6808;&quot;&gt;&#x5355;&#x8c03;&#x6808;&lt;/h2&gt;&lt;h3 local-id=&quot;cf79e642-e576-4f03-a9e7-d4e5f5cda4ec&quot; id=&quot;Week45@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC1019.NextGreaterNodeInLinkedList&#x94fe;&#x8868;&#x4e2d;&#x7684;&#x4e0b;&#x4e00;&#x4e2a;&#x66f4;&#x5927;&#x8282;&#x70b9;&quot;&gt;LC 1019. Next Greater Node In Linked List &#x94fe;&#x8868;&#x4e2d;&#x7684;&#x4e0b;&#x4e00;&#x4e2a;&#x66f4;&#x5927;&#x8282;&#x70b9;&lt;/h3&gt;&lt;p local-id=&quot;af0d36c4-4137-466b-ab3b-0a4572fbf4e9&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/next-greater-node-in-linked-list/description/&quot; local-id=&quot;6daea7a9-1616-4fc6-944f-e16501fbc658&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/next-greater-node-in-linked-list/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;/**
+ * Definition for singly-linked list.
+ * type ListNode struct {
+ *     Val int
+ *     Next *ListNode
+ * }
+ */
+func nextLargerNodes(head *ListNode) []int {
+    values := toValues(head)
+    
+    n := len(values)
+    result := make([]int, n)
+    stack := make([]int, 0, n)
+
+    for i := n-1; i &amp;gt;= 0; i-- {
+        for len(stack) &amp;gt; 0 &amp;amp;&amp;amp; stack[len(stack)-1] &amp;lt;= values[i] {
+            stack = stack[:len(stack)-1]
+        }
+
+        if len(stack) &amp;gt; 0 {
+            result[i] = stack[len(stack)-1]
+        }
+        stack = append(stack, values[i])
+    }
+
+    return result
+}
+
+func toValues(head *ListNode) []int {
+    values := make([]int, 0, 1_0000)
+    for head != nil {
+        values = append(values, head.Val)
+        head = head.Next
+    }
+    return values
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 local-id=&quot;23b68cdb-f114-40a5-828b-d149e1c71774&quot; id=&quot;Week45@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC1944.NumberofVisiblePeopleinaQueue&#x961f;&#x5217;&#x4e2d;&#x53ef;&#x4ee5;&#x770b;&#x5230;&#x7684;&#x4eba;&#x6570;&quot;&gt;LC 1944. Number of Visible People in a Queue &#x961f;&#x5217;&#x4e2d;&#x53ef;&#x4ee5;&#x770b;&#x5230;&#x7684;&#x4eba;&#x6570;&lt;/h3&gt;&lt;p local-id=&quot;255f4006-0942-4f71-9e44-c3e102b32c44&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/number-of-visible-people-in-a-queue/description/&quot; local-id=&quot;7fcde19a-83ee-49c9-8bf9-b5a2e45454ac&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/number-of-visible-people-in-a-queue/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func canSeePersonsCount(heights []int) []int {
+    result := make([]int, len(heights))
+
+    stack := make([]int, 0, len(heights))
+
+    for i := len(heights) - 1; i &amp;gt;= 0; i-- {
+        count := 0
+        for len(stack) &amp;gt; 0 &amp;amp;&amp;amp; stack[len(stack)-1] &amp;lt; heights[i] {
+            stack = stack[:len(stack)-1]
+
+            // &#x7edf;&#x8ba1;&#x5230;&#x300c;&#x4e0b;&#x4e00;&#x4e2a;&#x7b49;&#x9ad8;&#x6216;&#x66f4;&#x9ad8;&#x5143;&#x7d20;&#x4e4b;&#x95f4;&#x300d;&#x6709;&#x51e0;&#x4e2a;&#x5143;&#x7d20;&#xff08;&#x5df2;&#x5254;&#x9664;&#x88ab;&#x906e;&#x6321;&#x5143;&#x7d20;&#xff09;
+            count++
+        }
+
+        if len(stack) &amp;gt; 0 {
+            result[i] = count + 1 // &#x4e5f;&#x80fd;&#x770b;&#x5230;&#x300c;&#x4e0b;&#x4e00;&#x4e2a;&#x7b49;&#x9ad8;&#x6216;&#x66f4;&#x9ad8;&#x5143;&#x7d20;&#x300d;
+        } else {
+            result[i] = count
+        }
+       
+        stack = append(stack, heights[i]) 
+    }
+
+    return result
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 local-id=&quot;b93f0097-a3bf-409b-ac15-e2bc729441bb&quot; id=&quot;Week45@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC1475.FinalPricesWithaSpecialDiscountinaShop&#x5546;&#x54c1;&#x6298;&#x6263;&#x540e;&#x7684;&#x6700;&#x7ec8;&#x4ef7;&#x683c;&quot;&gt;LC 1475. Final Prices With a Special Discount in a Shop &#x5546;&#x54c1;&#x6298;&#x6263;&#x540e;&#x7684;&#x6700;&#x7ec8;&#x4ef7;&#x683c;&lt;/h3&gt;&lt;p local-id=&quot;2e57aaee-59ac-49da-a3d0-d1ad238f9f8a&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/description/&quot; local-id=&quot;37ec2669-e5e4-4f5f-b02f-13c3fa941068&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func finalPrices(prices []int) []int {
+    n := len(prices)
+    
+    result := make([]int, n)
+    stack := make([]int, 0, n)
+
+    for i := n-1; i &amp;gt;= 0; i-- {
+        // &#x627e;&#x5230;&#x4e0b;&#x4e00;&#x4e2a;&#x66f4;&#x5c0f;&#x6216;&#x76f8;&#x7b49;&#x5143;&#x7d20;
+        for len(stack) &amp;gt; 0 &amp;amp;&amp;amp; stack[len(stack)-1] &amp;gt; prices[i] {
+            stack = stack[:len(stack)-1]
+        }
+
+        if len(stack) &amp;gt; 0 {
+            result[i] = prices[i] - stack[len(stack)-1]
+        } else {
+            result[i] = prices[i]
+        }
+
+        stack = append(stack, prices[i])
+    }
+
+    return result
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 local-id=&quot;11da1c0d-76d0-47b0-9187-34de3656d5b7&quot; id=&quot;Week45@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC901.OnlineStockSpan&#x80a1;&#x7968;&#x4ef7;&#x683c;&#x8de8;&#x5ea6;&quot;&gt;LC 901. Online Stock Span &#x80a1;&#x7968;&#x4ef7;&#x683c;&#x8de8;&#x5ea6;&lt;/h3&gt;&lt;p local-id=&quot;7b7c6891-38c7-4503-897a-69593b3c5f30&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/online-stock-span/description/&quot; local-id=&quot;bc99daaf-759a-45d6-a042-bb3596a20057&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/online-stock-span/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;type StockSpanner struct {
+    stack []Value
+    day int
+}
+
+type Value struct {
+    price int
+    index int
+}
+
+func Constructor() StockSpanner {
+    return StockSpanner{
+        day: -1,
+    }
+}
+
+
+func (this *StockSpanner) Next(price int) int {
+    // &#x5411;&#x524d;&#x627e; &amp;gt; &#x5f53;&#x524d;&#x503c;&#x7684; index === &#x6808;&#x5185;&#x5254;&#x9664; &amp;lt;= &#x5f53;&#x524d;&#x503c;&#x7684;&#x5143;&#x7d20;
+
+    for len(this.stack) &amp;gt; 0 &amp;amp;&amp;amp; this.stack[len(this.stack)-1].price &amp;lt;= price {
+        this.stack = this.stack[:len(this.stack)-1]
+    }
+
+    this.day++
+
+    var result int
+    if len(this.stack) &amp;gt; 0 {
+        lastDayIndex := this.stack[len(this.stack)-1].index
+        result = this.day - lastDayIndex
+    } else {
+        result = this.day + 1
+    }
+
+    this.stack = append(this.stack, Value{price, this.day})
+
+    return result
+}
+
+
+/**
+ * Your StockSpanner object will be instantiated and called as such:
+ * obj := Constructor();
+ * param_1 := obj.Next(price);
+ */&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 local-id=&quot;3e80228e-a908-4567-8293-4de08f0cf7fc&quot; id=&quot;Week45@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC402.RemoveKDigits&#x79fb;&#x6389;K&#x4f4d;&#x6570;&#x5b57;&quot;&gt;LC 402. Remove K Digits &#x79fb;&#x6389; K &#x4f4d;&#x6570;&#x5b57;&lt;/h3&gt;&lt;p local-id=&quot;59cd5095-0c08-4542-a6ac-d13c5ab259da&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/remove-k-digits/description/&quot; local-id=&quot;80fbc427-761a-46d8-8ff6-cb3f9e502b5c&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/remove-k-digits/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func removeKdigits(num string, k int) string {
+    digits := []byte(num)
+    n := len(digits)
+
+    stack := make([]byte, 0, n)
+
+    for _, digit := range digits {
+        for k &amp;gt; 0 &amp;amp;&amp;amp; len(stack) &amp;gt; 0 &amp;amp;&amp;amp; stack[len(stack)-1] &amp;gt; digit {
+            k--
+            stack = stack[:len(stack)-1]
+        }
+
+        stack = append(stack, digit)
+    }
+
+    for k &amp;gt; 0 &amp;amp;&amp;amp; len(stack) &amp;gt; 0 {
+        k--
+        stack = stack[:len(stack)-1]
+    }
+
+    return toString(stack)
+}
+
+func toString(digits []byte) string {
+    for len(digits) &amp;gt; 0 &amp;amp;&amp;amp; digits[0] == &amp;#39;0&amp;#39; {
+        digits = digits[1:]
+    }
+
+    if len(digits) == 0 {
+        return &amp;quot;0&amp;quot;
+    }
+
+    return string(digits)
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 local-id=&quot;6ab65fec-cedc-4977-a80e-bf1547159c2f&quot; id=&quot;Week45@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC853.CarFleet&#x8f66;&#x961f;&quot;&gt;LC 853. Car Fleet &#x8f66;&#x961f;&lt;/h3&gt;&lt;p local-id=&quot;30f8a522-5ff3-41db-ab2c-893b3f8ece5e&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/car-fleet/description/&quot; local-id=&quot;ef4b0463-bf53-43c5-baab-eab7cbfb0184&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/car-fleet/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func carFleet(target int, position []int, speed []int) int {
+    cars := make([][]int, len(position))
+    for i := range cars {
+        cars[i] = []int{position[i], speed[i]}
+    }
+    slices.SortFunc(cars, func(a, b []int) int {
+		return a[0] - b[0]
+	})
+
+    times := make([]float64, len(cars))
+    for i, car := range cars {
+        times[i] = float64(target-car[0]) / float64(car[1])
+    }
+
+    count := 0
+    maxTimes := 0.0
+    for i := len(times) - 1; i &amp;gt;= 0; i-- {
+        if times[i] &amp;gt; maxTimes {
+            count++
+            maxTimes = times[i]
+        }
+    }
+
+    return count
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p local-id=&quot;cc38a92d-61dd-42da-830a-bafd72a55fa5&quot; /&gt;&lt;p local-id=&quot;a4bf69ea-fab2-4782-a249-b0cc25db5358&quot; /&gt;
+    &lt;/div&gt;
+        &lt;div style=&quot;padding: 10px 0;&quot;&gt;
+       &lt;a href=&quot;https://singee.atlassian.net/wiki/spaces/MAIN/pages/484638833/Week+45+2025&quot;&gt;email.notification.view.online&lt;/a&gt;
+                  &lt;/div&gt;
+&lt;/div&gt;</summary>
+    <dc:creator>Bryan</dc:creator>
+    <dc:date>2025-11-09T15:20:54Z</dc:date>
+  </entry>
+  <entry>
+    <title>Week 32 @ 2025 &#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217; + &#x5355;&#x8c03;&#x6808;&#x3011;</title>
+    <link rel="alternate" href="https://singee.atlassian.net/wiki/spaces/MAIN/pages/243138699/Week+32+2025"/>
+    <author>
+      <name>Bryan</name>
+    </author>
+    <id>tag:singee.atlassian.net,2009:page-243138699-2</id>
+    <updated>2025-11-09T15:20:33Z</updated>
+    <published>2025-11-09T15:20:33Z</published>
+    <summary type="html">&lt;div class=&quot;feed&quot;&gt;    &lt;p&gt;
+                        Live doc
+                    &lt;b&gt;edited&lt;/b&gt; by
+                &lt;a  &gt;Bryan&lt;/a&gt;
+             - &quot;Autosaved&quot;
+        &lt;/p&gt;
+        &lt;div style=&quot;border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 10px;&quot;&gt;
+        &lt;style type=&apos;text/css&apos;&gt;/*&lt;![CDATA[*/
+div.rbtoc1763253330318 {padding: 0px;}
+div.rbtoc1763253330318 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1763253330318 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]&gt;*/&lt;/style&gt;&lt;div class=&apos;toc-macro rbtoc1763253330318&apos;&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week32@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-&#x5355;&#x8c03;&#x961f;&#x5217;&apos;&gt;&#x5355;&#x8c03;&#x961f;&#x5217;&lt;/a&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week32@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC239.SlidingWindowMaximum&#x6ed1;&#x52a8;&#x7a97;&#x53e3;&#x6700;&#x5927;&#x503c;&apos;&gt;LC 239. Sliding Window Maximum &#x6ed1;&#x52a8;&#x7a97;&#x53e3;&#x6700;&#x5927;&#x503c;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week32@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-&#x5355;&#x8c03;&#x6808;&apos;&gt;&#x5355;&#x8c03;&#x6808;&lt;/a&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week32@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC1019.NextGreaterNodeInLinkedList&#x94fe;&#x8868;&#x4e2d;&#x7684;&#x4e0b;&#x4e00;&#x4e2a;&#x66f4;&#x5927;&#x8282;&#x70b9;&apos;&gt;LC 1019. Next Greater Node In Linked List &#x94fe;&#x8868;&#x4e2d;&#x7684;&#x4e0b;&#x4e00;&#x4e2a;&#x66f4;&#x5927;&#x8282;&#x70b9;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week32@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC1944.NumberofVisiblePeopleinaQueue&#x961f;&#x5217;&#x4e2d;&#x53ef;&#x4ee5;&#x770b;&#x5230;&#x7684;&#x4eba;&#x6570;&apos;&gt;LC 1944. Number of Visible People in a Queue &#x961f;&#x5217;&#x4e2d;&#x53ef;&#x4ee5;&#x770b;&#x5230;&#x7684;&#x4eba;&#x6570;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week32@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC1475.FinalPricesWithaSpecialDiscountinaShop&#x5546;&#x54c1;&#x6298;&#x6263;&#x540e;&#x7684;&#x6700;&#x7ec8;&#x4ef7;&#x683c;&apos;&gt;LC 1475. Final Prices With a Special Discount in a Shop &#x5546;&#x54c1;&#x6298;&#x6263;&#x540e;&#x7684;&#x6700;&#x7ec8;&#x4ef7;&#x683c;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week32@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC901.OnlineStockSpan&#x80a1;&#x7968;&#x4ef7;&#x683c;&#x8de8;&#x5ea6;&apos;&gt;LC 901. Online Stock Span &#x80a1;&#x7968;&#x4ef7;&#x683c;&#x8de8;&#x5ea6;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week32@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC402.RemoveKDigits&#x79fb;&#x6389;K&#x4f4d;&#x6570;&#x5b57;&apos;&gt;LC 402. Remove K Digits &#x79fb;&#x6389; K &#x4f4d;&#x6570;&#x5b57;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week32@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC853.CarFleet&#x8f66;&#x961f;&apos;&gt;LC 853. Car Fleet &#x8f66;&#x961f;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;h2 local-id=&quot;5a18eafd-4539-4eb2-ae62-53a2ffc6bed7&quot; id=&quot;Week32@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-&#x5355;&#x8c03;&#x961f;&#x5217;&quot;&gt;&#x5355;&#x8c03;&#x961f;&#x5217;&lt;/h2&gt;&lt;h3 local-id=&quot;ab3ff7d4-604f-4bc8-8cf1-4906e1c1eccb&quot; id=&quot;Week32@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC239.SlidingWindowMaximum&#x6ed1;&#x52a8;&#x7a97;&#x53e3;&#x6700;&#x5927;&#x503c;&quot;&gt;LC 239. Sliding Window Maximum &#x6ed1;&#x52a8;&#x7a97;&#x53e3;&#x6700;&#x5927;&#x503c;&lt;/h3&gt;&lt;p local-id=&quot;a7dc2360-16ab-4bc6-94a5-c2f17fd0f2f3&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/sliding-window-maximum/description/&quot; local-id=&quot;5ea61a87-fe2d-4b8f-a3f8-8155f96f90f0&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/sliding-window-maximum/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func maxSlidingWindow(nums []int, k int) []int {
+    q := NewMonotonicQueue()
+
+    result := make([]int, 0, len(nums))
+
+    for i := 0; i &amp;lt; k; i++ {
+        q.Push(nums[i])
+    }
+    result = append(result, q.Max())
+
+    for i := k; i &amp;lt; len(nums); i++ {
+        q.Push(nums[i])
+        q.Pop(nums[i-k])
+
+        result = append(result, q.Max())
+    }
+
+    return result
+}
+
+type MonotonicQueue struct {
+    l *list.List
+}
+
+func NewMonotonicQueue() *MonotonicQueue {
+    return &amp;amp;MonotonicQueue {
+        l: list.New(),
+    }
+}
+
+func (q *MonotonicQueue) Push(x int) {
+    for {
+        back := q.l.Back()
+        if back == nil || back.Value.(int) &amp;gt;= x {
+            break
+        }
+        q.l.Remove(back)
+    }
+
+    q.l.PushBack(x)
+}
+
+func (q *MonotonicQueue) Pop(x int) {
+    front := q.l.Front()
+    if front.Value == x {
+        q.l.Remove(front)
+    }
+}
+
+func (q *MonotonicQueue) Max() int {
+    return q.l.Front().Value.(int)
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h2 local-id=&quot;e9636bcb-2311-4b7c-bef3-c58142c7e7ae&quot; id=&quot;Week32@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-&#x5355;&#x8c03;&#x6808;&quot;&gt;&#x5355;&#x8c03;&#x6808;&lt;/h2&gt;&lt;h3 local-id=&quot;cf79e642-e576-4f03-a9e7-d4e5f5cda4ec&quot; id=&quot;Week32@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC1019.NextGreaterNodeInLinkedList&#x94fe;&#x8868;&#x4e2d;&#x7684;&#x4e0b;&#x4e00;&#x4e2a;&#x66f4;&#x5927;&#x8282;&#x70b9;&quot;&gt;LC 1019. Next Greater Node In Linked List &#x94fe;&#x8868;&#x4e2d;&#x7684;&#x4e0b;&#x4e00;&#x4e2a;&#x66f4;&#x5927;&#x8282;&#x70b9;&lt;/h3&gt;&lt;p local-id=&quot;e7fad37e-0223-42b9-be7f-9bb6af5ddd30&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/next-greater-node-in-linked-list/description/&quot; local-id=&quot;77ebc8c9-2a68-4c99-8ae0-d29337ce3842&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/next-greater-node-in-linked-list/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;/**
+ * Definition for singly-linked list.
+ * type ListNode struct {
+ *     Val int
+ *     Next *ListNode
+ * }
+ */
+func nextLargerNodes(head *ListNode) []int {
+    values := toValues(head)
+    
+    n := len(values)
+    result := make([]int, n)
+    stack := make([]int, 0, n)
+
+    for i := n-1; i &amp;gt;= 0; i-- {
+        for len(stack) &amp;gt; 0 &amp;amp;&amp;amp; stack[len(stack)-1] &amp;lt;= values[i] {
+            stack = stack[:len(stack)-1]
+        }
+
+        if len(stack) &amp;gt; 0 {
+            result[i] = stack[len(stack)-1]
+        }
+        stack = append(stack, values[i])
+    }
+
+    return result
+}
+
+func toValues(head *ListNode) []int {
+    values := make([]int, 0, 1_0000)
+    for head != nil {
+        values = append(values, head.Val)
+        head = head.Next
+    }
+    return values
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 local-id=&quot;23b68cdb-f114-40a5-828b-d149e1c71774&quot; id=&quot;Week32@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC1944.NumberofVisiblePeopleinaQueue&#x961f;&#x5217;&#x4e2d;&#x53ef;&#x4ee5;&#x770b;&#x5230;&#x7684;&#x4eba;&#x6570;&quot;&gt;LC 1944. Number of Visible People in a Queue &#x961f;&#x5217;&#x4e2d;&#x53ef;&#x4ee5;&#x770b;&#x5230;&#x7684;&#x4eba;&#x6570;&lt;/h3&gt;&lt;p local-id=&quot;16305322-ad2e-46b8-a80b-07b88cf58e1f&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/number-of-visible-people-in-a-queue/description/&quot; local-id=&quot;bf1c916b-907a-4549-b900-07dbf2cb66f6&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/number-of-visible-people-in-a-queue/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func canSeePersonsCount(heights []int) []int {
+    result := make([]int, len(heights))
+
+    stack := make([]int, 0, len(heights))
+
+    for i := len(heights) - 1; i &amp;gt;= 0; i-- {
+        count := 0
+        for len(stack) &amp;gt; 0 &amp;amp;&amp;amp; stack[len(stack)-1] &amp;lt; heights[i] {
+            stack = stack[:len(stack)-1]
+
+            // &#x7edf;&#x8ba1;&#x5230;&#x300c;&#x4e0b;&#x4e00;&#x4e2a;&#x7b49;&#x9ad8;&#x6216;&#x66f4;&#x9ad8;&#x5143;&#x7d20;&#x4e4b;&#x95f4;&#x300d;&#x6709;&#x51e0;&#x4e2a;&#x5143;&#x7d20;&#xff08;&#x5df2;&#x5254;&#x9664;&#x88ab;&#x906e;&#x6321;&#x5143;&#x7d20;&#xff09;
+            count++
+        }
+
+        if len(stack) &amp;gt; 0 {
+            result[i] = count + 1 // &#x4e5f;&#x80fd;&#x770b;&#x5230;&#x300c;&#x4e0b;&#x4e00;&#x4e2a;&#x7b49;&#x9ad8;&#x6216;&#x66f4;&#x9ad8;&#x5143;&#x7d20;&#x300d;
+        } else {
+            result[i] = count
+        }
+       
+        stack = append(stack, heights[i]) 
+    }
+
+    return result
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 local-id=&quot;b93f0097-a3bf-409b-ac15-e2bc729441bb&quot; id=&quot;Week32@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC1475.FinalPricesWithaSpecialDiscountinaShop&#x5546;&#x54c1;&#x6298;&#x6263;&#x540e;&#x7684;&#x6700;&#x7ec8;&#x4ef7;&#x683c;&quot;&gt;LC 1475. Final Prices With a Special Discount in a Shop &#x5546;&#x54c1;&#x6298;&#x6263;&#x540e;&#x7684;&#x6700;&#x7ec8;&#x4ef7;&#x683c;&lt;/h3&gt;&lt;p local-id=&quot;84210578-664a-49a7-a98c-c403ad8e456f&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/description/&quot; local-id=&quot;980b6051-2fcc-4b4c-aa6c-e2b076d53ede&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func finalPrices(prices []int) []int {
+    n := len(prices)
+    
+    result := make([]int, n)
+    stack := make([]int, 0, n)
+
+    for i := n-1; i &amp;gt;= 0; i-- {
+        // &#x627e;&#x5230;&#x4e0b;&#x4e00;&#x4e2a;&#x66f4;&#x5c0f;&#x6216;&#x76f8;&#x7b49;&#x5143;&#x7d20;
+        for len(stack) &amp;gt; 0 &amp;amp;&amp;amp; stack[len(stack)-1] &amp;gt; prices[i] {
+            stack = stack[:len(stack)-1]
+        }
+
+        if len(stack) &amp;gt; 0 {
+            result[i] = prices[i] - stack[len(stack)-1]
+        } else {
+            result[i] = prices[i]
+        }
+
+        stack = append(stack, prices[i])
+    }
+
+    return result
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 local-id=&quot;11da1c0d-76d0-47b0-9187-34de3656d5b7&quot; id=&quot;Week32@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC901.OnlineStockSpan&#x80a1;&#x7968;&#x4ef7;&#x683c;&#x8de8;&#x5ea6;&quot;&gt;LC 901. Online Stock Span &#x80a1;&#x7968;&#x4ef7;&#x683c;&#x8de8;&#x5ea6;&lt;/h3&gt;&lt;p local-id=&quot;f23d268f-ea59-4510-9b64-1d342b42294f&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/online-stock-span/description/&quot; local-id=&quot;dae91e50-0f89-430c-8581-6d347ad942a9&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/online-stock-span/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;type StockSpanner struct {
+    stack []Value
+    day int
+}
+
+type Value struct {
+    price int
+    index int
+}
+
+func Constructor() StockSpanner {
+    return StockSpanner{
+        day: -1,
+    }
+}
+
+
+func (this *StockSpanner) Next(price int) int {
+    // &#x5411;&#x524d;&#x627e; &amp;gt; &#x5f53;&#x524d;&#x503c;&#x7684; index === &#x6808;&#x5185;&#x5254;&#x9664; &amp;lt;= &#x5f53;&#x524d;&#x503c;&#x7684;&#x5143;&#x7d20;
+
+    for len(this.stack) &amp;gt; 0 &amp;amp;&amp;amp; this.stack[len(this.stack)-1].price &amp;lt;= price {
+        this.stack = this.stack[:len(this.stack)-1]
+    }
+
+    this.day++
+
+    var result int
+    if len(this.stack) &amp;gt; 0 {
+        lastDayIndex := this.stack[len(this.stack)-1].index
+        result = this.day - lastDayIndex
+    } else {
+        result = this.day + 1
+    }
+
+    this.stack = append(this.stack, Value{price, this.day})
+
+    return result
+}
+
+
+/**
+ * Your StockSpanner object will be instantiated and called as such:
+ * obj := Constructor();
+ * param_1 := obj.Next(price);
+ */&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 local-id=&quot;3e80228e-a908-4567-8293-4de08f0cf7fc&quot; id=&quot;Week32@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC402.RemoveKDigits&#x79fb;&#x6389;K&#x4f4d;&#x6570;&#x5b57;&quot;&gt;LC 402. Remove K Digits &#x79fb;&#x6389; K &#x4f4d;&#x6570;&#x5b57;&lt;/h3&gt;&lt;p local-id=&quot;67b884c9-4778-488d-aedf-30d7a82957cd&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/remove-k-digits/description/&quot; local-id=&quot;436fd52b-e947-499f-8dcb-d9728dcb277c&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/remove-k-digits/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func removeKdigits(num string, k int) string {
+    digits := []byte(num)
+    n := len(digits)
+
+    stack := make([]byte, 0, n)
+
+    for _, digit := range digits {
+        for k &amp;gt; 0 &amp;amp;&amp;amp; len(stack) &amp;gt; 0 &amp;amp;&amp;amp; stack[len(stack)-1] &amp;gt; digit {
+            k--
+            stack = stack[:len(stack)-1]
+        }
+
+        stack = append(stack, digit)
+    }
+
+    for k &amp;gt; 0 &amp;amp;&amp;amp; len(stack) &amp;gt; 0 {
+        k--
+        stack = stack[:len(stack)-1]
+    }
+
+    return toString(stack)
+}
+
+func toString(digits []byte) string {
+    for len(digits) &amp;gt; 0 &amp;amp;&amp;amp; digits[0] == &amp;#39;0&amp;#39; {
+        digits = digits[1:]
+    }
+
+    if len(digits) == 0 {
+        return &amp;quot;0&amp;quot;
+    }
+
+    return string(digits)
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 local-id=&quot;6ab65fec-cedc-4977-a80e-bf1547159c2f&quot; id=&quot;Week32@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x5355;&#x8c03;&#x961f;&#x5217;+&#x5355;&#x8c03;&#x6808;&#x3011;-LC853.CarFleet&#x8f66;&#x961f;&quot;&gt;LC 853. Car Fleet &#x8f66;&#x961f;&lt;/h3&gt;&lt;p local-id=&quot;cbad1ed1-b103-457a-972a-cf4f0b6acd88&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/car-fleet/description/&quot; local-id=&quot;9df6ac2a-9bec-4bcc-800a-437fa2f466b5&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/car-fleet/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func carFleet(target int, position []int, speed []int) int {
+    cars := make([][]int, len(position))
+    for i := range cars {
+        cars[i] = []int{position[i], speed[i]}
+    }
+    slices.SortFunc(cars, func(a, b []int) int {
+		return a[0] - b[0]
+	})
+
+    times := make([]float64, len(cars))
+    for i, car := range cars {
+        times[i] = float64(target-car[0]) / float64(car[1])
+    }
+
+    count := 0
+    maxTimes := 0.0
+    for i := len(times) - 1; i &amp;gt;= 0; i-- {
+        if times[i] &amp;gt; maxTimes {
+            count++
+            maxTimes = times[i]
+        }
+    }
+
+    return count
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p local-id=&quot;cf25d0b6-a187-45a9-befc-83ced949c1cd&quot; /&gt;&lt;p local-id=&quot;2544c563-fb93-40ac-9c1c-29b8adb78ba1&quot; /&gt;
+    &lt;/div&gt;
+        &lt;div style=&quot;padding: 10px 0;&quot;&gt;
+       &lt;a href=&quot;https://singee.atlassian.net/wiki/spaces/MAIN/pages/243138699/Week+32+2025&quot;&gt;email.notification.view.online&lt;/a&gt;
+              &amp;middot;
+       &lt;a href=&quot;https://singee.atlassian.net/wiki/pages/diffpagesbyversion.action?pageId=243138699&amp;revisedVersion=2&amp;originalVersion=1&quot;&gt;View Changes Online&lt;/a&gt;       
+                  &lt;/div&gt;
+&lt;/div&gt;</summary>
+    <dc:creator>Bryan</dc:creator>
+    <dc:date>2025-11-09T15:20:33Z</dc:date>
+  </entry>
+</feed>
