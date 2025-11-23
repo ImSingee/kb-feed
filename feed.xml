@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>Bryan &#x7684;&#x77e5;&#x8bc6;&#x5e93;</title>
+  <link rel="alternate" href="https://singee.atlassian.net/wiki"/>
+  
+  <id>https://singee.atlassian.net/wiki</id>
+  <entry>
+    <title>Week 46 @ 2025 &#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;</title>
+    <link rel="alternate" href="https://singee.atlassian.net/wiki/spaces/MAIN/pages/505708550/Week+46+2025"/>
+    <author>
+      <name>Bryan</name>
+    </author>
+    <id>tag:singee.atlassian.net,2009:page-505708550-1</id>
+    <updated>2025-11-16T14:35:53Z</updated>
+    <published>2025-11-16T14:35:53Z</published>
+    <summary type="html">&lt;div class=&quot;feed&quot;&gt;    &lt;p&gt;
+                        Live doc
+                    &lt;b&gt;added&lt;/b&gt; by
+                &lt;a  &gt;Bryan&lt;/a&gt;
+            &lt;/p&gt;
+        &lt;div style=&quot;border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 10px;&quot;&gt;
+        &lt;style type=&apos;text/css&apos;&gt;/*&lt;![CDATA[*/
+div.rbtoc1763858264031 {padding: 0px;}
+div.rbtoc1763858264031 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1763858264031 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]&gt;*/&lt;/style&gt;&lt;div class=&apos;toc-macro rbtoc1763858264031&apos;&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week46@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-&#x4e8c;&#x5206;&#x641c;&#x7d22;&apos;&gt;&#x4e8c;&#x5206;&#x641c;&#x7d22;&lt;/a&gt;
+&lt;ul class=&apos;toc-indentation&apos;&gt;
+&lt;li&gt;&lt;a href=&apos;#Week46@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC704.BinarySearch&#x4e8c;&#x5206;&#x67e5;&#x627e;&apos;&gt;LC 704. Binary Search &#x4e8c;&#x5206;&#x67e5;&#x627e;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week46@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC34.FindFirstandLastPositionofElementinSortedArray&#x5728;&#x6392;&#x5e8f;&#x6570;&#x7ec4;&#x4e2d;&#x627e;&#x5143;&#x7d20;&#x7684;&#x7b2c;&#x4e00;&#x4e2a;&#x548c;&#x6700;&#x540e;&#x4e00;&#x4e2a;&#x4f4d;&#x7f6e;&apos;&gt;LC 34. Find First and Last Position of Element in Sorted Array &#x5728;&#x6392;&#x5e8f;&#x6570;&#x7ec4;&#x4e2d;&#x627e;&#x5143;&#x7d20;&#x7684;&#x7b2c;&#x4e00;&#x4e2a;&#x548c;&#x6700;&#x540e;&#x4e00;&#x4e2a;&#x4f4d;&#x7f6e;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week46@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC875.KokoEatingBananas&#x7231;&#x5403;&#x9999;&#x8549;&#x7684;&#x73c2;&#x73c2;&apos;&gt;LC 875. Koko Eating Bananas &#x7231;&#x5403;&#x9999;&#x8549;&#x7684;&#x73c2;&#x73c2;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week46@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC1011.CapacityToShipPackagesWithinDDays&#x5728;D&#x5929;&#x5185;&#x9001;&#x8fbe;&#x5305;&#x88f9;&#x7684;&#x80fd;&#x529b;&apos;&gt;LC 1011. Capacity To Ship Packages Within D Days &#x5728; D &#x5929;&#x5185;&#x9001;&#x8fbe;&#x5305;&#x88f9;&#x7684;&#x80fd;&#x529b;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week46@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC410.SplitArrayLargestSum&#x5206;&#x5272;&#x6570;&#x7ec4;&#x7684;&#x6700;&#x5927;&#x503c;&apos;&gt;LC 410. Split Array Largest Sum &#x5206;&#x5272;&#x6570;&#x7ec4;&#x7684;&#x6700;&#x5927;&#x503c;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week46@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC566.ReshapetheMatrix&#x91cd;&#x5851;&#x77e9;&#x9635;&apos;&gt;LC 566. Reshape the Matrix &#x91cd;&#x5851;&#x77e9;&#x9635;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&apos;#Week46@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC74.Searcha2DMatrix&#x641c;&#x7d22;&#x4e8c;&#x7ef4;&#x77e9;&#x9635;&apos;&gt;LC 74. Search a 2D Matrix &#x641c;&#x7d22;&#x4e8c;&#x7ef4;&#x77e9;&#x9635;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;h2 local-id=&quot;9d2eb1c4-4c8a-4c49-8450-49e00c3e0590&quot; id=&quot;Week46@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-&#x4e8c;&#x5206;&#x641c;&#x7d22;&quot;&gt;&#x4e8c;&#x5206;&#x641c;&#x7d22;&lt;/h2&gt;&lt;h3 local-id=&quot;72e78130-8ee0-4c34-b79c-7461e53865c4&quot; id=&quot;Week46@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC704.BinarySearch&#x4e8c;&#x5206;&#x67e5;&#x627e;&quot;&gt;LC 704. Binary Search &#x4e8c;&#x5206;&#x67e5;&#x627e;&lt;/h3&gt;&lt;p local-id=&quot;4869f106-db0e-4629-a790-909ad2e70ed0&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/binary-search/description/?show=1&quot; local-id=&quot;079d107c-8a70-43c8-aceb-aa398ecb6cc9&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/binary-search/description/?show=1&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func search(nums []int, target int) int {
+    L, R := 0, len(nums)
+    for L &amp;lt; R {
+        mid := L + (R - L) / 2
+        if nums[mid] == target {
+            return mid
+        } else if nums[mid] &amp;lt; target {
+            L = mid + 1
+        } else {
+            R = mid
+        }
+    }
+
+    return -1
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 local-id=&quot;b3659a11-7586-4a44-90fe-0b92e8d01acb&quot; id=&quot;Week46@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC34.FindFirstandLastPositionofElementinSortedArray&#x5728;&#x6392;&#x5e8f;&#x6570;&#x7ec4;&#x4e2d;&#x627e;&#x5143;&#x7d20;&#x7684;&#x7b2c;&#x4e00;&#x4e2a;&#x548c;&#x6700;&#x540e;&#x4e00;&#x4e2a;&#x4f4d;&#x7f6e;&quot;&gt;LC 34. Find First and Last Position of Element in Sorted Array &#x5728;&#x6392;&#x5e8f;&#x6570;&#x7ec4;&#x4e2d;&#x627e;&#x5143;&#x7d20;&#x7684;&#x7b2c;&#x4e00;&#x4e2a;&#x548c;&#x6700;&#x540e;&#x4e00;&#x4e2a;&#x4f4d;&#x7f6e;&lt;/h3&gt;&lt;p local-id=&quot;539e31d5-b372-4279-8a98-f713e2f9ec63&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/?show=1&quot; local-id=&quot;581b71e4-e8ac-484a-bd89-6666d0ad7722&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/?show=1&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func searchRange(nums []int, target int) []int {
+    LB := leftBound(nums, target)
+    if LB == len(nums) || nums[LB] != target {
+        return []int{-1, -1}
+    }
+    UB := leftBound(nums, target + 1) - 1
+
+    return []int{LB, UB}
+}
+
+func leftBound(nums []int, target int) int {
+    L, R := 0, len(nums)
+    for L &amp;lt; R {
+        mid := L + (R - L) / 2
+        if nums[mid] &amp;lt; target {
+            L = mid+1
+        } else {
+            R = mid
+        }
+    }
+    return R
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 local-id=&quot;71899bd7-c00b-40c2-b479-bff0bd0614a8&quot; id=&quot;Week46@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC875.KokoEatingBananas&#x7231;&#x5403;&#x9999;&#x8549;&#x7684;&#x73c2;&#x73c2;&quot;&gt;LC 875. Koko Eating Bananas &lt;strong&gt;&#x7231;&#x5403;&#x9999;&#x8549;&#x7684;&#x73c2;&#x73c2;&lt;/strong&gt;&#xa0;&lt;/h3&gt;&lt;p local-id=&quot;e3118387-60b5-4347-9c2b-0b000d3ce214&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/koko-eating-bananas/description/&quot; local-id=&quot;60ecdc6a-605f-4dc6-bc10-e2569f2a8634&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/koko-eating-bananas/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func minEatingSpeed(piles []int, h int) int {
+    L, R := 1, 1_000_000_001
+
+    for L &amp;lt; R {
+        mid := L + (R-L)/2
+
+        if getCount(piles, mid) &amp;lt;= h {
+            R = mid
+        } else {
+            L = mid + 1
+        }
+    }
+
+    return R
+}
+
+func getCount(piles []int, k int) int {
+    c := 0
+
+    for _, x := range piles {
+        c += x / k
+        if x % k != 0 {
+            c++
+        }
+    }
+
+    return c
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 local-id=&quot;00f9d11a-f3e8-4abb-89dc-ec584353ee30&quot; id=&quot;Week46@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC1011.CapacityToShipPackagesWithinDDays&#x5728;D&#x5929;&#x5185;&#x9001;&#x8fbe;&#x5305;&#x88f9;&#x7684;&#x80fd;&#x529b;&quot;&gt;LC 1011. Capacity To Ship Packages Within D Days &#x5728; D &#x5929;&#x5185;&#x9001;&#x8fbe;&#x5305;&#x88f9;&#x7684;&#x80fd;&#x529b;&lt;/h3&gt;&lt;p local-id=&quot;652404ba-597f-41f7-a748-b420e038b7a7&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/description/&quot; local-id=&quot;8f5b60da-da7f-4e81-b19c-6ce8dd11bc64&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func shipWithinDays(weights []int, days int) int {
+    L, R := getInit(weights)
+
+    for L &amp;lt; R {
+        mid := L + (R - L) / 2
+
+        if getNeedDays(weights, mid) &amp;lt;= days {
+            R = mid
+        } else {
+            L = mid + 1
+        }
+    }
+
+    return R
+}
+
+func getInit(arr []int) (L, R int) {
+    L, R = 0, 1
+    for _, x := range arr {
+        L = max(L, x)
+        R += x
+    }
+    return
+}
+
+func getNeedDays(weights []int, cap int) (days int) {
+    remain := 0
+    for _, w := range weights {
+        if remain &amp;lt; w {
+            remain = cap
+            days++
+        }
+
+        remain -= w
+    }
+
+    return
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 local-id=&quot;106322af-91f7-4140-b0cb-289d9745858c&quot; id=&quot;Week46@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC410.SplitArrayLargestSum&#x5206;&#x5272;&#x6570;&#x7ec4;&#x7684;&#x6700;&#x5927;&#x503c;&quot;&gt;LC 410. Split Array Largest Sum &#x5206;&#x5272;&#x6570;&#x7ec4;&#x7684;&#x6700;&#x5927;&#x503c;&lt;/h3&gt;&lt;p local-id=&quot;9b4db075-55b6-4513-99fd-14427a510817&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/split-array-largest-sum/description/&quot; local-id=&quot;a3cf38d9-e4e3-4b3e-ac46-d50f07483498&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/split-array-largest-sum/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func splitArray(nums []int, k int) int {
+    L, R := getInit(nums)
+
+    for L &amp;lt; R {
+        mid := L + (R - L) / 2
+
+        if getSplitsCount(nums, mid) &amp;lt;= k {
+            R = mid
+        } else {
+            L = mid + 1
+        }
+    }
+
+    return R
+}
+
+
+func getInit(arr []int) (L, R int) {
+    L, R = 0, 1
+    for _, x := range arr {
+        L = max(L, x)
+        R += x
+    }
+    return
+}
+
+
+func getSplitsCount(nums []int, maxGroupSum int) (c int) {
+    remain := 0
+    for _, num := range nums {
+        if remain &amp;lt; num {
+            remain = maxGroupSum
+            c++
+        }
+
+        remain -= num
+    }
+
+    return
+}
+&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 local-id=&quot;a016e35e-8d78-470a-9ca9-9fd2b3f88c0e&quot; id=&quot;Week46@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC566.ReshapetheMatrix&#x91cd;&#x5851;&#x77e9;&#x9635;&quot;&gt;LC 566. Reshape the Matrix &#x91cd;&#x5851;&#x77e9;&#x9635;&lt;/h3&gt;&lt;p local-id=&quot;7848b804-9a70-4ac0-a027-7124130293f7&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/reshape-the-matrix/description/&quot; local-id=&quot;6b2ab143-4f59-492b-a0fe-b1fffcfca0c4&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/reshape-the-matrix/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func matrixReshape(mat [][]int, r int, c int) [][]int {
+    m, n := len(mat), len(mat[0])
+    if m * n != r * c { // invalid
+        return mat
+    }
+
+    newMatrix := createMatrix(r, c)
+
+    i, j := 0, 0
+    next := func() {
+        j++
+        if j &amp;gt;= c {
+            i++
+            j = 0
+        }
+    }
+
+    for _, row := range mat {
+        for _, v := range row {
+            newMatrix[i][j] = v
+            next()
+        }
+    }
+
+    return newMatrix
+}
+
+func createMatrix(m, n int) [][]int {
+    mat := make([][]int, m)
+    for i := range mat {
+        mat[i] = make([]int, n)
+    }
+    return mat
+}
+
+&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p local-id=&quot;e7c67aad-8c8a-4c58-bfa3-205bf022fd5a&quot;&gt;&lt;strong&gt;&#x8f6c;&#x6362;&#x5750;&#x6807;&lt;/strong&gt;&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func matrixReshape(mat [][]int, r int, c int) [][]int {
+    n := len(mat[0])
+    // &#x5982;&#x679c;&#x60f3;&#x6210;&#x529f; reshape&#xff0c;&#x5143;&#x7d20;&#x4e2a;&#x6570;&#x5e94;&#x8be5;&#x76f8;&#x540c;
+    if r*c != len(mat)*n {
+        return mat
+    }
+
+    res := make([][]int, r)
+    for i := range res {
+        res[i] = make([]int, c)
+    }
+    
+    for i := 0; i &amp;lt; len(mat)*n; i++ {
+        set(&amp;amp;res, i, get(&amp;amp;mat, i, n))
+    }
+    return res
+}
+
+// &#x901a;&#x8fc7;&#x4e00;&#x7ef4;&#x5750;&#x6807;&#x8bbf;&#x95ee;&#x4e8c;&#x7ef4;&#x6570;&#x7ec4;&#x4e2d;&#x7684;&#x5143;&#x7d20;
+func get(matrix *[][]int, index int, n int) int {
+    // &#x8ba1;&#x7b97;&#x4e8c;&#x7ef4;&#x4e2d;&#x7684;&#x6a2a;&#x7eb5;&#x5750;&#x6807;
+    i := index / n
+    j := index % n
+    return (*matrix)[i][j]
+}
+
+// &#x901a;&#x8fc7;&#x4e00;&#x7ef4;&#x5750;&#x6807;&#x8bbe;&#x7f6e;&#x4e8c;&#x7ef4;&#x6570;&#x7ec4;&#x4e2d;&#x7684;&#x5143;&#x7d20;
+func set(matrix *[][]int, index int, value int) {
+    n := len((*matrix)[0])
+    // &#x8ba1;&#x7b97;&#x4e8c;&#x7ef4;&#x4e2d;&#x7684;&#x6a2a;&#x7eb5;&#x5750;&#x6807;
+    i := index / n
+    j := index % n
+    (*matrix)[i][j] = value
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;h3 local-id=&quot;c0e89f37-9a30-443f-b726-f6ecac496444&quot; id=&quot;Week46@2025&#x7b97;&#x6cd5;&#x5468;&#x8bb0;&#x3010;&#x4e8c;&#x5206;&#x641c;&#x7d22;&#x3011;-LC74.Searcha2DMatrix&#x641c;&#x7d22;&#x4e8c;&#x7ef4;&#x77e9;&#x9635;&quot;&gt;LC 74. Search a 2D Matrix &#x641c;&#x7d22;&#x4e8c;&#x7ef4;&#x77e9;&#x9635;&lt;/h3&gt;&lt;p local-id=&quot;62aa1396-c0c1-48fd-bbdc-8c9ab708c326&quot;&gt;&lt;a class=&quot;external-link&quot; data-card-appearance=&quot;inline&quot; href=&quot;https://leetcode.com/problems/search-a-2d-matrix/description/&quot; local-id=&quot;c1a1e7a3-4d9e-45d6-a22e-5f8ec4cb4e87&quot; rel=&quot;nofollow&quot;&gt;https://leetcode.com/problems/search-a-2d-matrix/description/&lt;/a&gt; &lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;syntaxhighlighter-pre&quot; data-syntaxhighlighter-params=&quot;brush: java; gutter: false; theme: Confluence&quot; data-theme=&quot;Confluence&quot;&gt;func searchMatrix(matrix [][]int, target int) bool {
+    m, n := len(matrix), len(matrix[0])
+
+    getValueByIndex := func(index int) int {
+        i := index / n
+        j := index % n
+        return matrix[i][j]
+    }
+
+    L, R := 0, m*n
+    for L &amp;lt; R {
+        mid := L + (R - L) / 2
+
+        midValue := getValueByIndex(mid)
+        if midValue == target {
+            return true
+        } else if midValue &amp;lt; target {
+            L = mid + 1
+        } else {
+            R = mid
+        }
+    }
+
+    return false
+}
+&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p local-id=&quot;9010d08b-098b-4ef4-ac01-e2ea4b78dc47&quot; /&gt;
+    &lt;/div&gt;
+        &lt;div style=&quot;padding: 10px 0;&quot;&gt;
+       &lt;a href=&quot;https://singee.atlassian.net/wiki/spaces/MAIN/pages/505708550/Week+46+2025&quot;&gt;email.notification.view.online&lt;/a&gt;
+                  &lt;/div&gt;
+&lt;/div&gt;</summary>
+    <dc:creator>Bryan</dc:creator>
+    <dc:date>2025-11-16T14:35:53Z</dc:date>
+  </entry>
+</feed>
